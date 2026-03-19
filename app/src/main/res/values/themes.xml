@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MemoLoop" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+    </style>
+
+    <style name="CardWord" parent="Widget.Material3.CardView.Filled">
+        <item name="cardElevation">8dp</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+    </style>
+
+    <style name="ButtonReview" parent="Widget.Material3.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="ButtonAgain" parent="ButtonReview">
+        <item name="backgroundTint">@color/btn_again</item>
+    </style>
+    <style name="ButtonHard" parent="ButtonReview">
+        <item name="backgroundTint">@color/btn_hard</item>
+    </style>
+    <style name="ButtonGood" parent="ButtonReview">
+        <item name="backgroundTint">@color/btn_good</item>
+    </style>
+    <style name="ButtonEasy" parent="ButtonReview">
+        <item name="backgroundTint">@color/btn_easy</item>
+    </style>
+</resources>

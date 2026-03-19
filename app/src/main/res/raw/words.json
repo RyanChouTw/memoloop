@@ -1,0 +1,7874 @@
+[
+  {
+    "id": 1,
+    "word": "a lot of",
+    "definition": "許多(片)",
+    "example": "She has a lot of books on her shelf."
+  },
+  {
+    "id": 2,
+    "word": "ability",
+    "definition": "能力、才幹(n)",
+    "example": "He has the ability to learn quickly."
+  },
+  {
+    "id": 3,
+    "word": "abroad",
+    "definition": "國外、海外(adv)",
+    "example": "She studied abroad for two years."
+  },
+  {
+    "id": 4,
+    "word": "absent",
+    "definition": "缺席的、心不在焉的(adj)",
+    "example": "He was absent from class yesterday."
+  },
+  {
+    "id": 5,
+    "word": "accept",
+    "definition": "接受、認可(vt)",
+    "example": "She decided to accept the job offer."
+  },
+  {
+    "id": 6,
+    "word": "accident",
+    "definition": "意外的事、事故(n)",
+    "example": "There was a car accident on the road."
+  },
+  {
+    "id": 7,
+    "word": "achieve",
+    "definition": "完成、達到、實現(vt)",
+    "example": "He worked hard to achieve his goals."
+  },
+  {
+    "id": 8,
+    "word": "across",
+    "definition": "橫過、穿過、在…對面(prep) 橫過、穿過、…寬(adv)",
+    "example": "She swam across the river."
+  },
+  {
+    "id": 9,
+    "word": "act",
+    "definition": "行動、做(vi) 行為、動作、法令(n)",
+    "example": "Please act carefully in an emergency."
+  },
+  {
+    "id": 10,
+    "word": "action",
+    "definition": "動作、行動(n)",
+    "example": "His quick action saved the child."
+  },
+  {
+    "id": 11,
+    "word": "active",
+    "definition": "活躍的、積極的(adj)",
+    "example": "She is an active member of the club."
+  },
+  {
+    "id": 12,
+    "word": "activity",
+    "definition": "活動(n)",
+    "example": "Swimming is my favorite activity."
+  },
+  {
+    "id": 13,
+    "word": "actor",
+    "definition": "男演員(n)",
+    "example": "The actor performed very well on stage."
+  },
+  {
+    "id": 14,
+    "word": "actress",
+    "definition": "女演員(n)",
+    "example": "The actress won an award for her role."
+  },
+  {
+    "id": 15,
+    "word": "add",
+    "definition": "(添)加、進一步說(或寫)(vt) 增添(vi)",
+    "example": "Can you add more sugar to the tea?"
+  },
+  {
+    "id": 16,
+    "word": "addition",
+    "definition": "加、加起來、增加物、增加、加法(n)",
+    "example": "I saw a addition on the way home."
+  },
+  {
+    "id": 17,
+    "word": "address",
+    "definition": "地址、住址、演講(n) 寫姓名地址(於郵件上) 向…講話(vt)",
+    "example": "Please write your address on the form."
+  },
+  {
+    "id": 18,
+    "word": "adjective",
+    "definition": "形容詞的(adj)",
+    "example": "The weather is adjective today."
+  },
+  {
+    "id": 19,
+    "word": "admire",
+    "definition": "欽佩、讚賞(vt)",
+    "example": "I admire her courage and kindness."
+  },
+  {
+    "id": 20,
+    "word": "admit",
+    "definition": "承認、准許…進入、准許…加入(vt)",
+    "example": "She always admits her work first."
+  },
+  {
+    "id": 21,
+    "word": "adopt",
+    "definition": "收養、採取(vt)",
+    "example": "They decided to adopt a puppy."
+  },
+  {
+    "id": 22,
+    "word": "adult",
+    "definition": "成人(n)",
+    "example": "Only adults are allowed to enter."
+  },
+  {
+    "id": 23,
+    "word": "advance",
+    "definition": "前進、向前移動(vi) 前進、進展(n)",
+    "example": "The soldiers began to advance at dawn."
+  },
+  {
+    "id": 24,
+    "word": "advantage",
+    "definition": "優勢、有利條件、利益(n)",
+    "example": "Knowing two languages is a big advantage."
+  },
+  {
+    "id": 25,
+    "word": "adverb",
+    "definition": "副詞(n)",
+    "example": "A adverb is very important to us."
+  },
+  {
+    "id": 26,
+    "word": "advertisement",
+    "definition": "廣告、做廣告(n)",
+    "example": "I saw a advertisement on the way home."
+  },
+  {
+    "id": 27,
+    "word": "advice",
+    "definition": "勸告、意見(n)",
+    "example": "She gave me useful advice."
+  },
+  {
+    "id": 28,
+    "word": "advise",
+    "definition": "勸告、建議、通知(vt)",
+    "example": "I need to advise this carefully."
+  },
+  {
+    "id": 29,
+    "word": "affair",
+    "definition": "事情、事件(n)",
+    "example": "He found a affair in the garden."
+  },
+  {
+    "id": 30,
+    "word": "affect",
+    "definition": "影響(v)",
+    "example": "The weather can affect your mood."
+  },
+  {
+    "id": 31,
+    "word": "against",
+    "definition": "違反、逆、反(對) 倚在、緊靠在(prep)",
+    "example": "He stood against the door."
+  },
+  {
+    "id": 32,
+    "word": "ahead",
+    "definition": "在前、向前、提前(adv)",
+    "example": "The road ahead is clear."
+  },
+  {
+    "id": 33,
+    "word": "aid",
+    "definition": "幫助、援助、幫助者、有幫助的事物(n) 資助、援助、幫助(vt)",
+    "example": "I need to aid this carefully."
+  },
+  {
+    "id": 34,
+    "word": "AIDS",
+    "definition": "愛滋病(n)",
+    "example": "He found a AIDS in the garden."
+  },
+  {
+    "id": 35,
+    "word": "aim",
+    "definition": "把…瞄準、把…對準(vt) 瞄準、旨在(at)(vi)",
+    "example": "She aimed the arrow at the target."
+  },
+  {
+    "id": 36,
+    "word": "air conditioner",
+    "definition": "空調機(n)",
+    "example": "I saw a air conditioner on the way home."
+  },
+  {
+    "id": 37,
+    "word": "aircraft",
+    "definition": "飛行器、航行器(n)",
+    "example": "She bought a aircraft at the store."
+  },
+  {
+    "id": 38,
+    "word": "airline",
+    "definition": "航線(n)",
+    "example": "The airline was on the table."
+  },
+  {
+    "id": 39,
+    "word": "airmail",
+    "definition": "航空信(n)",
+    "example": "He found a airmail in the garden."
+  },
+  {
+    "id": 40,
+    "word": "alarm",
+    "definition": "警報(n)",
+    "example": "The fire alarm rang loudly."
+  },
+  {
+    "id": 41,
+    "word": "alarm clock",
+    "definition": "鬧鐘(n)",
+    "example": "I saw a alarm clock on the way home."
+  },
+  {
+    "id": 42,
+    "word": "album",
+    "definition": "相簿(n)",
+    "example": "She bought a album at the store."
+  },
+  {
+    "id": 43,
+    "word": "alike",
+    "definition": "同樣的、相像的(adj)",
+    "example": "The weather is alike today."
+  },
+  {
+    "id": 44,
+    "word": "alive",
+    "definition": "活著的、存在的、活躍的(adj)",
+    "example": "He gave a alive answer."
+  },
+  {
+    "id": 45,
+    "word": "alley",
+    "definition": "弄、小巷、胡同(n)",
+    "example": "A alley is very important to us."
+  },
+  {
+    "id": 46,
+    "word": "allow",
+    "definition": "允許、准許(vt)",
+    "example": "Parents allow children to play outside."
+  },
+  {
+    "id": 47,
+    "word": "alone",
+    "definition": "單獨的、孤獨的(adj) 單獨地、獨自地、僅僅、只(adv)",
+    "example": "She sat alone in the park."
+  },
+  {
+    "id": 48,
+    "word": "aloud",
+    "definition": "出聲地、大聲地(adv)",
+    "example": "They walked aloud home."
+  },
+  {
+    "id": 49,
+    "word": "alphabet",
+    "definition": "字母、字母表(n)",
+    "example": "He found a alphabet in the garden."
+  },
+  {
+    "id": 50,
+    "word": "altogether",
+    "definition": "總共、完全、總之(adv)",
+    "example": "He ran altogether to school."
+  },
+  {
+    "id": 51,
+    "word": "ambulance",
+    "definition": "救護車(n)",
+    "example": "I saw a ambulance on the way home."
+  },
+  {
+    "id": 52,
+    "word": "among",
+    "definition": "在…之中、在…之間(prep)",
+    "example": "She walked among the park."
+  },
+  {
+    "id": 53,
+    "word": "amount",
+    "definition": "合計(vi)",
+    "example": "She amounts before dinner."
+  },
+  {
+    "id": 54,
+    "word": "ancient",
+    "definition": "已往的、古代的、遠古的、舊式的(adj)",
+    "example": "He gave a ancient answer."
+  },
+  {
+    "id": 55,
+    "word": "angel",
+    "definition": "天使、完善可愛的人(n)",
+    "example": "A angel is very important to us."
+  },
+  {
+    "id": 56,
+    "word": "anger",
+    "definition": "憤怒(n) 使發怒(vt)",
+    "example": "She angers it every day."
+  },
+  {
+    "id": 57,
+    "word": "ankle",
+    "definition": "踝(n)",
+    "example": "She bought a ankle at the store."
+  },
+  {
+    "id": 58,
+    "word": "ant",
+    "definition": "螞蟻(n)",
+    "example": "The ant was on the table."
+  },
+  {
+    "id": 59,
+    "word": "anyway",
+    "definition": "無論如何(adv)",
+    "example": "She smiled anyway."
+  },
+  {
+    "id": 60,
+    "word": "anywhere",
+    "definition": "任何地方、無論哪裡(pron)",
+    "example": "anywhere is correct."
+  },
+  {
+    "id": 61,
+    "word": "apologize",
+    "definition": "道歉、認錯(vi)",
+    "example": "He apologized for being late."
+  },
+  {
+    "id": 62,
+    "word": "appearance",
+    "definition": "出現、露面、外貌、外觀(n)",
+    "example": "She bought a appearance at the store."
+  },
+  {
+    "id": 63,
+    "word": "apply",
+    "definition": "申請(vi) 應用(vt)",
+    "example": "He always applys when needed."
+  },
+  {
+    "id": 64,
+    "word": "appreciate",
+    "definition": "瞭解、欣賞、感激、升值(v)",
+    "example": "I appreciate your help very much."
+  },
+  {
+    "id": 65,
+    "word": "area",
+    "definition": "地區、地域、範圍、面積(n)",
+    "example": "This area is known for its food."
+  },
+  {
+    "id": 66,
+    "word": "argue",
+    "definition": "爭論、爭辯(vi) 論證、主張、辯論(vt)",
+    "example": "They argue about small things sometimes."
+  },
+  {
+    "id": 67,
+    "word": "armchair",
+    "definition": "扶手椅(n)",
+    "example": "She bought a armchair at the store."
+  },
+  {
+    "id": 68,
+    "word": "army",
+    "definition": "軍隊、軍(n)",
+    "example": "The army protected the city."
+  },
+  {
+    "id": 69,
+    "word": "arrange",
+    "definition": "安排(v)",
+    "example": "She arranged the flowers beautifully."
+  },
+  {
+    "id": 70,
+    "word": "arrest",
+    "definition": "逮捕、拘留(vt)",
+    "example": "The police arrested the thief."
+  },
+  {
+    "id": 71,
+    "word": "article",
+    "definition": "文章、論文、條款、物件、[語法]冠詞(n)",
+    "example": "She wrote an article for the school paper."
+  },
+  {
+    "id": 72,
+    "word": "artist",
+    "definition": "藝術家、美術家(n)",
+    "example": "The artist painted a beautiful landscape."
+  },
+  {
+    "id": 73,
+    "word": "as if",
+    "definition": "好像(片)",
+    "example": "He explained the phrase \"as if\"."
+  },
+  {
+    "id": 74,
+    "word": "as soon as",
+    "definition": "儘快(片)",
+    "example": "\"as soon as\" is a common expression."
+  },
+  {
+    "id": 75,
+    "word": "as well as",
+    "definition": "也、不僅…而且(片)",
+    "example": "Do you know how to use \"as well as\"?"
+  },
+  {
+    "id": 76,
+    "word": "Asia",
+    "definition": "亞洲(n)",
+    "example": "Japan is a country in Asia."
+  },
+  {
+    "id": 77,
+    "word": "Asian",
+    "definition": "亞洲(人)的(adj) 亞洲人(n)",
+    "example": "She bought a Asian at the store."
+  },
+  {
+    "id": 78,
+    "word": "asleep",
+    "definition": "睡覺的(adj)",
+    "example": "The baby fell asleep quickly."
+  },
+  {
+    "id": 79,
+    "word": "assistant",
+    "definition": "助手、助理、助教(n) 助手的、輔助的(adj)",
+    "example": "She works as an assistant at the office."
+  },
+  {
+    "id": 80,
+    "word": "assume",
+    "definition": "假定、設想(vt)",
+    "example": "Do not assume everything is fine."
+  },
+  {
+    "id": 81,
+    "word": "attack",
+    "definition": "攻擊、進攻、襲擊(v)",
+    "example": "The team attacked the goal."
+  },
+  {
+    "id": 82,
+    "word": "attend",
+    "definition": "出席(v)",
+    "example": "All students must attend the meeting."
+  },
+  {
+    "id": 83,
+    "word": "attention",
+    "definition": "注意、留心(n)",
+    "example": "Please pay attention in class."
+  },
+  {
+    "id": 84,
+    "word": "audience",
+    "definition": "聽眾、觀眾、接見、拜見(n)",
+    "example": "The audience clapped loudly."
+  },
+  {
+    "id": 85,
+    "word": "Australia",
+    "definition": "澳大利亞(n)",
+    "example": "A Australia is very important to us."
+  },
+  {
+    "id": 86,
+    "word": "Australian",
+    "definition": "澳大利亞(人)的(adj) 澳大利亞人(n)",
+    "example": "I saw a Australian on the way home."
+  },
+  {
+    "id": 87,
+    "word": "auxiliary",
+    "definition": "輔助的、協助的(adj) 輔助物、援軍(n)",
+    "example": "She bought a auxiliary at the store."
+  },
+  {
+    "id": 88,
+    "word": "available",
+    "definition": "可利用的、可獲取得的(adj)",
+    "example": "Is this seat available?"
+  },
+  {
+    "id": 89,
+    "word": "avoid",
+    "definition": "避免(v)",
+    "example": "Try to avoid eating too much sugar."
+  },
+  {
+    "id": 90,
+    "word": "awake",
+    "definition": "喚醒、使…覺醒(vt)",
+    "example": "She stayed awake all night."
+  },
+  {
+    "id": 91,
+    "word": "aware",
+    "definition": "意識到(adj)",
+    "example": "He was not aware of the danger."
+  },
+  {
+    "id": 92,
+    "word": "baby sitter",
+    "definition": "褓母(n) 向後地(的) 相反地(的) 追溯、退步、由好變壞(adv) 向後地(的) 相",
+    "example": "She bought a baby sitter at the store."
+  },
+  {
+    "id": 93,
+    "word": "backward",
+    "definition": "反地(的) 追溯、退步、由好變壞(adj)",
+    "example": "The weather is backward today."
+  },
+  {
+    "id": 94,
+    "word": "badminton",
+    "definition": "羽毛球(n)",
+    "example": "He found a badminton in the garden."
+  },
+  {
+    "id": 95,
+    "word": "bake",
+    "definition": "烘、烤(vt)",
+    "example": "She loves to bake cookies on weekends."
+  },
+  {
+    "id": 96,
+    "word": "balcony",
+    "definition": "陽臺(n)",
+    "example": "I saw a balcony on the way home."
+  },
+  {
+    "id": 97,
+    "word": "balloon",
+    "definition": "氣球(n)",
+    "example": "She bought a balloon at the store."
+  },
+  {
+    "id": 98,
+    "word": "banker",
+    "definition": "銀行家(n) 條、棒(常用作柵欄、扣栓物) 橫木、酒吧間、柵、障礙物(n) 禁止、",
+    "example": "The banker was on the table."
+  },
+  {
+    "id": 99,
+    "word": "bar",
+    "definition": "阻擋、妨礙、把門關住、除…之外(Bar)律師業(vt)",
+    "example": "They will bar it tomorrow."
+  },
+  {
+    "id": 100,
+    "word": "barbecue",
+    "definition": "吃烤燒肉的野餐(n)",
+    "example": "A barbecue is very important to us."
+  },
+  {
+    "id": 101,
+    "word": "barber",
+    "definition": "理髮師(n)",
+    "example": "I saw a barber on the way home."
+  },
+  {
+    "id": 102,
+    "word": "bark",
+    "definition": "(狗等)吠、叫(vi) 大聲叫喊(vt)",
+    "example": "They bark together."
+  },
+  {
+    "id": 103,
+    "word": "base",
+    "definition": "基地(n) 建立在…基礎上(vt)",
+    "example": "The statue stands on a stone base."
+  },
+  {
+    "id": 104,
+    "word": "basement",
+    "definition": "地下室(n)",
+    "example": "He found a basement in the garden."
+  },
+  {
+    "id": 105,
+    "word": "basic",
+    "definition": "基本的、基礎的(adj) 基礎、基本、根據、主要成分(或要素)(認識論中的)基本原則或原理",
+    "example": "Reading is a basic skill for all students."
+  },
+  {
+    "id": 106,
+    "word": "bat",
+    "definition": "蝙蝠(n)",
+    "example": "He swung the bat and hit the ball."
+  },
+  {
+    "id": 107,
+    "word": "bean",
+    "definition": "豆(n)",
+    "example": "She added beans to the soup."
+  },
+  {
+    "id": 108,
+    "word": "beard",
+    "definition": "鬍鬚、倒鉤(n)",
+    "example": "The beard was on the table."
+  },
+  {
+    "id": 109,
+    "word": "beat",
+    "definition": "打、擊、打敗(vt)(心臟等)跳動(vi)",
+    "example": "Our team beat the other team."
+  },
+  {
+    "id": 110,
+    "word": "beautifully",
+    "definition": "美麗地(adv)",
+    "example": "He ran beautifully to school."
+  },
+  {
+    "id": 111,
+    "word": "beer",
+    "definition": "啤酒(n)",
+    "example": "I saw a beer on the way home."
+  },
+  {
+    "id": 112,
+    "word": "beginner",
+    "definition": "初學者(n)",
+    "example": "She is a beginner at painting."
+  },
+  {
+    "id": 113,
+    "word": "beginning",
+    "definition": "開始、起源(n)",
+    "example": "The beginning of the story is exciting."
+  },
+  {
+    "id": 114,
+    "word": "behave",
+    "definition": "行為、表現、舉止(vt)(機器等)運轉(vi)",
+    "example": "Please behave well in public."
+  },
+  {
+    "id": 115,
+    "word": "being",
+    "definition": "be 的現在分詞(v) 存在、生存(n)",
+    "example": "We being as a team."
+  },
+  {
+    "id": 116,
+    "word": "belief",
+    "definition": "信任、信心、信仰(n)",
+    "example": "She has a strong belief in honesty."
+  },
+  {
+    "id": 117,
+    "word": "bench",
+    "definition": "長凳、長椅(n)",
+    "example": "She bought a bench at the store."
+  },
+  {
+    "id": 118,
+    "word": "besides",
+    "definition": "在…旁邊、在…附近(prep)",
+    "example": "The book is besides the shelf."
+  },
+  {
+    "id": 119,
+    "word": "best",
+    "definition": "最好的(adj) 最好地(adv)",
+    "example": "He gave a best answer."
+  },
+  {
+    "id": 120,
+    "word": "better",
+    "definition": "較好的、更好的(健康)好轉的(adj) 更好地(adv)",
+    "example": "This is a better idea."
+  },
+  {
+    "id": 121,
+    "word": "beyond",
+    "definition": "在…那邊、遠於、超出、超過(prep) 在遠處(adv)",
+    "example": "She speaks beyond."
+  },
+  {
+    "id": 122,
+    "word": "bicycle riding",
+    "definition": "騎腳踏車(n)",
+    "example": "She bought a bicycle riding at the store."
+  },
+  {
+    "id": 123,
+    "word": "bill",
+    "definition": "帳單、單子、清單、鈔票、喙、鳥嘴(n)",
+    "example": "The bill was on the table."
+  },
+  {
+    "id": 124,
+    "word": "biology",
+    "definition": "生物學、生物(總稱)(n)",
+    "example": "He found a biology in the garden."
+  },
+  {
+    "id": 125,
+    "word": "bit",
+    "definition": "一點、一些(n)",
+    "example": "A bit is very important to us."
+  },
+  {
+    "id": 126,
+    "word": "bitter",
+    "definition": "痛苦的、有苦味的、寒冷入骨的(adj)",
+    "example": "That was a very bitter experience."
+  },
+  {
+    "id": 127,
+    "word": "blame",
+    "definition": "責備、責怪、把…歸咎於(vt)(過錯、事故等的)責任、責怪、責備(n)",
+    "example": "He decided to blame the problem."
+  },
+  {
+    "id": 128,
+    "word": "blank",
+    "definition": "空的、空白的(adj)",
+    "example": "The weather is blank today."
+  },
+  {
+    "id": 129,
+    "word": "blanket",
+    "definition": "毯子(n)",
+    "example": "He found a blanket in the garden."
+  },
+  {
+    "id": 130,
+    "word": "blood",
+    "definition": "血(液) 血統(n)",
+    "example": "A blood is very important to us."
+  },
+  {
+    "id": 131,
+    "word": "blouse",
+    "definition": "女式襯衫(n)",
+    "example": "I saw a blouse on the way home."
+  },
+  {
+    "id": 132,
+    "word": "board",
+    "definition": "(木)板、董事會(n) 上(車、船或飛機)(vt)",
+    "example": "He decided to board the problem."
+  },
+  {
+    "id": 133,
+    "word": "boil",
+    "definition": "沸騰(vi) 使…沸騰(vt)",
+    "example": "He always boils when needed."
+  },
+  {
+    "id": 134,
+    "word": "bomb",
+    "definition": "炸彈(n)",
+    "example": "He found a bomb in the garden."
+  },
+  {
+    "id": 135,
+    "word": "bone",
+    "definition": "骨、骨骼(n)",
+    "example": "A bone is very important to us."
+  },
+  {
+    "id": 136,
+    "word": "bookcase",
+    "definition": "書櫥(n)",
+    "example": "I saw a bookcase on the way home."
+  },
+  {
+    "id": 137,
+    "word": "both xxx and",
+    "definition": "兩個都…、既…又…",
+    "example": "She used \"both xxx and\" correctly."
+  },
+  {
+    "id": 138,
+    "word": "bother",
+    "definition": "打擾、麻煩(v) 麻煩、打擾(n)",
+    "example": "He always bothers when needed."
+  },
+  {
+    "id": 139,
+    "word": "bow",
+    "definition": "弓(形物) 蝴蝶結(n) 鞠躬、點頭(n)",
+    "example": "He found a bow in the garden."
+  },
+  {
+    "id": 140,
+    "word": "bowling",
+    "definition": "保齡球(n)",
+    "example": "A bowling is very important to us."
+  },
+  {
+    "id": 141,
+    "word": "boyfriend",
+    "definition": "男朋友(n)",
+    "example": "I saw a boyfriend on the way home."
+  },
+  {
+    "id": 142,
+    "word": "brain",
+    "definition": "腦(袋) 智力(n)",
+    "example": "She bought a brain at the store."
+  },
+  {
+    "id": 143,
+    "word": "branch",
+    "definition": "樹枝、分支、分部、分公司(n)",
+    "example": "The branch was on the table."
+  },
+  {
+    "id": 144,
+    "word": "brave",
+    "definition": "勇敢的(adj)",
+    "example": "He gave a brave answer."
+  },
+  {
+    "id": 145,
+    "word": "brick",
+    "definition": "磚、積木(n)",
+    "example": "A brick is very important to us."
+  },
+  {
+    "id": 146,
+    "word": "brief",
+    "definition": "摘要、大綱(n) 簡短的、短暫的(adj)",
+    "example": "I saw a brief on the way home."
+  },
+  {
+    "id": 147,
+    "word": "Britain",
+    "definition": "英國(n)",
+    "example": "She bought a Britain at the store."
+  },
+  {
+    "id": 148,
+    "word": "British",
+    "definition": "不列顛(人)的、英國(人)的(adj) 英國人(n)",
+    "example": "The British was on the table."
+  },
+  {
+    "id": 149,
+    "word": "broad",
+    "definition": "寬的、闊的、廣闊的、廣泛的(adj)",
+    "example": "He gave a broad answer."
+  },
+  {
+    "id": 150,
+    "word": "broadcast",
+    "definition": "廣播、播音(vi) 廣播、播音(n)",
+    "example": "The river broadcasts quietly."
+  },
+  {
+    "id": 151,
+    "word": "brunch",
+    "definition": "早午餐(n)",
+    "example": "I saw a brunch on the way home."
+  },
+  {
+    "id": 152,
+    "word": "bucket",
+    "definition": "水桶、桶(n)",
+    "example": "She bought a bucket at the store."
+  },
+  {
+    "id": 153,
+    "word": "buffet",
+    "definition": "自助餐廳(n) 打擊、毆打(v)",
+    "example": "He always buffets when needed."
+  },
+  {
+    "id": 154,
+    "word": "bug",
+    "definition": "蟲、軟體錯誤(n)",
+    "example": "He found a bug in the garden."
+  },
+  {
+    "id": 155,
+    "word": "building",
+    "definition": "建築物、大樓(n)",
+    "example": "A building is very important to us."
+  },
+  {
+    "id": 156,
+    "word": "bun",
+    "definition": "小圓麵包(n)",
+    "example": "I saw a bun on the way home."
+  },
+  {
+    "id": 157,
+    "word": "bundle",
+    "definition": "包、捆、束(n) 包紮、捆(v)",
+    "example": "They bundle together."
+  },
+  {
+    "id": 158,
+    "word": "burger",
+    "definition": "(口)漢堡(n)",
+    "example": "The burger was on the table."
+  },
+  {
+    "id": 159,
+    "word": "burst",
+    "definition": "爆裂(v) 爆炸、爆裂(n)",
+    "example": "I like to burst on weekends."
+  },
+  {
+    "id": 160,
+    "word": "bus stop",
+    "definition": "公共汽車站(n)",
+    "example": "A bus stop is very important to us."
+  },
+  {
+    "id": 161,
+    "word": "butterfly",
+    "definition": "蝴蝶(n)",
+    "example": "A butterfly landed on the flower."
+  },
+  {
+    "id": 162,
+    "word": "button",
+    "definition": "鈕扣、按扭(n) 扣上、扣緊(vt)",
+    "example": "She sewed a button onto her coat."
+  },
+  {
+    "id": 163,
+    "word": "cabbage",
+    "definition": "甘藍菜、捲心菜(n)",
+    "example": "She added cabbage to the soup."
+  },
+  {
+    "id": 164,
+    "word": "cabinet",
+    "definition": "(有抽屜或格子的)櫥櫃(美)內閣(n)(美)內閣的、小巧的(adj)",
+    "example": "The files are in the cabinet."
+  },
+  {
+    "id": 165,
+    "word": "cable",
+    "definition": "粗索、電纜、錨鏈(n)",
+    "example": "Please plug in the cable."
+  },
+  {
+    "id": 166,
+    "word": "cafeteria",
+    "definition": "自助餐廳(n)",
+    "example": "I saw a cafeteria on the way home."
+  },
+  {
+    "id": 167,
+    "word": "cage",
+    "definition": "籠(n)",
+    "example": "She bought a cage at the store."
+  },
+  {
+    "id": 168,
+    "word": "calendar",
+    "definition": "月曆、行事曆(n)",
+    "example": "The calendar was on the table."
+  },
+  {
+    "id": 169,
+    "word": "calm",
+    "definition": "平靜的、鎮靜的(adj) 使…平靜/鎮定(vt)",
+    "example": "Stay calm during an emergency."
+  },
+  {
+    "id": 170,
+    "word": "camping",
+    "definition": "露營(n)",
+    "example": "A camping is very important to us."
+  },
+  {
+    "id": 171,
+    "word": "campus",
+    "definition": "校園、園區(n)",
+    "example": "I saw a campus on the way home."
+  },
+  {
+    "id": 172,
+    "word": "Canada",
+    "definition": "加拿大(n)",
+    "example": "She bought a Canada at the store."
+  },
+  {
+    "id": 173,
+    "word": "Canadian",
+    "definition": "加拿大人(n)",
+    "example": "The Canadian was on the table."
+  },
+  {
+    "id": 174,
+    "word": "cancel",
+    "definition": "取消(v)",
+    "example": "I like to cancel on weekends."
+  },
+  {
+    "id": 175,
+    "word": "cancer",
+    "definition": "癌(n)",
+    "example": "A cancer is very important to us."
+  },
+  {
+    "id": 176,
+    "word": "candle",
+    "definition": "蠟燭(n)",
+    "example": "I saw a candle on the way home."
+  },
+  {
+    "id": 177,
+    "word": "captain",
+    "definition": "上尉、隊長、船長、機長(n)",
+    "example": "She bought a captain at the store."
+  },
+  {
+    "id": 178,
+    "word": "career",
+    "definition": "(原意:道路、軌道)事業、生涯、速度(n)",
+    "example": "He wants a career in medicine."
+  },
+  {
+    "id": 179,
+    "word": "carefully",
+    "definition": "小心地(adv)",
+    "example": "She smiled carefully."
+  },
+  {
+    "id": 180,
+    "word": "careless",
+    "definition": "不注意的、粗心大意的(adj)",
+    "example": "This is a careless idea."
+  },
+  {
+    "id": 181,
+    "word": "carpet",
+    "definition": "地毯(n)",
+    "example": "I saw a carpet on the way home."
+  },
+  {
+    "id": 182,
+    "word": "carrot",
+    "definition": "胡蘿蔔(n) (報刊上的)政治性漫畫、諷刺畫、卡通畫、漫畫(常有解說詞)(n) 卡通",
+    "example": "She bought a carrot at the store."
+  },
+  {
+    "id": 183,
+    "word": "cartoon",
+    "definition": "片、動畫片(n)",
+    "example": "The cartoon was on the table."
+  },
+  {
+    "id": 184,
+    "word": "cash",
+    "definition": "現金(n)",
+    "example": "He found a cash in the garden."
+  },
+  {
+    "id": 185,
+    "word": "cassette",
+    "definition": "(裝錄音帶的)卡式盒(匣)(n)",
+    "example": "A cassette is very important to us."
+  },
+  {
+    "id": 186,
+    "word": "castle",
+    "definition": "城堡(n)",
+    "example": "I saw a castle on the way home."
+  },
+  {
+    "id": 187,
+    "word": "cause",
+    "definition": "原因、起因、事業(n) 使…產生、引起(vt)",
+    "example": "Pollution can cause health problems."
+  },
+  {
+    "id": 188,
+    "word": "CD",
+    "definition": "光碟(Compact Disk 縮寫)(n) 雷射唱片(n)",
+    "example": "The CD was on the table."
+  },
+  {
+    "id": 189,
+    "word": "CD player",
+    "definition": "雷射唱片播放器(n)",
+    "example": "He found a CD player in the garden."
+  },
+  {
+    "id": 190,
+    "word": "ceiling",
+    "definition": "天花板(n)",
+    "example": "A ceiling is very important to us."
+  },
+  {
+    "id": 191,
+    "word": "cell",
+    "definition": "單元、細胞、蜂房(尤指監獄或寺院的)單人房間、電池(n)",
+    "example": "I saw a cell on the way home."
+  },
+  {
+    "id": 192,
+    "word": "centimeter",
+    "definition": "釐米、公分(n)",
+    "example": "She bought a centimeter at the store."
+  },
+  {
+    "id": 193,
+    "word": "central",
+    "definition": "中央的、中心的(adj)",
+    "example": "The weather is central today."
+  },
+  {
+    "id": 194,
+    "word": "century",
+    "definition": "世紀、百年(n)",
+    "example": "He found a century in the garden."
+  },
+  {
+    "id": 195,
+    "word": "cereal",
+    "definition": "穀物、穀類食品(麥片等)(n)",
+    "example": "A cereal is very important to us."
+  },
+  {
+    "id": 196,
+    "word": "certain",
+    "definition": "確定的、肯定的(adj)",
+    "example": "That was a very certain experience."
+  },
+  {
+    "id": 197,
+    "word": "certainly",
+    "definition": "的確、一定、當然可以(adv)",
+    "example": "He answered certainly."
+  },
+  {
+    "id": 198,
+    "word": "chairman",
+    "definition": "主席、議長、董事長(n)",
+    "example": "The chairman was on the table."
+  },
+  {
+    "id": 199,
+    "word": "channel",
+    "definition": "海峽、水渠、水道、通訊頻道(n)",
+    "example": "He found a channel in the garden."
+  },
+  {
+    "id": 200,
+    "word": "chapter",
+    "definition": "(書籍)章(n)",
+    "example": "A chapter is very important to us."
+  },
+  {
+    "id": 201,
+    "word": "character",
+    "definition": "性格、特性、特質、品格、人物(n)",
+    "example": "She has a kind and honest character."
+  },
+  {
+    "id": 202,
+    "word": "charge",
+    "definition": "索價、控告、充電(vt) 費用、指控、充電(n)",
+    "example": "He decided to charge the problem."
+  },
+  {
+    "id": 203,
+    "word": "chart",
+    "definition": "海圖、圖表(n) 製圖(vt)",
+    "example": "I need to chart this carefully."
+  },
+  {
+    "id": 204,
+    "word": "chase",
+    "definition": "追趕、驅逐、追求、追捕(v)",
+    "example": "The dog chased the ball in the yard."
+  },
+  {
+    "id": 205,
+    "word": "cheerleader",
+    "definition": "啦啦隊隊長(n)",
+    "example": "A cheerleader is very important to us."
+  },
+  {
+    "id": 206,
+    "word": "chemical",
+    "definition": "化學的(adj)",
+    "example": "That was a very chemical experience."
+  },
+  {
+    "id": 207,
+    "word": "chess",
+    "definition": "西洋棋(n)",
+    "example": "She bought a chess at the store."
+  },
+  {
+    "id": 208,
+    "word": "chief",
+    "definition": "首領、酋長(n) 首要的、主要的(adj)",
+    "example": "The chief was on the table."
+  },
+  {
+    "id": 209,
+    "word": "childhood",
+    "definition": "孩童時期(n)",
+    "example": "He found a childhood in the garden."
+  },
+  {
+    "id": 210,
+    "word": "childish",
+    "definition": "孩子氣的、幼稚的、傻氣的(adj)",
+    "example": "This is a childish idea."
+  },
+  {
+    "id": 211,
+    "word": "childlike",
+    "definition": "孩子似的、天真無邪的(adj)",
+    "example": "That was a very childlike experience."
+  },
+  {
+    "id": 212,
+    "word": "children",
+    "definition": "一個以上的孩童、child 的複數(n)",
+    "example": "She bought a children at the store."
+  },
+  {
+    "id": 213,
+    "word": "chin",
+    "definition": "下巴、下頷(n)",
+    "example": "The chin was on the table."
+  },
+  {
+    "id": 214,
+    "word": "Chinese New Year",
+    "definition": "農曆新年(n)",
+    "example": "He found a Chinese New Year in the garden."
+  },
+  {
+    "id": 215,
+    "word": "choice",
+    "definition": "選擇、抉擇(n)",
+    "example": "A choice is very important to us."
+  },
+  {
+    "id": 216,
+    "word": "choose",
+    "definition": "選擇、挑選(vt)",
+    "example": "You can choose any book you like."
+  },
+  {
+    "id": 217,
+    "word": "Christmas Eve",
+    "definition": "聖誕前夕(n)",
+    "example": "She bought a Christmas Eve at the store."
+  },
+  {
+    "id": 218,
+    "word": "chubby",
+    "definition": "胖嘟嘟的、圓胖的(adj)",
+    "example": "The weather is chubby today."
+  },
+  {
+    "id": 219,
+    "word": "citizen",
+    "definition": "公民、市民、居民(n)",
+    "example": "Every citizen has rights and duties."
+  },
+  {
+    "id": 220,
+    "word": "claim",
+    "definition": "聲稱、主張、要求(vt) 要求、主張、斷言(n)",
+    "example": "She always claims her work first."
+  },
+  {
+    "id": 221,
+    "word": "clap",
+    "definition": "拍手、拍、輕敲(v)",
+    "example": "She claps every morning."
+  },
+  {
+    "id": 222,
+    "word": "class leader",
+    "definition": "班長(n)",
+    "example": "She bought a class leader at the store."
+  },
+  {
+    "id": 223,
+    "word": "classic",
+    "definition": "傑作、名著(n) 第一流的(adj)",
+    "example": "The classic was on the table."
+  },
+  {
+    "id": 224,
+    "word": "classical",
+    "definition": "古典的、模範的、傳統的(adj)",
+    "example": "He gave a classical answer."
+  },
+  {
+    "id": 225,
+    "word": "clerk",
+    "definition": "店員、辦事員、職員(n)",
+    "example": "A clerk is very important to us."
+  },
+  {
+    "id": 226,
+    "word": "clever",
+    "definition": "聰明的、機靈的(adj)",
+    "example": "The clever student solved the puzzle."
+  },
+  {
+    "id": 227,
+    "word": "climate",
+    "definition": "氣候、風土、潮流(n)",
+    "example": "She bought a climate at the store."
+  },
+  {
+    "id": 228,
+    "word": "climbing",
+    "definition": "攀登、登山(n)",
+    "example": "The climbing was on the table."
+  },
+  {
+    "id": 229,
+    "word": "closet",
+    "definition": "壁櫥、小櫥(n)",
+    "example": "He found a closet in the garden."
+  },
+  {
+    "id": 230,
+    "word": "cloth",
+    "definition": "布、布料、抹布、桌布(n)",
+    "example": "A cloth is very important to us."
+  },
+  {
+    "id": 231,
+    "word": "clothing",
+    "definition": "(總稱)衣服(n)",
+    "example": "I saw a clothing on the way home."
+  },
+  {
+    "id": 232,
+    "word": "coach",
+    "definition": "長途公共汽車、車廂、教練(n) 訓練、指導(vt)",
+    "example": "He decided to coach the problem."
+  },
+  {
+    "id": 233,
+    "word": "coast",
+    "definition": "海岸、海濱(n)",
+    "example": "The coast was on the table."
+  },
+  {
+    "id": 234,
+    "word": "cockroach",
+    "definition": "蟑螂(n)",
+    "example": "He found a cockroach in the garden."
+  },
+  {
+    "id": 235,
+    "word": "coin",
+    "definition": "硬幣(n)",
+    "example": "A coin is very important to us."
+  },
+  {
+    "id": 236,
+    "word": "collection",
+    "definition": "收藏、徵收、搜集品、捐款(n)",
+    "example": "I saw a collection on the way home."
+  },
+  {
+    "id": 237,
+    "word": "college",
+    "definition": "大學、學院(n)",
+    "example": "She bought a college at the store."
+  },
+  {
+    "id": 238,
+    "word": "comb",
+    "definition": "梳子(n) 梳理(vt)",
+    "example": "I need to comb this carefully."
+  },
+  {
+    "id": 239,
+    "word": "comfortably",
+    "definition": "舒適地(adv)",
+    "example": "She smiled comfortably."
+  },
+  {
+    "id": 240,
+    "word": "command",
+    "definition": "命令、指揮(vt) 命令、控制(n)",
+    "example": "She always commands her work first."
+  },
+  {
+    "id": 241,
+    "word": "comment",
+    "definition": "註釋、註解、說明(n) 評論(v)",
+    "example": "She comments every morning."
+  },
+  {
+    "id": 242,
+    "word": "company",
+    "definition": "公司、同伴、陪伴(n)",
+    "example": "She bought a company at the store."
+  },
+  {
+    "id": 243,
+    "word": "compare",
+    "definition": "比較、對照(vt)",
+    "example": "Compare these two pictures."
+  },
+  {
+    "id": 244,
+    "word": "complain",
+    "definition": "抱怨(v)",
+    "example": "He complained about the noise."
+  },
+  {
+    "id": 245,
+    "word": "complete",
+    "definition": "完全的、完整的(adj) 完成、使…完整(vt)",
+    "example": "She completed all her homework."
+  },
+  {
+    "id": 246,
+    "word": "computer game",
+    "definition": "電腦遊戲(n)",
+    "example": "I saw a computer game on the way home."
+  },
+  {
+    "id": 247,
+    "word": "concern",
+    "definition": "關心、掛念(n) 涉及、使關心、掛念(vt)",
+    "example": "He decided to concern the problem."
+  },
+  {
+    "id": 248,
+    "word": "confident",
+    "definition": "自信的(adj)",
+    "example": "The weather is confident today."
+  },
+  {
+    "id": 249,
+    "word": "confirm",
+    "definition": "證實、確實、確切(vt)",
+    "example": "They will confirm it tomorrow."
+  },
+  {
+    "id": 250,
+    "word": "conflict",
+    "definition": "衝突(vi) 爭論、衝突(n)",
+    "example": "The river conflicts quietly."
+  },
+  {
+    "id": 251,
+    "word": "confuse",
+    "definition": "使混亂(vt)",
+    "example": "She confuses it every day."
+  },
+  {
+    "id": 252,
+    "word": "congratulation",
+    "definition": "祝賀、恭賀(n)",
+    "example": "She bought a congratulation at the store."
+  },
+  {
+    "id": 253,
+    "word": "connective",
+    "definition": "連結的、連接的(adj) 連結詞(n)",
+    "example": "The connective was on the table."
+  },
+  {
+    "id": 254,
+    "word": "consider",
+    "definition": "認為、把…看作、考慮、細想(vt) 考慮、細想(over)(vi)",
+    "example": "Consider all options before deciding."
+  },
+  {
+    "id": 255,
+    "word": "contact lens",
+    "definition": "隱形眼鏡(n)",
+    "example": "A contact lens is very important to us."
+  },
+  {
+    "id": 256,
+    "word": "contain",
+    "definition": "包含、容納(vt)",
+    "example": "She contains it every day."
+  },
+  {
+    "id": 257,
+    "word": "continue",
+    "definition": "繼續、延續(v)",
+    "example": "She continued reading after dinner."
+  },
+  {
+    "id": 258,
+    "word": "contract",
+    "definition": "合同、契約(n) 訂合同、縮小(vi)",
+    "example": "She contracts before dinner."
+  },
+  {
+    "id": 259,
+    "word": "control",
+    "definition": "控制、支配、克制(vt) 控制、克制(n)",
+    "example": "She could not control her laughter."
+  },
+  {
+    "id": 260,
+    "word": "convenience store",
+    "definition": "便利商店(n)",
+    "example": "A convenience store is very important to us."
+  },
+  {
+    "id": 261,
+    "word": "conversation",
+    "definition": "談話、會話(n)",
+    "example": "I saw a conversation on the way home."
+  },
+  {
+    "id": 262,
+    "word": "cookies",
+    "definition": "餅乾、小甜點(n)",
+    "example": "She bought a cookies at the store."
+  },
+  {
+    "id": 263,
+    "word": "cooking",
+    "definition": "烹調(n) 烹調用的(adj)",
+    "example": "The cooking was on the table."
+  },
+  {
+    "id": 264,
+    "word": "corn",
+    "definition": "穀物、小麥、玉米(n)",
+    "example": "He found a corn in the garden."
+  },
+  {
+    "id": 265,
+    "word": "corner",
+    "definition": "角、牆角、街角(n)",
+    "example": "A corner is very important to us."
+  },
+  {
+    "id": 266,
+    "word": "cotton",
+    "definition": "棉花、棉布(n)",
+    "example": "I saw a cotton on the way home."
+  },
+  {
+    "id": 267,
+    "word": "cough",
+    "definition": "咳嗽(v) 咳嗽(n)",
+    "example": "They cough together."
+  },
+  {
+    "id": 268,
+    "word": "countryside",
+    "definition": "農村(n)",
+    "example": "The countryside was on the table."
+  },
+  {
+    "id": 269,
+    "word": "county",
+    "definition": "縣、郡(n)",
+    "example": "He found a county in the garden."
+  },
+  {
+    "id": 270,
+    "word": "couple",
+    "definition": "夫妻、一對、一雙、兩三個、一些(n) 連接、結合(vt)",
+    "example": "She always couples her work first."
+  },
+  {
+    "id": 271,
+    "word": "courage",
+    "definition": "勇氣、膽量(n)",
+    "example": "I saw a courage on the way home."
+  },
+  {
+    "id": 272,
+    "word": "course",
+    "definition": "課程、教程、進程、路線(一)道(菜)(n)",
+    "example": "She bought a course at the store."
+  },
+  {
+    "id": 273,
+    "word": "court",
+    "definition": "庭院、場地、法庭、法院(n)",
+    "example": "The court was on the table."
+  },
+  {
+    "id": 274,
+    "word": "crab",
+    "definition": "蟹、挑剔者(n)",
+    "example": "He found a crab in the garden."
+  },
+  {
+    "id": 275,
+    "word": "crayon",
+    "definition": "有色粉筆、蠟筆、粉筆畫(n)",
+    "example": "A crayon is very important to us."
+  },
+  {
+    "id": 276,
+    "word": "cream",
+    "definition": "奶油、膏、霜(n)",
+    "example": "I saw a cream on the way home."
+  },
+  {
+    "id": 277,
+    "word": "create",
+    "definition": "創造、創作(v)",
+    "example": "She created a beautiful painting."
+  },
+  {
+    "id": 278,
+    "word": "credit card",
+    "definition": "信用卡(n)",
+    "example": "The credit card was on the table."
+  },
+  {
+    "id": 279,
+    "word": "crime",
+    "definition": "犯罪、罪行、罪惡(n)",
+    "example": "He found a crime in the garden."
+  },
+  {
+    "id": 280,
+    "word": "crisis",
+    "definition": "危機、危急關頭(n)",
+    "example": "A crisis is very important to us."
+  },
+  {
+    "id": 281,
+    "word": "crowd",
+    "definition": "群、人群、群眾(n) 聚集、群集(vi)",
+    "example": "Birds crowd in the morning."
+  },
+  {
+    "id": 282,
+    "word": "crowded",
+    "definition": "擁擠的、客滿的(adj)",
+    "example": "She is a crowded person."
+  },
+  {
+    "id": 283,
+    "word": "cruel",
+    "definition": "殘酷的、殘忍的(adj)",
+    "example": "The weather is cruel today."
+  },
+  {
+    "id": 284,
+    "word": "culture",
+    "definition": "文化、教養、修養(n)",
+    "example": "Learning a language means learning its culture."
+  },
+  {
+    "id": 285,
+    "word": "culture center",
+    "definition": "文化中心(n)",
+    "example": "A culture center is very important to us."
+  },
+  {
+    "id": 286,
+    "word": "cure",
+    "definition": "治癒、消除、改正(vt) 治癒、治療(n)",
+    "example": "She cures it every day."
+  },
+  {
+    "id": 287,
+    "word": "curious",
+    "definition": "好奇的(adj)",
+    "example": "She is a curious person."
+  },
+  {
+    "id": 288,
+    "word": "current",
+    "definition": "水流、電流(n) 當前的、流行的(adj)",
+    "example": "The current was on the table."
+  },
+  {
+    "id": 289,
+    "word": "curtain",
+    "definition": "簾、窗簾、門簾、幕(n)",
+    "example": "He found a curtain in the garden."
+  },
+  {
+    "id": 290,
+    "word": "curve",
+    "definition": "曲線(n)",
+    "example": "A curve is very important to us."
+  },
+  {
+    "id": 291,
+    "word": "custom",
+    "definition": "風俗習慣(n)",
+    "example": "I saw a custom on the way home."
+  },
+  {
+    "id": 292,
+    "word": "customer",
+    "definition": "顧客、主顧(n)",
+    "example": "She bought a customer at the store."
+  },
+  {
+    "id": 293,
+    "word": "daily",
+    "definition": "每日的(adj) 每日、天天(adv)",
+    "example": "The weather is daily today."
+  },
+  {
+    "id": 294,
+    "word": "damage",
+    "definition": "毀壞、損害(vt) 毀壞(複)賠償金(n)",
+    "example": "The storm caused damage to the roof."
+  },
+  {
+    "id": 295,
+    "word": "dancing",
+    "definition": "跳舞(n)",
+    "example": "A dancing is very important to us."
+  },
+  {
+    "id": 296,
+    "word": "danger",
+    "definition": "危險(n)",
+    "example": "The sign warned of danger ahead."
+  },
+  {
+    "id": 297,
+    "word": "data",
+    "definition": "[計]資料(n)",
+    "example": "She bought a data at the store."
+  },
+  {
+    "id": 298,
+    "word": "dawn",
+    "definition": "黎明、開始(n) 破曉、開始發展(vi)",
+    "example": "She dawns before dinner."
+  },
+  {
+    "id": 299,
+    "word": "deaf",
+    "definition": "聾的、不願聽的(adj)",
+    "example": "He gave a deaf answer."
+  },
+  {
+    "id": 300,
+    "word": "deal",
+    "definition": "給予、分配(vt) 交易、處理(with)(vi)(pt:dealt、pp:dealt)",
+    "example": "We deal as a team."
+  },
+  {
+    "id": 301,
+    "word": "death",
+    "definition": "死、死亡(n)",
+    "example": "I saw a death on the way home."
+  },
+  {
+    "id": 302,
+    "word": "debate",
+    "definition": "辯論、爭論(n)",
+    "example": "She bought a debate at the store."
+  },
+  {
+    "id": 303,
+    "word": "debt",
+    "definition": "債務、罪過(n)",
+    "example": "The debt was on the table."
+  },
+  {
+    "id": 304,
+    "word": "decision",
+    "definition": "決定(n)",
+    "example": "He found a decision in the garden."
+  },
+  {
+    "id": 305,
+    "word": "decorate",
+    "definition": "裝飾、裝璜(vt)",
+    "example": "She always decorates her work first."
+  },
+  {
+    "id": 306,
+    "word": "deep",
+    "definition": "深的、縱深的、深切的(adj) 深深地(adv)",
+    "example": "That was a very deep experience."
+  },
+  {
+    "id": 307,
+    "word": "deer",
+    "definition": "鹿(n)",
+    "example": "She bought a deer at the store."
+  },
+  {
+    "id": 308,
+    "word": "degree",
+    "definition": "程度、度數、學位(n)",
+    "example": "The degree was on the table."
+  },
+  {
+    "id": 309,
+    "word": "delay",
+    "definition": "推遲、耽擱(n)",
+    "example": "He found a delay in the garden."
+  },
+  {
+    "id": 310,
+    "word": "deliver",
+    "definition": "投遞、發表、分娩(vt)",
+    "example": "The mailman delivered a package."
+  },
+  {
+    "id": 311,
+    "word": "democracy",
+    "definition": "民主政治、民主主義(n)",
+    "example": "I saw a democracy on the way home."
+  },
+  {
+    "id": 312,
+    "word": "democratic",
+    "definition": "民主的、民主主義的、民主政體的、平民的(adj)",
+    "example": "She is a democratic person."
+  },
+  {
+    "id": 313,
+    "word": "dentist",
+    "definition": "牙醫(n)",
+    "example": "The dentist was on the table."
+  },
+  {
+    "id": 314,
+    "word": "deny",
+    "definition": "否認、拒絕給予(vt)",
+    "example": "They will deny it tomorrow."
+  },
+  {
+    "id": 315,
+    "word": "department",
+    "definition": "部門、部、院、局、處(n)",
+    "example": "A department is very important to us."
+  },
+  {
+    "id": 316,
+    "word": "depend",
+    "definition": "依靠、依賴、決定於(on、upon)(vi)",
+    "example": "Birds depend in the morning."
+  },
+  {
+    "id": 317,
+    "word": "describe",
+    "definition": "形容、描寫(vt)",
+    "example": "Can you describe what you saw?"
+  },
+  {
+    "id": 318,
+    "word": "desert",
+    "definition": "沙漠、不毛之地(n) 遺棄(vt)",
+    "example": "The Sahara is a large desert."
+  },
+  {
+    "id": 319,
+    "word": "design",
+    "definition": "設計(v) 設計、圖樣、圖案(n)",
+    "example": "She designed the poster for the event."
+  },
+  {
+    "id": 320,
+    "word": "desire",
+    "definition": "願望、渴望(n) 想望、渴望(vt)",
+    "example": "She had a strong desire to travel."
+  },
+  {
+    "id": 321,
+    "word": "dessert",
+    "definition": "甜點(n)",
+    "example": "We had ice cream for dessert."
+  },
+  {
+    "id": 322,
+    "word": "detect",
+    "definition": "發覺、識破、查出(v)",
+    "example": "They detect together."
+  },
+  {
+    "id": 323,
+    "word": "determine",
+    "definition": "決定、決心(vt)",
+    "example": "I need to determine this carefully."
+  },
+  {
+    "id": 324,
+    "word": "determiner",
+    "definition": "(文法的)限定詞(n)",
+    "example": "He found a determiner in the garden."
+  },
+  {
+    "id": 325,
+    "word": "develop",
+    "definition": "發展、形成、開發(vt) 發展、成長、發育(vi)",
+    "example": "She developed a new plan for the project."
+  },
+  {
+    "id": 326,
+    "word": "dial",
+    "definition": "(電話的)撥號盤、刻度盤(n)",
+    "example": "I saw a dial on the way home."
+  },
+  {
+    "id": 327,
+    "word": "diamond",
+    "definition": "鑽石、金剛石、菱形(n)",
+    "example": "She bought a diamond at the store."
+  },
+  {
+    "id": 328,
+    "word": "diary",
+    "definition": "日記、日記本(n)",
+    "example": "She writes in her diary every night."
+  },
+  {
+    "id": 329,
+    "word": "diet",
+    "definition": "通常所吃的食物、會議(n)",
+    "example": "He found a diet in the garden."
+  },
+  {
+    "id": 330,
+    "word": "difference",
+    "definition": "差別、差異、差額(n)",
+    "example": "A difference is very important to us."
+  },
+  {
+    "id": 331,
+    "word": "difficulty",
+    "definition": "困難、難事(n)",
+    "example": "I saw a difficulty on the way home."
+  },
+  {
+    "id": 332,
+    "word": "diligent",
+    "definition": "勤奮的、煞費苦心的(adj)",
+    "example": "She is a diligent person."
+  },
+  {
+    "id": 333,
+    "word": "dinosaur",
+    "definition": "恐龍(n)",
+    "example": "We saw dinosaur fossils at the museum."
+  },
+  {
+    "id": 334,
+    "word": "diplomat",
+    "definition": "外交官、有外交手腕的人、有權謀的人(n)",
+    "example": "He found a diplomat in the garden."
+  },
+  {
+    "id": 335,
+    "word": "direct",
+    "definition": "直接的(adj) 指示、導演、管理(vt)",
+    "example": "She always directs her work first."
+  },
+  {
+    "id": 336,
+    "word": "direction",
+    "definition": "方向、方位(複)使用說明(n)",
+    "example": "I saw a direction on the way home."
+  },
+  {
+    "id": 337,
+    "word": "director",
+    "definition": "指導者、主任、董事、導演(n)",
+    "example": "She bought a director at the store."
+  },
+  {
+    "id": 338,
+    "word": "disappear",
+    "definition": "消失、看不見、失蹤(v)",
+    "example": "The fog disappeared in the morning."
+  },
+  {
+    "id": 339,
+    "word": "discover",
+    "definition": "發現、暴露、顯示(v)",
+    "example": "Columbus discovered America in 1492."
+  },
+  {
+    "id": 340,
+    "word": "discuss",
+    "definition": "討論(v)",
+    "example": "Let's discuss the topic together."
+  },
+  {
+    "id": 341,
+    "word": "discussion",
+    "definition": "討論、談論(n)",
+    "example": "I saw a discussion on the way home."
+  },
+  {
+    "id": 342,
+    "word": "dishonest",
+    "definition": "不誠實的、不正直的(adj)",
+    "example": "She is a dishonest person."
+  },
+  {
+    "id": 343,
+    "word": "distance",
+    "definition": "距離、間距(n)",
+    "example": "The distance was on the table."
+  },
+  {
+    "id": 344,
+    "word": "divide",
+    "definition": "分、劃分(into) 隔開、除(by)(vt)",
+    "example": "They will divide it tomorrow."
+  },
+  {
+    "id": 345,
+    "word": "division",
+    "definition": "分開、分割、區分、除法、公司(軍事)師、分配、分界線(n)",
+    "example": "A division is very important to us."
+  },
+  {
+    "id": 346,
+    "word": "dizzy",
+    "definition": "暈眩的、眼花撩亂的(adj)",
+    "example": "That was a very dizzy experience."
+  },
+  {
+    "id": 347,
+    "word": "document",
+    "definition": "公文、文件、文檔、檔案、文獻(n) 證明(v)",
+    "example": "They document together."
+  },
+  {
+    "id": 348,
+    "word": "dodge ball",
+    "definition": "躲避球(n)",
+    "example": "The dodge ball was on the table."
+  },
+  {
+    "id": 349,
+    "word": "dolphin",
+    "definition": "海豚(n)",
+    "example": "Dolphins are very intelligent animals."
+  },
+  {
+    "id": 350,
+    "word": "donkey",
+    "definition": "驢子、傻瓜(n)",
+    "example": "A donkey is very important to us."
+  },
+  {
+    "id": 351,
+    "word": "dot",
+    "definition": "點(n)",
+    "example": "I saw a dot on the way home."
+  },
+  {
+    "id": 352,
+    "word": "double",
+    "definition": "兩倍的、雙(重)的(adj)(使…)加倍(v)",
+    "example": "They double together."
+  },
+  {
+    "id": 353,
+    "word": "Double Tenth Day",
+    "definition": "雙十節(n)",
+    "example": "The Double Tenth Day was on the table."
+  },
+  {
+    "id": 354,
+    "word": "doubt",
+    "definition": "懷疑(n)",
+    "example": "He found a doubt in the garden."
+  },
+  {
+    "id": 355,
+    "word": "doughnut",
+    "definition": "甜甜圈(n)",
+    "example": "A doughnut is very important to us."
+  },
+  {
+    "id": 356,
+    "word": "downstairs",
+    "definition": "樓下(的)(n)",
+    "example": "I saw a downstairs on the way home."
+  },
+  {
+    "id": 357,
+    "word": "downtown",
+    "definition": "往市中心、在市中心(adv) 往市中心、在市中心(adj)",
+    "example": "She is a downtown person."
+  },
+  {
+    "id": 358,
+    "word": "dragon",
+    "definition": "龍(n)",
+    "example": "The dragon was on the table."
+  },
+  {
+    "id": 359,
+    "word": "drama",
+    "definition": "戲劇、劇本(n)",
+    "example": "He found a drama in the garden."
+  },
+  {
+    "id": 360,
+    "word": "drawer",
+    "definition": "付款人、製圖者(n)",
+    "example": "A drawer is very important to us."
+  },
+  {
+    "id": 361,
+    "word": "drawing",
+    "definition": "畫畫、圖畫、素描(n)",
+    "example": "I saw a drawing on the way home."
+  },
+  {
+    "id": 362,
+    "word": "dresser",
+    "definition": "碗櫃、餐具櫥、服裝師(n)",
+    "example": "She bought a dresser at the store."
+  },
+  {
+    "id": 363,
+    "word": "drinks",
+    "definition": "飲料(n)",
+    "example": "The drinks was on the table."
+  },
+  {
+    "id": 364,
+    "word": "drug",
+    "definition": "藥、藥物;(複)毒品、麻醉藥品(n) 用藥麻醉(vt)",
+    "example": "They will drug it tomorrow."
+  },
+  {
+    "id": 365,
+    "word": "drugstore",
+    "definition": "藥局(n)",
+    "example": "A drugstore is very important to us."
+  },
+  {
+    "id": 366,
+    "word": "drum",
+    "definition": "鼓(n)",
+    "example": "I saw a drum on the way home."
+  },
+  {
+    "id": 367,
+    "word": "dryer",
+    "definition": "烘乾機(n)",
+    "example": "She bought a dryer at the store."
+  },
+  {
+    "id": 368,
+    "word": "duck",
+    "definition": "鴨子(n)",
+    "example": "The duck was on the table."
+  },
+  {
+    "id": 369,
+    "word": "dumb",
+    "definition": "啞的(adj)",
+    "example": "He gave a dumb answer."
+  },
+  {
+    "id": 370,
+    "word": "dumpling",
+    "definition": "餃子(n)",
+    "example": "A dumpling is very important to us."
+  },
+  {
+    "id": 371,
+    "word": "duty",
+    "definition": "職責、責任、義務;(複)關稅(n)",
+    "example": "I saw a duty on the way home."
+  },
+  {
+    "id": 372,
+    "word": "eagle",
+    "definition": "鷹(n)",
+    "example": "She bought a eagle at the store."
+  },
+  {
+    "id": 373,
+    "word": "earn",
+    "definition": "賺得、獲得、掙得(vt)",
+    "example": "He earns money by working part-time."
+  },
+  {
+    "id": 374,
+    "word": "earrings",
+    "definition": "耳環、耳飾、耳墜(n)",
+    "example": "He found a earrings in the garden."
+  },
+  {
+    "id": 375,
+    "word": "Easter",
+    "definition": "(基督)復活節(n)",
+    "example": "A Easter is very important to us."
+  },
+  {
+    "id": 376,
+    "word": "eastern",
+    "definition": "東方的、東部的(adj)",
+    "example": "That was a very eastern experience."
+  },
+  {
+    "id": 377,
+    "word": "edge",
+    "definition": "邊、邊緣、棱(n)",
+    "example": "She bought a edge at the store."
+  },
+  {
+    "id": 378,
+    "word": "education",
+    "definition": "教育、培養(n)",
+    "example": "Education is very important."
+  },
+  {
+    "id": 379,
+    "word": "effect",
+    "definition": "結果、效果、作用(n) 引起、招致(vt)",
+    "example": "They will effect it tomorrow."
+  },
+  {
+    "id": 380,
+    "word": "effective",
+    "definition": "有效的、被實施的、給人深刻印象的、有力的(adj)",
+    "example": "This is a effective idea."
+  },
+  {
+    "id": 381,
+    "word": "effort",
+    "definition": "努力、艱難的嘗試(n)",
+    "example": "I saw a effort on the way home."
+  },
+  {
+    "id": 382,
+    "word": "eighteenth",
+    "definition": "第十八、十八分之一(n)",
+    "example": "She bought a eighteenth at the store."
+  },
+  {
+    "id": 383,
+    "word": "either xxx or",
+    "definition": "或者…或者…",
+    "example": "He knows what \"either xxx or\" means."
+  },
+  {
+    "id": 384,
+    "word": "elder",
+    "definition": "年齡大的、年長的(adj)(複)長輩(n)",
+    "example": "He found a elder in the garden."
+  },
+  {
+    "id": 385,
+    "word": "elect",
+    "definition": "選舉、選擇、決定(v)",
+    "example": "We elect as a team."
+  },
+  {
+    "id": 386,
+    "word": "election",
+    "definition": "選舉、當選(n)",
+    "example": "I saw a election on the way home."
+  },
+  {
+    "id": 387,
+    "word": "electric",
+    "definition": "電的、電動的(adj)",
+    "example": "She is a electric person."
+  },
+  {
+    "id": 388,
+    "word": "electricity",
+    "definition": "電(n)",
+    "example": "The electricity was on the table."
+  },
+  {
+    "id": 389,
+    "word": "element",
+    "definition": "要素、元素、成分、元件、自然環境(n)",
+    "example": "He found a element in the garden."
+  },
+  {
+    "id": 390,
+    "word": "eleventh",
+    "definition": "第十一(num) 十一分之一(n)",
+    "example": "A eleventh is very important to us."
+  },
+  {
+    "id": 391,
+    "word": "emotion",
+    "definition": "情感、情緒、感情(n)",
+    "example": "I saw a emotion on the way home."
+  },
+  {
+    "id": 392,
+    "word": "emphasize",
+    "definition": "強調(v)",
+    "example": "They emphasize together."
+  },
+  {
+    "id": 393,
+    "word": "employ",
+    "definition": "雇用、使用(vt)",
+    "example": "I need to employ this carefully."
+  },
+  {
+    "id": 394,
+    "word": "empty",
+    "definition": "空的、空洞的、空虛的(adj) 使…空、倒空(v)",
+    "example": "I like to empty on weekends."
+  },
+  {
+    "id": 395,
+    "word": "encourage",
+    "definition": "鼓勵、支援(vt)",
+    "example": "He encouraged her to try again."
+  },
+  {
+    "id": 396,
+    "word": "enemy",
+    "definition": "敵人、敵軍、仇敵(n)",
+    "example": "I saw a enemy on the way home."
+  },
+  {
+    "id": 397,
+    "word": "energy",
+    "definition": "精力、活力、能(量)(n)",
+    "example": "She bought a energy at the store."
+  },
+  {
+    "id": 398,
+    "word": "engine",
+    "definition": "引擎(n)",
+    "example": "The engine was on the table."
+  },
+  {
+    "id": 399,
+    "word": "engineer",
+    "definition": "工程師、技師(n) 設計、建造(v)",
+    "example": "I like to engineer on weekends."
+  },
+  {
+    "id": 400,
+    "word": "England",
+    "definition": "英格蘭、英國(n)",
+    "example": "A England is very important to us."
+  },
+  {
+    "id": 401,
+    "word": "Englishman",
+    "definition": "英格蘭人、英國人(n)",
+    "example": "I saw a Englishman on the way home."
+  },
+  {
+    "id": 402,
+    "word": "entire",
+    "definition": "全部的、整個的(adj)",
+    "example": "She is a entire person."
+  },
+  {
+    "id": 403,
+    "word": "entrance",
+    "definition": "入口、門口(n)",
+    "example": "The entrance was on the table."
+  },
+  {
+    "id": 404,
+    "word": "envelope",
+    "definition": "信封(n)",
+    "example": "He found a envelope in the garden."
+  },
+  {
+    "id": 405,
+    "word": "environment",
+    "definition": "環境、周圍狀況(n)",
+    "example": "We should protect the environment."
+  },
+  {
+    "id": 406,
+    "word": "envy",
+    "definition": "羡慕、妒忌(v)",
+    "example": "She envys every morning."
+  },
+  {
+    "id": 407,
+    "word": "equal",
+    "definition": "相等的、同樣的、平等的(adj) 等於(vt)",
+    "example": "He decided to equal the problem."
+  },
+  {
+    "id": 408,
+    "word": "error",
+    "definition": "錯誤、誤差(n)",
+    "example": "The error was on the table."
+  },
+  {
+    "id": 409,
+    "word": "especially",
+    "definition": "特別、尤其、格外(adv)",
+    "example": "She smiled especially."
+  },
+  {
+    "id": 410,
+    "word": "Europe",
+    "definition": "歐洲(n)",
+    "example": "A Europe is very important to us."
+  },
+  {
+    "id": 411,
+    "word": "European",
+    "definition": "歐洲的(adj) 歐洲人(n)",
+    "example": "I saw a European on the way home."
+  },
+  {
+    "id": 412,
+    "word": "even if",
+    "definition": "即使、縱然(片)",
+    "example": "She said \"even if\" to her friend."
+  },
+  {
+    "id": 413,
+    "word": "event",
+    "definition": "事件、大事(n)",
+    "example": "The event was on the table."
+  },
+  {
+    "id": 414,
+    "word": "everywhere",
+    "definition": "到處、無論何處(adv)",
+    "example": "She smiled everywhere."
+  },
+  {
+    "id": 415,
+    "word": "evil",
+    "definition": "壞的、邪惡的(adj)",
+    "example": "This is a evil idea."
+  },
+  {
+    "id": 416,
+    "word": "exact",
+    "definition": "精確的、確切的(adj)",
+    "example": "That was a very exact experience."
+  },
+  {
+    "id": 417,
+    "word": "exam",
+    "definition": "(口語)考試(n)",
+    "example": "She bought a exam at the store."
+  },
+  {
+    "id": 418,
+    "word": "examine",
+    "definition": "檢查、調查、考試(v)",
+    "example": "He always examines when needed."
+  },
+  {
+    "id": 419,
+    "word": "excite",
+    "definition": "使…興奮、使…激動(vt)",
+    "example": "They will excite it tomorrow."
+  },
+  {
+    "id": 420,
+    "word": "exercising",
+    "definition": "運動、體操(n)",
+    "example": "A exercising is very important to us."
+  },
+  {
+    "id": 421,
+    "word": "exist",
+    "definition": "存在(vi)",
+    "example": "Birds exist in the morning."
+  },
+  {
+    "id": 422,
+    "word": "exit",
+    "definition": "出口(n)",
+    "example": "She bought a exit at the store."
+  },
+  {
+    "id": 423,
+    "word": "expect",
+    "definition": "預料、等待、期待(vt)",
+    "example": "I need to expect this carefully."
+  },
+  {
+    "id": 424,
+    "word": "expensive fruit",
+    "definition": "高級水果、昂貴的水果(n)",
+    "example": "He found a expensive fruit in the garden."
+  },
+  {
+    "id": 425,
+    "word": "explain",
+    "definition": "解釋、說明(vt)",
+    "example": "Can you explain the rule?"
+  },
+  {
+    "id": 426,
+    "word": "express",
+    "definition": "表示、表達(vt) 快車、快遞(n)",
+    "example": "She expresss it every day."
+  },
+  {
+    "id": 427,
+    "word": "extra",
+    "definition": "額外的、外加的(adj) 特別地(adv)",
+    "example": "She is a extra person."
+  },
+  {
+    "id": 428,
+    "word": "extra large",
+    "definition": "特大號的(adj)",
+    "example": "The weather is extra large today."
+  },
+  {
+    "id": 429,
+    "word": "eyebrow",
+    "definition": "眉毛(n)",
+    "example": "He found a eyebrow in the garden."
+  },
+  {
+    "id": 430,
+    "word": "fail",
+    "definition": "失敗、不及格、失靈(vi) 不、未能、使…不及格(vt)",
+    "example": "Don't give up if you fail."
+  },
+  {
+    "id": 431,
+    "word": "failure",
+    "definition": "失敗、失敗者、缺乏、失靈、故障、破產、疏忽(美)不及格(n)",
+    "example": "I saw a failure on the way home."
+  },
+  {
+    "id": 432,
+    "word": "fair",
+    "definition": "公平的、公正的、尚可的(adj) 公平地(adv)",
+    "example": "She is a fair person."
+  },
+  {
+    "id": 433,
+    "word": "family name",
+    "definition": "姓(n)",
+    "example": "The family name was on the table."
+  },
+  {
+    "id": 434,
+    "word": "fancy",
+    "definition": "奇特的、異樣的(adj) 愛好、迷戀、想像力(n)",
+    "example": "He found a fancy in the garden."
+  },
+  {
+    "id": 435,
+    "word": "fantastic",
+    "definition": "幻想的、奇異的、稀奇古怪的、荒謬的、空想的(adj)",
+    "example": "This is a fantastic idea."
+  },
+  {
+    "id": 436,
+    "word": "far",
+    "definition": "遠(adj)",
+    "example": "That was a very far experience."
+  },
+  {
+    "id": 437,
+    "word": "fashionable",
+    "definition": "流行的、時髦的(adj)",
+    "example": "She is a fashionable person."
+  },
+  {
+    "id": 438,
+    "word": "fast food",
+    "definition": "速食(n)",
+    "example": "The fast food was on the table."
+  },
+  {
+    "id": 439,
+    "word": "fast food restaurant",
+    "definition": "速食餐廳(n)",
+    "example": "He found a fast food restaurant in the garden."
+  },
+  {
+    "id": 440,
+    "word": "faucet",
+    "definition": "(容器或水管的)龍頭(n)",
+    "example": "A faucet is very important to us."
+  },
+  {
+    "id": 441,
+    "word": "fault",
+    "definition": "過失、過錯、缺點、故障(n)",
+    "example": "I saw a fault on the way home."
+  },
+  {
+    "id": 442,
+    "word": "favor",
+    "definition": "好感、喜愛、贊同、支援、恩惠、好事(n) 贊同、偏愛(vt)",
+    "example": "He decided to favor the problem."
+  },
+  {
+    "id": 443,
+    "word": "fear",
+    "definition": "害怕、恐怕(n) 畏懼、害怕、擔心(vt)",
+    "example": "He overcame his fear of heights."
+  },
+  {
+    "id": 444,
+    "word": "feather",
+    "definition": "羽毛(n)",
+    "example": "He found a feather in the garden."
+  },
+  {
+    "id": 445,
+    "word": "feeling",
+    "definition": "感覺(n)",
+    "example": "A feeling is very important to us."
+  },
+  {
+    "id": 446,
+    "word": "fellow",
+    "definition": "人、人員、研究員、[口語]傢伙、小夥子(n) 同伴的(adj)",
+    "example": "I saw a fellow on the way home."
+  },
+  {
+    "id": 447,
+    "word": "fence",
+    "definition": "柵欄、圍欄、籬笆(n)",
+    "example": "She bought a fence at the store."
+  },
+  {
+    "id": 448,
+    "word": "fever",
+    "definition": "發燒、一時的狂熱(n)",
+    "example": "The fever was on the table."
+  },
+  {
+    "id": 449,
+    "word": "field",
+    "definition": "田地、田野、領域、範圍(n)",
+    "example": "He found a field in the garden."
+  },
+  {
+    "id": 450,
+    "word": "fifteenth",
+    "definition": "第十五、十五分之一(n) 作戰、戰鬥、交戰;打架;搏鬥、格鬥;拳擊比賽(n) 戰鬥、作戰、鬥",
+    "example": "A fifteenth is very important to us."
+  },
+  {
+    "id": 451,
+    "word": "fight",
+    "definition": "爭、爭鬥;搏鬥、打架(vi)",
+    "example": "Birds fight in the morning."
+  },
+  {
+    "id": 452,
+    "word": "figure",
+    "definition": "數字、外形、輪廓、人物、體形、身材、插圖(n)",
+    "example": "She bought a figure at the store."
+  },
+  {
+    "id": 453,
+    "word": "film",
+    "definition": "電影、影片、膠捲、膠片(n) 把…拍攝成電影(vt)",
+    "example": "I need to film this carefully."
+  },
+  {
+    "id": 454,
+    "word": "final",
+    "definition": "最後的、最終的、決定性的(adj)",
+    "example": "He gave a final answer."
+  },
+  {
+    "id": 455,
+    "word": "fire station",
+    "definition": "消防站(n)",
+    "example": "A fire station is very important to us."
+  },
+  {
+    "id": 456,
+    "word": "firm",
+    "definition": "商行、公司(n) 結實的、堅固的(adj)",
+    "example": "I saw a firm on the way home."
+  },
+  {
+    "id": 457,
+    "word": "first grade",
+    "definition": "一年級(n)",
+    "example": "She bought a first grade at the store."
+  },
+  {
+    "id": 458,
+    "word": "first name",
+    "definition": "名(n)",
+    "example": "The first name was on the table."
+  },
+  {
+    "id": 459,
+    "word": "fishing",
+    "definition": "釣魚(n)",
+    "example": "He found a fishing in the garden."
+  },
+  {
+    "id": 460,
+    "word": "fit",
+    "definition": "適合、合身(vt) 適合、符合(vi)",
+    "example": "We fit as a team."
+  },
+  {
+    "id": 461,
+    "word": "flag",
+    "definition": "旗(幟)(n)",
+    "example": "I saw a flag on the way home."
+  },
+  {
+    "id": 462,
+    "word": "flashlight",
+    "definition": "手電筒、閃光、閃光信號燈(n)",
+    "example": "She bought a flashlight at the store."
+  },
+  {
+    "id": 463,
+    "word": "flat",
+    "definition": "平的、平坦的(adj) 公寓(n)",
+    "example": "The flat was on the table."
+  },
+  {
+    "id": 464,
+    "word": "flat tire",
+    "definition": "洩了氣的輪胎(n)",
+    "example": "He found a flat tire in the garden."
+  },
+  {
+    "id": 465,
+    "word": "flight",
+    "definition": "飛翔、飛行、航班(n)",
+    "example": "A flight is very important to us."
+  },
+  {
+    "id": 466,
+    "word": "flour",
+    "definition": "麵粉(n)",
+    "example": "I saw a flour on the way home."
+  },
+  {
+    "id": 467,
+    "word": "flow",
+    "definition": "流(動) 垂、飄浮(vi) 流、流量(n)",
+    "example": "He flows when he is happy."
+  },
+  {
+    "id": 468,
+    "word": "flower shop",
+    "definition": "花店(n)",
+    "example": "The flower shop was on the table."
+  },
+  {
+    "id": 469,
+    "word": "flu",
+    "definition": "流行性感冒(等於influenza)(n)",
+    "example": "He found a flu in the garden."
+  },
+  {
+    "id": 470,
+    "word": "flute",
+    "definition": "笛、長笛(n)",
+    "example": "A flute is very important to us."
+  },
+  {
+    "id": 471,
+    "word": "focus",
+    "definition": "(使)聚焦、使(集中)(v) 焦點(注意、活動、興趣等的)中心(n)",
+    "example": "Focus on your studies."
+  },
+  {
+    "id": 472,
+    "word": "fog",
+    "definition": "霧(n) 霧(v)",
+    "example": "They fog together."
+  },
+  {
+    "id": 473,
+    "word": "foggy",
+    "definition": "多霧的(adj)",
+    "example": "The weather is foggy today."
+  },
+  {
+    "id": 474,
+    "word": "food restaurant",
+    "definition": "餐廳(n)",
+    "example": "He found a food restaurant in the garden."
+  },
+  {
+    "id": 475,
+    "word": "fool",
+    "definition": "蠢人、傻瓜(n) 愚弄、欺騙(vt)",
+    "example": "She always fools her work first."
+  },
+  {
+    "id": 476,
+    "word": "foolish",
+    "definition": "愚蠢的(adj)",
+    "example": "That was a very foolish experience."
+  },
+  {
+    "id": 477,
+    "word": "football",
+    "definition": "足球、足球運動(n)",
+    "example": "She bought a football at the store."
+  },
+  {
+    "id": 478,
+    "word": "force",
+    "definition": "強迫、迫使(vt) 暴力、武力、力氣(複)軍隊(n)",
+    "example": "I need to force this carefully."
+  },
+  {
+    "id": 479,
+    "word": "forest",
+    "definition": "森林(n)",
+    "example": "They hiked through the forest."
+  },
+  {
+    "id": 480,
+    "word": "forgive",
+    "definition": "原諒(v)",
+    "example": "She forgave him for the mistake."
+  },
+  {
+    "id": 481,
+    "word": "form",
+    "definition": "形式、形狀、表格(n) 形成、組成(vt)",
+    "example": "She forms it every day."
+  },
+  {
+    "id": 482,
+    "word": "former",
+    "definition": "在前的、以前的(adj) 前者(n)",
+    "example": "She bought a former at the store."
+  },
+  {
+    "id": 483,
+    "word": "forward",
+    "definition": "向前的、前部的(adj) 向前地、前部地(adv)",
+    "example": "The weather is forward today."
+  },
+  {
+    "id": 484,
+    "word": "fourteenth",
+    "definition": "第十四、十四分之一(n)",
+    "example": "He found a fourteenth in the garden."
+  },
+  {
+    "id": 485,
+    "word": "fox",
+    "definition": "狐狸、狡猾的人(n)",
+    "example": "A fox is very important to us."
+  },
+  {
+    "id": 486,
+    "word": "France",
+    "definition": "法國(n)",
+    "example": "I saw a France on the way home."
+  },
+  {
+    "id": 487,
+    "word": "frank",
+    "definition": "率直的、坦白的(adj)",
+    "example": "She is a frank person."
+  },
+  {
+    "id": 488,
+    "word": "freedom",
+    "definition": "自由(n)",
+    "example": "The freedom was on the table."
+  },
+  {
+    "id": 489,
+    "word": "freezer",
+    "definition": "冷凍裝置、電冰箱、製冰機(n)",
+    "example": "He found a freezer in the garden."
+  },
+  {
+    "id": 490,
+    "word": "freezing",
+    "definition": "結冰的、極冷的(adj)",
+    "example": "This is a freezing idea."
+  },
+  {
+    "id": 491,
+    "word": "French",
+    "definition": "法國的、法國人的(adj)(總稱)法國人、法語(n)",
+    "example": "I saw a French on the way home."
+  },
+  {
+    "id": 492,
+    "word": "French fries",
+    "definition": "炸薯條(n)",
+    "example": "She bought a French fries at the store."
+  },
+  {
+    "id": 493,
+    "word": "fried chicken",
+    "definition": "炸雞(n)",
+    "example": "The fried chicken was on the table."
+  },
+  {
+    "id": 494,
+    "word": "fried rice",
+    "definition": "炒飯(n)",
+    "example": "He found a fried rice in the garden."
+  },
+  {
+    "id": 495,
+    "word": "friendship",
+    "definition": "友誼、友情(n)",
+    "example": "A friendship is very important to us."
+  },
+  {
+    "id": 496,
+    "word": "frighten",
+    "definition": "使…驚恐、嚇唬(vt)",
+    "example": "She frightens it every day."
+  },
+  {
+    "id": 497,
+    "word": "Frisbee",
+    "definition": "飛盤(n)",
+    "example": "She bought a Frisbee at the store."
+  },
+  {
+    "id": 498,
+    "word": "frog",
+    "definition": "青蛙(n)",
+    "example": "The frog was on the table."
+  },
+  {
+    "id": 499,
+    "word": "fry",
+    "definition": "煎、炸、炒(v) 官能、功能、作用、職責、典禮、儀式、[數]函數(n)(器官等)活動、",
+    "example": "I like to fry on weekends."
+  },
+  {
+    "id": 500,
+    "word": "function",
+    "definition": "運行、行使職責(vi)",
+    "example": "The river functions quietly."
+  },
+  {
+    "id": 501,
+    "word": "furniture",
+    "definition": "傢俱(n)",
+    "example": "I saw a furniture on the way home."
+  },
+  {
+    "id": 502,
+    "word": "gain",
+    "definition": "獲得、增加(vt) 受益、增加(vi)",
+    "example": "They gain together."
+  },
+  {
+    "id": 503,
+    "word": "garage",
+    "definition": "車庫(n)",
+    "example": "The garage was on the table."
+  },
+  {
+    "id": 504,
+    "word": "gas station",
+    "definition": "加油站(n)",
+    "example": "He found a gas station in the garden."
+  },
+  {
+    "id": 505,
+    "word": "gate",
+    "definition": "大門、柵門、登機門(n)",
+    "example": "A gate is very important to us."
+  },
+  {
+    "id": 506,
+    "word": "gather",
+    "definition": "聚集、集合(vi) 收集、採集(vt)",
+    "example": "She gathers every morning."
+  },
+  {
+    "id": 507,
+    "word": "general",
+    "definition": "一般的、通用的(adj) 將軍(n)",
+    "example": "She bought a general at the store."
+  },
+  {
+    "id": 508,
+    "word": "generally",
+    "definition": "一般地(adv)",
+    "example": "They walked generally home."
+  },
+  {
+    "id": 509,
+    "word": "generation",
+    "definition": "代、輩、產生、發生(n)",
+    "example": "He found a generation in the garden."
+  },
+  {
+    "id": 510,
+    "word": "generous",
+    "definition": "慷慨的、大方的、寬厚的(adj)",
+    "example": "This is a generous idea."
+  },
+  {
+    "id": 511,
+    "word": "gentle",
+    "definition": "和藹的、溫和的、輕柔的、徐緩的(adj)",
+    "example": "That was a very gentle experience."
+  },
+  {
+    "id": 512,
+    "word": "gentleman",
+    "definition": "先生、紳士(n)",
+    "example": "She bought a gentleman at the store."
+  },
+  {
+    "id": 513,
+    "word": "geographical",
+    "definition": "地理(學)的(adj)",
+    "example": "The weather is geographical today."
+  },
+  {
+    "id": 514,
+    "word": "geography",
+    "definition": "地理(學)(n)",
+    "example": "He found a geography in the garden."
+  },
+  {
+    "id": 515,
+    "word": "German",
+    "definition": "德國(人)的、德語的(adj) 德國人、德語(n)",
+    "example": "A German is very important to us."
+  },
+  {
+    "id": 516,
+    "word": "Germany",
+    "definition": "德國(n)",
+    "example": "I saw a Germany on the way home."
+  },
+  {
+    "id": 517,
+    "word": "gesture",
+    "definition": "(表達情意的)姿勢、手勢(n)",
+    "example": "She bought a gesture at the store."
+  },
+  {
+    "id": 518,
+    "word": "get in",
+    "definition": "進入、坐上、搭乘(片)",
+    "example": "He explained the phrase \"get in\"."
+  },
+  {
+    "id": 519,
+    "word": "get off",
+    "definition": "下車、從…下來(片)",
+    "example": "\"get off\" is a common expression."
+  },
+  {
+    "id": 520,
+    "word": "get on",
+    "definition": "上車(片)",
+    "example": "Do you know how to use \"get on\"?"
+  },
+  {
+    "id": 521,
+    "word": "ghost",
+    "definition": "鬼(n)",
+    "example": "I saw a ghost on the way home."
+  },
+  {
+    "id": 522,
+    "word": "girlfriend",
+    "definition": "女朋友(n)",
+    "example": "She bought a girlfriend at the store."
+  },
+  {
+    "id": 523,
+    "word": "given name",
+    "definition": "名字、教名(n)",
+    "example": "The given name was on the table."
+  },
+  {
+    "id": 524,
+    "word": "glasses",
+    "definition": "眼鏡(n)",
+    "example": "He found a glasses in the garden."
+  },
+  {
+    "id": 525,
+    "word": "gloves",
+    "definition": "手套(n)",
+    "example": "A gloves is very important to us."
+  },
+  {
+    "id": 526,
+    "word": "glue",
+    "definition": "膠水(n)",
+    "example": "I saw a glue on the way home."
+  },
+  {
+    "id": 527,
+    "word": "goal",
+    "definition": "球門、進球、得分、目標、目的(n)",
+    "example": "His goal is to become a doctor."
+  },
+  {
+    "id": 528,
+    "word": "god",
+    "definition": "神(God)上帝(n)",
+    "example": "The god was on the table."
+  },
+  {
+    "id": 529,
+    "word": "gold",
+    "definition": "金、黃金(n)",
+    "example": "He found a gold in the garden."
+  },
+  {
+    "id": 530,
+    "word": "golden",
+    "definition": "金(黃)色的、金(製)的、極好的(adj)",
+    "example": "This is a golden idea."
+  },
+  {
+    "id": 531,
+    "word": "golf",
+    "definition": "高爾夫(n)",
+    "example": "I saw a golf on the way home."
+  },
+  {
+    "id": 532,
+    "word": "good looking",
+    "definition": "美貌的、漂亮的、英俊的(adj)",
+    "example": "She is a good looking person."
+  },
+  {
+    "id": 533,
+    "word": "goodness",
+    "definition": "善良、仁慈、親切(n)",
+    "example": "The goodness was on the table."
+  },
+  {
+    "id": 534,
+    "word": "goose",
+    "definition": "鵝(n)",
+    "example": "He found a goose in the garden."
+  },
+  {
+    "id": 535,
+    "word": "government",
+    "definition": "政府、治理、管理(n)",
+    "example": "A government is very important to us."
+  },
+  {
+    "id": 536,
+    "word": "grand",
+    "definition": "盛大的、豪華的、重大的、主要的、極重要的(adj)",
+    "example": "That was a very grand experience."
+  },
+  {
+    "id": 537,
+    "word": "granddaughter",
+    "definition": "孫女、外孫女(n)",
+    "example": "She bought a granddaughter at the store."
+  },
+  {
+    "id": 538,
+    "word": "grandson",
+    "definition": "孫子、外孫(n)",
+    "example": "The grandson was on the table."
+  },
+  {
+    "id": 539,
+    "word": "grape",
+    "definition": "葡萄(n)",
+    "example": "He found a grape in the garden."
+  },
+  {
+    "id": 540,
+    "word": "grapefruit",
+    "definition": "葡萄柚(樹)(n)",
+    "example": "A grapefruit is very important to us."
+  },
+  {
+    "id": 541,
+    "word": "greedy",
+    "definition": "貪食的、貪婪的、貪心的(adj)",
+    "example": "That was a very greedy experience."
+  },
+  {
+    "id": 542,
+    "word": "greet",
+    "definition": "問候、招呼、迎接、對…報(以)(vt)",
+    "example": "He decided to greet the problem."
+  },
+  {
+    "id": 543,
+    "word": "grow up",
+    "definition": "長大(片)",
+    "example": "He explained the phrase \"grow up\"."
+  },
+  {
+    "id": 544,
+    "word": "guard",
+    "definition": "看守、保衛人員、衛兵(n) 防止、防範(against)(vi)",
+    "example": "Children guard in the park."
+  },
+  {
+    "id": 545,
+    "word": "guava",
+    "definition": "蕃石榴(n)",
+    "example": "A guava is very important to us."
+  },
+  {
+    "id": 546,
+    "word": "guest",
+    "definition": "客人、旅客(n)",
+    "example": "I saw a guest on the way home."
+  },
+  {
+    "id": 547,
+    "word": "guide",
+    "definition": "嚮導、導遊、指南(n) 給…領路、指導(vt)",
+    "example": "The guide showed us around the city."
+  },
+  {
+    "id": 548,
+    "word": "guitar",
+    "definition": "吉他(n)",
+    "example": "The guitar was on the table."
+  },
+  {
+    "id": 549,
+    "word": "gun",
+    "definition": "槍、手槍(n)",
+    "example": "He found a gun in the garden."
+  },
+  {
+    "id": 550,
+    "word": "guy",
+    "definition": "男人、傢伙、人(n)",
+    "example": "A guy is very important to us."
+  },
+  {
+    "id": 551,
+    "word": "gym",
+    "definition": "體操房(n)",
+    "example": "I saw a gym on the way home."
+  },
+  {
+    "id": 552,
+    "word": "haircut",
+    "definition": "理髮、剪髮的方式(n)",
+    "example": "She bought a haircut at the store."
+  },
+  {
+    "id": 553,
+    "word": "hairdresser",
+    "definition": "美髮師(n)",
+    "example": "The hairdresser was on the table."
+  },
+  {
+    "id": 554,
+    "word": "hall",
+    "definition": "大廳、禮堂、會堂(n)",
+    "example": "He found a hall in the garden."
+  },
+  {
+    "id": 555,
+    "word": "Halloween",
+    "definition": "萬聖節前夕(月日)(n)",
+    "example": "A Halloween is very important to us."
+  },
+  {
+    "id": 556,
+    "word": "hammer",
+    "definition": "槌、榔頭、槌狀物(n)",
+    "example": "I saw a hammer on the way home."
+  },
+  {
+    "id": 557,
+    "word": "handkerchief",
+    "definition": "手帕(n)",
+    "example": "She bought a handkerchief at the store."
+  },
+  {
+    "id": 558,
+    "word": "handle",
+    "definition": "柄、把手(n) 拿、操作、處理(vt)",
+    "example": "I need to handle this carefully."
+  },
+  {
+    "id": 559,
+    "word": "hang",
+    "definition": "懸掛、吊(v)(pt&pp:hung) 吊死、絞死(v)(pt&pp: hanged)",
+    "example": "I like to hang on weekends."
+  },
+  {
+    "id": 560,
+    "word": "hanger",
+    "definition": "掛衣架(n)",
+    "example": "A hanger is very important to us."
+  },
+  {
+    "id": 561,
+    "word": "hardly",
+    "definition": "簡直不、幾乎不(adv)",
+    "example": "She speaks hardly."
+  },
+  {
+    "id": 562,
+    "word": "heater",
+    "definition": "加熱器、暖爐(n)",
+    "example": "She bought a heater at the store."
+  },
+  {
+    "id": 563,
+    "word": "height",
+    "definition": "高、高度、身高、頂點(複)高處、高地(n)",
+    "example": "The height was on the table."
+  },
+  {
+    "id": 564,
+    "word": "helicopter",
+    "definition": "直升飛機(n)",
+    "example": "He found a helicopter in the garden."
+  },
+  {
+    "id": 565,
+    "word": "hen",
+    "definition": "母雞(n)",
+    "example": "A hen is very important to us."
+  },
+  {
+    "id": 566,
+    "word": "hero",
+    "definition": "英雄、男主角、男主人(n)",
+    "example": "I saw a hero on the way home."
+  },
+  {
+    "id": 567,
+    "word": "hey",
+    "definition": "嘿、喂(interj)",
+    "example": "hey! I can't believe it!"
+  },
+  {
+    "id": 568,
+    "word": "highway",
+    "definition": "公路(n)",
+    "example": "The highway was on the table."
+  },
+  {
+    "id": 569,
+    "word": "hike",
+    "definition": "遠足、飛起、步行(v) 遠足、增加(n)",
+    "example": "I like to hike on weekends."
+  },
+  {
+    "id": 570,
+    "word": "hiking",
+    "definition": "步行、遠足、徒步旅行(n)",
+    "example": "A hiking is very important to us."
+  },
+  {
+    "id": 571,
+    "word": "hip",
+    "definition": "臀部(n)",
+    "example": "I saw a hip on the way home."
+  },
+  {
+    "id": 572,
+    "word": "hippo",
+    "definition": "河馬(n)",
+    "example": "She bought a hippo at the store."
+  },
+  {
+    "id": 573,
+    "word": "hippopotamus",
+    "definition": "河馬(n)",
+    "example": "The hippopotamus was on the table."
+  },
+  {
+    "id": 574,
+    "word": "hire",
+    "definition": "雇傭、租用(vt)",
+    "example": "They will hire it tomorrow."
+  },
+  {
+    "id": 575,
+    "word": "hole",
+    "definition": "洞、孔、眼(n)",
+    "example": "A hole is very important to us."
+  },
+  {
+    "id": 576,
+    "word": "homesick",
+    "definition": "想家的、害思鄉病的(adj)",
+    "example": "That was a very homesick experience."
+  },
+  {
+    "id": 577,
+    "word": "honesty",
+    "definition": "正直、誠實、老實(n)",
+    "example": "She bought a honesty at the store."
+  },
+  {
+    "id": 578,
+    "word": "honey",
+    "definition": "蜂蜜、花蜜、親愛的(n)",
+    "example": "The honey was on the table."
+  },
+  {
+    "id": 579,
+    "word": "Hong Kong",
+    "definition": "香港(n)",
+    "example": "He found a Hong Kong in the garden."
+  },
+  {
+    "id": 580,
+    "word": "hop",
+    "definition": "單腳跳、雙腳跳躍(v)",
+    "example": "We hop as a team."
+  },
+  {
+    "id": 581,
+    "word": "horrible",
+    "definition": "恐怖的(adj)",
+    "example": "That was a very horrible experience."
+  },
+  {
+    "id": 582,
+    "word": "host",
+    "definition": "(款待客人的)主人、東道主(n)",
+    "example": "She bought a host at the store."
+  },
+  {
+    "id": 583,
+    "word": "housewife",
+    "definition": "家庭婦女(n)",
+    "example": "The housewife was on the table."
+  },
+  {
+    "id": 584,
+    "word": "housework",
+    "definition": "家務勞動(n)",
+    "example": "He found a housework in the garden."
+  },
+  {
+    "id": 585,
+    "word": "huge",
+    "definition": "巨大的、龐大的(adj)",
+    "example": "This is a huge idea."
+  },
+  {
+    "id": 586,
+    "word": "human",
+    "definition": "人的、人類的(adj) 人(n)",
+    "example": "I saw a human on the way home."
+  },
+  {
+    "id": 587,
+    "word": "humble",
+    "definition": "謙遜的、謙恭的、地位低下的、卑賤的(adj)",
+    "example": "She is a humble person."
+  },
+  {
+    "id": 588,
+    "word": "humid",
+    "definition": "有濕氣的(adj)",
+    "example": "The weather is humid today."
+  },
+  {
+    "id": 589,
+    "word": "humor",
+    "definition": "幽默、詼諧(n)",
+    "example": "He found a humor in the garden."
+  },
+  {
+    "id": 590,
+    "word": "humorous",
+    "definition": "幽默的、詼諧的(adj)",
+    "example": "This is a humorous idea."
+  },
+  {
+    "id": 591,
+    "word": "hunger",
+    "definition": "饑餓、渴望(for)(n)",
+    "example": "I saw a hunger on the way home."
+  },
+  {
+    "id": 592,
+    "word": "hunt",
+    "definition": "狩獵、獵取、追獵(v)",
+    "example": "They hunt together."
+  },
+  {
+    "id": 593,
+    "word": "hunter",
+    "definition": "獵人、打獵者(n)",
+    "example": "The hunter was on the table."
+  },
+  {
+    "id": 594,
+    "word": "ill",
+    "definition": "有病的、壞的(adj) 壞、不利地(adv)",
+    "example": "He gave a ill answer."
+  },
+  {
+    "id": 595,
+    "word": "imagine",
+    "definition": "料想、設想、想像(vt)",
+    "example": "Imagine you can fly anywhere."
+  },
+  {
+    "id": 596,
+    "word": "impolite",
+    "definition": "無禮的、沒規矩的(adj)",
+    "example": "That was a very impolite experience."
+  },
+  {
+    "id": 597,
+    "word": "importance",
+    "definition": "重要、重要性(n)",
+    "example": "She bought a importance at the store."
+  },
+  {
+    "id": 598,
+    "word": "impossible",
+    "definition": "不可能的、辦不到的(adj)",
+    "example": "The weather is impossible today."
+  },
+  {
+    "id": 599,
+    "word": "improve",
+    "definition": "改善、改進(vt) 改善、好轉(vi)",
+    "example": "She improved her English a lot."
+  },
+  {
+    "id": 600,
+    "word": "in back of",
+    "definition": "在(某人)之後、背地裡、暗中(片)",
+    "example": "Do you know how to use \"in back of\"?"
+  },
+  {
+    "id": 601,
+    "word": "in front of",
+    "definition": "在…的前面(片)",
+    "example": "We use \"in front of\" in daily conversation."
+  },
+  {
+    "id": 602,
+    "word": "inch",
+    "definition": "英寸(n)",
+    "example": "She bought a inch at the store."
+  },
+  {
+    "id": 603,
+    "word": "include",
+    "definition": "包括、包含(vt)",
+    "example": "The price includes breakfast."
+  },
+  {
+    "id": 604,
+    "word": "income",
+    "definition": "收入、收益、所得(n)",
+    "example": "He found a income in the garden."
+  },
+  {
+    "id": 605,
+    "word": "increase",
+    "definition": "(使…)增加、增長(v) 增加、增長(n)",
+    "example": "We increase as a team."
+  },
+  {
+    "id": 606,
+    "word": "indefinite",
+    "definition": "不確定的、不明確、無限期的(adj)",
+    "example": "That was a very indefinite experience."
+  },
+  {
+    "id": 607,
+    "word": "independent",
+    "definition": "獨立的、自主的、自食其力的(adj)",
+    "example": "She is a independent person."
+  },
+  {
+    "id": 608,
+    "word": "industry",
+    "definition": "工業、產業、行業、勤奮(n)",
+    "example": "The industry was on the table."
+  },
+  {
+    "id": 609,
+    "word": "influence",
+    "definition": "影響、感化力(adj) 影響(vt)",
+    "example": "They will influence it tomorrow."
+  },
+  {
+    "id": 610,
+    "word": "information",
+    "definition": "消息、情報、資訊(n)",
+    "example": "Please provide your contact information."
+  },
+  {
+    "id": 611,
+    "word": "ink",
+    "definition": "墨水、油墨(n)",
+    "example": "I saw a ink on the way home."
+  },
+  {
+    "id": 612,
+    "word": "insect",
+    "definition": "昆蟲(n) (on、 upon)堅持、堅決主張、堅決要求(vi) 堅持、堅決主張、堅決認",
+    "example": "He insects when he is happy."
+  },
+  {
+    "id": 613,
+    "word": "insist",
+    "definition": "為(vt)",
+    "example": "I need to insist this carefully."
+  },
+  {
+    "id": 614,
+    "word": "inspire",
+    "definition": "鼓舞、激起、給…靈感(vt)",
+    "example": "They will inspire it tomorrow."
+  },
+  {
+    "id": 615,
+    "word": "instant",
+    "definition": "瞬間、時刻(n) 立即的、即刻的、緊急的(adj)",
+    "example": "A instant is very important to us."
+  },
+  {
+    "id": 616,
+    "word": "instant noodle",
+    "definition": "速食麵、泡麵、方便麵(n)",
+    "example": "I saw a instant noodle on the way home."
+  },
+  {
+    "id": 617,
+    "word": "instrument",
+    "definition": "器械、器具、儀器、樂器(n)",
+    "example": "She bought a instrument at the store."
+  },
+  {
+    "id": 618,
+    "word": "intelligent",
+    "definition": "有智力的、有理解力的(adj)",
+    "example": "The weather is intelligent today."
+  },
+  {
+    "id": 619,
+    "word": "international",
+    "definition": "國際的、世界(性)的(adj)",
+    "example": "He gave a international answer."
+  },
+  {
+    "id": 620,
+    "word": "interrupt",
+    "definition": "打斷、打擾、中止(vt)",
+    "example": "She always interrupts her work first."
+  },
+  {
+    "id": 621,
+    "word": "interview",
+    "definition": "接見、面試(n) 接見、會見(vt)",
+    "example": "She interviews it every day."
+  },
+  {
+    "id": 622,
+    "word": "introduce",
+    "definition": "介紹、引進、傳入(vt)",
+    "example": "Let me introduce my best friend."
+  },
+  {
+    "id": 623,
+    "word": "invent",
+    "definition": "發明、創造(v)",
+    "example": "He always invents when needed."
+  },
+  {
+    "id": 624,
+    "word": "invitation",
+    "definition": "邀請(n)",
+    "example": "He found a invitation in the garden."
+  },
+  {
+    "id": 625,
+    "word": "invite",
+    "definition": "邀請、聘請(vt)",
+    "example": "She invited me to her birthday party."
+  },
+  {
+    "id": 626,
+    "word": "iron",
+    "definition": "鐵、熨斗(n) 熨、燙(vt)",
+    "example": "She irons it every day."
+  },
+  {
+    "id": 627,
+    "word": "Italy",
+    "definition": "義大利(n)",
+    "example": "She bought a Italy at the store."
+  },
+  {
+    "id": 628,
+    "word": "jam",
+    "definition": "果醬、堵塞(n) 堵塞、卡住(v)",
+    "example": "He always jams when needed."
+  },
+  {
+    "id": 629,
+    "word": "Japan",
+    "definition": "日本(n)",
+    "example": "He found a Japan in the garden."
+  },
+  {
+    "id": 630,
+    "word": "Japanese",
+    "definition": "日本(人)的、日語的(adj) 日本人、日語(n)",
+    "example": "A Japanese is very important to us."
+  },
+  {
+    "id": 631,
+    "word": "jar",
+    "definition": "甕、瓶、罐(n)",
+    "example": "I saw a jar on the way home."
+  },
+  {
+    "id": 632,
+    "word": "jazz",
+    "definition": "爵士樂、爵士舞(n)",
+    "example": "She bought a jazz at the store."
+  },
+  {
+    "id": 633,
+    "word": "jealous",
+    "definition": "妒忌的、羡慕的、猜忌的(adj)",
+    "example": "She felt jealous of her sister."
+  },
+  {
+    "id": 634,
+    "word": "jeep",
+    "definition": "吉普車(n)",
+    "example": "He found a jeep in the garden."
+  },
+  {
+    "id": 635,
+    "word": "jogging",
+    "definition": "慢跑(n)",
+    "example": "A jogging is very important to us."
+  },
+  {
+    "id": 636,
+    "word": "joke",
+    "definition": "笑話、玩笑(n) 說笑話、開玩笑(vi)",
+    "example": "Birds joke in the morning."
+  },
+  {
+    "id": 637,
+    "word": "journalist",
+    "definition": "新聞工作者、記者(n)",
+    "example": "She bought a journalist at the store."
+  },
+  {
+    "id": 638,
+    "word": "judge",
+    "definition": "法官、審判者(n) 評定、斷定、判斷、審判(vt)",
+    "example": "I need to judge this carefully."
+  },
+  {
+    "id": 639,
+    "word": "kangaroo",
+    "definition": "袋鼠(n)",
+    "example": "He found a kangaroo in the garden."
+  },
+  {
+    "id": 640,
+    "word": "Kaohsiung",
+    "definition": "高雄(n)",
+    "example": "A Kaohsiung is very important to us."
+  },
+  {
+    "id": 641,
+    "word": "ketchup",
+    "definition": "蕃茄醬(n)",
+    "example": "I saw a ketchup on the way home."
+  },
+  {
+    "id": 642,
+    "word": "kilometer",
+    "definition": "公里、千米(n)",
+    "example": "She bought a kilometer at the store."
+  },
+  {
+    "id": 643,
+    "word": "kindergarten",
+    "definition": "幼稚園(n)",
+    "example": "The kindergarten was on the table."
+  },
+  {
+    "id": 644,
+    "word": "kingdom",
+    "definition": "王國(n)",
+    "example": "He found a kingdom in the garden."
+  },
+  {
+    "id": 645,
+    "word": "kitten",
+    "definition": "小貓、頑皮的女孩(n)",
+    "example": "A kitten is very important to us."
+  },
+  {
+    "id": 646,
+    "word": "kitty",
+    "definition": "(兒語)小貓(n)",
+    "example": "I saw a kitty on the way home."
+  },
+  {
+    "id": 647,
+    "word": "koala",
+    "definition": "無尾熊(n)",
+    "example": "She bought a koala at the store."
+  },
+  {
+    "id": 648,
+    "word": "Korea",
+    "definition": "韓國、朝鮮(n)",
+    "example": "The Korea was on the table."
+  },
+  {
+    "id": 649,
+    "word": "Korean",
+    "definition": "韓國(人、語)的、朝鮮(人、語)的(adj、 n)",
+    "example": "They learned the word \"Korean\"."
+  },
+  {
+    "id": 650,
+    "word": "KTV",
+    "definition": "卡拉OK電視節目(n)",
+    "example": "A KTV is very important to us."
+  },
+  {
+    "id": 651,
+    "word": "lack",
+    "definition": "缺乏、不足(n)",
+    "example": "I saw a lack on the way home."
+  },
+  {
+    "id": 652,
+    "word": "lady",
+    "definition": "淑女、貴婦、夫人、小姐(n)",
+    "example": "She bought a lady at the store."
+  },
+  {
+    "id": 653,
+    "word": "lamb",
+    "definition": "小羊(肉) 羔羊(肉)(n)",
+    "example": "The lamb was on the table."
+  },
+  {
+    "id": 654,
+    "word": "lane",
+    "definition": "小路、小徑(n)",
+    "example": "He found a lane in the garden."
+  },
+  {
+    "id": 655,
+    "word": "lantern",
+    "definition": "燈籠、提燈、幻燈、信號、天窗(n)",
+    "example": "A lantern is very important to us."
+  },
+  {
+    "id": 656,
+    "word": "Lantern Festival",
+    "definition": "元宵節(n)",
+    "example": "I saw a Lantern Festival on the way home."
+  },
+  {
+    "id": 657,
+    "word": "last name",
+    "definition": "姓(n)",
+    "example": "She bought a last name at the store."
+  },
+  {
+    "id": 658,
+    "word": "law",
+    "definition": "法律、法規、法則(n)",
+    "example": "The law was on the table."
+  },
+  {
+    "id": 659,
+    "word": "lawyer",
+    "definition": "律師(n)",
+    "example": "He found a lawyer in the garden."
+  },
+  {
+    "id": 660,
+    "word": "lay",
+    "definition": "放、置、產(卵) 打倒(v)",
+    "example": "We lay as a team."
+  },
+  {
+    "id": 661,
+    "word": "LD",
+    "definition": "雷射光碟(n)",
+    "example": "I saw a LD on the way home."
+  },
+  {
+    "id": 662,
+    "word": "leaf",
+    "definition": "葉子(書刊的)張、頁(n)(複:leaves)",
+    "example": "She bought a leaf at the store."
+  },
+  {
+    "id": 663,
+    "word": "length",
+    "definition": "長度、距離、一段、一節(n)",
+    "example": "The length was on the table."
+  },
+  {
+    "id": 664,
+    "word": "lettuce",
+    "definition": "萵苣(n)",
+    "example": "He found a lettuce in the garden."
+  },
+  {
+    "id": 665,
+    "word": "level",
+    "definition": "水平、等級、水平面(n)",
+    "example": "A level is very important to us."
+  },
+  {
+    "id": 666,
+    "word": "lid",
+    "definition": "蓋子、眼臉(n)",
+    "example": "I saw a lid on the way home."
+  },
+  {
+    "id": 667,
+    "word": "lift",
+    "definition": "提、帶(v) 電梯、上升(力) 免費搭車(n)",
+    "example": "They lift together."
+  },
+  {
+    "id": 668,
+    "word": "lightning",
+    "definition": "閃電(n)",
+    "example": "The lightning was on the table."
+  },
+  {
+    "id": 669,
+    "word": "limit",
+    "definition": "限度、限制(複)範圍(n) 限定、限制(vt)",
+    "example": "They will limit it tomorrow."
+  },
+  {
+    "id": 670,
+    "word": "link",
+    "definition": "(鏈)環、連結、連接(n) 連結、連接(v)",
+    "example": "We link as a team."
+  },
+  {
+    "id": 671,
+    "word": "liquid",
+    "definition": "液體的、流動性的(adj)",
+    "example": "That was a very liquid experience."
+  },
+  {
+    "id": 672,
+    "word": "loaf",
+    "definition": "一條(塊)麵包、麵包形食物(n)",
+    "example": "She bought a loaf at the store."
+  },
+  {
+    "id": 673,
+    "word": "local",
+    "definition": "本地的、局部的(adj)",
+    "example": "The weather is local today."
+  },
+  {
+    "id": 674,
+    "word": "location",
+    "definition": "場所、位置、地點(n)",
+    "example": "He found a location in the garden."
+  },
+  {
+    "id": 675,
+    "word": "lock",
+    "definition": "鎖(n) 鎖(被)鎖上(v)",
+    "example": "We lock as a team."
+  },
+  {
+    "id": 676,
+    "word": "locker",
+    "definition": "(有鎖的)小櫥櫃(n)",
+    "example": "I saw a locker on the way home."
+  },
+  {
+    "id": 677,
+    "word": "London",
+    "definition": "倫敦(n)",
+    "example": "She bought a London at the store."
+  },
+  {
+    "id": 678,
+    "word": "Los Angeles",
+    "definition": "洛杉磯(n)",
+    "example": "The Los Angeles was on the table."
+  },
+  {
+    "id": 679,
+    "word": "loser",
+    "definition": "損失者、失敗者、前科犯(n)",
+    "example": "He found a loser in the garden."
+  },
+  {
+    "id": 680,
+    "word": "loss",
+    "definition": "遺失、喪失、損失、虧損(n)",
+    "example": "A loss is very important to us."
+  },
+  {
+    "id": 681,
+    "word": "lot",
+    "definition": "許多、大量、命運(n)",
+    "example": "I saw a lot on the way home."
+  },
+  {
+    "id": 682,
+    "word": "lovely",
+    "definition": "可愛的、秀美的(adj)",
+    "example": "She is a lovely person."
+  },
+  {
+    "id": 683,
+    "word": "lunch box",
+    "definition": "午餐盒、飯盒(n)",
+    "example": "The lunch box was on the table."
+  },
+  {
+    "id": 684,
+    "word": "lychee",
+    "definition": "荔枝(n)",
+    "example": "He found a lychee in the garden."
+  },
+  {
+    "id": 685,
+    "word": "ma'am",
+    "definition": "(對女主人、女教師等的稱呼)太太、小姐(n)",
+    "example": "A ma'am is very important to us."
+  },
+  {
+    "id": 686,
+    "word": "mad",
+    "definition": "發病的、瘋狂的、惱火的、狂怒的(adj)",
+    "example": "That was a very mad experience."
+  },
+  {
+    "id": 687,
+    "word": "magazine",
+    "definition": "雜誌、期刊(n)",
+    "example": "She bought a magazine at the store."
+  },
+  {
+    "id": 688,
+    "word": "magician",
+    "definition": "魔法師、術士、魔術師(n)",
+    "example": "The magician was on the table."
+  },
+  {
+    "id": 689,
+    "word": "main",
+    "definition": "主要的、最重要的(adj)",
+    "example": "He gave a main answer."
+  },
+  {
+    "id": 690,
+    "word": "major",
+    "definition": "較大的、主要的(adj) 專業(n)",
+    "example": "A major is very important to us."
+  },
+  {
+    "id": 691,
+    "word": "male",
+    "definition": "雄的(n)",
+    "example": "I saw a male on the way home."
+  },
+  {
+    "id": 692,
+    "word": "mall",
+    "definition": "散步式商店街、林蔭路、步行街道(n)",
+    "example": "She bought a mall at the store."
+  },
+  {
+    "id": 693,
+    "word": "manager",
+    "definition": "管理者、經營者、處理者(vt)",
+    "example": "I need to manager this carefully."
+  },
+  {
+    "id": 694,
+    "word": "Mandarin",
+    "definition": "標準中國話(n)",
+    "example": "He found a Mandarin in the garden."
+  },
+  {
+    "id": 695,
+    "word": "mango",
+    "definition": "芒果(n)",
+    "example": "A mango is very important to us."
+  },
+  {
+    "id": 696,
+    "word": "manner",
+    "definition": "禮貌(n)",
+    "example": "I saw a manner on the way home."
+  },
+  {
+    "id": 697,
+    "word": "marker",
+    "definition": "作記號的人、打分數的人(n)",
+    "example": "She bought a marker at the store."
+  },
+  {
+    "id": 698,
+    "word": "marriage",
+    "definition": "結婚、婚姻(n)",
+    "example": "The marriage was on the table."
+  },
+  {
+    "id": 699,
+    "word": "marry",
+    "definition": "結婚(vi) 娶、嫁、和…結婚(vt)",
+    "example": "I like to marry on weekends."
+  },
+  {
+    "id": 700,
+    "word": "mask",
+    "definition": "面具、面罩、口罩(n) 面具遮住、遮蓋(vt)",
+    "example": "She always masks her work first."
+  },
+  {
+    "id": 701,
+    "word": "mass",
+    "definition": "眾多、大量、團、塊(n)",
+    "example": "I saw a mass on the way home."
+  },
+  {
+    "id": 702,
+    "word": "master",
+    "definition": "主人、雇主、大師、能手、[M-]碩士(n) 精通(vt)",
+    "example": "He decided to master the problem."
+  },
+  {
+    "id": 703,
+    "word": "mat",
+    "definition": "席子(n)",
+    "example": "The mat was on the table."
+  },
+  {
+    "id": 704,
+    "word": "match",
+    "definition": "火柴、比賽(n)",
+    "example": "He found a match in the garden."
+  },
+  {
+    "id": 705,
+    "word": "material",
+    "definition": "材料、原料(n) 物質的、實體的(adj)",
+    "example": "A material is very important to us."
+  },
+  {
+    "id": 706,
+    "word": "maximum",
+    "definition": "最大限度、最大量(n) 最高的、最大的(adj)",
+    "example": "I saw a maximum on the way home."
+  },
+  {
+    "id": 707,
+    "word": "meaning",
+    "definition": "意義、意思(n)",
+    "example": "What is the meaning of this word?"
+  },
+  {
+    "id": 708,
+    "word": "measure",
+    "definition": "量、測量(vt) 有…長(或寬、高等)(vi)",
+    "example": "He always measures when needed."
+  },
+  {
+    "id": 709,
+    "word": "measurement",
+    "definition": "測量(n)",
+    "example": "He found a measurement in the garden."
+  },
+  {
+    "id": 710,
+    "word": "mechanic",
+    "definition": "機械工、技工(n)",
+    "example": "A mechanic is very important to us."
+  },
+  {
+    "id": 711,
+    "word": "melon",
+    "definition": "(各種的)瓜(n)",
+    "example": "I saw a melon on the way home."
+  },
+  {
+    "id": 712,
+    "word": "member",
+    "definition": "成員、會員(n)",
+    "example": "She bought a member at the store."
+  },
+  {
+    "id": 713,
+    "word": "memory",
+    "definition": "記憶、記憶力、回憶、紀念(n)",
+    "example": "She has a very good memory."
+  },
+  {
+    "id": 714,
+    "word": "men's room",
+    "definition": "男廁(n)",
+    "example": "He found a men's room in the garden."
+  },
+  {
+    "id": 715,
+    "word": "message",
+    "definition": "訊息、文電、便條、口信(n)",
+    "example": "A message is very important to us."
+  },
+  {
+    "id": 716,
+    "word": "metal",
+    "definition": "金屬的(adj)",
+    "example": "That was a very metal experience."
+  },
+  {
+    "id": 717,
+    "word": "meter",
+    "definition": "米、公尺(n)",
+    "example": "She bought a meter at the store."
+  },
+  {
+    "id": 718,
+    "word": "method",
+    "definition": "方法、辦法(n)",
+    "example": "The method was on the table."
+  },
+  {
+    "id": 719,
+    "word": "Michael Jackson",
+    "definition": "麥可傑克森(人名)(n)",
+    "example": "He found a Michael Jackson in the garden."
+  },
+  {
+    "id": 720,
+    "word": "microwave",
+    "definition": "微波(n)",
+    "example": "A microwave is very important to us."
+  },
+  {
+    "id": 721,
+    "word": "microwave oven",
+    "definition": "微波爐(n)",
+    "example": "I saw a microwave oven on the way home."
+  },
+  {
+    "id": 722,
+    "word": "Mid-Autumn",
+    "definition": "中秋節(n)",
+    "example": "She bought a Mid-Autumn at the store."
+  },
+  {
+    "id": 723,
+    "word": "middle",
+    "definition": "中間、中部(n) 中間的、中央的(adj)",
+    "example": "The middle was on the table."
+  },
+  {
+    "id": 724,
+    "word": "midnight",
+    "definition": "午夜(n)",
+    "example": "He found a midnight in the garden."
+  },
+  {
+    "id": 725,
+    "word": "milk shake",
+    "definition": "奶昔(n)",
+    "example": "A milk shake is very important to us."
+  },
+  {
+    "id": 726,
+    "word": "minor",
+    "definition": "較小的、較少的、較次要的(adj)",
+    "example": "That was a very minor experience."
+  },
+  {
+    "id": 727,
+    "word": "minus",
+    "definition": "減(prep)",
+    "example": "She walked minus the park."
+  },
+  {
+    "id": 728,
+    "word": "mirror",
+    "definition": "鏡子(n)",
+    "example": "The mirror was on the table."
+  },
+  {
+    "id": 729,
+    "word": "missing",
+    "definition": "失去的、不見了的(adj)",
+    "example": "He gave a missing answer."
+  },
+  {
+    "id": 730,
+    "word": "mix",
+    "definition": "(使…)混合、混淆(vt) 相混合(vi)",
+    "example": "We mix as a team."
+  },
+  {
+    "id": 731,
+    "word": "model",
+    "definition": "模型、模範、模特兒(汽車、機器)型號(n)",
+    "example": "I saw a model on the way home."
+  },
+  {
+    "id": 732,
+    "word": "monster",
+    "definition": "怪物、妖怪(n)",
+    "example": "She bought a monster at the store."
+  },
+  {
+    "id": 733,
+    "word": "moon cake",
+    "definition": "月餅(n)",
+    "example": "The moon cake was on the table."
+  },
+  {
+    "id": 734,
+    "word": "mop",
+    "definition": "拖把(俗稱地拖) 洗碗(n) 用拖把拖洗、擦、抹、掃蕩(v)",
+    "example": "I like to mop on weekends."
+  },
+  {
+    "id": 735,
+    "word": "mosquito",
+    "definition": "蚊子(n)",
+    "example": "A mosquito is very important to us."
+  },
+  {
+    "id": 736,
+    "word": "Mother's Day",
+    "definition": "母親節(n)",
+    "example": "I saw a Mother's Day on the way home."
+  },
+  {
+    "id": 737,
+    "word": "motion",
+    "definition": "運動、活動、轉動(n)",
+    "example": "She bought a motion at the store."
+  },
+  {
+    "id": 738,
+    "word": "mountain-climbing",
+    "definition": "登山、爬山(n)",
+    "example": "The mountain-climbing was on the table."
+  },
+  {
+    "id": 739,
+    "word": "movement",
+    "definition": "運動、活動、移動(n)",
+    "example": "He found a movement in the garden."
+  },
+  {
+    "id": 740,
+    "word": "movie star",
+    "definition": "電影明星(n)",
+    "example": "A movie star is very important to us."
+  },
+  {
+    "id": 741,
+    "word": "movie theater",
+    "definition": "電影院(n)",
+    "example": "I saw a movie theater on the way home."
+  },
+  {
+    "id": 742,
+    "word": "MRT",
+    "definition": "大眾捷運系統 Mass Rapid Transit(n)",
+    "example": "She bought a MRT at the store."
+  },
+  {
+    "id": 743,
+    "word": "MTV",
+    "definition": "音樂電視 Music TV(n)",
+    "example": "The MTV was on the table."
+  },
+  {
+    "id": 744,
+    "word": "mud",
+    "definition": "泥(n)",
+    "example": "He found a mud in the garden."
+  },
+  {
+    "id": 745,
+    "word": "musician",
+    "definition": "音樂家(n)",
+    "example": "A musician is very important to us."
+  },
+  {
+    "id": 746,
+    "word": "nail",
+    "definition": "釘子、指甲(n) 釘、釘牢(vt)",
+    "example": "She nails it every day."
+  },
+  {
+    "id": 747,
+    "word": "napkin",
+    "definition": "餐巾、尿布、衛生棉(n)",
+    "example": "She bought a napkin at the store."
+  },
+  {
+    "id": 748,
+    "word": "narrow",
+    "definition": "狹窄的(adj)",
+    "example": "The weather is narrow today."
+  },
+  {
+    "id": 749,
+    "word": "nation",
+    "definition": "國家、民族(n)",
+    "example": "Every nation has its own culture."
+  },
+  {
+    "id": 750,
+    "word": "nationality",
+    "definition": "國民性、國籍、國民(n)",
+    "example": "A nationality is very important to us."
+  },
+  {
+    "id": 751,
+    "word": "natural",
+    "definition": "自然的、天然的(adj)",
+    "example": "That was a very natural experience."
+  },
+  {
+    "id": 752,
+    "word": "nature",
+    "definition": "大自然、性質(n)",
+    "example": "She loves spending time in nature."
+  },
+  {
+    "id": 753,
+    "word": "naughty",
+    "definition": "調皮的(adj)",
+    "example": "The weather is naughty today."
+  },
+  {
+    "id": 754,
+    "word": "nearly",
+    "definition": "幾乎、差不多(ad)",
+    "example": "They learned the word \"nearly\"."
+  },
+  {
+    "id": 755,
+    "word": "necessary",
+    "definition": "必要的、必然的(adj)",
+    "example": "This is a necessary idea."
+  },
+  {
+    "id": 756,
+    "word": "necklace",
+    "definition": "項圈、項鍊(n)",
+    "example": "I saw a necklace on the way home."
+  },
+  {
+    "id": 757,
+    "word": "necktie",
+    "definition": "領帶(n)",
+    "example": "She bought a necktie at the store."
+  },
+  {
+    "id": 758,
+    "word": "needle",
+    "definition": "針(n)",
+    "example": "The needle was on the table."
+  },
+  {
+    "id": 759,
+    "word": "negative",
+    "definition": "負的、負面的(adj) 底片(n)",
+    "example": "He found a negative in the garden."
+  },
+  {
+    "id": 760,
+    "word": "neighbor",
+    "definition": "鄰居(n)",
+    "example": "Our neighbor is very friendly."
+  },
+  {
+    "id": 761,
+    "word": "neither",
+    "definition": "也不(conj、 adv) 兩者皆不的(adj)",
+    "example": "That was a very neither experience."
+  },
+  {
+    "id": 762,
+    "word": "neither xxx nor",
+    "definition": "既不…也不…(片)",
+    "example": "She said \"neither xxx nor\" to her friend."
+  },
+  {
+    "id": 763,
+    "word": "nephew",
+    "definition": "侄子、外甥(n)",
+    "example": "The nephew was on the table."
+  },
+  {
+    "id": 764,
+    "word": "nervous",
+    "definition": "神經緊張的、情緒不安的(adj)",
+    "example": "She felt nervous before the test."
+  },
+  {
+    "id": 765,
+    "word": "nest",
+    "definition": "巢、窩、穴、窟(n)",
+    "example": "A nest is very important to us."
+  },
+  {
+    "id": 766,
+    "word": "New Year's Day",
+    "definition": "新年元旦(n)",
+    "example": "I saw a New Year's Day on the way home."
+  },
+  {
+    "id": 767,
+    "word": "New York",
+    "definition": "紐約(n)",
+    "example": "She bought a New York at the store."
+  },
+  {
+    "id": 768,
+    "word": "newspaper",
+    "definition": "報紙(n)",
+    "example": "The newspaper was on the table."
+  },
+  {
+    "id": 769,
+    "word": "next to",
+    "definition": "緊挨著(片)",
+    "example": "\"next to\" is a common expression."
+  },
+  {
+    "id": 770,
+    "word": "nice looking",
+    "definition": "美貌的、漂亮的、英俊的(adj)",
+    "example": "This is a nice looking idea."
+  },
+  {
+    "id": 771,
+    "word": "niece",
+    "definition": "侄女、外甥女(n)",
+    "example": "I saw a niece on the way home."
+  },
+  {
+    "id": 772,
+    "word": "nineteenth",
+    "definition": "第十九、十九分之一(n)",
+    "example": "She bought a nineteenth at the store."
+  },
+  {
+    "id": 773,
+    "word": "ninetieth",
+    "definition": "第九十、九十分之一(n)",
+    "example": "The ninetieth was on the table."
+  },
+  {
+    "id": 774,
+    "word": "noisy",
+    "definition": "喧鬧的(adj)",
+    "example": "He gave a noisy answer."
+  },
+  {
+    "id": 775,
+    "word": "none",
+    "definition": "沒有一人(或物) 沒有一點兒(pron) 毫不、毫無(adv)",
+    "example": "He ran none to school."
+  },
+  {
+    "id": 776,
+    "word": "noodles",
+    "definition": "麵條(n)",
+    "example": "I saw a noodles on the way home."
+  },
+  {
+    "id": 777,
+    "word": "nor",
+    "definition": "也不、也沒有(conj)",
+    "example": "He was tired, nor he kept going."
+  },
+  {
+    "id": 778,
+    "word": "northern",
+    "definition": "北方的、北部的(adj)",
+    "example": "The weather is northern today."
+  },
+  {
+    "id": 779,
+    "word": "note",
+    "definition": "便條、筆記、註解、票據(n) 記錄、留意(vt)",
+    "example": "They will note it tomorrow."
+  },
+  {
+    "id": 780,
+    "word": "nut",
+    "definition": "堅果(如核桃、栗子等)(n)",
+    "example": "A nut is very important to us."
+  },
+  {
+    "id": 781,
+    "word": "obey",
+    "definition": "順從、聽從(vt)",
+    "example": "She obeys it every day."
+  },
+  {
+    "id": 782,
+    "word": "object",
+    "definition": "物體、實物、目的、目標、物件(n) 反對、不贊成(vi)",
+    "example": "He objects when he is happy."
+  },
+  {
+    "id": 783,
+    "word": "occupation",
+    "definition": "職業、佔有、居住、佔領(n)",
+    "example": "The occupation was on the table."
+  },
+  {
+    "id": 784,
+    "word": "occur",
+    "definition": "發生、出現、浮現(vi)",
+    "example": "Children occur in the park."
+  },
+  {
+    "id": 785,
+    "word": "ocean",
+    "definition": "洋、海洋(n)",
+    "example": "The ocean is home to many creatures."
+  },
+  {
+    "id": 786,
+    "word": "offer",
+    "definition": "給予、提供、提出(vt) 提供物、提議(n)",
+    "example": "She offers it every day."
+  },
+  {
+    "id": 787,
+    "word": "official",
+    "definition": "官方的、正式的(adj) 官員、行政人員(n)",
+    "example": "She bought a official at the store."
+  },
+  {
+    "id": 788,
+    "word": "oh",
+    "definition": "噢、啊、唉(int)",
+    "example": "He knows what \"oh\" means."
+  },
+  {
+    "id": 789,
+    "word": "oh-oh",
+    "definition": "哦哦(interj)",
+    "example": "\"oh-oh!\" she said excitedly."
+  },
+  {
+    "id": 790,
+    "word": "omit",
+    "definition": "省略、刪節、遺漏(vt)",
+    "example": "She always omits her work first."
+  },
+  {
+    "id": 791,
+    "word": "oneself",
+    "definition": "自己、自身、親自、本人(pron)",
+    "example": "oneself is on the table."
+  },
+  {
+    "id": 792,
+    "word": "onion",
+    "definition": "洋蔥(n)",
+    "example": "She bought a onion at the store."
+  },
+  {
+    "id": 793,
+    "word": "oops",
+    "definition": "噢！(等於whoops)(interj)",
+    "example": "He shouted \"oops!\" in surprise."
+  },
+  {
+    "id": 794,
+    "word": "operate",
+    "definition": "運行、運轉、手術(vi) 操作、操縱、進行(vt)",
+    "example": "I like to operate on weekends."
+  },
+  {
+    "id": 795,
+    "word": "operation",
+    "definition": "運轉、運行、動手術、經營、操作(n)",
+    "example": "A operation is very important to us."
+  },
+  {
+    "id": 796,
+    "word": "opinion",
+    "definition": "意見、看法(n)",
+    "example": "I saw a opinion on the way home."
+  },
+  {
+    "id": 797,
+    "word": "ordinary",
+    "definition": "一般的、普通的、平淡的(adj)",
+    "example": "She is a ordinary person."
+  },
+  {
+    "id": 798,
+    "word": "organize",
+    "definition": "組織、籌辦(vt)",
+    "example": "I need to organize this carefully."
+  },
+  {
+    "id": 799,
+    "word": "out of",
+    "definition": "出於…、向…外(片)",
+    "example": "\"out of\" is a common expression."
+  },
+  {
+    "id": 800,
+    "word": "outer space",
+    "definition": "外太空、星際空間(n)",
+    "example": "A outer space is very important to us."
+  },
+  {
+    "id": 801,
+    "word": "oven",
+    "definition": "烤爐、烤箱(n)",
+    "example": "I saw a oven on the way home."
+  },
+  {
+    "id": 802,
+    "word": "overpass",
+    "definition": "陸橋、高架道路、立體交叉道路(n) 超越、越過、漏看(v)",
+    "example": "They overpass together."
+  },
+  {
+    "id": 803,
+    "word": "overseas",
+    "definition": "(在)海外的;(在)國外的(adj) 在(或向)海外;在(或向)國外(adv)",
+    "example": "The weather is overseas today."
+  },
+  {
+    "id": 804,
+    "word": "over-weight",
+    "definition": "超重(n)",
+    "example": "He found a over-weight in the garden."
+  },
+  {
+    "id": 805,
+    "word": "owner",
+    "definition": "所有人、物主(n)",
+    "example": "A owner is very important to us."
+  },
+  {
+    "id": 806,
+    "word": "ox",
+    "definition": "公牛、牛(n)",
+    "example": "I saw a ox on the way home."
+  },
+  {
+    "id": 807,
+    "word": "pain",
+    "definition": "疼痛、痛苦、悲痛(複)辛苦(n)",
+    "example": "She bought a pain at the store."
+  },
+  {
+    "id": 808,
+    "word": "painful",
+    "definition": "疼痛的、辛苦的(adj)",
+    "example": "The weather is painful today."
+  },
+  {
+    "id": 809,
+    "word": "painter",
+    "definition": "畫家、油漆匠(n)",
+    "example": "He found a painter in the garden."
+  },
+  {
+    "id": 810,
+    "word": "pajamas",
+    "definition": "睡衣(n)",
+    "example": "A pajamas is very important to us."
+  },
+  {
+    "id": 811,
+    "word": "pale",
+    "definition": "蒼白的、灰白的、淡的(adj)",
+    "example": "That was a very pale experience."
+  },
+  {
+    "id": 812,
+    "word": "pan",
+    "definition": "平底鍋(n)",
+    "example": "She bought a pan at the store."
+  },
+  {
+    "id": 813,
+    "word": "panda",
+    "definition": "熊貓(n)",
+    "example": "The panda was on the table."
+  },
+  {
+    "id": 814,
+    "word": "papaya",
+    "definition": "木瓜樹、木瓜(n)",
+    "example": "He found a papaya in the garden."
+  },
+  {
+    "id": 815,
+    "word": "pardon",
+    "definition": "原諒、饒恕(vt) 原諒、對不起(n)",
+    "example": "She always pardons her work first."
+  },
+  {
+    "id": 816,
+    "word": "Paris",
+    "definition": "巴黎(n)",
+    "example": "I saw a Paris on the way home."
+  },
+  {
+    "id": 817,
+    "word": "parking lot",
+    "definition": "停車場(n)",
+    "example": "She bought a parking lot at the store."
+  },
+  {
+    "id": 818,
+    "word": "parrot",
+    "definition": "鸚鵡(n)",
+    "example": "The parrot was on the table."
+  },
+  {
+    "id": 819,
+    "word": "particular",
+    "definition": "特定的、某一的、挑剔的、特別的(adj)",
+    "example": "He gave a particular answer."
+  },
+  {
+    "id": 820,
+    "word": "partner",
+    "definition": "搭檔、夥伴(n)",
+    "example": "A partner is very important to us."
+  },
+  {
+    "id": 821,
+    "word": "passenger",
+    "definition": "乘客、旅客(n)",
+    "example": "I saw a passenger on the way home."
+  },
+  {
+    "id": 822,
+    "word": "paste",
+    "definition": "糊狀物、麵團(n)",
+    "example": "She bought a paste at the store."
+  },
+  {
+    "id": 823,
+    "word": "path",
+    "definition": "小路、小徑(n)",
+    "example": "The path was on the table."
+  },
+  {
+    "id": 824,
+    "word": "patient",
+    "definition": "忍耐的、有耐心的(adj) 病人(n)",
+    "example": "Please be patient and wait."
+  },
+  {
+    "id": 825,
+    "word": "pattern",
+    "definition": "型、模式、樣式、花樣、圖案(n)",
+    "example": "A pattern is very important to us."
+  },
+  {
+    "id": 826,
+    "word": "pause",
+    "definition": "暫停、中止(vi)",
+    "example": "Birds pause in the morning."
+  },
+  {
+    "id": 827,
+    "word": "peace",
+    "definition": "和平、和睦、平靜(n)",
+    "example": "We all wish for world peace."
+  },
+  {
+    "id": 828,
+    "word": "peaceful",
+    "definition": "和平的、平靜的、安寧的(adj)",
+    "example": "The weather is peaceful today."
+  },
+  {
+    "id": 829,
+    "word": "peach",
+    "definition": "桃子、桃色(n)",
+    "example": "He found a peach in the garden."
+  },
+  {
+    "id": 830,
+    "word": "pear",
+    "definition": "梨(n)",
+    "example": "A pear is very important to us."
+  },
+  {
+    "id": 831,
+    "word": "pencil box",
+    "definition": "鉛筆盒(n)",
+    "example": "I saw a pencil box on the way home."
+  },
+  {
+    "id": 832,
+    "word": "pencil case",
+    "definition": "鉛筆盒(n)",
+    "example": "She bought a pencil case at the store."
+  },
+  {
+    "id": 833,
+    "word": "pepper",
+    "definition": "胡椒粉(n)",
+    "example": "The pepper was on the table."
+  },
+  {
+    "id": 834,
+    "word": "perfect",
+    "definition": "完美的、完滿的(語法)完成的(adj) 使…完美(vt)",
+    "example": "They will perfect it tomorrow."
+  },
+  {
+    "id": 835,
+    "word": "period",
+    "definition": "(一段)時間、時期、句號、句點(n)",
+    "example": "A period is very important to us."
+  },
+  {
+    "id": 836,
+    "word": "personal",
+    "definition": "個人的、私人的、本人的、親自的(adj)",
+    "example": "That was a very personal experience."
+  },
+  {
+    "id": 837,
+    "word": "Philippines",
+    "definition": "菲律賓(n)",
+    "example": "She bought a Philippines at the store."
+  },
+  {
+    "id": 838,
+    "word": "photo",
+    "definition": "相片(n)",
+    "example": "The photo was on the table."
+  },
+  {
+    "id": 839,
+    "word": "photograph",
+    "definition": "照片(n)",
+    "example": "He found a photograph in the garden."
+  },
+  {
+    "id": 840,
+    "word": "photographer",
+    "definition": "攝影師、攝影者(n)",
+    "example": "A photographer is very important to us."
+  },
+  {
+    "id": 841,
+    "word": "pigeon",
+    "definition": "鴿子(n)",
+    "example": "I saw a pigeon on the way home."
+  },
+  {
+    "id": 842,
+    "word": "pile",
+    "definition": "一堆、一疊(n) 把…堆積(v)",
+    "example": "They pile together."
+  },
+  {
+    "id": 843,
+    "word": "pillow",
+    "definition": "枕頭(n)",
+    "example": "The pillow was on the table."
+  },
+  {
+    "id": 844,
+    "word": "pin",
+    "definition": "大頭針、別針(n) 別住、釘住(vt)",
+    "example": "They will pin it tomorrow."
+  },
+  {
+    "id": 845,
+    "word": "pineapple",
+    "definition": "鳳梨(n)",
+    "example": "A pineapple is very important to us."
+  },
+  {
+    "id": 846,
+    "word": "pingpong",
+    "definition": "乒乓球(n)",
+    "example": "I saw a pingpong on the way home."
+  },
+  {
+    "id": 847,
+    "word": "pipe",
+    "definition": "管子、管道、煙斗(n) 用管道輸送(vt)",
+    "example": "He decided to pipe the problem."
+  },
+  {
+    "id": 848,
+    "word": "plain",
+    "definition": "平原(n) 樸素的、簡單的、平常的(adj)",
+    "example": "The plain was on the table."
+  },
+  {
+    "id": 849,
+    "word": "plant",
+    "definition": "植物、工廠(n) 種植(vt)",
+    "example": "They will plant it tomorrow."
+  },
+  {
+    "id": 850,
+    "word": "plastic",
+    "definition": "塑膠的(adj)",
+    "example": "This is a plastic idea."
+  },
+  {
+    "id": 851,
+    "word": "plate",
+    "definition": "盤子、盆子、平板(n) 鍍上(vt)",
+    "example": "She plates it every day."
+  },
+  {
+    "id": 852,
+    "word": "platform",
+    "definition": "月臺(n)",
+    "example": "She bought a platform at the store."
+  },
+  {
+    "id": 853,
+    "word": "pleasant",
+    "definition": "令人愉快的、討人喜歡的(adj)",
+    "example": "The weather is pleasant today."
+  },
+  {
+    "id": 854,
+    "word": "pleased",
+    "definition": "滿意的(adj)",
+    "example": "He gave a pleased answer."
+  },
+  {
+    "id": 855,
+    "word": "pleasure",
+    "definition": "高興、樂趣、喜悅(n)",
+    "example": "A pleasure is very important to us."
+  },
+  {
+    "id": 856,
+    "word": "plus",
+    "definition": "加(prep)",
+    "example": "He stood plus the door."
+  },
+  {
+    "id": 857,
+    "word": "pocket",
+    "definition": "衣袋、小袋、口袋(n) 袖珍的、小型的(adj)",
+    "example": "She bought a pocket at the store."
+  },
+  {
+    "id": 858,
+    "word": "poem",
+    "definition": "詩(n)",
+    "example": "The poem was on the table."
+  },
+  {
+    "id": 859,
+    "word": "poison",
+    "definition": "毒(n)",
+    "example": "He found a poison in the garden."
+  },
+  {
+    "id": 860,
+    "word": "police officer",
+    "definition": "警官(n)",
+    "example": "A police officer is very important to us."
+  },
+  {
+    "id": 861,
+    "word": "police station",
+    "definition": "警察局(n)",
+    "example": "I saw a police station on the way home."
+  },
+  {
+    "id": 862,
+    "word": "policeman",
+    "definition": "警察(n)",
+    "example": "She bought a policeman at the store."
+  },
+  {
+    "id": 863,
+    "word": "pollute",
+    "definition": "弄髒、污染(v)",
+    "example": "He always pollutes when needed."
+  },
+  {
+    "id": 864,
+    "word": "pollution",
+    "definition": "污染(n)",
+    "example": "He found a pollution in the garden."
+  },
+  {
+    "id": 865,
+    "word": "pond",
+    "definition": "池塘(n)",
+    "example": "A pond is very important to us."
+  },
+  {
+    "id": 866,
+    "word": "pool",
+    "definition": "水池、共用物(n)",
+    "example": "I saw a pool on the way home."
+  },
+  {
+    "id": 867,
+    "word": "pop music",
+    "definition": "流行音樂(n)",
+    "example": "She bought a pop music at the store."
+  },
+  {
+    "id": 868,
+    "word": "population",
+    "definition": "人口(n)",
+    "example": "The population was on the table."
+  },
+  {
+    "id": 869,
+    "word": "port",
+    "definition": "港口(n)",
+    "example": "He found a port in the garden."
+  },
+  {
+    "id": 870,
+    "word": "position",
+    "definition": "位置、職位、姿勢、見解、立場(n)",
+    "example": "A position is very important to us."
+  },
+  {
+    "id": 871,
+    "word": "positive",
+    "definition": "確信的、正面的、積極的(adj)",
+    "example": "That was a very positive experience."
+  },
+  {
+    "id": 872,
+    "word": "possessive",
+    "definition": "擁有的(adj)",
+    "example": "She is a possessive person."
+  },
+  {
+    "id": 873,
+    "word": "post",
+    "definition": "張貼、公告(n) 支柱、標桿、職位(vt)",
+    "example": "I need to post this carefully."
+  },
+  {
+    "id": 874,
+    "word": "pot",
+    "definition": "罐、壺(n)",
+    "example": "He found a pot in the garden."
+  },
+  {
+    "id": 875,
+    "word": "potato",
+    "definition": "馬鈴薯(n)",
+    "example": "A potato is very important to us."
+  },
+  {
+    "id": 876,
+    "word": "power",
+    "definition": "權力、勢力、力(量) 功率、動力(n)",
+    "example": "I saw a power on the way home."
+  },
+  {
+    "id": 877,
+    "word": "praise",
+    "definition": "稱讚、表揚(n) 讚揚、表揚、吹捧(vt)",
+    "example": "He decided to praise the problem."
+  },
+  {
+    "id": 878,
+    "word": "pray",
+    "definition": "請求、懇求、祈求(v)",
+    "example": "He always prays when needed."
+  },
+  {
+    "id": 879,
+    "word": "precious",
+    "definition": "珍貴的、寶貴的(adj)",
+    "example": "He gave a precious answer."
+  },
+  {
+    "id": 880,
+    "word": "prefer",
+    "definition": "更喜歡、寧願(vt)",
+    "example": "She always prefers her work first."
+  },
+  {
+    "id": 881,
+    "word": "preposition",
+    "definition": "介系詞、前置詞(n)",
+    "example": "I saw a preposition on the way home."
+  },
+  {
+    "id": 882,
+    "word": "president",
+    "definition": "總統、校長、會長、總裁、主席(n)",
+    "example": "She bought a president at the store."
+  },
+  {
+    "id": 883,
+    "word": "press",
+    "definition": "壓、按、壓迫、壓榨、逼迫(vt) 壓、按、報刊、出版社、新聞界(n)",
+    "example": "I need to press this carefully."
+  },
+  {
+    "id": 884,
+    "word": "priest",
+    "definition": "僧侶、牧師、神職者(n)",
+    "example": "He found a priest in the garden."
+  },
+  {
+    "id": 885,
+    "word": "primary",
+    "definition": "第一的、主要的(adj)",
+    "example": "This is a primary idea."
+  },
+  {
+    "id": 886,
+    "word": "primary school",
+    "definition": "小學(n)",
+    "example": "I saw a primary school on the way home."
+  },
+  {
+    "id": 887,
+    "word": "prince",
+    "definition": "王子、皇太子、親王(n)",
+    "example": "She bought a prince at the store."
+  },
+  {
+    "id": 888,
+    "word": "princess",
+    "definition": "公主、王妃、親王夫人(n)",
+    "example": "The princess was on the table."
+  },
+  {
+    "id": 889,
+    "word": "principal",
+    "definition": "校長(n)",
+    "example": "He found a principal in the garden."
+  },
+  {
+    "id": 890,
+    "word": "print",
+    "definition": "印刷、出版(vt) 印刷、印刷品、字體(n)",
+    "example": "She always prints her work first."
+  },
+  {
+    "id": 891,
+    "word": "printer",
+    "definition": "印表機(n)",
+    "example": "I saw a printer on the way home."
+  },
+  {
+    "id": 892,
+    "word": "prison",
+    "definition": "監獄(n)",
+    "example": "She bought a prison at the store."
+  },
+  {
+    "id": 893,
+    "word": "prisoner",
+    "definition": "囚犯(n)",
+    "example": "The prisoner was on the table."
+  },
+  {
+    "id": 894,
+    "word": "private",
+    "definition": "私人的、個人的(adj)",
+    "example": "He gave a private answer."
+  },
+  {
+    "id": 895,
+    "word": "prize",
+    "definition": "獎(賞) 獎品、獎金(n) 珍視、珍惜(vt)",
+    "example": "She always prizes her work first."
+  },
+  {
+    "id": 896,
+    "word": "probably",
+    "definition": "大概、或許、很可能(adv)",
+    "example": "She speaks probably."
+  },
+  {
+    "id": 897,
+    "word": "produce",
+    "definition": "生產、製造、產生(vt) 農產品(n)",
+    "example": "He decided to produce the problem."
+  },
+  {
+    "id": 898,
+    "word": "product",
+    "definition": "產品(n)",
+    "example": "The product was on the table."
+  },
+  {
+    "id": 899,
+    "word": "production",
+    "definition": "生產、產量、產品(n)",
+    "example": "He found a production in the garden."
+  },
+  {
+    "id": 900,
+    "word": "professor",
+    "definition": "教授(n)",
+    "example": "A professor is very important to us."
+  },
+  {
+    "id": 901,
+    "word": "progress",
+    "definition": "前進、進步、進展(n) 前進、進步、進展(vi)",
+    "example": "Birds progress in the morning."
+  },
+  {
+    "id": 902,
+    "word": "project",
+    "definition": "專案、項目(n)",
+    "example": "She bought a project at the store."
+  },
+  {
+    "id": 903,
+    "word": "promise",
+    "definition": "允諾、答應(vt) 允諾、有指望(vi)",
+    "example": "He always promises when needed."
+  },
+  {
+    "id": 904,
+    "word": "pronoun",
+    "definition": "代名詞(n)",
+    "example": "He found a pronoun in the garden."
+  },
+  {
+    "id": 905,
+    "word": "pronounce",
+    "definition": "發音、宣佈(vt)",
+    "example": "She always pronounces her work first."
+  },
+  {
+    "id": 906,
+    "word": "protect",
+    "definition": "保護、保衛(v)",
+    "example": "We should protect wild animals."
+  },
+  {
+    "id": 907,
+    "word": "prove",
+    "definition": "證明、證實(vt) 結果是、果然是(vi)",
+    "example": "They prove together."
+  },
+  {
+    "id": 908,
+    "word": "provide",
+    "definition": "供給、提供(vt)",
+    "example": "The school provides free lunches."
+  },
+  {
+    "id": 909,
+    "word": "pump",
+    "definition": "抽水機、幫浦(n)",
+    "example": "He found a pump in the garden."
+  },
+  {
+    "id": 910,
+    "word": "pumpkin",
+    "definition": "南瓜(n)",
+    "example": "A pumpkin is very important to us."
+  },
+  {
+    "id": 911,
+    "word": "punish",
+    "definition": "懲罰、處罰(vt)",
+    "example": "She punishs it every day."
+  },
+  {
+    "id": 912,
+    "word": "puppy",
+    "definition": "小狗(n)",
+    "example": "She bought a puppy at the store."
+  },
+  {
+    "id": 913,
+    "word": "purpose",
+    "definition": "目的、意圖、用途(n)",
+    "example": "The purpose was on the table."
+  },
+  {
+    "id": 914,
+    "word": "purse",
+    "definition": "錢包(n)",
+    "example": "He found a purse in the garden."
+  },
+  {
+    "id": 915,
+    "word": "puzzle",
+    "definition": "(使)迷惑(使)為難(v) 智力問題、智力遊戲、難題、令人費解的事(n)",
+    "example": "We puzzle as a team."
+  },
+  {
+    "id": 916,
+    "word": "quality",
+    "definition": "品質、特徵(n)",
+    "example": "I saw a quality on the way home."
+  },
+  {
+    "id": 917,
+    "word": "quarter",
+    "definition": "四分之一、季度、一刻鐘(n)",
+    "example": "She bought a quarter at the store."
+  },
+  {
+    "id": 918,
+    "word": "quickly",
+    "definition": "快、迅速地(adv)",
+    "example": "They walked quickly home."
+  },
+  {
+    "id": 919,
+    "word": "quit",
+    "definition": "停止、放棄、辭(職)(v)",
+    "example": "I like to quit on weekends."
+  },
+  {
+    "id": 920,
+    "word": "quiz",
+    "definition": "測驗(n)",
+    "example": "A quiz is very important to us."
+  },
+  {
+    "id": 921,
+    "word": "race",
+    "definition": "比賽、種族(n) 全速前進、賽跑(v)",
+    "example": "She races every morning."
+  },
+  {
+    "id": 922,
+    "word": "railroad",
+    "definition": "鐵路(n)",
+    "example": "She bought a railroad at the store."
+  },
+  {
+    "id": 923,
+    "word": "raincoat",
+    "definition": "雨衣(n)",
+    "example": "The raincoat was on the table."
+  },
+  {
+    "id": 924,
+    "word": "raise",
+    "definition": "舉起、提高、提升、增加、籌集、引起、飼養、提出(vt)",
+    "example": "They will raise it tomorrow."
+  },
+  {
+    "id": 925,
+    "word": "rapid",
+    "definition": "快的、迅速的(adj)",
+    "example": "This is a rapid idea."
+  },
+  {
+    "id": 926,
+    "word": "rare",
+    "definition": "稀有的、三分熟的(adj)",
+    "example": "That was a very rare experience."
+  },
+  {
+    "id": 927,
+    "word": "rat",
+    "definition": "鼠、叛徒(n)",
+    "example": "She bought a rat at the store."
+  },
+  {
+    "id": 928,
+    "word": "rather",
+    "definition": "相當、有一點兒、寧願(adv)",
+    "example": "They walked rather home."
+  },
+  {
+    "id": 929,
+    "word": "reach",
+    "definition": "到達、伸出(vt) 達到、延伸、伸出手(vi)",
+    "example": "I like to reach on weekends."
+  },
+  {
+    "id": 930,
+    "word": "reading",
+    "definition": "閱讀、朗讀(n)",
+    "example": "A reading is very important to us."
+  },
+  {
+    "id": 931,
+    "word": "reading test",
+    "definition": "閱讀測驗(n)",
+    "example": "I saw a reading test on the way home."
+  },
+  {
+    "id": 932,
+    "word": "realize",
+    "definition": "實現、實行、認清、認識(v)",
+    "example": "They realize together."
+  },
+  {
+    "id": 933,
+    "word": "reason",
+    "definition": "理由、原因、理性(n) 推理(vt)",
+    "example": "What is the reason for being late?"
+  },
+  {
+    "id": 934,
+    "word": "receive",
+    "definition": "接見、接收(v)",
+    "example": "She received a gift on her birthday."
+  },
+  {
+    "id": 935,
+    "word": "recent",
+    "definition": "新近的、近來的(adj)",
+    "example": "This is a recent idea."
+  },
+  {
+    "id": 936,
+    "word": "record",
+    "definition": "記錄、記載、唱片(n) 記錄、記載、錄下(vt)",
+    "example": "He set a new school record."
+  },
+  {
+    "id": 937,
+    "word": "recover",
+    "definition": "重新獲得、恢復(v)",
+    "example": "They recover together."
+  },
+  {
+    "id": 938,
+    "word": "rectangle",
+    "definition": "長方形(n)",
+    "example": "The rectangle was on the table."
+  },
+  {
+    "id": 939,
+    "word": "recycle",
+    "definition": "使再迴圈、反復應用(v) 再迴圈、再生、重復利用(n)",
+    "example": "I like to recycle on weekends."
+  },
+  {
+    "id": 940,
+    "word": "reflexive",
+    "definition": "反身代名詞(n)",
+    "example": "A reflexive is very important to us."
+  },
+  {
+    "id": 941,
+    "word": "refuse",
+    "definition": "拒絕、謝絕(v)",
+    "example": "She refuses every morning."
+  },
+  {
+    "id": 942,
+    "word": "regard",
+    "definition": "看待、把…視為(vt) [複]敬意、問候(n)",
+    "example": "He decided to regard the problem."
+  },
+  {
+    "id": 943,
+    "word": "regret",
+    "definition": "遺憾、後悔(n) 遺憾、後悔(v)",
+    "example": "He always regrets when needed."
+  },
+  {
+    "id": 944,
+    "word": "regular",
+    "definition": "有規律的、有規則的、定期的(adj)",
+    "example": "He gave a regular answer."
+  },
+  {
+    "id": 945,
+    "word": "reject",
+    "definition": "拒絕、駁回、捨棄(vt)",
+    "example": "She always rejects her work first."
+  },
+  {
+    "id": 946,
+    "word": "relative",
+    "definition": "相對的(adj) 親戚(n)",
+    "example": "I saw a relative on the way home."
+  },
+  {
+    "id": 947,
+    "word": "remind",
+    "definition": "提醒、使…想起(vt)",
+    "example": "He decided to remind the problem."
+  },
+  {
+    "id": 948,
+    "word": "rent",
+    "definition": "租金(n) 租用(vt) 出租(vi)",
+    "example": "He always rents when needed."
+  },
+  {
+    "id": 949,
+    "word": "repair",
+    "definition": "修理、修補(n) 修理、修補(vt)",
+    "example": "They will repair it tomorrow."
+  },
+  {
+    "id": 950,
+    "word": "reply",
+    "definition": "回答、答覆(n) 回答、答覆(v)",
+    "example": "We reply as a team."
+  },
+  {
+    "id": 951,
+    "word": "report",
+    "definition": "報告(書)(n)",
+    "example": "I saw a report on the way home."
+  },
+  {
+    "id": 952,
+    "word": "Republic of China",
+    "definition": "中華民國(n)",
+    "example": "She bought a Republic of China at the store."
+  },
+  {
+    "id": 953,
+    "word": "require",
+    "definition": "需要、規定、要求(vt)",
+    "example": "I need to require this carefully."
+  },
+  {
+    "id": 954,
+    "word": "respect",
+    "definition": "尊敬、尊重(vt) 尊重、敬意(複)敬意(n)",
+    "example": "We should respect our elders."
+  },
+  {
+    "id": 955,
+    "word": "responsible",
+    "definition": "有責任的、應負責任的(adj)",
+    "example": "This is a responsible idea."
+  },
+  {
+    "id": 956,
+    "word": "result",
+    "definition": "結果、成果、成績(n) 導致、結果是(in) 起因於(from)(vi)",
+    "example": "Birds result in the morning."
+  },
+  {
+    "id": 957,
+    "word": "return",
+    "definition": "返回、歸來(複)受益(n) 歸還、送還、回報(vt)",
+    "example": "He decided to return the problem."
+  },
+  {
+    "id": 958,
+    "word": "review",
+    "definition": "評論、回顧、復習(n) 審查、復習、評論(vt)",
+    "example": "She reviewed her notes before the test."
+  },
+  {
+    "id": 959,
+    "word": "revise",
+    "definition": "修訂、校訂、修正(v)",
+    "example": "I like to revise on weekends."
+  },
+  {
+    "id": 960,
+    "word": "rise",
+    "definition": "起立、起身、起床(v)",
+    "example": "We rise as a team."
+  },
+  {
+    "id": 961,
+    "word": "rob",
+    "definition": "搶劫、剝奪(v)",
+    "example": "She robs every morning."
+  },
+  {
+    "id": 962,
+    "word": "robot",
+    "definition": "機器人(n)",
+    "example": "She bought a robot at the store."
+  },
+  {
+    "id": 963,
+    "word": "rock",
+    "definition": "岩石、石塊、搖滾(音樂)(n) 搖(動)(vt)",
+    "example": "I need to rock this carefully."
+  },
+  {
+    "id": 964,
+    "word": "role",
+    "definition": "角色、作用、任務(n)",
+    "example": "He found a role in the garden."
+  },
+  {
+    "id": 965,
+    "word": "roll",
+    "definition": "(使…)滾動、轉動、碾、軋、卷、繞(v)(一)卷、麵包卷(n)",
+    "example": "We roll as a team."
+  },
+  {
+    "id": 966,
+    "word": "roller skating",
+    "definition": "輪式溜冰(n)",
+    "example": "I saw a roller skating on the way home."
+  },
+  {
+    "id": 967,
+    "word": "Rome",
+    "definition": "羅馬(n)",
+    "example": "She bought a Rome at the store."
+  },
+  {
+    "id": 968,
+    "word": "roof",
+    "definition": "屋頂(n)",
+    "example": "The roof was on the table."
+  },
+  {
+    "id": 969,
+    "word": "root",
+    "definition": "根(部)(n)",
+    "example": "He found a root in the garden."
+  },
+  {
+    "id": 970,
+    "word": "rope",
+    "definition": "繩、索(n)",
+    "example": "A rope is very important to us."
+  },
+  {
+    "id": 971,
+    "word": "row",
+    "definition": "(一)排、行、列(n) 划船(v)",
+    "example": "She rows every morning."
+  },
+  {
+    "id": 972,
+    "word": "rub",
+    "definition": "摩擦、擦拭(v)",
+    "example": "They rub together."
+  },
+  {
+    "id": 973,
+    "word": "rubber",
+    "definition": "橡皮、橡膠(製品)(複)膠鞋(n)",
+    "example": "The rubber was on the table."
+  },
+  {
+    "id": 974,
+    "word": "rubber band",
+    "definition": "橡皮筋(n)",
+    "example": "He found a rubber band in the garden."
+  },
+  {
+    "id": 975,
+    "word": "rude",
+    "definition": "無禮的、野蠻的(adj)",
+    "example": "This is a rude idea."
+  },
+  {
+    "id": 976,
+    "word": "running",
+    "definition": "奔跑的、流動的(adj)",
+    "example": "That was a very running experience."
+  },
+  {
+    "id": 977,
+    "word": "running nose",
+    "definition": "流鼻水(n)",
+    "example": "She bought a running nose at the store."
+  },
+  {
+    "id": 978,
+    "word": "rush",
+    "definition": "衝、奔、倉促行動(vi) 催促(vt)",
+    "example": "He always rushs when needed."
+  },
+  {
+    "id": 979,
+    "word": "Russia",
+    "definition": "俄羅斯(n)",
+    "example": "He found a Russia in the garden."
+  },
+  {
+    "id": 980,
+    "word": "Russian",
+    "definition": "俄羅斯(人)的、俄語的(adj) 俄羅斯人、俄語(n)",
+    "example": "A Russian is very important to us."
+  },
+  {
+    "id": 981,
+    "word": "safety",
+    "definition": "安全、平安(n)",
+    "example": "I saw a safety on the way home."
+  },
+  {
+    "id": 982,
+    "word": "sail",
+    "definition": "帆、航行(n) 航行(vi)",
+    "example": "He sails when he is happy."
+  },
+  {
+    "id": 983,
+    "word": "sailing",
+    "definition": "航行、出航(n)",
+    "example": "The sailing was on the table."
+  },
+  {
+    "id": 984,
+    "word": "sailor",
+    "definition": "水手(n)",
+    "example": "He found a sailor in the garden."
+  },
+  {
+    "id": 985,
+    "word": "salesman",
+    "definition": "銷售員(n)",
+    "example": "A salesman is very important to us."
+  },
+  {
+    "id": 986,
+    "word": "sample",
+    "definition": "樣品、標本(n) 從…抽樣(vt)",
+    "example": "She samples it every day."
+  },
+  {
+    "id": 987,
+    "word": "San Francisco",
+    "definition": "舊金山(n)",
+    "example": "She bought a San Francisco at the store."
+  },
+  {
+    "id": 988,
+    "word": "sand",
+    "definition": "沙(複)沙灘(n)",
+    "example": "The sand was on the table."
+  },
+  {
+    "id": 989,
+    "word": "satisfied",
+    "definition": "滿意的(adj)",
+    "example": "He gave a satisfied answer."
+  },
+  {
+    "id": 990,
+    "word": "satisfy",
+    "definition": "使…滿足、使…滿意(vt)",
+    "example": "She always satisfys her work first."
+  },
+  {
+    "id": 991,
+    "word": "saucer",
+    "definition": "碟子(n)",
+    "example": "I saw a saucer on the way home."
+  },
+  {
+    "id": 992,
+    "word": "scared",
+    "definition": "驚嚇的、受驚的、恐懼的(adj)",
+    "example": "She is a scared person."
+  },
+  {
+    "id": 993,
+    "word": "scarf",
+    "definition": "圍巾(n)",
+    "example": "The scarf was on the table."
+  },
+  {
+    "id": 994,
+    "word": "scene",
+    "definition": "(戲劇等的)一場、鏡頭、地點、背景、景色、舞臺(n)",
+    "example": "He found a scene in the garden."
+  },
+  {
+    "id": 995,
+    "word": "schoolmate",
+    "definition": "校友(n)",
+    "example": "A schoolmate is very important to us."
+  },
+  {
+    "id": 996,
+    "word": "science",
+    "definition": "科學、學科(n)",
+    "example": "I saw a science on the way home."
+  },
+  {
+    "id": 997,
+    "word": "scientist",
+    "definition": "科學家(n)",
+    "example": "She bought a scientist at the store."
+  },
+  {
+    "id": 998,
+    "word": "score",
+    "definition": "得分、分數、二十(n) 得分、記分(vt)",
+    "example": "I need to score this carefully."
+  },
+  {
+    "id": 999,
+    "word": "screen",
+    "definition": "螢幕、屏風、簾(n) 掩蔽、遮蔽(vt)",
+    "example": "They will screen it tomorrow."
+  },
+  {
+    "id": 1000,
+    "word": "seafood",
+    "definition": "海鮮(n)",
+    "example": "A seafood is very important to us."
+  },
+  {
+    "id": 1001,
+    "word": "search",
+    "definition": "搜、尋、探查(v) 搜、尋、探查(n)",
+    "example": "She searched for her missing keys."
+  },
+  {
+    "id": 1002,
+    "word": "second grade",
+    "definition": "二年級(n)",
+    "example": "She bought a second grade at the store."
+  },
+  {
+    "id": 1003,
+    "word": "secondary",
+    "definition": "第二的、次等的(adj)",
+    "example": "The weather is secondary today."
+  },
+  {
+    "id": 1004,
+    "word": "secret",
+    "definition": "秘密的、機密的(adj) 秘密、秘訣(n)",
+    "example": "He found a secret in the garden."
+  },
+  {
+    "id": 1005,
+    "word": "secretary",
+    "definition": "秘書、書記、大臣(n)",
+    "example": "A secretary is very important to us."
+  },
+  {
+    "id": 1006,
+    "word": "section",
+    "definition": "切斷、斷片、組件、區域(n)",
+    "example": "I saw a section on the way home."
+  },
+  {
+    "id": 1007,
+    "word": "seed",
+    "definition": "種子(n)",
+    "example": "She bought a seed at the store."
+  },
+  {
+    "id": 1008,
+    "word": "seek",
+    "definition": "尋找、追求(v)",
+    "example": "He always seeks when needed."
+  },
+  {
+    "id": 1009,
+    "word": "seem",
+    "definition": "好像、似乎(vi)",
+    "example": "Children seem in the park."
+  },
+  {
+    "id": 1010,
+    "word": "seesaw",
+    "definition": "蹺蹺板(n)",
+    "example": "A seesaw is very important to us."
+  },
+  {
+    "id": 1011,
+    "word": "select",
+    "definition": "挑選、選擇(v)",
+    "example": "She selects every morning."
+  },
+  {
+    "id": 1012,
+    "word": "selfish",
+    "definition": "自私的、自利的(adj)",
+    "example": "She is a selfish person."
+  },
+  {
+    "id": 1013,
+    "word": "semester",
+    "definition": "學期、半學年(n)",
+    "example": "The semester was on the table."
+  },
+  {
+    "id": 1014,
+    "word": "sense",
+    "definition": "感言、官能、感覺、意義、判斷力(n) 覺得、意識到(vt)",
+    "example": "They will sense it tomorrow."
+  },
+  {
+    "id": 1015,
+    "word": "separate",
+    "definition": "分離的、分開的(adj)(使…)分開、分離(v)",
+    "example": "We separate as a team."
+  },
+  {
+    "id": 1016,
+    "word": "servant",
+    "definition": "僕人(n)",
+    "example": "I saw a servant on the way home."
+  },
+  {
+    "id": 1017,
+    "word": "serve",
+    "definition": "為…服務/盡責、招待、符合(v) 服務、供職、服役、起作用(as)(vi)",
+    "example": "He serves when he is happy."
+  },
+  {
+    "id": 1018,
+    "word": "service",
+    "definition": "服務、效勞(n) 維修、保養(vt)",
+    "example": "I need to service this carefully."
+  },
+  {
+    "id": 1019,
+    "word": "set",
+    "definition": "(一)套、副(n) 放、安置、樹立、規定、使…開始(vt)",
+    "example": "They will set it tomorrow."
+  },
+  {
+    "id": 1020,
+    "word": "seventeenth",
+    "definition": "第十七、十七分之一(n)",
+    "example": "A seventeenth is very important to us."
+  },
+  {
+    "id": 1021,
+    "word": "shake",
+    "definition": "握手(v)",
+    "example": "She shakes every morning."
+  },
+  {
+    "id": 1022,
+    "word": "shark",
+    "definition": "鯊魚(n)",
+    "example": "She bought a shark at the store."
+  },
+  {
+    "id": 1023,
+    "word": "sharp",
+    "definition": "鋒利的、銳利的、鮮明的、急劇的(adj)",
+    "example": "The weather is sharp today."
+  },
+  {
+    "id": 1024,
+    "word": "sheet",
+    "definition": "(一)張、片、薄片、床單(n)",
+    "example": "He found a sheet in the garden."
+  },
+  {
+    "id": 1025,
+    "word": "shelf",
+    "definition": "棚、架(n)",
+    "example": "A shelf is very important to us."
+  },
+  {
+    "id": 1026,
+    "word": "shine",
+    "definition": "照耀、發光、發亮、閃耀(v)",
+    "example": "She shines every morning."
+  },
+  {
+    "id": 1027,
+    "word": "shock",
+    "definition": "震動、震驚、休克(n)(使)震動(使)震驚(v)",
+    "example": "They shock together."
+  },
+  {
+    "id": 1028,
+    "word": "shoes",
+    "definition": "鞋(n)",
+    "example": "The shoes was on the table."
+  },
+  {
+    "id": 1029,
+    "word": "shoot",
+    "definition": "嫩枝、苗(n)",
+    "example": "He found a shoot in the garden."
+  },
+  {
+    "id": 1030,
+    "word": "shopping",
+    "definition": "購物(n)",
+    "example": "A shopping is very important to us."
+  },
+  {
+    "id": 1031,
+    "word": "shore",
+    "definition": "岸、濱(n)",
+    "example": "I saw a shore on the way home."
+  },
+  {
+    "id": 1032,
+    "word": "shorts",
+    "definition": "短褲(n)",
+    "example": "She bought a shorts at the store."
+  },
+  {
+    "id": 1033,
+    "word": "shot",
+    "definition": "(shoot的過去式個過去分詞)(v) 開槍、射擊、射門、投籃(n)",
+    "example": "He always shots when needed."
+  },
+  {
+    "id": 1034,
+    "word": "shout",
+    "definition": "呼喊、呼叫(v) 呼喊、呼叫(n)",
+    "example": "I like to shout on weekends."
+  },
+  {
+    "id": 1035,
+    "word": "shower",
+    "definition": "陣雨、暴雨、淋浴(一)陣、大批(n)",
+    "example": "A shower is very important to us."
+  },
+  {
+    "id": 1036,
+    "word": "shrimp",
+    "definition": "小蝦、矮個子、無名小卒(n)",
+    "example": "I saw a shrimp on the way home."
+  },
+  {
+    "id": 1037,
+    "word": "shut",
+    "definition": "關(閉)(v)",
+    "example": "They shut together."
+  },
+  {
+    "id": 1038,
+    "word": "sight",
+    "definition": "視力、視覺、望見、情景(複)風景(n)",
+    "example": "The sight was on the table."
+  },
+  {
+    "id": 1039,
+    "word": "sign",
+    "definition": "標記、符號、招牌、徵兆、現象(n) 簽(名) 簽署(v)",
+    "example": "I like to sign on weekends."
+  },
+  {
+    "id": 1040,
+    "word": "silence",
+    "definition": "寂靜、沈默(n)",
+    "example": "A silence is very important to us."
+  },
+  {
+    "id": 1041,
+    "word": "silent",
+    "definition": "寂靜的、沈默的(adj)",
+    "example": "That was a very silent experience."
+  },
+  {
+    "id": 1042,
+    "word": "silly",
+    "definition": "傻的、糊塗的(adj)",
+    "example": "She is a silly person."
+  },
+  {
+    "id": 1043,
+    "word": "silver",
+    "definition": "銀色的(adj) 銀色(n)",
+    "example": "The silver was on the table."
+  },
+  {
+    "id": 1044,
+    "word": "similar",
+    "definition": "相似的、類似的(to)(adj)",
+    "example": "He gave a similar answer."
+  },
+  {
+    "id": 1045,
+    "word": "simply",
+    "definition": "簡單地、僅僅、只不過(adv)",
+    "example": "He ran simply to school."
+  },
+  {
+    "id": 1046,
+    "word": "sincere",
+    "definition": "真誠的、誠摯的、衷心的(adj)",
+    "example": "That was a very sincere experience."
+  },
+  {
+    "id": 1047,
+    "word": "Singapore",
+    "definition": "新加坡(n)",
+    "example": "She bought a Singapore at the store."
+  },
+  {
+    "id": 1048,
+    "word": "singing",
+    "definition": "(歌)唱、歌聲(n)",
+    "example": "The singing was on the table."
+  },
+  {
+    "id": 1049,
+    "word": "single",
+    "definition": "單一的、單個的、單身的、未婚的(adj)",
+    "example": "He gave a single answer."
+  },
+  {
+    "id": 1050,
+    "word": "sink",
+    "definition": "沉、沉沒、下陷(v)",
+    "example": "We sink as a team."
+  },
+  {
+    "id": 1051,
+    "word": "sixteenth",
+    "definition": "第十六、十六分之一(n)",
+    "example": "I saw a sixteenth on the way home."
+  },
+  {
+    "id": 1052,
+    "word": "skate",
+    "definition": "溜冰鞋、冰刀、輪鞋、輪式溜冰鞋(n)",
+    "example": "She bought a skate at the store."
+  },
+  {
+    "id": 1053,
+    "word": "skating",
+    "definition": "滑冰、溜冰(n)",
+    "example": "The skating was on the table."
+  },
+  {
+    "id": 1054,
+    "word": "ski",
+    "definition": "滑雪板、雪屐、雪橇(n) 滑雪(v)",
+    "example": "I like to ski on weekends."
+  },
+  {
+    "id": 1055,
+    "word": "skiing",
+    "definition": "滑雪(運動) 滑雪技術(n)",
+    "example": "A skiing is very important to us."
+  },
+  {
+    "id": 1056,
+    "word": "skill",
+    "definition": "技能、技巧、手藝(n)",
+    "example": "She has great cooking skills."
+  },
+  {
+    "id": 1057,
+    "word": "skillful",
+    "definition": "靈巧的、熟練的、製作精巧的(adj)",
+    "example": "She is a skillful person."
+  },
+  {
+    "id": 1058,
+    "word": "skin",
+    "definition": "皮(膚) 外皮(n)",
+    "example": "The skin was on the table."
+  },
+  {
+    "id": 1059,
+    "word": "skinny",
+    "definition": "皮的、皮質的、骨瘦如材的(adj)",
+    "example": "He gave a skinny answer."
+  },
+  {
+    "id": 1060,
+    "word": "sleepy",
+    "definition": "困乏的、欲睡的(adj)",
+    "example": "This is a sleepy idea."
+  },
+  {
+    "id": 1061,
+    "word": "slender",
+    "definition": "細長的、修長的、苗條的(adj)",
+    "example": "That was a very slender experience."
+  },
+  {
+    "id": 1062,
+    "word": "slide",
+    "definition": "滑行、滑動、偷溜(v)",
+    "example": "They slide together."
+  },
+  {
+    "id": 1063,
+    "word": "slim",
+    "definition": "苗條的、纖細的、修長的(adj)",
+    "example": "The weather is slim today."
+  },
+  {
+    "id": 1064,
+    "word": "slippers",
+    "definition": "拖鞋(n)",
+    "example": "He found a slippers in the garden."
+  },
+  {
+    "id": 1065,
+    "word": "snail",
+    "definition": "蝸牛(n)",
+    "example": "A snail is very important to us."
+  },
+  {
+    "id": 1066,
+    "word": "sneakers",
+    "definition": "膠底運動鞋(n)",
+    "example": "I saw a sneakers on the way home."
+  },
+  {
+    "id": 1067,
+    "word": "sneaky",
+    "definition": "鬼祟的、卑劣的(adj)",
+    "example": "She is a sneaky person."
+  },
+  {
+    "id": 1068,
+    "word": "snowman",
+    "definition": "雪人(n)",
+    "example": "The snowman was on the table."
+  },
+  {
+    "id": 1069,
+    "word": "snowy",
+    "definition": "下雪的(adj)",
+    "example": "He gave a snowy answer."
+  },
+  {
+    "id": 1070,
+    "word": "soap",
+    "definition": "肥皂(n)",
+    "example": "A soap is very important to us."
+  },
+  {
+    "id": 1071,
+    "word": "soccer",
+    "definition": "(英式)足球(n)",
+    "example": "I saw a soccer on the way home."
+  },
+  {
+    "id": 1072,
+    "word": "social",
+    "definition": "社交的、社會的(adj)",
+    "example": "She is a social person."
+  },
+  {
+    "id": 1073,
+    "word": "social science",
+    "definition": "社會科學(n)",
+    "example": "The social science was on the table."
+  },
+  {
+    "id": 1074,
+    "word": "society",
+    "definition": "社會、社、團體、協會(n)",
+    "example": "He found a society in the garden."
+  },
+  {
+    "id": 1075,
+    "word": "soda",
+    "definition": "汽水(n)",
+    "example": "A soda is very important to us."
+  },
+  {
+    "id": 1076,
+    "word": "soft",
+    "definition": "軟的、溫柔的、不含酒精的(adj)",
+    "example": "That was a very soft experience."
+  },
+  {
+    "id": 1077,
+    "word": "soft drink",
+    "definition": "碳酸飲料、不含酒精飲料(n)",
+    "example": "She bought a soft drink at the store."
+  },
+  {
+    "id": 1078,
+    "word": "softball",
+    "definition": "壘球(n)",
+    "example": "The softball was on the table."
+  },
+  {
+    "id": 1079,
+    "word": "soldier",
+    "definition": "士兵、軍人(n)",
+    "example": "He found a soldier in the garden."
+  },
+  {
+    "id": 1080,
+    "word": "solve",
+    "definition": "解釋、說明、解決(v)",
+    "example": "Can you solve this math problem?"
+  },
+  {
+    "id": 1081,
+    "word": "sore throat",
+    "definition": "喉嚨痛(n)",
+    "example": "I saw a sore throat on the way home."
+  },
+  {
+    "id": 1082,
+    "word": "sort",
+    "definition": "種類、類別(n) 分類、整理(vt)",
+    "example": "He decided to sort the problem."
+  },
+  {
+    "id": 1083,
+    "word": "soul",
+    "definition": "靈魂、心靈(n)",
+    "example": "The soul was on the table."
+  },
+  {
+    "id": 1084,
+    "word": "sour",
+    "definition": "酸的(adj)",
+    "example": "He gave a sour answer."
+  },
+  {
+    "id": 1085,
+    "word": "southern",
+    "definition": "南方的、南部的(adj)",
+    "example": "This is a southern idea."
+  },
+  {
+    "id": 1086,
+    "word": "soy-sauce",
+    "definition": "醬油(n)",
+    "example": "I saw a soy-sauce on the way home."
+  },
+  {
+    "id": 1087,
+    "word": "spaghetti",
+    "definition": "義大利麵條(n)",
+    "example": "She bought a spaghetti at the store."
+  },
+  {
+    "id": 1088,
+    "word": "speaker",
+    "definition": "說話者、演講者、揚聲器(n)",
+    "example": "The speaker was on the table."
+  },
+  {
+    "id": 1089,
+    "word": "speech",
+    "definition": "說話、言語、演說、講話、發言(n)",
+    "example": "He found a speech in the garden."
+  },
+  {
+    "id": 1090,
+    "word": "speed",
+    "definition": "速度、迅速(n) 迅速前進、加速、加快(vi)",
+    "example": "The river speeds quietly."
+  },
+  {
+    "id": 1091,
+    "word": "spider",
+    "definition": "蜘蛛、三腳架(n)",
+    "example": "I saw a spider on the way home."
+  },
+  {
+    "id": 1092,
+    "word": "spirit",
+    "definition": "精神、氣概、志氣;(複)心情、烈灑(n)",
+    "example": "She bought a spirit at the store."
+  },
+  {
+    "id": 1093,
+    "word": "sport",
+    "definition": "(體育)運動;(複)運動會(n)",
+    "example": "The sport was on the table."
+  },
+  {
+    "id": 1094,
+    "word": "spread",
+    "definition": "推開、塗敷、傳播(vt) 傳開、蔓延(vi)",
+    "example": "I like to spread on weekends."
+  },
+  {
+    "id": 1095,
+    "word": "stage",
+    "definition": "階段、時期、舞臺(n)",
+    "example": "A stage is very important to us."
+  },
+  {
+    "id": 1096,
+    "word": "stairs",
+    "definition": "樓梯(n)",
+    "example": "I saw a stairs on the way home."
+  },
+  {
+    "id": 1097,
+    "word": "stamp",
+    "definition": "郵票、印花、印、圖章(n) 在…上蓋印(或郵戳)(vt)",
+    "example": "He decided to stamp the problem."
+  },
+  {
+    "id": 1098,
+    "word": "stamp collecting",
+    "definition": "集郵(n)",
+    "example": "The stamp collecting was on the table."
+  },
+  {
+    "id": 1099,
+    "word": "standard",
+    "definition": "標準、規格(n) 標準的(adj)",
+    "example": "He found a standard in the garden."
+  },
+  {
+    "id": 1100,
+    "word": "state",
+    "definition": "狀態、情況、國家、州(n)",
+    "example": "A state is very important to us."
+  },
+  {
+    "id": 1101,
+    "word": "stationery",
+    "definition": "文具、信紙(n)",
+    "example": "I saw a stationery on the way home."
+  },
+  {
+    "id": 1102,
+    "word": "stationery store",
+    "definition": "文具店(n)",
+    "example": "She bought a stationery store at the store."
+  },
+  {
+    "id": 1103,
+    "word": "steal",
+    "definition": "偷、竊取(v)",
+    "example": "He always steals when needed."
+  },
+  {
+    "id": 1104,
+    "word": "steam",
+    "definition": "(蒸)汽(n) 冒蒸汽(vi)",
+    "example": "Children steam in the park."
+  },
+  {
+    "id": 1105,
+    "word": "step",
+    "definition": "步、腳步、步驟、臺階(n) 跨步、行走、踩、踏上(on)(vi)",
+    "example": "The river steps quietly."
+  },
+  {
+    "id": 1106,
+    "word": "stick",
+    "definition": "捧、手杖(n) 刺、戳、黏貼(vt)(pt&pp:stuck)",
+    "example": "She sticks it every day."
+  },
+  {
+    "id": 1107,
+    "word": "stingy",
+    "definition": "吝嗇的、小氣的(adj)",
+    "example": "She is a stingy person."
+  },
+  {
+    "id": 1108,
+    "word": "stomachache",
+    "definition": "肚子痛、胃痛(n)",
+    "example": "The stomachache was on the table."
+  },
+  {
+    "id": 1109,
+    "word": "stone",
+    "definition": "石頭、寶石(n)",
+    "example": "He found a stone in the garden."
+  },
+  {
+    "id": 1110,
+    "word": "storm",
+    "definition": "暴風雨、暴風雪(n) 下暴雨、起風暴(vi)",
+    "example": "The river storms quietly."
+  },
+  {
+    "id": 1111,
+    "word": "stormy",
+    "definition": "暴風雨的、暴躁的、激烈的(adj)",
+    "example": "That was a very stormy experience."
+  },
+  {
+    "id": 1112,
+    "word": "stove",
+    "definition": "爐、火爐、電爐(n)",
+    "example": "She bought a stove at the store."
+  },
+  {
+    "id": 1113,
+    "word": "straight",
+    "definition": "直的、筆直的、直接了當的(adj) 直接、一直、立即(adv)",
+    "example": "The weather is straight today."
+  },
+  {
+    "id": 1114,
+    "word": "straw",
+    "definition": "稻草、麥桿、吸管(n)",
+    "example": "He found a straw in the garden."
+  },
+  {
+    "id": 1115,
+    "word": "strawberry",
+    "definition": "草莓(n)",
+    "example": "A strawberry is very important to us."
+  },
+  {
+    "id": 1116,
+    "word": "stream",
+    "definition": "小河、溪、流動、潮流(n)",
+    "example": "I saw a stream on the way home."
+  },
+  {
+    "id": 1117,
+    "word": "strike",
+    "definition": "打、襲擊、使突然想到、給…留下印象(vt) 罷工(鐘等)敲響(vi)",
+    "example": "They strike together."
+  },
+  {
+    "id": 1118,
+    "word": "struggle",
+    "definition": "鬥爭、奮鬥、努力、掙扎(n) 鬥爭、奮鬥、努力、掙扎(vi)",
+    "example": "She struggles before dinner."
+  },
+  {
+    "id": 1119,
+    "word": "style",
+    "definition": "作風、風格、樣式(n)",
+    "example": "He found a style in the garden."
+  },
+  {
+    "id": 1120,
+    "word": "subject",
+    "definition": "主題、題目、學科、主語(語法用語)(n) 易遭…的、受…支配(adj)",
+    "example": "A subject is very important to us."
+  },
+  {
+    "id": 1121,
+    "word": "submarine",
+    "definition": "潛艇(n)",
+    "example": "I saw a submarine on the way home."
+  },
+  {
+    "id": 1122,
+    "word": "subway",
+    "definition": "地鐵(n)",
+    "example": "She bought a subway at the store."
+  },
+  {
+    "id": 1123,
+    "word": "succeed",
+    "definition": "成功、接著發生、繼承(vi) 接替、接…之後(vt)",
+    "example": "He always succeeds when needed."
+  },
+  {
+    "id": 1124,
+    "word": "success",
+    "definition": "成就、成功(n)",
+    "example": "Hard work leads to success."
+  },
+  {
+    "id": 1125,
+    "word": "successfully",
+    "definition": "成功地(adv)",
+    "example": "He ran successfully to school."
+  },
+  {
+    "id": 1126,
+    "word": "such",
+    "definition": "這樣的、這種的(adj) 那麼(adv)",
+    "example": "That was a very such experience."
+  },
+  {
+    "id": 1127,
+    "word": "sudden",
+    "definition": "突然的、意外的(adj)",
+    "example": "She is a sudden person."
+  },
+  {
+    "id": 1128,
+    "word": "suddenly",
+    "definition": "突然地(adv)",
+    "example": "They walked suddenly home."
+  },
+  {
+    "id": 1129,
+    "word": "suggest",
+    "definition": "建議、提議、暗示、表明(vt)",
+    "example": "She suggested going to the beach."
+  },
+  {
+    "id": 1130,
+    "word": "suit",
+    "definition": "合適、適合、中…的意(vt) 一套衣服(或西服) 起訴、訴訟(n)",
+    "example": "She always suits her work first."
+  },
+  {
+    "id": 1131,
+    "word": "suitcase",
+    "definition": "衣箱、小提箱(n)",
+    "example": "I saw a suitcase on the way home."
+  },
+  {
+    "id": 1132,
+    "word": "supper",
+    "definition": "晚餐(n)",
+    "example": "She bought a supper at the store."
+  },
+  {
+    "id": 1133,
+    "word": "support",
+    "definition": "支援、擁護、供養、支撐、維持(vt) 支援、支承、支撐(n)",
+    "example": "Parents support their children's dreams."
+  },
+  {
+    "id": 1134,
+    "word": "surf",
+    "definition": "海浪、拍岸浪(n) 在激浪上駕(船) 在…衝浪(vt)",
+    "example": "They will surf it tomorrow."
+  },
+  {
+    "id": 1135,
+    "word": "surface",
+    "definition": "表面、面、外表、外觀(n)",
+    "example": "A surface is very important to us."
+  },
+  {
+    "id": 1136,
+    "word": "surfing",
+    "definition": "衝浪、上網(n)",
+    "example": "I saw a surfing on the way home."
+  },
+  {
+    "id": 1137,
+    "word": "survive",
+    "definition": "活下來、倖存(vi) 從…中逃出、從(因環境中)挺過來(vt)",
+    "example": "They survive together."
+  },
+  {
+    "id": 1138,
+    "word": "swallow",
+    "definition": "吞咽(v) 燕子(n)",
+    "example": "He always swallows when needed."
+  },
+  {
+    "id": 1139,
+    "word": "swan",
+    "definition": "天鵝(n)",
+    "example": "He found a swan in the garden."
+  },
+  {
+    "id": 1140,
+    "word": "sweep",
+    "definition": "(打)掃、掠過、掃視(v)",
+    "example": "We sweep as a team."
+  },
+  {
+    "id": 1141,
+    "word": "swimming",
+    "definition": "游泳(n)",
+    "example": "I saw a swimming on the way home."
+  },
+  {
+    "id": 1142,
+    "word": "swimsuit",
+    "definition": "游泳衣、泳裝(n)",
+    "example": "She bought a swimsuit at the store."
+  },
+  {
+    "id": 1143,
+    "word": "swing",
+    "definition": "搖擺、盪鞦韆、迴旋(v)",
+    "example": "He always swings when needed."
+  },
+  {
+    "id": 1144,
+    "word": "symbol",
+    "definition": "象徵、符號、標誌(n)",
+    "example": "The dove is a symbol of peace."
+  },
+  {
+    "id": 1145,
+    "word": "table cloth",
+    "definition": "桌布(n)",
+    "example": "A table cloth is very important to us."
+  },
+  {
+    "id": 1146,
+    "word": "table tennis",
+    "definition": "乒乓球、桌球(n)",
+    "example": "I saw a table tennis on the way home."
+  },
+  {
+    "id": 1147,
+    "word": "tableware",
+    "definition": "餐具(n)",
+    "example": "She bought a tableware at the store."
+  },
+  {
+    "id": 1148,
+    "word": "Taichung",
+    "definition": "台中(n)",
+    "example": "The Taichung was on the table."
+  },
+  {
+    "id": 1149,
+    "word": "tail",
+    "definition": "尾巴、後部(n)",
+    "example": "He found a tail in the garden."
+  },
+  {
+    "id": 1150,
+    "word": "Tainan",
+    "definition": "台南(n)",
+    "example": "A Tainan is very important to us."
+  },
+  {
+    "id": 1151,
+    "word": "Taipei",
+    "definition": "台北(n)",
+    "example": "I saw a Taipei on the way home."
+  },
+  {
+    "id": 1152,
+    "word": "Taiwanese",
+    "definition": "台灣的、台灣人(a、 n)",
+    "example": "She used \"Taiwanese\" correctly."
+  },
+  {
+    "id": 1153,
+    "word": "talkative",
+    "definition": "多嘴的、饒舌的(adj)",
+    "example": "The weather is talkative today."
+  },
+  {
+    "id": 1154,
+    "word": "tangerine",
+    "definition": "椪柑、橘(n)",
+    "example": "He found a tangerine in the garden."
+  },
+  {
+    "id": 1155,
+    "word": "tank",
+    "definition": "槽、戰車、坦克車(n)",
+    "example": "A tank is very important to us."
+  },
+  {
+    "id": 1156,
+    "word": "tape recorder",
+    "definition": "錄音機(n)",
+    "example": "I saw a tape recorder on the way home."
+  },
+  {
+    "id": 1157,
+    "word": "task",
+    "definition": "任務、工作(n)",
+    "example": "She bought a task at the store."
+  },
+  {
+    "id": 1158,
+    "word": "Teacher's Day",
+    "definition": "教師節(n)",
+    "example": "The Teacher's Day was on the table."
+  },
+  {
+    "id": 1159,
+    "word": "teapot",
+    "definition": "茶壺(n)",
+    "example": "He found a teapot in the garden."
+  },
+  {
+    "id": 1160,
+    "word": "tear",
+    "definition": "眼淚(n) 撕裂、撕破(v)",
+    "example": "We tear as a team."
+  },
+  {
+    "id": 1161,
+    "word": "temperature",
+    "definition": "溫度(n)",
+    "example": "I saw a temperature on the way home."
+  },
+  {
+    "id": 1162,
+    "word": "temple",
+    "definition": "神殿、寺廟、教堂、殿堂(n)",
+    "example": "She bought a temple at the store."
+  },
+  {
+    "id": 1163,
+    "word": "tent",
+    "definition": "帳蓬(n)",
+    "example": "The tent was on the table."
+  },
+  {
+    "id": 1164,
+    "word": "term",
+    "definition": "學期、期限、期間、術語(n)",
+    "example": "He found a term in the garden."
+  },
+  {
+    "id": 1165,
+    "word": "terrible",
+    "definition": "可怕的、駭人的(adj)",
+    "example": "The weather was terrible yesterday."
+  },
+  {
+    "id": 1166,
+    "word": "terrific",
+    "definition": "令人恐怖的(adj)",
+    "example": "That was a very terrific experience."
+  },
+  {
+    "id": 1167,
+    "word": "textbook",
+    "definition": "教科書、課本(n)",
+    "example": "She bought a textbook at the store."
+  },
+  {
+    "id": 1168,
+    "word": "thanksgiving",
+    "definition": "感謝、[宗]感恩祈禱(n)",
+    "example": "The thanksgiving was on the table."
+  },
+  {
+    "id": 1169,
+    "word": "Thanksgiving Day",
+    "definition": "感恩節(n)",
+    "example": "He found a Thanksgiving Day in the garden."
+  },
+  {
+    "id": 1170,
+    "word": "therefore",
+    "definition": "因此、所以(adv)",
+    "example": "He ran therefore to school."
+  },
+  {
+    "id": 1171,
+    "word": "thick",
+    "definition": "厚的、粗的、稠的、濃的(adj)",
+    "example": "That was a very thick experience."
+  },
+  {
+    "id": 1172,
+    "word": "thief",
+    "definition": "小偷、賊(n)",
+    "example": "She bought a thief at the store."
+  },
+  {
+    "id": 1173,
+    "word": "thirteenth",
+    "definition": "第十三、十三分之一(n)",
+    "example": "The thirteenth was on the table."
+  },
+  {
+    "id": 1174,
+    "word": "thirtieth",
+    "definition": "第三十(num) 三十分之一(n)",
+    "example": "He found a thirtieth in the garden."
+  },
+  {
+    "id": 1175,
+    "word": "thought",
+    "definition": "思想(n)",
+    "example": "A thought is very important to us."
+  },
+  {
+    "id": 1176,
+    "word": "throat",
+    "definition": "咽喉、喉嚨(n) 穿過、通過、以、用、憑藉、經由、從頭到尾(prep) 從頭到尾、徹底",
+    "example": "I saw a throat on the way home."
+  },
+  {
+    "id": 1177,
+    "word": "throughout",
+    "definition": "遍及、貫穿(prep) 到處、自始至終(adv)",
+    "example": "He answered throughout."
+  },
+  {
+    "id": 1178,
+    "word": "throw",
+    "definition": "扔(v)",
+    "example": "He always throws when needed."
+  },
+  {
+    "id": 1179,
+    "word": "thumb",
+    "definition": "拇指(n)",
+    "example": "He found a thumb in the garden."
+  },
+  {
+    "id": 1180,
+    "word": "thunder",
+    "definition": "雷(n) 打雷(v)",
+    "example": "We thunder as a team."
+  },
+  {
+    "id": 1181,
+    "word": "thus",
+    "definition": "如此、這樣、因此(adv)",
+    "example": "She speaks thus."
+  },
+  {
+    "id": 1182,
+    "word": "tidy",
+    "definition": "整潔的、整齊的(adj)",
+    "example": "She is a tidy person."
+  },
+  {
+    "id": 1183,
+    "word": "tie",
+    "definition": "拴、紮、捆、繫上(vt) 領帶、領結、聯繫(n)",
+    "example": "I need to tie this carefully."
+  },
+  {
+    "id": 1184,
+    "word": "till",
+    "definition": "直到(…為止)(prep) 直到(…為止)(conj)",
+    "example": "They sat till each other."
+  },
+  {
+    "id": 1185,
+    "word": "tiny",
+    "definition": "極小的、微小的(adj) 頂、尖端、梢、傾斜、輕擊、末端、小費、秘密消息(n) 在…頂端裝",
+    "example": "A tiny is very important to us."
+  },
+  {
+    "id": 1186,
+    "word": "tip",
+    "definition": "附加物、使傾斜、使翻倒、暗示、輕擊、給、洩漏、給小費(vt)",
+    "example": "She tips it every day."
+  },
+  {
+    "id": 1187,
+    "word": "title",
+    "definition": "標題、頭銜(n)",
+    "example": "She bought a title at the store."
+  },
+  {
+    "id": 1188,
+    "word": "toast",
+    "definition": "烤麵包片、土司(n)",
+    "example": "The toast was on the table."
+  },
+  {
+    "id": 1189,
+    "word": "toe",
+    "definition": "腳趾、腳尖(n)",
+    "example": "He found a toe in the garden."
+  },
+  {
+    "id": 1190,
+    "word": "tofu",
+    "definition": "豆腐(n)",
+    "example": "A tofu is very important to us."
+  },
+  {
+    "id": 1191,
+    "word": "toilet",
+    "definition": "浴室、廁所(n)",
+    "example": "I saw a toilet on the way home."
+  },
+  {
+    "id": 1192,
+    "word": "Tokyo",
+    "definition": "東京(n)",
+    "example": "She bought a Tokyo at the store."
+  },
+  {
+    "id": 1193,
+    "word": "tongue",
+    "definition": "舌頭、語言(n)",
+    "example": "The tongue was on the table."
+  },
+  {
+    "id": 1194,
+    "word": "tool",
+    "definition": "工具(n)",
+    "example": "He found a tool in the garden."
+  },
+  {
+    "id": 1195,
+    "word": "toothache",
+    "definition": "牙痛(n)",
+    "example": "A toothache is very important to us."
+  },
+  {
+    "id": 1196,
+    "word": "toothbrush",
+    "definition": "牙刷(n)",
+    "example": "I saw a toothbrush on the way home."
+  },
+  {
+    "id": 1197,
+    "word": "top",
+    "definition": "頂(端) 上部(n) 最高的(adj)",
+    "example": "She bought a top at the store."
+  },
+  {
+    "id": 1198,
+    "word": "topic",
+    "definition": "題目、話題、主題(n)",
+    "example": "The topic was on the table."
+  },
+  {
+    "id": 1199,
+    "word": "total",
+    "definition": "總計(v)",
+    "example": "I like to total on weekends."
+  },
+  {
+    "id": 1200,
+    "word": "tour",
+    "definition": "旅行、遊歷(n) 旅行、遊歷(v)",
+    "example": "We tour as a team."
+  },
+  {
+    "id": 1201,
+    "word": "toward",
+    "definition": "(表示方向)朝、向(prep)",
+    "example": "He stood toward the door."
+  },
+  {
+    "id": 1202,
+    "word": "tower",
+    "definition": "塔(樓)(n)",
+    "example": "She bought a tower at the store."
+  },
+  {
+    "id": 1203,
+    "word": "trace",
+    "definition": "追蹤、跟蹤(vt) 痕跡、蹤跡(n)",
+    "example": "I need to trace this carefully."
+  },
+  {
+    "id": 1204,
+    "word": "track",
+    "definition": "跑道、小路、軌道、足跡、蹤跡(n) 跟蹤、追蹤(vt)",
+    "example": "They will track it tomorrow."
+  },
+  {
+    "id": 1205,
+    "word": "trade",
+    "definition": "貿易、商業、行業、職業(n) 相互交換(vt)",
+    "example": "She always trades her work first."
+  },
+  {
+    "id": 1206,
+    "word": "tradition",
+    "definition": "傳統、慣例(n)",
+    "example": "Lantern Festival is an old tradition."
+  },
+  {
+    "id": 1207,
+    "word": "traditional",
+    "definition": "傳統的、慣例的(adj)",
+    "example": "She is a traditional person."
+  },
+  {
+    "id": 1208,
+    "word": "traffic jam",
+    "definition": "交通阻塞(n)",
+    "example": "The traffic jam was on the table."
+  },
+  {
+    "id": 1209,
+    "word": "traffic light",
+    "definition": "交通燈號誌(n)",
+    "example": "He found a traffic light in the garden."
+  },
+  {
+    "id": 1210,
+    "word": "traffic lights",
+    "definition": "紅綠燈、交通燈(n)",
+    "example": "A traffic lights is very important to us."
+  },
+  {
+    "id": 1211,
+    "word": "traffic sign",
+    "definition": "交通號誌(n)",
+    "example": "I saw a traffic sign on the way home."
+  },
+  {
+    "id": 1212,
+    "word": "train station",
+    "definition": "火車站(n)",
+    "example": "She bought a train station at the store."
+  },
+  {
+    "id": 1213,
+    "word": "transportation",
+    "definition": "運輸(n)",
+    "example": "The transportation was on the table."
+  },
+  {
+    "id": 1214,
+    "word": "trap",
+    "definition": "陷阱、圈套、詭計(n)",
+    "example": "He found a trap in the garden."
+  },
+  {
+    "id": 1215,
+    "word": "trash can",
+    "definition": "垃圾桶(n)",
+    "example": "A trash can is very important to us."
+  },
+  {
+    "id": 1216,
+    "word": "travel",
+    "definition": "旅行、行進(vi) 旅行(n)",
+    "example": "Birds travel in the morning."
+  },
+  {
+    "id": 1217,
+    "word": "traveling",
+    "definition": "旅行的、遊歷的(adj)",
+    "example": "She is a traveling person."
+  },
+  {
+    "id": 1218,
+    "word": "treasure",
+    "definition": "財寶、寶藏(n)",
+    "example": "The treasure was on the table."
+  },
+  {
+    "id": 1219,
+    "word": "treat",
+    "definition": "對待、處理、醫療、醫治、款待、招待(vt) 款待、請客(n)",
+    "example": "They will treat it tomorrow."
+  },
+  {
+    "id": 1220,
+    "word": "triangle",
+    "definition": "三角板(n)",
+    "example": "A triangle is very important to us."
+  },
+  {
+    "id": 1221,
+    "word": "trick",
+    "definition": "欺詐、哄騙(vt) 詭計、花招、把戲、戲法、惡作劇(n)",
+    "example": "She tricks it every day."
+  },
+  {
+    "id": 1222,
+    "word": "trousers",
+    "definition": "褲子、長褲(n)",
+    "example": "She bought a trousers at the store."
+  },
+  {
+    "id": 1223,
+    "word": "trumpet",
+    "definition": "喇叭、號(n)",
+    "example": "The trumpet was on the table."
+  },
+  {
+    "id": 1224,
+    "word": "trust",
+    "definition": "信任、信賴、相信(n) 信任、信賴、相信(v)",
+    "example": "She trusts her best friend."
+  },
+  {
+    "id": 1225,
+    "word": "truth",
+    "definition": "真相、真理、真實性(n)",
+    "example": "Always tell the truth."
+  },
+  {
+    "id": 1226,
+    "word": "T-shirt",
+    "definition": "T恤(n)",
+    "example": "I saw a T-shirt on the way home."
+  },
+  {
+    "id": 1227,
+    "word": "tub",
+    "definition": "桶、盆、浴盆(n)",
+    "example": "She bought a tub at the store."
+  },
+  {
+    "id": 1228,
+    "word": "tummy",
+    "definition": "(兒語)肚子(n)",
+    "example": "The tummy was on the table."
+  },
+  {
+    "id": 1229,
+    "word": "tunnel",
+    "definition": "隧道、地道、坑道(n)",
+    "example": "He found a tunnel in the garden."
+  },
+  {
+    "id": 1230,
+    "word": "turkey",
+    "definition": "火雞(n)",
+    "example": "A turkey is very important to us."
+  },
+  {
+    "id": 1231,
+    "word": "turtle",
+    "definition": "海龜、龜、甲魚、玳瑁(n)",
+    "example": "I saw a turtle on the way home."
+  },
+  {
+    "id": 1232,
+    "word": "twelfth",
+    "definition": "第十二(num) 十二分之一(n)",
+    "example": "She bought a twelfth at the store."
+  },
+  {
+    "id": 1233,
+    "word": "twentieth",
+    "definition": "第二十(num) 二十分之一(n)",
+    "example": "The twentieth was on the table."
+  },
+  {
+    "id": 1234,
+    "word": "twice",
+    "definition": "兩倍、兩次(adv)",
+    "example": "She smiled twice."
+  },
+  {
+    "id": 1235,
+    "word": "type",
+    "definition": "類型、種類、品種(n) 打字(v)",
+    "example": "We type as a team."
+  },
+  {
+    "id": 1236,
+    "word": "typewriter",
+    "definition": "打字機(n)",
+    "example": "I saw a typewriter on the way home."
+  },
+  {
+    "id": 1237,
+    "word": "ugly",
+    "definition": "醜陋的、難看的、難聽的(adj)",
+    "example": "She is a ugly person."
+  },
+  {
+    "id": 1238,
+    "word": "uh-uh",
+    "definition": "嗯嗯(interj)",
+    "example": "He shouted \"uh-uh!\" in surprise."
+  },
+  {
+    "id": 1239,
+    "word": "underlie",
+    "definition": "位於…的下面(v)",
+    "example": "I like to underlie on weekends."
+  },
+  {
+    "id": 1240,
+    "word": "underpass",
+    "definition": "地道、地下道(n)",
+    "example": "A underpass is very important to us."
+  },
+  {
+    "id": 1241,
+    "word": "underwear",
+    "definition": "內衣(n)",
+    "example": "I saw a underwear on the way home."
+  },
+  {
+    "id": 1242,
+    "word": "under-weight",
+    "definition": "重量不足(adj)",
+    "example": "She is a under-weight person."
+  },
+  {
+    "id": 1243,
+    "word": "unfriendly",
+    "definition": "不友善地(adv)",
+    "example": "They walked unfriendly home."
+  },
+  {
+    "id": 1244,
+    "word": "unique",
+    "definition": "唯一的、獨特的、獨一無二的(adj)",
+    "example": "He gave a unique answer."
+  },
+  {
+    "id": 1245,
+    "word": "unit",
+    "definition": "個體(計量)單位(軍隊的)部隊單位、[數學]最小的整數(n)",
+    "example": "A unit is very important to us."
+  },
+  {
+    "id": 1246,
+    "word": "universe",
+    "definition": "宇宙(n)",
+    "example": "I saw a universe on the way home."
+  },
+  {
+    "id": 1247,
+    "word": "university",
+    "definition": "大學(n)",
+    "example": "She bought a university at the store."
+  },
+  {
+    "id": 1248,
+    "word": "upon",
+    "definition": "(同on)在…上、憑、靠、根據、針對(prep)",
+    "example": "The book is upon the shelf."
+  },
+  {
+    "id": 1249,
+    "word": "upstairs",
+    "definition": "在樓上、往樓上(adv) 樓上的(adj)",
+    "example": "He gave a upstairs answer."
+  },
+  {
+    "id": 1250,
+    "word": "used",
+    "definition": "用過的、舊的(adj) 習慣於…的(adj)",
+    "example": "This is a used idea."
+  },
+  {
+    "id": 1251,
+    "word": "usual",
+    "definition": "通常的、平常的(adj)",
+    "example": "That was a very usual experience."
+  },
+  {
+    "id": 1252,
+    "word": "Valentine's Day",
+    "definition": "西洋情人節(n)",
+    "example": "She bought a Valentine's Day at the store."
+  },
+  {
+    "id": 1253,
+    "word": "valley",
+    "definition": "山谷(n)",
+    "example": "The valley was on the table."
+  },
+  {
+    "id": 1254,
+    "word": "valuable",
+    "definition": "貴重的、有價值的(adj) 貴重物品(n)",
+    "example": "He found a valuable in the garden."
+  },
+  {
+    "id": 1255,
+    "word": "value",
+    "definition": "價值、價格、重要性(複)價值觀(n) 尊重、重視、評價(vt)",
+    "example": "She values honesty above all."
+  },
+  {
+    "id": 1256,
+    "word": "VCR",
+    "definition": "錄影機(n)",
+    "example": "I saw a VCR on the way home."
+  },
+  {
+    "id": 1257,
+    "word": "verb",
+    "definition": "動詞(n)",
+    "example": "She bought a verb at the store."
+  },
+  {
+    "id": 1258,
+    "word": "vest",
+    "definition": "背心(n)",
+    "example": "The vest was on the table."
+  },
+  {
+    "id": 1259,
+    "word": "victory",
+    "definition": "勝利(n)",
+    "example": "The team celebrated their victory."
+  },
+  {
+    "id": 1260,
+    "word": "village",
+    "definition": "村莊、鄉村(n)",
+    "example": "She grew up in a small village."
+  },
+  {
+    "id": 1261,
+    "word": "vinegar",
+    "definition": "醋(n)",
+    "example": "I saw a vinegar on the way home."
+  },
+  {
+    "id": 1262,
+    "word": "violin",
+    "definition": "小提琴(n)",
+    "example": "She plays the violin beautifully."
+  },
+  {
+    "id": 1263,
+    "word": "visitor",
+    "definition": "參觀者、訪問者(n)",
+    "example": "The visitor was on the table."
+  },
+  {
+    "id": 1264,
+    "word": "vocabulary",
+    "definition": "字彙、生字(n)",
+    "example": "Reading helps build vocabulary."
+  },
+  {
+    "id": 1265,
+    "word": "volleyball",
+    "definition": "排球(n)",
+    "example": "She plays volleyball after school."
+  },
+  {
+    "id": 1266,
+    "word": "vote",
+    "definition": "投票(v)",
+    "example": "Everyone has the right to vote."
+  },
+  {
+    "id": 1267,
+    "word": "voter",
+    "definition": "投票者、有投票權者(n)",
+    "example": "She bought a voter at the store."
+  },
+  {
+    "id": 1268,
+    "word": "waist",
+    "definition": "腰、腰部(n)",
+    "example": "The waist was on the table."
+  },
+  {
+    "id": 1269,
+    "word": "walkman",
+    "definition": "隨身聽(n)",
+    "example": "He found a walkman in the garden."
+  },
+  {
+    "id": 1270,
+    "word": "wallet",
+    "definition": "錢包、皮夾(n)",
+    "example": "A wallet is very important to us."
+  },
+  {
+    "id": 1271,
+    "word": "war",
+    "definition": "戰爭、鬥爭(n)",
+    "example": "I saw a war on the way home."
+  },
+  {
+    "id": 1272,
+    "word": "washing machine",
+    "definition": "洗衣機(n)",
+    "example": "She bought a washing machine at the store."
+  },
+  {
+    "id": 1273,
+    "word": "waste",
+    "definition": "浪費、毀壞(v)",
+    "example": "Don't waste food."
+  },
+  {
+    "id": 1274,
+    "word": "waterfall",
+    "definition": "瀑布(n)",
+    "example": "He found a waterfall in the garden."
+  },
+  {
+    "id": 1275,
+    "word": "watermelon",
+    "definition": "西瓜(n)",
+    "example": "A watermelon is very important to us."
+  },
+  {
+    "id": 1276,
+    "word": "wave",
+    "definition": "揮動、向…揮手示意(vt) 浪、波濤(光、電等的)波(n)",
+    "example": "She waved goodbye to her friend."
+  },
+  {
+    "id": 1277,
+    "word": "wedding",
+    "definition": "婚禮(n)",
+    "example": "They attended a wedding last weekend."
+  },
+  {
+    "id": 1278,
+    "word": "weekday",
+    "definition": "周一到周五的通稱(n)",
+    "example": "The weekday was on the table."
+  },
+  {
+    "id": 1279,
+    "word": "weight",
+    "definition": "重量、體重(n)",
+    "example": "He found a weight in the garden."
+  },
+  {
+    "id": 1280,
+    "word": "western",
+    "definition": "西的、西方的、來自西方的人、有西方特徵的(adj)",
+    "example": "This is a western idea."
+  },
+  {
+    "id": 1281,
+    "word": "whale",
+    "definition": "鯨魚(n)",
+    "example": "The whale is the largest animal."
+  },
+  {
+    "id": 1282,
+    "word": "whatever",
+    "definition": "無論什麼、不管什麼(pron) 不管怎樣的、無論什麼樣的(adj)",
+    "example": "She is a whatever person."
+  },
+  {
+    "id": 1283,
+    "word": "wheel",
+    "definition": "輪、車輪(n)",
+    "example": "The wheel was on the table."
+  },
+  {
+    "id": 1284,
+    "word": "while",
+    "definition": "在(當)…的時候、和…同時(conj)",
+    "example": "while it rains, stay inside."
+  },
+  {
+    "id": 1285,
+    "word": "whole",
+    "definition": "全部的、整體的(adj) 全部、整體(n)",
+    "example": "A whole is very important to us."
+  },
+  {
+    "id": 1286,
+    "word": "whom",
+    "definition": "(who的受格)誰(pron)",
+    "example": "whom is on the table."
+  },
+  {
+    "id": 1287,
+    "word": "wide",
+    "definition": "寬闊的、廣泛的(adj) 全部地、充分地(adv)",
+    "example": "She is a wide person."
+  },
+  {
+    "id": 1288,
+    "word": "wild",
+    "definition": "野生的、未馴化的、荒蕪的、瘋狂的(adj)",
+    "example": "Wild animals live in the forest."
+  },
+  {
+    "id": 1289,
+    "word": "willing",
+    "definition": "願意的、樂意的、心甘情願的(adj)",
+    "example": "He gave a willing answer."
+  },
+  {
+    "id": 1290,
+    "word": "wine",
+    "definition": "(葡萄)酒(n)",
+    "example": "A wine is very important to us."
+  },
+  {
+    "id": 1291,
+    "word": "wing",
+    "definition": "翅膀(n)",
+    "example": "I saw a wing on the way home."
+  },
+  {
+    "id": 1292,
+    "word": "winner",
+    "definition": "贏家、勝利者(n)",
+    "example": "She bought a winner at the store."
+  },
+  {
+    "id": 1293,
+    "word": "within",
+    "definition": "在…內(prep)",
+    "example": "The book is within the shelf."
+  },
+  {
+    "id": 1294,
+    "word": "wolf",
+    "definition": "狼(n)",
+    "example": "He found a wolf in the garden."
+  },
+  {
+    "id": 1295,
+    "word": "women's room",
+    "definition": "女廁所(n)",
+    "example": "A women's room is very important to us."
+  },
+  {
+    "id": 1296,
+    "word": "wonder",
+    "definition": "感到驚訝、詫異(vi) 想知道(vt)",
+    "example": "She wondered why the sky is blue."
+  },
+  {
+    "id": 1297,
+    "word": "wood",
+    "definition": "木材、木桶(n)",
+    "example": "She bought a wood at the store."
+  },
+  {
+    "id": 1298,
+    "word": "wooden",
+    "definition": "木製的(adj)",
+    "example": "The weather is wooden today."
+  },
+  {
+    "id": 1299,
+    "word": "woods",
+    "definition": "樹林、森林(n)",
+    "example": "He found a woods in the garden."
+  },
+  {
+    "id": 1300,
+    "word": "worried",
+    "definition": "煩惱的、擔心的(adj)",
+    "example": "She was worried about the exam."
+  },
+  {
+    "id": 1301,
+    "word": "worth",
+    "definition": "值得(prep)",
+    "example": "This book is worth reading."
+  },
+  {
+    "id": 1302,
+    "word": "wound",
+    "definition": "創傷、傷口(n) 使受傷、傷害(vt)",
+    "example": "He decided to wound the problem."
+  },
+  {
+    "id": 1303,
+    "word": "wow",
+    "definition": "哎喲、哇(interj)",
+    "example": "He shouted \"wow!\" in surprise."
+  },
+  {
+    "id": 1304,
+    "word": "wrist",
+    "definition": "手腕(n)",
+    "example": "He found a wrist in the garden."
+  },
+  {
+    "id": 1305,
+    "word": "yard",
+    "definition": "院子、場地(n)",
+    "example": "A yard is very important to us."
+  },
+  {
+    "id": 1306,
+    "word": "youth",
+    "definition": "青春、青少年時期、小夥子(總稱)年輕人(n)",
+    "example": "I saw a youth on the way home."
+  },
+  {
+    "id": 1307,
+    "word": "Youth Day",
+    "definition": "青年節(n)",
+    "example": "She bought a Youth Day at the store."
+  },
+  {
+    "id": 1308,
+    "word": "yucky",
+    "definition": "令人厭惡的(adj)",
+    "example": "The weather is yucky today."
+  },
+  {
+    "id": 1309,
+    "word": "yummy",
+    "definition": "好吃的、美味的(adj)",
+    "example": "The cake was yummy!"
+  },
+  {
+    "id": 1310,
+    "word": "zebra",
+    "definition": "斑馬(n)",
+    "example": "We saw a zebra at the zoo."
+  },
+  {
+    "id": 1311,
+    "word": "zero",
+    "definition": "零(num) 零點、零度(n)",
+    "example": "The temperature dropped to zero."
+  },
+  {
+    "id": 1312,
+    "word": "false",
+    "definition": "假的(adj)",
+    "example": "The statement is false."
+  }
+]

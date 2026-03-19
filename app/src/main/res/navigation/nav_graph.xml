@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.memoloop.app.ui.home.HomeFragment"
+        android:label="首頁">
+        <action
+            android:id="@+id/action_home_to_review"
+            app:destination="@id/reviewFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/reviewFragment"
+        android:name="com.memoloop.app.ui.review.ReviewFragment"
+        android:label="複習">
+        <action
+            android:id="@+id/action_review_to_result"
+            app:destination="@id/resultFragment"
+            app:popUpTo="@id/homeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.memoloop.app.ui.review.ResultFragment"
+        android:label="完成">
+        <argument
+            android:name="elapsedSeconds"
+            app:argType="long" />
+        <argument
+            android:name="unlockedPrizeIndex"
+            android:defaultValue="-1"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_result_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.memoloop.app.ui.history.HistoryFragment"
+        android:label="複習紀錄" />
+
+    <fragment
+        android:id="@+id/prizeFragment"
+        android:name="com.memoloop.app.ui.prize.PrizeFragment"
+        android:label="成就獎項" />
+
+</navigation>

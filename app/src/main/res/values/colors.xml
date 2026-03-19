@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#4A90D9</color>
+    <color name="primary_dark">#2C6FAC</color>
+    <color name="primary_light">#82B8EE</color>
+    <color name="accent">#FF6B35</color>
+    <color name="background">#F5F7FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="btn_again">#EF4444</color>
+    <color name="btn_hard">#F97316</color>
+    <color name="btn_good">#3B82F6</color>
+    <color name="btn_easy">#22C55E</color>
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#CD7F32</color>
+    <color name="platinum">#E5E4E2</color>
+    <color name="divider">#E5E7EB</color>
+    <color name="review_dot">#4A90D9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+</resources>
