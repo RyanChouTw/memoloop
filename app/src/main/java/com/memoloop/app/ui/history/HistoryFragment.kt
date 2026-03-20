@@ -13,10 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.memoloop.app.R
 import com.memoloop.app.data.model.ReviewSession
 import com.memoloop.app.databinding.FragmentHistoryBinding
-import java.text.SimpleDateFormat
 import java.util.Calendar
-import java.util.Date
-import java.util.Locale
 
 class HistoryFragment : Fragment() {
 
@@ -79,6 +76,7 @@ class HistoryFragment : Fragment() {
         viewModel.sessions.observe(viewLifecycleOwner) { sessions ->
             buildCalendarGrid(sessions)
             recordAdapter.submitList(sessions.sortedByDescending { it.dateMillis })
+            updateStats(sessions)
         }
     }
 
@@ -93,21 +91,36 @@ class HistoryFragment : Fragment() {
         binding.btnNextMonth.setOnClickListener { viewModel.nextMonth() }
     }
 
+    private fun updateStats(sessions: List<ReviewSession>) {
+        // Consecutive days this month
+        val distinctDays = sessions.map {
+            val c = Calendar.getInstance()
+            c.timeInMillis = it.dateMillis
+            c.get(Calendar.DAY_OF_MONTH)
+        }.toHashSet().size
+        binding.tvStatStreak.text = distinctDays.toString()
+
+        // Total review time in minutes
+        val totalSec = sessions.sumOf { it.durationSeconds }
+        val totalMin = (totalSec / 60).toInt()
+        binding.tvStatTime.text = "${totalMin}m"
+
+        // Words cleared (approx 30 cards per session)
+        binding.tvStatWords.text = (sessions.size * 30).toString()
+    }
+
     private fun buildCalendarGrid(sessions: List<ReviewSession>) {
         binding.gridCalendar.removeAllViews()
 
         val y = viewModel.year.value ?: return
         val m = viewModel.month.value ?: return
 
-        // Days with sessions
-        val fmt = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
         val sessionDays = sessions.map {
             val cal = Calendar.getInstance()
             cal.timeInMillis = it.dateMillis
             cal.get(Calendar.DAY_OF_MONTH)
         }.toHashSet()
 
-        // First day of month weekday (0=Sun)
         val cal = Calendar.getInstance()
         cal.set(y, m - 1, 1)
         val firstDow = cal.get(Calendar.DAY_OF_WEEK) - 1  // 0=Sun
@@ -117,11 +130,10 @@ class HistoryFragment : Fragment() {
         val isCurrentMonth = today.get(Calendar.YEAR) == y && today.get(Calendar.MONTH) + 1 == m
         val todayDay = today.get(Calendar.DAY_OF_MONTH)
 
-        val cellSizeDp = 46
+        val cellSizeDp = 44
         val density = resources.displayMetrics.density
         val cellSizePx = (cellSizeDp * density).toInt()
 
-        // Empty cells for first row offset
         repeat(firstDow) {
             val empty = View(requireContext())
             empty.layoutParams = android.widget.GridLayout.LayoutParams().apply {
@@ -135,11 +147,10 @@ class HistoryFragment : Fragment() {
             binding.gridCalendar.addView(empty)
         }
 
-        // Day cells
         for (day in 1..daysInMonth) {
             val tv = TextView(requireContext()).apply {
-                text = if (sessionDays.contains(day)) "📘\n$day" else "$day"
-                textSize = if (sessionDays.contains(day)) 11f else 13f
+                text = if (sessionDays.contains(day)) "●\n$day" else "$day"
+                textSize = if (sessionDays.contains(day)) 10f else 13f
                 gravity = Gravity.CENTER
                 setPadding(2, 4, 2, 4)
                 layoutParams = android.widget.GridLayout.LayoutParams().apply {
@@ -150,10 +161,11 @@ class HistoryFragment : Fragment() {
                         android.widget.GridLayout.FILL, 1f
                     )
                 }
-                // Highlight today
                 if (isCurrentMonth && day == todayDay) {
                     setBackgroundResource(R.drawable.bg_today_circle)
                     setTextColor(ContextCompat.getColor(requireContext(), R.color.white))
+                } else if (sessionDays.contains(day)) {
+                    setTextColor(ContextCompat.getColor(requireContext(), R.color.primary))
                 } else {
                     setTextColor(ContextCompat.getColor(requireContext(), R.color.text_primary))
                 }

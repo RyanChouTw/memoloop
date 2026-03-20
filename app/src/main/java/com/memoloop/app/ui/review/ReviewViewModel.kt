@@ -6,7 +6,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.memoloop.app.data.db.AppDatabase
+import com.memoloop.app.data.model.DifficultyLevel
 import com.memoloop.app.data.model.Word
+import com.memoloop.app.data.repository.DifficultyManager
 import com.memoloop.app.data.repository.SessionRepository
 import com.memoloop.app.data.repository.WordRepository
 import kotlinx.coroutines.Job
@@ -20,6 +22,7 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     private val wordRepo = WordRepository(application)
+    private val difficultyManager = DifficultyManager(application)
     private val sessionRepo = SessionRepository(
         AppDatabase.getInstance(application).reviewSessionDao()
     )
@@ -59,7 +62,7 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
     )
 
     fun startSession() {
-        val words = wordRepo.getRandomWords(SESSION_SIZE)
+        val words = wordRepo.getRandomWords(SESSION_SIZE, difficultyManager.current)
         queue.clear()
         queue.addAll(words)
         _initialSize.value = words.size

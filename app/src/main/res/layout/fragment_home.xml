@@ -1,95 +1,278 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background">
+    android:background="@color/background"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    android:paddingBottom="80dp">
 
-    <!-- Logo / App title -->
-    <TextView
-        android:id="@+id/tv_app_name"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MemoLoop"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@color/primary"
-        android:letterSpacing="0.05"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/tv_subtitle"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_chainStyle="packed"
-        app:layout_constraintVertical_bias="0.38" />
+        android:orientation="vertical"
+        android:padding="20dp">
 
-    <TextView
-        android:id="@+id/tv_subtitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="國中基礎 1200 單字"
-        android:textSize="16sp"
-        android:textColor="@color/text_secondary"
-        android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@id/tv_app_name"
-        app:layout_constraintBottom_toTopOf="@id/tv_streak"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <!-- Streak card -->
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/tv_streak"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="4dp"
-        app:cardBackgroundColor="@color/primary"
-        app:layout_constraintTop_toBottomOf="@id/tv_subtitle"
-        app:layout_constraintBottom_toTopOf="@id/btn_start"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent">
-
+        <!-- ── Header row ── -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center"
-            android:padding="16dp">
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="20dp">
 
             <TextView
-                android:id="@+id/tv_streak_count"
-                android:layout_width="wrap_content"
+                android:id="@+id/tv_app_name"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0"
-                android:textSize="36sp"
+                android:layout_weight="1"
+                android:text="MemoLoop"
+                android:textSize="26sp"
                 android:textStyle="bold"
-                android:textColor="@color/white" />
+                android:textColor="@color/primary"
+                android:letterSpacing="0.02" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/streak_days"
-                android:textSize="13sp"
-                android:textColor="@color/white" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_difficulty"
+                style="@style/Widget.Material3.Button.IconButton"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                app:icon="@drawable/ic_difficulty"
+                app:iconSize="22dp"
+                app:iconTint="@color/primary"
+                android:contentDescription="選擇難度" />
 
         </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
 
-    <!-- Start button -->
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/btn_start"
-        android:layout_width="220dp"
-        android:layout_height="60dp"
-        android:layout_marginTop="40dp"
-        android:text="@string/start"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        app:cornerRadius="30dp"
-        app:layout_constraintTop_toBottomOf="@id/tv_streak"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintVertical_bias="0.35" />
+        <!-- ── Hero card ── -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="24dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/surface_tonal"
+            app:strokeColor="@color/border"
+            app:strokeWidth="1dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="28dp">
+
+                <!-- Difficulty label -->
+                <TextView
+                    android:id="@+id/tv_subtitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="國中基礎 1200 單字"
+                    android:textSize="13sp"
+                    android:textColor="@color/text_secondary"
+                    android:letterSpacing="0.05"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Streak badge (long-press to reset) -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/tv_streak"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="28dp"
+                    app:cardCornerRadius="100dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@color/card_background"
+                    app:strokeColor="@color/border"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:paddingStart="16dp"
+                        android:paddingEnd="16dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="🔥"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/tv_streak_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_primary"
+                            android:layout_marginStart="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" day streak"
+                            android:textSize="14sp"
+                            android:textColor="@color/text_secondary"
+                            android:layout_marginStart="2dp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Circular START button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_start"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:text="@string/start"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/on_primary"
+                    app:cornerRadius="90dp"
+                    app:backgroundTint="@color/primary"
+                    android:insetTop="0dp"
+                    android:insetBottom="0dp" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- ── Stats bento (2 columns) ── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/card_background"
+                app:strokeColor="@color/border"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="📅"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/tv_streak_days_stat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="連續天數"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_secondary"
+                        android:layout_marginTop="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/card_background"
+                app:strokeColor="@color/border"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="✨"
+                        android:textSize="20sp"
+                        android:layout_marginBottom="8dp" />
+
+                    <TextView
+                        android:id="@+id/tv_words_mastered"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="—"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/text_primary" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="累計複習"
+                        android:textSize="12sp"
+                        android:textColor="@color/text_secondary"
+                        android:layout_marginTop="2dp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+        <!-- ── Pro Tip dark card ── -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="0dp"
+            app:cardBackgroundColor="@color/primary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PRO TIP"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/accent"
+                    android:letterSpacing="0.1"
+                    android:layout_marginBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="每天複習 20 分鐘，比一次苦讀 3 小時更有效。間隔重複是記憶的最佳夥伴。"
+                    android:textSize="14sp"
+                    android:textColor="@color/on_primary"
+                    android:lineSpacingMultiplier="1.4" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

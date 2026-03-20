@@ -12,13 +12,15 @@
         android:id="@+id/progress_bar"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="6dp"
         app:trackCornerRadius="4dp"
+        app:indicatorColor="@color/primary"
+        app:trackColor="@color/border"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Cards remaining -->
+    <!-- Cards remaining counter (X / 30) -->
     <TextView
         android:id="@+id/tv_cards_remaining"
         android:layout_width="wrap_content"
@@ -43,13 +45,11 @@
     <!-- Word card -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card_word"
+        style="@style/CardWord"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginBottom="16dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="8dp"
-        app:cardBackgroundColor="@color/card_background"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
         app:layout_constraintTop_toBottomOf="@id/tv_cards_remaining"
         app:layout_constraintBottom_toTopOf="@id/btn_container"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,6 +85,7 @@
                     android:layout_height="48dp"
                     app:icon="@android:drawable/ic_lock_silent_mode_off"
                     app:iconSize="24dp"
+                    app:iconTint="@color/text_secondary"
                     app:layout_constraintTop_toTopOf="@id/tv_word"
                     app:layout_constraintEnd_toEndOf="parent" />
 
@@ -94,23 +95,25 @@
                     android:layout_width="0dp"
                     android:layout_height="1dp"
                     android:layout_marginTop="16dp"
-                    android:background="@color/divider"
+                    android:background="@color/border"
                     app:layout_constraintTop_toBottomOf="@id/tv_word"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toEndOf="parent" />
 
-                <!-- Definition -->
+                <!-- Definition in tonal pill -->
                 <TextView
                     android:id="@+id/tv_definition"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
                     android:textSize="17sp"
                     android:textColor="@color/text_primary"
                     android:lineSpacingMultiplier="1.5"
+                    android:background="@drawable/bg_pill_tonal"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="8dp"
                     app:layout_constraintTop_toBottomOf="@id/divider"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent" />
+                    app:layout_constraintStart_toStartOf="parent" />
 
                 <!-- Example label -->
                 <TextView
@@ -119,12 +122,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/example_sentence"
-                    android:textSize="12sp"
+                    android:textSize="11sp"
                     android:textStyle="bold"
                     android:textColor="@color/primary"
                     android:background="@drawable/bg_example_label"
                     android:paddingHorizontal="8dp"
-                    android:paddingVertical="2dp"
+                    android:paddingVertical="3dp"
+                    android:letterSpacing="0.06"
                     app:layout_constraintTop_toBottomOf="@id/tv_definition"
                     app:layout_constraintStart_toStartOf="parent" />
 
@@ -161,51 +165,51 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_again"
+            style="@style/ButtonAgain"
             android:layout_width="0dp"
             android:layout_height="52dp"
             android:layout_weight="1"
             android:layout_marginEnd="4dp"
             android:text="@string/again"
             android:textSize="13sp"
-            android:textStyle="bold"
-            app:backgroundTint="@color/btn_again"
-            app:cornerRadius="12dp" />
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_hard"
+            style="@style/ButtonHard"
             android:layout_width="0dp"
             android:layout_height="52dp"
             android:layout_weight="1"
             android:layout_marginHorizontal="4dp"
             android:text="@string/hard"
             android:textSize="13sp"
-            android:textStyle="bold"
-            app:backgroundTint="@color/btn_hard"
-            app:cornerRadius="12dp" />
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_good"
+            style="@style/ButtonGood"
             android:layout_width="0dp"
             android:layout_height="52dp"
             android:layout_weight="1"
             android:layout_marginHorizontal="4dp"
             android:text="@string/good"
             android:textSize="13sp"
-            android:textStyle="bold"
-            app:backgroundTint="@color/btn_good"
-            app:cornerRadius="12dp" />
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btn_easy"
+            style="@style/ButtonEasy"
             android:layout_width="0dp"
             android:layout_height="52dp"
             android:layout_weight="1"
             android:layout_marginStart="4dp"
             android:text="@string/easy"
             android:textSize="13sp"
-            android:textStyle="bold"
-            app:backgroundTint="@color/btn_easy"
-            app:cornerRadius="12dp" />
+            android:insetTop="0dp"
+            android:insetBottom="0dp" />
 
     </LinearLayout>
 

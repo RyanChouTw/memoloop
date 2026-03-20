@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MemoLoop</string>
-    <string name="start">開始複習</string>
+    <string name="start">START</string>
     <string name="again">Again</string>
     <string name="hard">Hard</string>
     <string name="good">Good</string>
     <string name="easy">Easy</string>
-    <string name="history">複習紀錄</string>
-    <string name="prize">成就獎項</string>
-    <string name="home">首頁</string>
-    <string name="session_complete">本輪完成！</string>
+    <string name="history">Records</string>
+    <string name="prize">Awards</string>
+    <string name="home">Home</string>
+    <string name="session_complete">Review Complete!</string>
     <string name="time_spent">花費時間</string>
     <string name="well_done">太棒了！</string>
     <string name="no_record">本月尚無複習紀錄</string>
     <string name="listen">聆聽發音</string>
     <string name="example_sentence">例句</string>
-    <string name="back_home">回首頁</string>
+    <string name="back_home">Back to Home →</string>
     <string name="cards_remaining">剩餘卡片</string>
     <string name="keep_going">繼續加油！</string>
     <string name="streak_days">連續複習天數</string>
+    <string name="select_difficulty">Choose Difficulty</string>
+    <!-- Difficulty display labels (subtitle under logo) -->
+    <string name="difficulty_junior">Beginner · 800 Words</string>
+    <string name="difficulty_senior">Advanced · 2,500 Words</string>
+    <string name="difficulty_toeic">Professional · 5,000+ Words</string>
+    <!-- Difficulty picker option labels -->
+    <string name="difficulty_picker_junior">Beginner\n800 Words</string>
+    <string name="difficulty_picker_senior">Advanced\n2,500 Words</string>
+    <string name="difficulty_picker_toeic">Professional\n5,000+ Words</string>
+    <!-- Result screen -->
+    <string name="milestone_streak">You\'re on a streak!</string>
+    <!-- Records screen -->
+    <string name="records_header">Your Learning Sanctuary.</string>
+    <string name="records_subheader">ACTIVITY TRACKING</string>
+    <string name="consecutive_days">Consecutive Days</string>
+    <string name="total_review_time">Total Review Time</string>
+    <string name="words_cleared">Words Cleared</string>
+    <string name="recent_sessions">Recent Sessions</string>
 </resources>

@@ -9,6 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.memoloop.app.R
+import com.memoloop.app.data.model.DifficultyLevel
 import com.memoloop.app.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
@@ -30,13 +31,26 @@ class HomeFragment : Fragment() {
 
         viewModel.streak.observe(viewLifecycleOwner) { streak ->
             binding.tvStreakCount.text = streak.toString()
+            binding.tvStreakDaysStat.text = streak.toString()
+        }
+
+        viewModel.difficulty.observe(viewLifecycleOwner) { level ->
+            binding.tvSubtitle.text = when (level) {
+                DifficultyLevel.JUNIOR_HIGH -> getString(R.string.difficulty_junior)
+                DifficultyLevel.SENIOR_HIGH -> getString(R.string.difficulty_senior)
+                DifficultyLevel.TOEIC       -> getString(R.string.difficulty_toeic)
+            }
         }
 
         binding.btnStart.setOnClickListener {
             findNavController().navigate(R.id.action_home_to_review)
         }
 
-        // Long-press streak card → reset dialog (for testing)
+        binding.btnDifficulty.setOnClickListener {
+            showDifficultyPicker()
+        }
+
+        // Long-press streak badge → reset dialog (for testing / admin)
         binding.tvStreak.setOnLongClickListener {
             MaterialAlertDialogBuilder(requireContext())
                 .setTitle("重置複習紀錄")
@@ -46,6 +60,25 @@ class HomeFragment : Fragment() {
                 .show()
             true
         }
+    }
+
+    private fun showDifficultyPicker() {
+        val levels = DifficultyLevel.entries
+        val labels = arrayOf(
+            getString(R.string.difficulty_junior),
+            getString(R.string.difficulty_senior),
+            getString(R.string.difficulty_toeic)
+        )
+        val currentIndex = levels.indexOf(viewModel.difficulty.value ?: DifficultyLevel.JUNIOR_HIGH)
+
+        MaterialAlertDialogBuilder(requireContext())
+            .setTitle(getString(R.string.select_difficulty))
+            .setSingleChoiceItems(labels, currentIndex) { dialog, which ->
+                viewModel.setDifficulty(levels[which])
+                dialog.dismiss()
+            }
+            .setNegativeButton("取消", null)
+            .show()
     }
 
     override fun onResume() {
