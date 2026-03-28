@@ -23,6 +23,13 @@
             android:gravity="center_vertical"
             android:layout_marginBottom="20dp">
 
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:src="@mipmap/ic_launcher"
+                android:contentDescription="@string/app_name" />
+
             <TextView
                 android:id="@+id/tv_app_name"
                 android:layout_width="0dp"
@@ -42,7 +49,7 @@
                 app:icon="@drawable/ic_difficulty"
                 app:iconSize="22dp"
                 app:iconTint="@color/primary"
-                android:contentDescription="選擇難度" />
+                android:contentDescription="@string/select_difficulty_desc" />
 
         </LinearLayout>
 
@@ -69,7 +76,7 @@
                     android:id="@+id/tv_subtitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="國中基礎 1200 單字"
+                    android:text="@string/difficulty_junior"
                     android:textSize="13sp"
                     android:textColor="@color/text_secondary"
                     android:letterSpacing="0.05"
@@ -116,7 +123,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text=" day streak"
+                            android:text="@string/day_streak"
                             android:textSize="14sp"
                             android:textColor="@color/text_secondary"
                             android:layout_marginStart="2dp" />
@@ -184,7 +191,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="連續天數"
+                        android:text="@string/streak_days_stat"
                         android:textSize="12sp"
                         android:textColor="@color/text_secondary"
                         android:layout_marginTop="2dp" />
@@ -228,7 +235,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="累計複習"
+                        android:text="@string/total_reviews"
                         android:textSize="12sp"
                         android:textColor="@color/text_secondary"
                         android:layout_marginTop="2dp" />
@@ -237,42 +244,6 @@
             </com.google.android.material.card.MaterialCardView>
 
         </LinearLayout>
-
-        <!-- ── Pro Tip dark card ── -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            app:cardCornerRadius="16dp"
-            app:cardElevation="0dp"
-            app:cardBackgroundColor="@color/primary">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="PRO TIP"
-                    android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/accent"
-                    android:letterSpacing="0.1"
-                    android:layout_marginBottom="8dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="每天複習 20 分鐘，比一次苦讀 3 小時更有效。間隔重複是記憶的最佳夥伴。"
-                    android:textSize="14sp"
-                    android:textColor="@color/on_primary"
-                    android:lineSpacingMultiplier="1.4" />
-
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 </androidx.core.widget.NestedScrollView>

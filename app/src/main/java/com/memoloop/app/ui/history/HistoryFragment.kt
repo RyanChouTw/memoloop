@@ -48,7 +48,12 @@ class HistoryFragment : Fragment() {
     }
 
     private fun setupDowHeader() {
-        val days = listOf("日", "一", "二", "三", "四", "五", "六")
+        val days = listOf(
+            getString(R.string.dow_sun), getString(R.string.dow_mon),
+            getString(R.string.dow_tue), getString(R.string.dow_wed),
+            getString(R.string.dow_thu), getString(R.string.dow_fri),
+            getString(R.string.dow_sat)
+        )
         binding.gridDow.removeAllViews()
         days.forEach { day ->
             val tv = TextView(requireContext()).apply {
@@ -83,7 +88,10 @@ class HistoryFragment : Fragment() {
     private fun updateHeader() {
         val y = viewModel.year.value ?: return
         val m = viewModel.month.value ?: return
-        binding.tvMonthYear.text = "${y}年 ${m}月"
+        val cal = Calendar.getInstance()
+        cal.set(y, m - 1, 1)
+        val monthName = java.text.SimpleDateFormat("MMMM", java.util.Locale.getDefault()).format(cal.time)
+        binding.tvMonthYear.text = getString(R.string.month_year_fmt, monthName, y)
     }
 
     private fun setupNavButtons() {

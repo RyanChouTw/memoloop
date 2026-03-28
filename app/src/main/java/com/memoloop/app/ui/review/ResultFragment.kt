@@ -16,12 +16,14 @@ class ResultFragment : Fragment() {
     private val binding get() = _binding!!
 
     // Prize definitions matching ReviewViewModel.prizeThresholds order
+    // (icon, titleResId, messageResId)
+    private data class PrizeInfoDef(val icon: String, val titleRes: Int, val msgRes: Int)
     private val prizeInfo = listOf(
-        Triple("🥉", "新手學員", "完成了第一次複習，正式踏上單字之旅！"),
-        Triple("🔶", "青銅學徒", "連續複習 3 天，習慣正在形成！"),
-        Triple("🥈", "銀牌達人", "連續複習 7 天，堅持就是勝利！"),
-        Triple("🥇", "黃金大師", "連續複習 14 天，你的努力令人敬佩！"),
-        Triple("💎", "白金傳奇", "連續複習 30 天，你已是單字傳奇！"),
+        PrizeInfoDef("🥉", R.string.prize_rookie_title, R.string.prize_rookie_msg),
+        PrizeInfoDef("🔶", R.string.prize_bronze_title, R.string.prize_bronze_msg),
+        PrizeInfoDef("🥈", R.string.prize_silver_title, R.string.prize_silver_msg),
+        PrizeInfoDef("🥇", R.string.prize_gold_title, R.string.prize_gold_msg),
+        PrizeInfoDef("💎", R.string.prize_platinum_title, R.string.prize_platinum_msg),
     )
 
     override fun onCreateView(
@@ -52,11 +54,13 @@ class ResultFragment : Fragment() {
     }
 
     private fun showPrizeCelebration(index: Int) {
-        val (icon, title, message) = prizeInfo[index]
+        val info = prizeInfo[index]
+        val title = getString(info.titleRes)
+        val message = getString(info.msgRes)
         MaterialAlertDialogBuilder(requireContext())
-            .setTitle("$icon  恭喜解鎖新成就！")
-            .setMessage("「$title」\n\n$message")
-            .setPositiveButton("太棒了！") { dialog, _ -> dialog.dismiss() }
+            .setTitle(getString(R.string.prize_unlocked_title, info.icon))
+            .setMessage(getString(R.string.prize_unlocked_msg, title, message))
+            .setPositiveButton(getString(R.string.awesome)) { dialog, _ -> dialog.dismiss() }
             .setCancelable(false)
             .show()
     }

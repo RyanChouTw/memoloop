@@ -34,19 +34,20 @@ class SessionRepository(private val dao: ReviewSessionDao) {
         if (dateKeys.isEmpty()) return 0
 
         val today = dateFormat.format(Date())
-        val cal = java.util.Calendar.getInstance()
-        var streak = 0
+        val yesterdayCal = java.util.Calendar.getInstance()
+        yesterdayCal.add(java.util.Calendar.DAY_OF_MONTH, -1)
+        val yesterday = dateFormat.format(yesterdayCal.time)
 
-        // Start checking from today or yesterday
-        val startDate = if (dateKeys.first() == today) today else {
-            // Most recent session date
-            dateKeys.first()
-        }
+        val mostRecent = dateKeys.first()
+
+        // Streak is broken if most recent session is older than yesterday
+        if (mostRecent != today && mostRecent != yesterday) return 0
 
         val checkCal = java.util.Calendar.getInstance()
-        checkCal.time = dateFormat.parse(startDate)!!
+        checkCal.time = dateFormat.parse(mostRecent)!!
 
         val dateSet = dateKeys.toHashSet()
+        var streak = 0
 
         while (true) {
             val key = dateFormat.format(checkCal.time)

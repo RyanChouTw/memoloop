@@ -63,7 +63,7 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
             val done = initial - size
             binding.progressBar.max = initial
             binding.progressBar.progress = done
-            binding.tvCardsRemaining.text = "剩餘 $size 張"
+            binding.tvCardsRemaining.text = getString(R.string.cards_remaining, size)
         }
 
         viewModel.elapsedSeconds.observe(viewLifecycleOwner) { seconds ->

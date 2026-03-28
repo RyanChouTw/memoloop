@@ -41,7 +41,7 @@
     <style name="ButtonHard" parent="ButtonReviewNeutral"/>
     <style name="ButtonGood" parent="ButtonReviewNeutral"/>
 
-    <!-- Easy = primary green -->
+    <!-- Easy = primary blue -->
     <style name="ButtonEasy" parent="ButtonReview">
         <item name="backgroundTint">@color/btn_easy</item>
         <item name="android:textColor">@color/btn_easy_text</item>

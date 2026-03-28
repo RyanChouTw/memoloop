@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary green system (Figma) -->
-    <color name="primary">#006C5A</color>
-    <color name="primary_dark">#004D3F</color>
-    <color name="primary_light">#EEF5F1</color>
-    <color name="on_primary">#E4FFF5</color>
-    <color name="accent">#7CF8DA</color>
+    <!-- Primary light-blue system -->
+    <color name="primary">#1976D2</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="accent">#64B5F6</color>
 
     <!-- Backgrounds & surfaces -->
-    <color name="background">#F6FAF7</color>
+    <color name="background">#F5F9FD</color>
     <color name="surface">#FFFFFF</color>
-    <color name="surface_tonal">#EEF5F1</color>
+    <color name="surface_tonal">#E3F2FD</color>
     <color name="card_background">#FFFFFF</color>
-    <color name="border">#DAE5E0</color>
+    <color name="border">#BBDEFB</color>
 
     <!-- Text -->
-    <color name="text_primary">#2A3531</color>
-    <color name="text_secondary">#57615D</color>
+    <color name="text_primary">#1A2B3C</color>
+    <color name="text_secondary">#546E7A</color>
 
     <!-- Review action buttons — all neutral except Easy -->
-    <color name="btn_again">#E1EAE6</color>
-    <color name="btn_hard">#E1EAE6</color>
-    <color name="btn_good">#E1EAE6</color>
-    <color name="btn_easy">#006C5A</color>
-    <color name="btn_neutral_text">#57615D</color>
-    <color name="btn_easy_text">#E4FFF5</color>
+    <color name="btn_again">#E1EBF5</color>
+    <color name="btn_hard">#E1EBF5</color>
+    <color name="btn_good">#E1EBF5</color>
+    <color name="btn_easy">#1976D2</color>
+    <color name="btn_neutral_text">#546E7A</color>
+    <color name="btn_easy_text">#FFFFFF</color>
 
     <!-- Calendar / history dots -->
-    <color name="review_dot">#006C5A</color>
+    <color name="review_dot">#1976D2</color>
 
     <!-- Achievement badges -->
     <color name="gold">#FFD700</color>
@@ -36,6 +36,6 @@
     <color name="platinum">#E5E4E2</color>
 
     <!-- Misc -->
-    <color name="divider">#DAE5E0</color>
+    <color name="divider">#BBDEFB</color>
     <color name="white">#FFFFFF</color>
 </resources>

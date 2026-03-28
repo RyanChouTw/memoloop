@@ -53,10 +53,10 @@ class HomeFragment : Fragment() {
         // Long-press streak badge → reset dialog (for testing / admin)
         binding.tvStreak.setOnLongClickListener {
             MaterialAlertDialogBuilder(requireContext())
-                .setTitle("重置複習紀錄")
-                .setMessage("確定要清除所有複習紀錄與連續天數嗎？")
-                .setPositiveButton("確定重置") { _, _ -> viewModel.resetData() }
-                .setNegativeButton("取消", null)
+                .setTitle(getString(R.string.reset_title))
+                .setMessage(getString(R.string.reset_message))
+                .setPositiveButton(getString(R.string.reset_confirm)) { _, _ -> viewModel.resetData() }
+                .setNegativeButton(getString(R.string.cancel), null)
                 .show()
             true
         }
@@ -77,7 +77,7 @@ class HomeFragment : Fragment() {
                 viewModel.setDifficulty(levels[which])
                 dialog.dismiss()
             }
-            .setNegativeButton("取消", null)
+            .setNegativeButton(getString(R.string.cancel), null)
             .show()
     }
 

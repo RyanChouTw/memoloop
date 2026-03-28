@@ -26,13 +26,17 @@ class PrizeFragment : Fragment() {
     private val binding get() = _binding!!
     private val viewModel: PrizeViewModel by viewModels()
 
-    private val prizes = listOf(
-        PrizeDef("🥉", "新手學員", "完成第一次複習", 0, R.color.bronze),
-        PrizeDef("🔶", "青銅學徒", "連續複習 3 天", 3, R.color.bronze),
-        PrizeDef("🥈", "銀牌達人", "連續複習 7 天", 7, R.color.silver),
-        PrizeDef("🥇", "黃金大師", "連續複習 14 天", 14, R.color.gold),
-        PrizeDef("💎", "白金傳奇", "連續複習 30 天", 30, R.color.platinum),
-    )
+    private lateinit var prizes: List<PrizeDef>
+
+    private fun initPrizes() {
+        prizes = listOf(
+            PrizeDef("🥉", getString(R.string.prize_rookie_title), getString(R.string.prize_rookie_condition), 0, R.color.bronze),
+            PrizeDef("🔶", getString(R.string.prize_bronze_title), getString(R.string.prize_bronze_condition), 3, R.color.bronze),
+            PrizeDef("🥈", getString(R.string.prize_silver_title), getString(R.string.prize_silver_condition), 7, R.color.silver),
+            PrizeDef("🥇", getString(R.string.prize_gold_title), getString(R.string.prize_gold_condition), 14, R.color.gold),
+            PrizeDef("💎", getString(R.string.prize_platinum_title), getString(R.string.prize_platinum_condition), 30, R.color.platinum),
+        )
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -44,9 +48,10 @@ class PrizeFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initPrizes()
 
         viewModel.prizeState.observe(viewLifecycleOwner) { state ->
-            binding.tvCurrentStreak.text = "目前連續複習：${state.streak} 天"
+            binding.tvCurrentStreak.text = getString(R.string.current_streak_fmt, state.streak)
             bindPrize(binding.prizeRookie, prizes[0], state)
             bindPrize(binding.prizeBronze, prizes[1], state)
             bindPrize(binding.prizeSilver, prizes[2], state)

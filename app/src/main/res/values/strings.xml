@@ -10,15 +10,15 @@
     <string name="prize">Awards</string>
     <string name="home">Home</string>
     <string name="session_complete">Review Complete!</string>
-    <string name="time_spent">花費時間</string>
-    <string name="well_done">太棒了！</string>
-    <string name="no_record">本月尚無複習紀錄</string>
-    <string name="listen">聆聽發音</string>
-    <string name="example_sentence">例句</string>
+    <string name="time_spent">Time Spent</string>
+    <string name="well_done">Well Done!</string>
+    <string name="no_record">No review records this month</string>
+    <string name="listen">Listen</string>
+    <string name="example_sentence">Example</string>
     <string name="back_home">Back to Home →</string>
-    <string name="cards_remaining">剩餘卡片</string>
-    <string name="keep_going">繼續加油！</string>
-    <string name="streak_days">連續複習天數</string>
+    <string name="cards_remaining">%d cards remaining</string>
+    <string name="keep_going">Keep going!</string>
+    <string name="streak_days">Streak Days</string>
     <string name="select_difficulty">Choose Difficulty</string>
     <!-- Difficulty display labels (subtitle under logo) -->
     <string name="difficulty_junior">Beginner · 800 Words</string>
@@ -30,11 +30,56 @@
     <string name="difficulty_picker_toeic">Professional\n5,000+ Words</string>
     <!-- Result screen -->
     <string name="milestone_streak">You\'re on a streak!</string>
+    <string name="result_subtitle">Great work! Keep the momentum going.</string>
     <!-- Records screen -->
     <string name="records_header">Your Learning Sanctuary.</string>
     <string name="records_subheader">ACTIVITY TRACKING</string>
-    <string name="consecutive_days">Consecutive Days</string>
+    <string name="consecutive_days">Distinct Days</string>
     <string name="total_review_time">Total Review Time</string>
     <string name="words_cleared">Words Cleared</string>
     <string name="recent_sessions">Recent Sessions</string>
+    <!-- Home screen -->
+    <string name="day_streak"> day streak</string>
+    <string name="streak_days_stat">Streak Days</string>
+    <string name="total_reviews">Total Reviews</string>
+    <string name="select_difficulty_desc">Select difficulty</string>
+    <!-- Prize screen -->
+    <string name="prize_header">🏆 Awards</string>
+    <string name="current_streak_fmt">Current streak: %d days</string>
+    <string name="prize_rookie_title">Rookie</string>
+    <string name="prize_bronze_title">Bronze Apprentice</string>
+    <string name="prize_silver_title">Silver Expert</string>
+    <string name="prize_gold_title">Gold Master</string>
+    <string name="prize_platinum_title">Platinum Legend</string>
+    <string name="prize_rookie_condition">Complete your first review</string>
+    <string name="prize_bronze_condition">3-day streak</string>
+    <string name="prize_silver_condition">7-day streak</string>
+    <string name="prize_gold_condition">14-day streak</string>
+    <string name="prize_platinum_condition">30-day streak</string>
+    <string name="prize_rookie_msg">You completed your first review and started your vocabulary journey!</string>
+    <string name="prize_bronze_msg">3-day streak! A habit is forming!</string>
+    <string name="prize_silver_msg">7-day streak! Persistence is key!</string>
+    <string name="prize_gold_msg">14-day streak! Your dedication is admirable!</string>
+    <string name="prize_platinum_msg">30-day streak! You are a vocabulary legend!</string>
+    <string name="prize_unlocked_title">%s  New Achievement Unlocked!</string>
+    <string name="prize_unlocked_msg">「%s」\n\n%s</string>
+    <string name="awesome">Awesome!</string>
+    <!-- Reset dialog -->
+    <string name="reset_title">Reset Review Records</string>
+    <string name="reset_message">Are you sure you want to clear all review records and streak days?</string>
+    <string name="reset_confirm">Confirm Reset</string>
+    <string name="cancel">Cancel</string>
+    <!-- Record adapter -->
+    <string name="record_time_fmt">Time spent: %1$02d:%2$02d</string>
+    <string name="record_date_fmt">MMM dd, yyyy</string>
+    <!-- Month year header -->
+    <string name="month_year_fmt">%1$s %2$d</string>
+    <!-- Calendar day-of-week headers -->
+    <string name="dow_sun">Sun</string>
+    <string name="dow_mon">Mon</string>
+    <string name="dow_tue">Tue</string>
+    <string name="dow_wed">Wed</string>
+    <string name="dow_thu">Thu</string>
+    <string name="dow_fri">Fri</string>
+    <string name="dow_sat">Sat</string>
 </resources>

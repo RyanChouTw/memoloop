@@ -240,42 +240,6 @@
 
         </LinearLayout>
 
-        <!-- ── Milestone CTA card (dark green) ── -->
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            app:cardCornerRadius="18dp"
-            app:cardElevation="0dp"
-            app:cardBackgroundColor="@color/primary">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="20dp">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="KEEP GOING"
-                    android:textSize="11sp"
-                    android:textStyle="bold"
-                    android:textColor="@color/accent"
-                    android:letterSpacing="0.1"
-                    android:layout_marginBottom="8dp" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="每一次複習都讓你更進一步。\n繼續保持你的學習節奏！"
-                    android:textSize="15sp"
-                    android:textColor="@color/on_primary"
-                    android:lineSpacingMultiplier="1.5" />
-
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
         <!-- ── Recent Sessions header ── -->
         <TextView
             android:id="@+id/tv_records_title"

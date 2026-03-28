@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.memoloop.app.R
 import com.memoloop.app.data.model.ReviewSession
 import com.memoloop.app.databinding.ItemRecordBinding
 import java.text.SimpleDateFormat
@@ -13,16 +14,20 @@ import java.util.Locale
 
 class RecordAdapter : ListAdapter<ReviewSession, RecordAdapter.ViewHolder>(DIFF) {
 
-    private val displayFmt = SimpleDateFormat("yyyy年MM月dd日", Locale.getDefault())
+    private var displayFmt: SimpleDateFormat? = null
 
     inner class ViewHolder(private val binding: ItemRecordBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(session: ReviewSession) {
-            binding.tvRecordDate.text = displayFmt.format(Date(session.dateMillis))
+            val ctx = binding.root.context
+            if (displayFmt == null) {
+                displayFmt = SimpleDateFormat(ctx.getString(R.string.record_date_fmt), Locale.getDefault())
+            }
+            binding.tvRecordDate.text = displayFmt!!.format(Date(session.dateMillis))
             val min = session.durationSeconds / 60
             val sec = session.durationSeconds % 60
-            binding.tvRecordTime.text = String.format("花費時間：%02d:%02d", min, sec)
+            binding.tvRecordTime.text = ctx.getString(R.string.record_time_fmt, min, sec)
         }
     }
 
