@@ -111,7 +111,7 @@ class HistoryFragment : Fragment() {
         // Total review time in minutes
         val totalSec = sessions.sumOf { it.durationSeconds }
         val totalMin = (totalSec / 60).toInt()
-        binding.tvStatTime.text = "${totalMin}m"
+        binding.tvStatTime.text = getString(R.string.minutes_fmt, totalMin)
 
         // Words cleared (approx 30 cards per session)
         binding.tvStatWords.text = (sessions.size * 30).toString()
@@ -157,7 +157,7 @@ class HistoryFragment : Fragment() {
 
         for (day in 1..daysInMonth) {
             val tv = TextView(requireContext()).apply {
-                text = if (sessionDays.contains(day)) "●\n$day" else "$day"
+                text = if (sessionDays.contains(day)) getString(R.string.calendar_dot_day_fmt, getString(R.string.icon_bullet), day) else "$day"
                 textSize = if (sessionDays.contains(day)) 10f else 13f
                 gravity = Gravity.CENTER
                 setPadding(2, 4, 2, 4)

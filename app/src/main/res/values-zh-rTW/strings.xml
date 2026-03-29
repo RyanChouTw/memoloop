@@ -74,6 +74,69 @@
     <string name="record_date_fmt">yyyy年MM月dd日</string>
     <!-- Month year header -->
     <string name="month_year_fmt">%2$d年 %1$s</string>
+    <!-- Navigation labels -->
+    <string name="nav_review">複習</string>
+    <string name="nav_quiz">測驗</string>
+    <string name="nav_quiz_result">測驗結果</string>
+    <string name="nav_complete">完成</string>
+    <string name="nav_history">紀錄</string>
+    <string name="nav_awards">成就</string>
+    <!-- Quiz screen -->
+    <string name="quiz_title">單字測驗</string>
+    <string name="quiz_progress_fmt">%1$d / %2$d</string>
+    <string name="quiz_correct_feedback">答對了！</string>
+    <string name="quiz_wrong_feedback">答錯了</string>
+    <string name="quiz_result_label">測驗結果</string>
+    <string name="quiz_score_fmt">%1$d / %2$d</string>
+    <string name="quiz_passed">通過！</string>
+    <string name="quiz_failed">未通過</string>
+    <string name="quiz_points_earned_fmt">+%d 分</string>
+    <string name="quiz_no_points">未獲得積分</string>
+    <string name="monthly_points_fmt">%d 分</string>
+    <!-- Quiz tab page -->
+    <string name="quiz_tab_label">測驗</string>
+    <string name="quiz_tab_subheader">每日挑戰</string>
+    <string name="quiz_tab_header">單字測驗</string>
+    <string name="quiz_go">GO</string>
+    <string name="quiz_back_to_quiz">回到測驗 →</string>
+    <string name="quiz_stat_taken">測驗次數</string>
+    <string name="quiz_stat_pass_rate">通過率</string>
+    <string name="quiz_history_title">測驗紀錄</string>
+    <string name="quiz_record_detail_fmt">得分：%1$d / %2$d</string>
+    <string name="quiz_tab_header_listening">聽力測驗</string>
+    <!-- Practice mode toggle -->
+    <string name="mode_vocabulary">單字</string>
+    <string name="mode_listening">聽力</string>
+    <!-- Listening session -->
+    <string name="listening_title">聽力理解</string>
+    <string name="listening_show_transcript">顯示原文</string>
+    <string name="listening_hide_transcript">隱藏原文</string>
+    <string name="listening_result_label">聽力結果</string>
+    <string name="listening_practice_complete">練習完成！</string>
+    <string name="listening_keep_practicing">繼續加油！</string>
+    <!-- Settings dialog -->
+    <string name="settings_title">設定</string>
+    <string name="select_speech_speed">聽力語速</string>
+    <string name="speech_speed_slow">慢速 (0.5x)</string>
+    <string name="speech_speed_moderate">中速 (0.75x)</string>
+    <string name="speech_speed_normal">正常 (1x)</string>
+    <string name="nav_listening">聽力</string>
+    <string name="nav_listening_result">聽力結果</string>
+    <!-- Transcript actions -->
+    <string name="action_translate">翻譯</string>
+    <string name="action_copy">複製</string>
+    <string name="text_copied">已複製到剪貼簿</string>
+    <!-- Format patterns -->
+    <string name="time_fmt">%1$02d:%2$02d</string>
+    <string name="calendar_dot_day_fmt">%1$s\n%2$d</string>
+    <string name="points_plus_fmt">+%d</string>
+    <string name="percent_fmt">%d%%</string>
+    <string name="minutes_fmt">%d分鐘</string>
+    <string name="stat_placeholder_dash">—</string>
+    <string name="stat_placeholder_time">0分鐘</string>
+    <string name="stat_placeholder_percent">0%%</string>
+    <string name="stat_placeholder_pts">0 分</string>
+    <string name="time_placeholder">00:00</string>
     <!-- Calendar day-of-week headers -->
     <string name="dow_sun">日</string>
     <string name="dow_mon">一</string>

@@ -69,7 +69,7 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
         viewModel.elapsedSeconds.observe(viewLifecycleOwner) { seconds ->
             val min = seconds / 60
             val sec = seconds % 60
-            binding.tvTimer.text = String.format("%02d:%02d", min, sec)
+            binding.tvTimer.text = getString(R.string.time_fmt, min, sec)
         }
 
         viewModel.sessionComplete.observe(viewLifecycleOwner) { complete ->

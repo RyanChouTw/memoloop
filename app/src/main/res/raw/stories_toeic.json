@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "text": "The quarterly sales report indicates that our Asia-Pacific division has exceeded its targets by fifteen percent. However, the European market showed a slight decline due to increased competition. The board has decided to allocate additional resources to the European team while maintaining current investment levels in Asia-Pacific.",
+    "question": "What action will the company take regarding the European market?",
+    "options": [
+      "Reduce investment in the region",
+      "Merge it with the Asia-Pacific division",
+      "Provide more resources to the team there",
+      "Close operations temporarily"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 2,
+    "text": "Due to the recent restructuring, all department heads are required to submit revised budget proposals by the end of this month. The finance committee will review each submission and provide feedback within two weeks. Any department that fails to meet the deadline will have its current budget frozen until further notice.",
+    "question": "What consequence will departments face if they miss the deadline?",
+    "options": [
+      "Their budget will be reduced by ten percent",
+      "Their current budget will be frozen",
+      "The department head will be reassigned",
+      "They will receive an automatic extension"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "text": "We are pleased to announce that starting next quarter, all employees will be eligible for the company's professional development program. Previously, this benefit was limited to senior staff members. The program covers tuition reimbursement for job-related courses, conference attendance, and certification exams.",
+    "question": "What change is being made to the professional development program?",
+    "options": [
+      "It will be discontinued next quarter",
+      "It will now include international conferences only",
+      "It will only cover certification exams",
+      "It is being expanded to all employees"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 4,
+    "text": "The IT department has identified a critical security vulnerability in our email system. All employees must update their passwords by Friday and enable two-factor authentication. Failure to comply will result in temporary suspension of email access until the security requirements are met.",
+    "question": "What will happen to employees who do not update their passwords?",
+    "options": [
+      "They will receive a written warning",
+      "Their email access will be temporarily suspended",
+      "They will be required to attend a security training",
+      "Their accounts will be permanently deleted"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 5,
+    "text": "Our client, Henderson Manufacturing, has requested an expedited delivery of their order due to an unexpected surge in demand. The logistics team has confirmed that we can accommodate the request, but it will incur an additional shipping charge of twelve percent. I recommend we absorb half the cost as a goodwill gesture to maintain the relationship.",
+    "question": "What does the speaker suggest regarding the extra shipping cost?",
+    "options": [
+      "Pass the entire cost to the client",
+      "Split the additional cost with the client",
+      "Absorb the full cost internally",
+      "Delay the shipment to avoid extra charges"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 6,
+    "text": "Following the merger with Apex Solutions, our organizational chart will undergo significant changes. Three redundant positions in the marketing department will be eliminated, but affected employees will be offered comparable roles in the newly formed digital strategy division. Human Resources will schedule individual consultations next week.",
+    "question": "What opportunity will be given to employees in eliminated positions?",
+    "options": [
+      "A severance package with six months' pay",
+      "Early retirement benefits",
+      "Comparable roles in a new division",
+      "Freelance consulting contracts"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 7,
+    "text": "The annual customer satisfaction survey revealed that while our product quality ratings remain high, clients expressed dissatisfaction with our response times for technical support. The average wait time has increased to forty-five minutes, up from twenty minutes last year. Management has approved hiring ten additional support specialists to address this issue.",
+    "question": "What was the primary complaint from customers?",
+    "options": [
+      "Declining product quality",
+      "Slow technical support response times",
+      "High pricing compared to competitors",
+      "Limited product availability"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 8,
+    "text": "I'd like to remind everyone that the office renovation will begin on Monday. The third floor will be inaccessible for approximately three weeks. Employees normally stationed on the third floor have been assigned temporary workstations on the fifth floor. Please collect your access badges from the reception desk before Monday morning.",
+    "question": "Where will third-floor employees work during the renovation?",
+    "options": [
+      "From home",
+      "In a nearby co-working space",
+      "On the fifth floor",
+      "On the second floor"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 9,
+    "text": "The proposal from Greenfield Consulting outlines a comprehensive market analysis that would take approximately eight weeks to complete. Their fee is considerably higher than the other two firms we've evaluated, but their track record in the pharmaceutical sector is unmatched. Given the strategic importance of this project, I believe the investment is justified.",
+    "question": "Why does the speaker support choosing Greenfield Consulting despite the higher cost?",
+    "options": [
+      "They can complete the project faster than competitors",
+      "They are the only firm available for the timeline",
+      "They offered a significant discount for early payment",
+      "They have superior expertise in the relevant industry"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 10,
+    "text": "Effective immediately, all business travel must be pre-approved by both the department manager and the finance director. This new policy was implemented after an internal audit revealed that travel expenses exceeded the annual budget by eighteen percent. Employees should submit travel requests at least two weeks in advance using the updated online form.",
+    "question": "What prompted the change in the travel approval policy?",
+    "options": [
+      "A decrease in available flights",
+      "Employee complaints about travel arrangements",
+      "Travel expenses significantly exceeded the budget",
+      "A new partnership with a travel agency"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 11,
+    "text": "The product launch event scheduled for March fifteenth has been postponed to April second due to a delay in finalizing the regulatory approval. The marketing team has already secured the venue for the new date and will need to update all promotional materials accordingly. Please inform any external partners or media contacts about the revised timeline.",
+    "question": "What caused the product launch to be postponed?",
+    "options": [
+      "The venue was unavailable on the original date",
+      "Regulatory approval was delayed",
+      "The marketing materials were not ready",
+      "Key executives had scheduling conflicts"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 12,
+    "text": "Our warehouse in Detroit has reached ninety-five percent capacity, which is creating bottlenecks in our distribution process. The operations team has proposed leasing additional storage space at the industrial park on Route Seven. While this would increase our monthly overhead by approximately eight thousand dollars, it would allow us to process orders twenty percent faster.",
+    "question": "What is the main benefit of leasing additional warehouse space?",
+    "options": [
+      "It would reduce the monthly overhead costs",
+      "It would eliminate the need for the Detroit warehouse",
+      "It would allow faster order processing",
+      "It would reduce staffing requirements"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 13,
+    "text": "Thank you all for attending this emergency meeting. As you may have heard, our primary supplier of raw materials has filed for bankruptcy. We have enough inventory to sustain production for approximately six weeks. In the meantime, the procurement team is actively negotiating contracts with three alternative suppliers to ensure continuity.",
+    "question": "How long can the company maintain production with its current inventory?",
+    "options": [
+      "Approximately three weeks",
+      "Approximately three months",
+      "Approximately two months",
+      "Approximately six weeks"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 14,
+    "text": "The board of directors has approved a five percent salary increase for all employees effective July first. Additionally, the company will introduce a performance-based bonus structure that could add up to ten percent of annual salary for top performers. Details of the evaluation criteria will be distributed by Human Resources next month.",
+    "question": "What is the maximum additional compensation a top performer could receive?",
+    "options": [
+      "Ten percent of their annual salary",
+      "Five percent of their annual salary",
+      "Fifteen percent of their annual salary",
+      "Twenty percent of their annual salary"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 15,
+    "text": "Our competitor, NovaTech Industries, has just announced the release of a product that directly competes with our flagship offering. Initial market analysis suggests their pricing is approximately twenty percent lower than ours. The executive team is convening a strategy session tomorrow to discuss our response, which may include feature enhancements and targeted promotional campaigns.",
+    "question": "What advantage does the competitor's product have?",
+    "options": [
+      "A significantly lower price point",
+      "Superior technology features",
+      "An established customer base",
+      "Better distribution channels"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 16,
+    "text": "The new employee onboarding process will be revised starting next month. Instead of the traditional three-day orientation, new hires will participate in a two-week structured program that includes mentorship pairing, department rotations, and hands-on project assignments. Early feedback from the pilot group indicated that participants felt significantly better prepared for their roles.",
+    "question": "How does the new onboarding process differ from the previous one?",
+    "options": [
+      "It is shorter and more focused",
+      "It is longer and includes more practical experience",
+      "It eliminates mentorship components",
+      "It is conducted entirely online"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 17,
+    "text": "Attention all staff: the building management company has informed us that the elevators will undergo maintenance this Saturday from eight AM to five PM. During this period, only the stairwells will be available. Employees who have mobility concerns should contact the facilities manager to arrange alternative accommodations for any weekend work planned.",
+    "question": "What should employees with mobility concerns do?",
+    "options": [
+      "Contact the facilities manager for accommodations",
+      "Use the freight elevator instead",
+      "Avoid coming to the office on Saturday",
+      "Request a work-from-home day on Monday"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 18,
+    "text": "The contract negotiation with Parkfield Industries has reached a critical juncture. They are insisting on a thirty-day payment term, whereas our standard policy requires sixty days. Our legal team advises that we can compromise on forty-five days if they agree to increase their minimum order quantity by fifteen percent. This would offset any potential cash flow concerns.",
+    "question": "What compromise is the legal team suggesting?",
+    "options": [
+      "Offer forty-five days if the client increases order volume",
+      "Accept the thirty-day payment term unconditionally",
+      "Maintain the sixty-day term without changes",
+      "Offer a discount instead of changing payment terms"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 19,
+    "text": "I'm writing to follow up on our discussion regarding the proposed expansion into the South American market. After conducting a thorough feasibility study, we've identified Brazil and Colombia as the most promising entry points. The estimated initial investment would be approximately two point five million dollars, with a projected break-even period of eighteen months.",
+    "question": "What is the expected timeline to recover the initial investment?",
+    "options": [
+      "Eighteen months",
+      "Twelve months",
+      "Six months",
+      "Twenty-four months"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 20,
+    "text": "The company's sustainability initiative has achieved remarkable results this year. We've reduced our carbon emissions by twenty-two percent and decreased water consumption by fifteen percent compared to last year. These achievements have earned us a nomination for the National Green Business Award, which will be announced at the annual ceremony in November.",
+    "question": "What recognition has the company received for its sustainability efforts?",
+    "options": [
+      "It won the National Green Business Award",
+      "It was nominated for the National Green Business Award",
+      "It received a government tax incentive",
+      "It was featured in a national news broadcast"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 21,
+    "text": "Please be advised that the company's health insurance provider will change from MedFirst to BlueCross starting January first. All current coverage levels will be maintained, and dependents will be automatically transferred. Employees who wish to modify their coverage selections must do so during the open enrollment period, which runs from November fifteenth to December fifteenth.",
+    "question": "When is the deadline for employees to change their coverage?",
+    "options": [
+      "November fifteenth",
+      "January first",
+      "December fifteenth",
+      "December thirty-first"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 22,
+    "text": "The focus group results for our new packaging design were largely positive. Seventy-eight percent of participants found it more appealing than the current design, and sixty-five percent said it would influence their purchasing decision. However, several participants noted that the smaller font size made the nutritional information difficult to read, which we should address before finalizing the design.",
+    "question": "What issue was raised about the new packaging design?",
+    "options": [
+      "The color scheme was not attractive",
+      "The nutritional information font was too small",
+      "The packaging material was not eco-friendly",
+      "The product name was not prominent enough"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 23,
+    "text": "Our legal department has advised that the non-disclosure agreement with Titan Corp must be renewed before any further collaboration can proceed. The previous agreement expired last month, and sharing any proprietary information without a valid NDA in place could expose the company to significant liability. I've asked our attorneys to prepare an updated agreement by the end of this week.",
+    "question": "Why has collaboration with Titan Corp been paused?",
+    "options": [
+      "The non-disclosure agreement has expired",
+      "Titan Corp breached the previous agreement",
+      "There is a pending lawsuit between the companies",
+      "Titan Corp requested a renegotiation of terms"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 24,
+    "text": "The training department has developed a new leadership program aimed at mid-level managers who have been identified as high-potential candidates for executive positions. The program spans six months and includes executive coaching, cross-functional project leadership, and a capstone presentation to the senior leadership team. Nominations should be submitted by department heads no later than March thirty-first.",
+    "question": "Who is the target audience for the new leadership program?",
+    "options": [
+      "Mid-level managers with high potential",
+      "Senior executives preparing for retirement",
+      "Entry-level employees seeking promotions",
+      "All employees interested in leadership"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 25,
+    "text": "After reviewing the vendor proposals for our new CRM system, I recommend we proceed with CloudSync Solutions. While their implementation timeline is two weeks longer than the other finalists, their platform offers seamless integration with our existing accounting software, which would save us an estimated fifty thousand dollars in custom development costs.",
+    "question": "What is the main advantage of CloudSync Solutions over other vendors?",
+    "options": [
+      "Their platform integrates with existing systems",
+      "They offer the fastest implementation timeline",
+      "They provide the most affordable pricing",
+      "They have the largest customer support team"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 26,
+    "text": "The results of our employee engagement survey show a significant improvement in overall job satisfaction, which increased from sixty-eight percent to seventy-nine percent year over year. The most notable gains were in the areas of work-life balance and career development opportunities. However, compensation satisfaction remained relatively flat, suggesting that salary benchmarking may need to be revisited.",
+    "question": "Which area showed the least improvement in the survey?",
+    "options": [
+      "Work-life balance",
+      "Compensation satisfaction",
+      "Career development opportunities",
+      "Overall job satisfaction"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 27,
+    "text": "Good morning, everyone. I'd like to begin today's meeting by addressing the supply chain disruptions affecting our manufacturing operations. Due to port congestion in Southeast Asia, several key components are delayed by approximately three weeks. The production team has adjusted our assembly schedule to prioritize products that use domestically sourced materials in the interim.",
+    "question": "How is the company handling the supply chain delays?",
+    "options": [
+      "By halting all production until the delays are resolved",
+      "By sourcing all components from local suppliers",
+      "By negotiating faster shipping routes",
+      "By prioritizing products that use domestic materials"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 28,
+    "text": "The audit committee has identified several discrepancies in the accounts receivable ledger for the third quarter. While none of the discrepancies appear to indicate fraudulent activity, they do suggest weaknesses in our internal controls. The committee recommends implementing automated reconciliation software and scheduling monthly reviews until the issues are fully resolved.",
+    "question": "What did the audit committee conclude about the discrepancies?",
+    "options": [
+      "They were caused by fraudulent activity",
+      "They resulted from software malfunctions",
+      "They indicate weaknesses in internal controls",
+      "They were caused by a single accounting error"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 29,
+    "text": "We've received preliminary approval from the city planning commission for the construction of our new research facility. The final permit is contingent upon completing an environmental impact assessment, which our consultant estimates will take six to eight weeks. If everything proceeds on schedule, we anticipate breaking ground in the second quarter of next year.",
+    "question": "What must be completed before construction can begin?",
+    "options": [
+      "A financial audit of the project budget",
+      "A review by the state legislature",
+      "A community stakeholder meeting",
+      "An environmental impact assessment"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 30,
+    "text": "The marketing team's proposal to partner with social media influencers has generated considerable debate among senior management. Proponents argue it would expand our brand awareness among younger demographics, while skeptics are concerned about reputational risks and difficulty measuring return on investment. A pilot campaign with a modest budget has been approved to test the approach before committing to a larger initiative.",
+    "question": "What decision was made regarding the influencer marketing proposal?",
+    "options": [
+      "It was rejected by senior management",
+      "A small-scale pilot campaign was approved",
+      "It was fully approved with a large budget",
+      "It was postponed for further research"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 31,
+    "text": "Effective next Monday, the company parking garage will implement a new reserved space allocation system. Spaces on the first two levels will be reserved for clients and visitors, while employee parking will be available on levels three through five. Employees who previously held reserved spaces on the lower levels will be given priority access to preferred spots on the third level.",
+    "question": "Who will have access to the first two levels of the parking garage?",
+    "options": [
+      "Clients and visitors",
+      "All employees with reserved spaces",
+      "Senior management only",
+      "Employees who arrive before eight AM"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 32,
+    "text": "Our quarterly earnings call with investors is scheduled for next Thursday at two PM Eastern Time. The CFO will present the financial highlights, followed by a Q&A session. Analysts have indicated particular interest in our margin improvements and the progress of our cost-reduction initiative. All department heads should prepare briefing notes for the executive team by Wednesday.",
+    "question": "What are analysts most interested in discussing?",
+    "options": [
+      "New product launches and innovation",
+      "Employee retention and hiring plans",
+      "International expansion strategies",
+      "Margin improvements and cost-reduction progress"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 33,
+    "text": "The client has expressed concerns about the scalability of the software solution we proposed. Specifically, they are worried that the system may not handle their anticipated growth from five hundred to two thousand users within the next two years. I've asked our engineering team to prepare a technical document demonstrating the platform's load capacity and provide case studies from similar-sized deployments.",
+    "question": "What is the client's primary concern about the proposed solution?",
+    "options": [
+      "The cost of implementation",
+      "The timeline for deployment",
+      "The compatibility with their existing software",
+      "The system's ability to handle future growth"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 34,
+    "text": "Human Resources has announced that the company will transition to a flexible work arrangement policy beginning next month. Employees may choose to work remotely up to three days per week, provided they maintain core hours between ten AM and three PM for collaboration purposes. Managers are responsible for ensuring adequate team coverage on all business days.",
+    "question": "What requirement must employees meet under the new flexible work policy?",
+    "options": [
+      "They must work from the office at least four days per week",
+      "They must obtain written approval for each remote day",
+      "They must submit weekly remote work reports",
+      "They must be available during core hours for collaboration"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 35,
+    "text": "The regional sales conference in Chicago was a tremendous success. Over three hundred sales representatives attended the three-day event, which featured keynote speeches from industry leaders, breakout workshops on advanced selling techniques, and networking opportunities. Post-event surveys showed that ninety-two percent of attendees rated the conference as highly valuable to their professional development.",
+    "question": "How many sales representatives attended the conference?",
+    "options": [
+      "Over two hundred",
+      "Over four hundred",
+      "Over three hundred",
+      "Over five hundred"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 36,
+    "text": "I want to draw your attention to a clause in the proposed licensing agreement with Meridian Software. Section four point three states that they retain the right to audit our usage data at any time without prior notice. Our legal counsel has flagged this as potentially problematic, as it could grant them access to sensitive operational information. We should negotiate for a thirty-day advance notice requirement.",
+    "question": "What does the speaker recommend regarding the audit clause?",
+    "options": [
+      "Negotiate for advance notice before audits",
+      "Remove the audit clause entirely",
+      "Accept the clause as written",
+      "Add a mutual audit provision"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 37,
+    "text": "The construction of our new distribution center in Phoenix is proceeding ahead of schedule. The facility is expected to be operational by September, two months earlier than originally planned. This accelerated timeline will allow us to consolidate shipments from three regional warehouses, reducing our logistics costs by an estimated fifteen percent annually.",
+    "question": "How much earlier than planned will the distribution center be operational?",
+    "options": [
+      "One month",
+      "Three months",
+      "Two months",
+      "Four months"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 38,
+    "text": "During last week's project status review, it became apparent that the development team is behind schedule on the mobile application release. The primary bottleneck is the integration with the third-party payment gateway, which has been experiencing intermittent API failures. I've escalated the issue with the payment provider and requested a dedicated technical liaison to help resolve it.",
+    "question": "What is causing the delay in the mobile application release?",
+    "options": [
+      "Problems with a third-party payment integration",
+      "Changes in the project requirements",
+      "Insufficient development resources",
+      "Testing revealed critical security vulnerabilities"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 39,
+    "text": "The company has been selected as a finalist for the Employer of the Year award, which recognizes organizations with outstanding workplace culture and employee programs. The selection committee will conduct an on-site visit next month to interview employees and review our policies. Please ensure that all common areas are well-maintained and that team members are aware of the visit schedule.",
+    "question": "What will happen during the selection committee's visit?",
+    "options": [
+      "They will audit the company's financial records",
+      "They will interview employees and review policies",
+      "They will present the award to the company",
+      "They will evaluate the company's products"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 40,
+    "text": "After extensive deliberation, the executive committee has decided to discontinue the Vanguard product line by the end of this fiscal year. Sales have declined steadily over the past three years, and the product no longer aligns with our strategic focus on digital solutions. The remaining inventory will be sold at a twenty-five percent discount to existing customers, and resources will be reallocated to the Horizon product line.",
+    "question": "What will happen to the remaining Vanguard inventory?",
+    "options": [
+      "It will be sold at a discount to existing customers",
+      "It will be donated to charitable organizations",
+      "It will be transferred to a subsidiary company",
+      "It will be stored until market conditions improve"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 41,
+    "text": "The compliance department has issued new guidelines for handling confidential client data in accordance with the updated privacy regulations. All electronic files containing personally identifiable information must be encrypted, and physical documents must be stored in locked cabinets. Employees who handle such data are required to complete a mandatory training course within the next thirty days.",
+    "question": "What is required for physical documents containing personal information?",
+    "options": [
+      "They must be stored in locked cabinets",
+      "They must be digitized and stored electronically",
+      "They must be shredded after processing",
+      "They must be reviewed by the compliance officer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 42,
+    "text": "Our joint venture with Kensington Dynamics has yielded impressive results in its first year of operation. Revenue from the partnership exceeded projections by thirty-two percent, driven primarily by strong demand in the renewable energy sector. Both companies have agreed to extend the partnership for an additional three years and expand operations into two new markets.",
+    "question": "What contributed most to the joint venture's strong performance?",
+    "options": [
+      "Cost savings from shared operations",
+      "A successful marketing campaign",
+      "Government subsidies for the partnership",
+      "High demand in the renewable energy sector"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 43,
+    "text": "I'd like to bring to your attention that our corporate website experienced a significant outage last night, lasting approximately four hours. The root cause has been identified as a database server failure. Our IT team has implemented a failover system to prevent similar incidents in the future. We estimate that the outage may have affected approximately two thousand customer transactions.",
+    "question": "What measures have been taken to prevent future outages?",
+    "options": [
+      "The website has been migrated to a new hosting provider",
+      "Customer transactions have been moved to a backup site",
+      "The database server has been permanently replaced",
+      "A failover system has been implemented"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 44,
+    "text": "The trade show in Frankfurt next month presents an excellent opportunity to showcase our latest industrial automation products. We have secured a prime booth location near the main entrance, which should maximize foot traffic. The events team is coordinating live product demonstrations every ninety minutes, and we've arranged meetings with three major potential distributors.",
+    "question": "How often will live product demonstrations take place?",
+    "options": [
+      "Every ninety minutes",
+      "Every sixty minutes",
+      "Every thirty minutes",
+      "Every two hours"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 45,
+    "text": "The project management office has introduced a new risk assessment framework that all project managers must adopt for initiatives exceeding fifty thousand dollars. The framework requires identifying potential risks at the project initiation phase, assigning probability and impact scores, and developing mitigation strategies. Quarterly risk reviews will replace the previous annual review process.",
+    "question": "How frequently will risk reviews now be conducted?",
+    "options": [
+      "Monthly",
+      "Semi-annually",
+      "Quarterly",
+      "Annually"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 46,
+    "text": "The negotiation with our landlord regarding the office lease renewal has concluded favorably. We've secured a five-year extension with only a three percent annual rent increase, compared to the market average of six percent. Additionally, the landlord has agreed to fund renovations to the lobby and common areas, which had been a point of contention during the discussions.",
+    "question": "What additional concession did the company obtain from the landlord?",
+    "options": [
+      "A reduction in the security deposit",
+      "Free parking for all employees",
+      "Funding for lobby and common area renovations",
+      "An option to sublease unused space"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 47,
+    "text": "As part of our digital transformation initiative, all paper-based expense reports will be phased out by the end of this quarter. Employees will be required to submit expenses through the new mobile application, which allows photograph capture of receipts, automatic currency conversion, and real-time approval tracking. Training sessions have been scheduled for each department over the next two weeks.",
+    "question": "What feature does the new expense application offer?",
+    "options": [
+      "Automatic reimbursement to bank accounts",
+      "Real-time approval tracking",
+      "Integration with personal budgeting tools",
+      "Tax calculation for international purchases"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 48,
+    "text": "The recall of our Model X-200 air purifier has been handled effectively, with ninety-three percent of affected units returned or exchanged within the first month. Customer feedback regarding the replacement process has been overwhelmingly positive. The engineering team has identified and corrected the manufacturing defect, and the revised model will enter production next week with enhanced quality control measures.",
+    "question": "What percentage of affected units have been returned or exchanged?",
+    "options": [
+      "Ninety-three percent",
+      "Eighty-nine percent",
+      "Eighty-five percent",
+      "Ninety-seven percent"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 49,
+    "text": "The consulting firm we engaged to evaluate our supply chain efficiency has delivered their preliminary findings. They recommend consolidating our supplier base from forty-seven vendors to approximately twenty, which they project would yield annual savings of one point two million dollars. However, this consolidation carries the risk of increased dependency on fewer suppliers, which we need to carefully evaluate.",
+    "question": "What risk does the consulting firm's recommendation carry?",
+    "options": [
+      "Higher procurement costs in the short term",
+      "Resistance from the existing vendor network",
+      "Disruption to current production schedules",
+      "Increased dependency on fewer suppliers"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 50,
+    "text": "Ladies and gentlemen, it is my pleasure to introduce our new Chief Technology Officer, Dr. Sarah Chen. Dr. Chen brings over twenty years of experience in enterprise software development and most recently served as VP of Engineering at DataStream Technologies. Her expertise in artificial intelligence and machine learning will be instrumental as we pursue our technology roadmap for the next five years.",
+    "question": "What is Dr. Chen's area of expertise?",
+    "options": [
+      "Financial technology and blockchain",
+      "Cybersecurity and network infrastructure",
+      "Artificial intelligence and machine learning",
+      "Cloud computing and data storage"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 51,
+    "text": "The customs regulations in our target export markets have recently been updated, and several of our product categories now require additional certification. Our trade compliance team estimates it will take approximately four to six weeks to obtain the necessary documentation. In the meantime, we should prioritize shipments of product categories that are unaffected by the new regulations.",
+    "question": "What does the speaker suggest doing while waiting for the new certifications?",
+    "options": [
+      "Halt all export activities temporarily",
+      "Challenge the regulations through legal channels",
+      "Seek alternative markets without these requirements",
+      "Focus on shipping unaffected product categories"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 52,
+    "text": "Our internal innovation program received a record number of submissions this year, with over two hundred ideas proposed by employees across all divisions. The review panel has shortlisted twelve concepts for further development, three of which involve process automation and could potentially reduce operational costs by up to eight percent. Funding decisions will be announced at the all-hands meeting next month.",
+    "question": "How many concepts were shortlisted for further development?",
+    "options": [
+      "Eight",
+      "Ten",
+      "Twelve",
+      "Fifteen"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 53,
+    "text": "I regret to inform you that the server migration scheduled for this weekend must be rescheduled. Our cloud service provider notified us that additional security patches need to be applied before the migration can proceed safely. The revised migration window has been set for the following weekend. The project team will use the extra time to conduct additional testing on the staging environment.",
+    "question": "Why was the server migration rescheduled?",
+    "options": [
+      "The project team requested more testing time",
+      "There was a scheduling conflict with another project",
+      "Additional security patches were required beforehand",
+      "The cloud service provider experienced an outage"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 54,
+    "text": "The annual performance review cycle begins next week, and managers should have their preliminary evaluations completed by the end of the month. This year, we are introducing a 360-degree feedback component, which means employees will also receive anonymous evaluations from their peers and direct reports. The goal is to provide a more comprehensive and balanced assessment of each individual's contributions.",
+    "question": "What new element is being added to the performance review process?",
+    "options": [
+      "Self-assessment questionnaires",
+      "Customer satisfaction ratings",
+      "External consultant evaluations",
+      "360-degree feedback from peers and direct reports"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 55,
+    "text": "The cross-border acquisition of Lumina Technologies has been approved by regulators in both countries, clearing the final hurdle for the deal to close. The total transaction value is approximately three hundred and twenty million dollars. Integration planning will commence immediately, with a dedicated team established to manage the transition over the next twelve months.",
+    "question": "What was the last step before the acquisition could be finalized?",
+    "options": [
+      "Regulatory approval in both countries",
+      "Board approval from both companies",
+      "Shareholder vote at the annual meeting",
+      "Due diligence review by external auditors"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 56,
+    "text": "Our customer retention rate dropped from eighty-eight percent to eighty-one percent this quarter, which is a concerning trend. Exit interviews with former clients indicate that the primary reasons for leaving were slow response times and a lack of proactive communication. I propose we implement a dedicated account management program for our top fifty clients to strengthen these relationships.",
+    "question": "What is the speaker's proposed solution to improve customer retention?",
+    "options": [
+      "Reduce pricing for existing customers",
+      "Launch a customer loyalty rewards system",
+      "Implement a dedicated account management program",
+      "Hire additional customer service representatives"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 57,
+    "text": "The intellectual property review has revealed that two of our pending patent applications overlap with existing patents held by a competitor. Our patent attorneys recommend modifying the claims in both applications to differentiate them sufficiently. While this will delay the approval process by approximately three months, it significantly reduces the risk of a costly infringement dispute.",
+    "question": "Why do the patent attorneys recommend modifying the applications?",
+    "options": [
+      "To broaden the scope of protection",
+      "To reduce filing costs",
+      "To avoid overlap with a competitor's existing patents",
+      "To comply with new patent regulations"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 58,
+    "text": "The quarterly business review with our largest account, Sterling Industries, went exceptionally well. They expressed interest in expanding our service agreement to include their European operations, which would represent a forty percent increase in contract value. Their procurement team has requested a detailed proposal by the fifteenth of next month, and I suggest we assemble a cross-functional team to prepare it.",
+    "question": "What opportunity has emerged from the quarterly business review?",
+    "options": [
+      "Sterling Industries may extend services to their European operations",
+      "Sterling Industries wants to renegotiate pricing",
+      "Sterling Industries is considering switching to a competitor",
+      "Sterling Industries wants to reduce the current service scope"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 59,
+    "text": "The data analytics team has completed their analysis of our website traffic patterns over the past six months. They found that mobile users account for sixty-eight percent of our total traffic but have a conversion rate that is forty percent lower than desktop users. This suggests significant friction in our mobile checkout experience, which should be our top priority for the next development sprint.",
+    "question": "What does the data suggest about the mobile user experience?",
+    "options": [
+      "Mobile users spend more time on the website",
+      "Mobile traffic is declining steadily",
+      "The mobile checkout process needs improvement",
+      "Mobile users prefer browsing over purchasing"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 60,
+    "text": "We have received notification that our industry certification will be up for renewal in ninety days. The certification body has introduced stricter audit criteria this year, including on-site inspections and documentation reviews that are more comprehensive than previous cycles. I recommend we begin preparations immediately and appoint a certification coordinator to oversee the process.",
+    "question": "What is different about the certification renewal this year?",
+    "options": [
+      "The renewal fee has increased substantially",
+      "The certification period has been shortened",
+      "The audit criteria are more stringent than before",
+      "A new certification body is conducting the review"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 61,
+    "text": "The procurement department has completed its evaluation of alternative shipping carriers to replace our current provider. After assessing five candidates on criteria including cost, reliability, and geographic coverage, TransGlobal Logistics emerged as the top choice. Their rates are seven percent lower, and they offer real-time tracking capabilities that our current provider lacks.",
+    "question": "What advantage does TransGlobal Logistics offer over the current provider?",
+    "options": [
+      "Lower rates and real-time tracking",
+      "Faster delivery times to all regions",
+      "A larger fleet of delivery vehicles",
+      "Exclusive discounts for bulk shipments"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 62,
+    "text": "The board has approved the establishment of an advisory committee comprising external industry experts to guide our strategic planning process. The committee will meet quarterly and provide recommendations on emerging market trends, technology investments, and competitive positioning. Nominations for committee members should be submitted to the CEO's office by the end of this month.",
+    "question": "How often will the advisory committee convene?",
+    "options": [
+      "Monthly",
+      "Quarterly",
+      "Semi-annually",
+      "Annually"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 63,
+    "text": "Our corporate social responsibility report for this year highlights several key achievements. We donated over five hundred thousand dollars to educational initiatives, our employee volunteer program logged twelve thousand hours of community service, and we achieved our goal of sourcing eighty percent of materials from sustainable suppliers. The full report will be published on our website next week.",
+    "question": "What percentage of materials was sourced from sustainable suppliers?",
+    "options": [
+      "Sixty percent",
+      "Seventy percent",
+      "Eighty percent",
+      "Ninety percent"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 64,
+    "text": "The pilot program for our four-day workweek trial concluded last month with encouraging results. Productivity metrics remained stable across all participating departments, while employee satisfaction scores increased by seventeen percent. However, customer-facing teams reported challenges maintaining service levels on Fridays. Management is now evaluating a hybrid model that would stagger days off to ensure continuous coverage.",
+    "question": "What issue did customer-facing teams experience during the trial?",
+    "options": [
+      "Decreased productivity compared to other departments",
+      "Higher employee turnover rates",
+      "Increased customer complaints about product quality",
+      "Difficulty maintaining service levels on Fridays"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 65,
+    "text": "The finance team has flagged that accounts payable processing time has increased from an average of five days to twelve days over the past quarter. This delay is primarily attributed to the manual verification process required for the new compliance checks. To address this, we are investing in an automated invoice processing system that should reduce processing time to three days while maintaining compliance standards.",
+    "question": "What is causing the increase in accounts payable processing time?",
+    "options": [
+      "A shortage of staff in the finance department",
+      "Technical issues with the current accounting software",
+      "Manual verification for new compliance requirements",
+      "An increase in the volume of invoices received"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 66,
+    "text": "The international sales team has identified a significant opportunity in the Middle Eastern market, particularly in the United Arab Emirates and Saudi Arabia. Local regulations require that foreign companies establish a joint venture with a domestic partner to operate in these markets. Our business development team has begun preliminary discussions with three potential local partners.",
+    "question": "What regulatory requirement exists for entering these markets?",
+    "options": [
+      "Companies must obtain a special import license",
+      "Companies must hire a minimum percentage of local employees",
+      "Products must be manufactured within the country",
+      "Foreign companies must form a joint venture with a local partner"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 67,
+    "text": "Thank you for joining this webinar on our updated corporate travel policy. The most significant change is the introduction of a pre-trip approval workflow for all international travel. Additionally, the company has negotiated preferred rates with three major hotel chains, which employees are encouraged to use. Reimbursement for meals will now follow a per diem structure based on the destination city rather than actual expenses.",
+    "question": "How will meal reimbursement be handled under the new policy?",
+    "options": [
+      "Actual expenses with receipt documentation",
+      "Direct billing to the corporate account",
+      "A monthly meal allowance regardless of travel",
+      "A fixed per diem rate based on destination"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 68,
+    "text": "Our competitor analysis reveals that three major players in our industry have recently invested heavily in artificial intelligence capabilities for their customer service operations. Early reports suggest these implementations have reduced their average call handling time by thirty percent. To remain competitive, I recommend we conduct a feasibility study on integrating AI-powered chatbots into our own customer service platform.",
+    "question": "What does the speaker recommend in response to competitor actions?",
+    "options": [
+      "Immediately implement AI-powered customer service",
+      "Partner with one of the competitors on AI development",
+      "Hire additional customer service representatives",
+      "Conduct a feasibility study on AI chatbot integration"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 69,
+    "text": "The warranty claims data from the past year indicates that our Model R-400 has a defect rate of two point three percent, which is above our acceptable threshold of one point five percent. Root cause analysis points to a component supplied by Vertex Electronics. We have issued a corrective action request to the supplier and are conducting incoming inspection on all future shipments until the issue is resolved.",
+    "question": "What action is being taken regarding shipments from Vertex Electronics?",
+    "options": [
+      "All shipments have been suspended indefinitely",
+      "The contract with Vertex has been terminated",
+      "Incoming inspection is being conducted on all shipments",
+      "A price reduction has been negotiated to cover defects"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 70,
+    "text": "The legal department has completed its review of the proposed franchise agreement for our expansion into the Asian market. They recommend adding a clause that gives us the right to terminate the agreement if the franchisee fails to meet minimum quality standards for two consecutive quarters. This provision would protect our brand reputation and ensure consistency across all franchise locations.",
+    "question": "Under what condition could the franchise agreement be terminated?",
+    "options": [
+      "If the franchisee fails quality standards for two consecutive quarters",
+      "If the franchisee opens competing businesses",
+      "If the franchisee does not meet revenue targets",
+      "If the franchisee changes management without approval"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 71,
+    "text": "Good afternoon. I'm calling to discuss the status of our vendor qualification process. We have completed technical evaluations of all five candidates and are now in the reference-checking phase. Two vendors have provided outstanding references from companies in our industry, while one vendor's references raised concerns about their ability to scale production. We should have a final recommendation ready by next Friday.",
+    "question": "What stage is the vendor qualification process currently in?",
+    "options": [
+      "Reference checking and verification",
+      "Technical evaluation of capabilities",
+      "Initial screening of applications",
+      "Final contract negotiation"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 72,
+    "text": "The research and development team has achieved a breakthrough in battery technology that could extend the runtime of our portable devices by up to forty percent. A provisional patent application has been filed, and the team estimates that the technology could be ready for commercial production within eighteen months. This innovation could give us a significant competitive advantage in the consumer electronics market.",
+    "question": "When could the new battery technology be commercially available?",
+    "options": [
+      "Within six months",
+      "Within twelve months",
+      "Within twenty-four months",
+      "Within eighteen months"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 73,
+    "text": "The exit interview data from the past twelve months reveals a troubling pattern: thirty-eight percent of departing employees cited limited advancement opportunities as their primary reason for leaving. This is particularly concentrated among employees with three to five years of tenure. I recommend we develop a structured career progression framework with clearly defined milestones and review it with all managers before the next review cycle.",
+    "question": "Which group of employees is most likely to leave due to limited advancement?",
+    "options": [
+      "New hires within their first year",
+      "Employees with three to five years of tenure",
+      "Senior managers approaching retirement",
+      "Part-time and contract workers"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "text": "Our insurance broker has presented three options for our annual corporate liability policy renewal. Option A maintains our current coverage at a twelve percent premium increase. Option B reduces coverage limits but keeps the premium flat. Option C increases the deductible from fifty thousand to one hundred thousand dollars but reduces the premium by five percent. Given our risk profile, I believe Option C offers the best value.",
+    "question": "Which option does the speaker recommend?",
+    "options": [
+      "Option A with the premium increase",
+      "Option C with the higher deductible",
+      "Option B with reduced coverage",
+      "None of the options presented"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 75,
+    "text": "The project team has encountered an unexpected regulatory requirement that mandates third-party testing of our product before it can be sold in the European Union. This testing typically takes eight to ten weeks and costs approximately forty-five thousand dollars. While this was not accounted for in our original project plan, failure to comply would prevent us from accessing a market worth an estimated twelve million dollars annually.",
+    "question": "What is implied about the speaker's view on the third-party testing requirement?",
+    "options": [
+      "It should be challenged through legal channels",
+      "The cost is justified given the market opportunity",
+      "The project should be abandoned due to the extra cost",
+      "An alternative market should be pursued instead"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 76,
+    "text": "I'd like to update you on the status of our enterprise resource planning system upgrade. The data migration phase was completed last week without any significant issues. We are currently in the user acceptance testing phase, which involves fifty key users from across the organization. So far, fourteen bugs have been identified, of which nine have been resolved. The remaining five are expected to be fixed before the go-live date.",
+    "question": "How many bugs remain unresolved in the ERP system upgrade?",
+    "options": [
+      "Three",
+      "Five",
+      "Nine",
+      "Fourteen"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 77,
+    "text": "The marketing analytics report shows that our recent rebranding campaign has generated a twenty-three percent increase in brand recognition among our target demographic. Social media engagement has risen by forty-one percent, and website traffic from organic search has improved by eighteen percent. However, the conversion rate from these new visitors remains below our target, suggesting we need to optimize our landing pages.",
+    "question": "What area still needs improvement despite the successful rebranding?",
+    "options": [
+      "Brand recognition among the target demographic",
+      "Conversion rate from new website visitors",
+      "Social media engagement rates",
+      "Organic search traffic volume"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 78,
+    "text": "The facilities management team has completed an energy audit of our headquarters building. The audit identified that our HVAC system accounts for forty-two percent of total energy consumption and is operating at only sixty-five percent efficiency. Replacing the system would require an investment of approximately two hundred thousand dollars but would reduce energy costs by thirty percent annually, with an estimated payback period of three years.",
+    "question": "What is the estimated payback period for replacing the HVAC system?",
+    "options": [
+      "One year",
+      "Two years",
+      "Five years",
+      "Three years"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 79,
+    "text": "The vendor has informed us that they are discontinuing the software platform we currently use for our inventory management. Support will end in eighteen months, after which no security updates will be provided. The vendor is offering a thirty percent discount on their replacement product for existing customers who migrate within the first six months. We should begin evaluating this offer alongside other alternatives immediately.",
+    "question": "What incentive is the vendor offering for early migration?",
+    "options": [
+      "A thirty percent discount on the replacement product",
+      "Extended support for an additional year",
+      "Free data migration services",
+      "A full refund on the current platform license"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 80,
+    "text": "Our quality assurance team conducted a benchmarking study comparing our manufacturing defect rates against industry averages. Our overall defect rate of one point one percent is well below the industry average of two point four percent. However, our rework rate is higher than average, which suggests that while we catch defects effectively, we should focus on preventing them from occurring in the first place.",
+    "question": "What does the benchmarking study suggest the company should improve?",
+    "options": [
+      "Overall defect detection capabilities",
+      "Defect prevention to reduce rework rates",
+      "Final inspection procedures",
+      "Customer complaint resolution processes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 81,
+    "text": "The shareholder meeting revealed that institutional investors are increasingly concerned about our debt-to-equity ratio, which currently stands at one point eight to one. Several major shareholders have urged management to prioritize debt reduction over further expansion. The CFO has proposed a revised capital allocation strategy that would direct sixty percent of free cash flow toward debt repayment over the next two years.",
+    "question": "What are institutional investors pressuring the company to do?",
+    "options": [
+      "Prioritize reducing the company's debt",
+      "Pursue more aggressive expansion",
+      "Increase dividend payments",
+      "Invest more heavily in research and development"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 82,
+    "text": "The customer onboarding team has redesigned the implementation process for enterprise clients. The new approach features a dedicated project manager for each client, a phased rollout plan, and weekly check-in calls during the first ninety days. Early results from pilot clients show a fifty percent reduction in time-to-value and a significant decrease in support tickets during the implementation phase.",
+    "question": "What improvement has the new onboarding process achieved?",
+    "options": [
+      "A reduction in implementation costs",
+      "A fifty percent reduction in time-to-value",
+      "An increase in upselling opportunities",
+      "Elimination of post-implementation support needs"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 83,
+    "text": "I'm pleased to report that our application for a government innovation grant has been approved. We will receive two hundred and fifty thousand dollars over a two-year period to fund research into advanced materials for sustainable packaging. The grant requires us to submit progress reports every six months and to make our findings available for peer review. Dr. Martinez from the R&D department will serve as the principal investigator.",
+    "question": "What obligation comes with the government grant?",
+    "options": [
+      "Hiring a minimum number of new researchers",
+      "Partnering with a university research lab",
+      "Manufacturing products within the country",
+      "Submitting progress reports and sharing findings for peer review"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 84,
+    "text": "The internal communications survey indicates that employees feel overwhelmed by the volume of company-wide emails they receive. On average, employees reported receiving twenty-three internal messages per day, of which only eight were relevant to their role. The communications team proposes implementing a targeted distribution system that uses department tags and interest categories to ensure employees receive only pertinent information.",
+    "question": "What solution is proposed to address the email overload problem?",
+    "options": [
+      "Implementing a targeted distribution system",
+      "Replacing email with an instant messaging platform",
+      "Limiting the number of emails each department can send",
+      "Designating specific hours for reading company emails"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "text": "The licensing agreement with Pacific Rim Distributors for the Southeast Asian market is due for renegotiation. Their current royalty rate of eight percent is below the regional average of eleven percent. However, they have been an excellent partner in terms of market penetration and brand building. I suggest we propose a tiered royalty structure that rewards them for exceeding sales targets while gradually aligning rates with market standards.",
+    "question": "What approach does the speaker recommend for the renegotiation?",
+    "options": [
+      "Immediately raising the royalty rate to eleven percent",
+      "Implementing a tiered royalty structure",
+      "Maintaining the current rate without changes",
+      "Terminating the agreement and finding a new distributor"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "text": "Our diversity and inclusion initiative has made significant progress this year. Representation of underrepresented groups in management positions increased from fourteen percent to twenty-one percent. Additionally, the company launched mentorship circles, unconscious bias training, and an employee resource group program. The next phase will focus on pay equity analysis and ensuring equitable access to high-visibility project assignments.",
+    "question": "What will the next phase of the diversity initiative focus on?",
+    "options": [
+      "Pay equity analysis and equitable project access",
+      "Launching additional employee resource groups",
+      "Increasing recruitment from underrepresented groups",
+      "Expanding unconscious bias training to all employees"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 87,
+    "text": "The competitive bid for the municipal water treatment contract has entered its final stage. Our proposal offers a total cost that is nine percent lower than our nearest competitor, and our technical approach scored highest in the preliminary evaluation. However, the procurement committee has expressed interest in our commitment to using local subcontractors, which could be a deciding factor. I recommend we identify and pre-qualify at least three local firms before the final presentation.",
+    "question": "What could be the deciding factor in winning the contract?",
+    "options": [
+      "Offering further price reductions",
+      "Providing additional technical certifications",
+      "Demonstrating commitment to using local subcontractors",
+      "Extending the warranty period on equipment"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 88,
+    "text": "The product team has proposed introducing a subscription-based pricing model alongside our traditional one-time purchase option. Market research indicates that seventy percent of our target customers prefer predictable monthly costs over large upfront investments. The subscription model would include software updates, priority support, and cloud storage, creating a recurring revenue stream estimated at four million dollars annually by year three.",
+    "question": "Why does the product team recommend a subscription model?",
+    "options": [
+      "To reduce the cost of customer acquisition",
+      "Because competitors have discontinued one-time purchases",
+      "To eliminate the need for software updates",
+      "Because most target customers prefer predictable monthly costs"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 89,
+    "text": "Following the cybersecurity incident last month, an independent forensic investigation has concluded that the breach was caused by a phishing email that compromised an employee's credentials. The investigation confirmed that no customer payment data was accessed. However, as a precautionary measure, we are notifying all affected users and offering complimentary credit monitoring for twelve months.",
+    "question": "What was the cause of the cybersecurity breach?",
+    "options": [
+      "A vulnerability in the company's firewall",
+      "An insider threat from a disgruntled employee",
+      "A software bug in the payment processing system",
+      "A phishing email that compromised employee credentials"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 90,
+    "text": "The board has approved the creation of a corporate venture capital fund with an initial allocation of ten million dollars. The fund will invest in early-stage startups whose technologies align with our strategic priorities, including IoT, edge computing, and predictive analytics. This initiative will be managed by a newly appointed investment committee and is expected to provide both financial returns and access to innovative technologies.",
+    "question": "What is the primary purpose of the corporate venture capital fund?",
+    "options": [
+      "To generate short-term financial returns",
+      "To invest in startups aligned with strategic priorities",
+      "To acquire competitors in the marketplace",
+      "To fund internal research and development projects"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 91,
+    "text": "The warehouse safety audit conducted last week identified several areas requiring immediate attention. Emergency exit signs on the loading dock level are not properly illuminated, and three fire extinguishers in the storage area have expired. The safety coordinator has been instructed to address these issues within forty-eight hours and to schedule a follow-up inspection for next Thursday.",
+    "question": "When must the safety issues be resolved?",
+    "options": [
+      "Within twenty-four hours",
+      "By next Thursday",
+      "Within forty-eight hours",
+      "By the end of the month"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 92,
+    "text": "Our market share in the domestic appliance segment has grown from eleven percent to fifteen percent over the past fiscal year, largely driven by the success of our premium product line. Competitors have responded by lowering their prices, which has compressed margins across the industry. Rather than engaging in a price war, our strategy will focus on enhancing our after-sales service and extending our warranty program to differentiate from the competition.",
+    "question": "How does the company plan to respond to competitors lowering their prices?",
+    "options": [
+      "By matching the competitors' lower prices",
+      "By focusing on service quality and extended warranties",
+      "By reducing production costs through automation",
+      "By exiting the domestic appliance segment"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 93,
+    "text": "The talent acquisition team has identified that our average time-to-hire has increased from thirty-two days to forty-seven days over the past year. This is significantly impacting our ability to fill critical positions and is causing project delays. The team recommends streamlining the interview process from five rounds to three and implementing a structured scorecard system to enable faster decision-making.",
+    "question": "What is recommended to reduce the time-to-hire?",
+    "options": [
+      "Outsourcing recruitment to an external agency",
+      "Reducing interview rounds and using scorecards",
+      "Offering higher salaries to attract candidates faster",
+      "Implementing an employee referral bonus program"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 94,
+    "text": "The quarterly review of our investment portfolio shows mixed results. Our equity holdings have appreciated by nine percent, outperforming the market benchmark. However, the fixed-income portion of the portfolio has underperformed due to rising interest rates. The investment committee recommends reallocating fifteen percent of our fixed-income holdings into short-duration bonds to mitigate further interest rate risk.",
+    "question": "Why has the fixed-income portion of the portfolio underperformed?",
+    "options": [
+      "Due to rising interest rates",
+      "Due to declining corporate earnings",
+      "Due to currency exchange fluctuations",
+      "Due to increased default rates"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 95,
+    "text": "The partnership agreement with Horizon Medical Devices requires us to provide exclusive distribution rights in North America for their line of diagnostic equipment. In exchange, we receive a twenty-five percent margin on all sales and first right of refusal for any new products they develop. The agreement is valid for five years with an automatic renewal clause, subject to meeting annual minimum order requirements.",
+    "question": "What condition must be met for the agreement to automatically renew?",
+    "options": [
+      "Both parties must agree to updated terms",
+      "Horizon must launch at least one new product per year",
+      "A joint performance review must be completed",
+      "Annual minimum order requirements must be met"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 96,
+    "text": "The environmental compliance team has detected that emissions from our manufacturing plant are approaching the regulatory limit. Current levels are at ninety-two percent of the permitted maximum. If production volumes increase as projected next quarter, we risk exceeding the limit. The team has identified two mitigation options: installing additional filtration equipment at a cost of three hundred thousand dollars, or modifying our production schedule to reduce peak emissions.",
+    "question": "What is the current status of the plant's emissions?",
+    "options": [
+      "They have already exceeded the regulatory limit",
+      "They are well within acceptable ranges",
+      "They have decreased significantly this quarter",
+      "They are at ninety-two percent of the permitted maximum"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 97,
+    "text": "Our cloud infrastructure costs have increased by thirty-five percent quarter over quarter, which significantly exceeds our budget projections. An analysis by the engineering team revealed that several development environments were left running continuously, including over the weekends, when they were not in use. We are implementing an automated shutdown policy for non-production environments during off-hours, which should reduce costs by approximately twenty percent.",
+    "question": "What was the primary cause of the increased cloud costs?",
+    "options": [
+      "A price increase from the cloud service provider",
+      "Migration of additional services to the cloud",
+      "Development environments running when not in use",
+      "Increased customer traffic requiring more resources"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 98,
+    "text": "The strategic planning retreat concluded with several key decisions. The leadership team agreed to pursue organic growth rather than acquisitions for the next three years. The company will focus on three core verticals: healthcare, financial services, and manufacturing. All other market segments will be evaluated for potential divestiture or strategic partnership arrangements to free up resources for the priority areas.",
+    "question": "What approach to growth did the leadership team decide on?",
+    "options": [
+      "Aggressive acquisition of competitors",
+      "Diversification into new market segments",
+      "Rapid international expansion",
+      "Organic growth focused on three core verticals"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 99,
+    "text": "The client satisfaction scores for our consulting division have improved from three point six to four point two on a five-point scale over the past year. The improvement is attributed to the introduction of weekly progress reports, dedicated account managers, and a post-engagement feedback process. However, scores for project delivery timeliness remain our weakest area at three point four, indicating that project scheduling and resource allocation still need attention.",
+    "question": "Which area remains the consulting division's weakest performance metric?",
+    "options": [
+      "Quality of deliverables",
+      "Communication with clients",
+      "Project delivery timeliness",
+      "Technical expertise of consultants"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 100,
+    "text": "As we close out this fiscal year, I want to acknowledge the exceptional work of our entire organization. Revenue grew by fourteen percent year over year, we successfully launched three new products, and our employee satisfaction scores reached an all-time high. Looking ahead, the executive team is committed to investing in talent development, technological innovation, and sustainable business practices to ensure our continued success in an increasingly competitive marketplace.",
+    "question": "What is the speaker's primary purpose in this message?",
+    "options": [
+      "To announce organizational restructuring",
+      "To recognize achievements and outline future priorities",
+      "To present the annual financial report to shareholders",
+      "To introduce new company policies for the coming year"
+    ],
+    "correctIndex": 1
+  }
+]

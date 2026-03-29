@@ -41,7 +41,9 @@ class MainActivity : AppCompatActivity() {
         // Hide bottom nav on review & result screens
         navController.addOnDestinationChangedListener { _, destination, _ ->
             when (destination.id) {
-                R.id.reviewFragment, R.id.resultFragment -> {
+                R.id.reviewFragment, R.id.resultFragment,
+                R.id.quizSessionFragment, R.id.quizResultFragment,
+                R.id.listeningSessionFragment, R.id.listeningResultFragment -> {
                     binding.bottomNav.visibility = android.view.View.GONE
                 }
                 else -> {

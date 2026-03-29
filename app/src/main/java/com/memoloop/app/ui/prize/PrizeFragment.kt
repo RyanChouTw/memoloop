@@ -30,11 +30,11 @@ class PrizeFragment : Fragment() {
 
     private fun initPrizes() {
         prizes = listOf(
-            PrizeDef("🥉", getString(R.string.prize_rookie_title), getString(R.string.prize_rookie_condition), 0, R.color.bronze),
-            PrizeDef("🔶", getString(R.string.prize_bronze_title), getString(R.string.prize_bronze_condition), 3, R.color.bronze),
-            PrizeDef("🥈", getString(R.string.prize_silver_title), getString(R.string.prize_silver_condition), 7, R.color.silver),
-            PrizeDef("🥇", getString(R.string.prize_gold_title), getString(R.string.prize_gold_condition), 14, R.color.gold),
-            PrizeDef("💎", getString(R.string.prize_platinum_title), getString(R.string.prize_platinum_condition), 30, R.color.platinum),
+            PrizeDef(getString(R.string.icon_rookie), getString(R.string.prize_rookie_title), getString(R.string.prize_rookie_condition), 0, R.color.bronze),
+            PrizeDef(getString(R.string.icon_bronze), getString(R.string.prize_bronze_title), getString(R.string.prize_bronze_condition), 3, R.color.bronze),
+            PrizeDef(getString(R.string.icon_silver), getString(R.string.prize_silver_title), getString(R.string.prize_silver_condition), 7, R.color.silver),
+            PrizeDef(getString(R.string.icon_gold), getString(R.string.prize_gold_title), getString(R.string.prize_gold_condition), 14, R.color.gold),
+            PrizeDef(getString(R.string.icon_platinum), getString(R.string.prize_platinum_title), getString(R.string.prize_platinum_condition), 30, R.color.platinum),
         )
     }
 
@@ -67,10 +67,10 @@ class PrizeFragment : Fragment() {
             state.streak >= prize.requiredStreak
         }
 
-        b.tvPrizeIcon.text = if (unlocked) prize.icon else "🔒"
+        b.tvPrizeIcon.text = if (unlocked) prize.icon else getString(R.string.icon_lock)
         b.tvPrizeTitle.text = prize.title
         b.tvPrizeCondition.text = prize.condition
-        b.tvPrizeStatus.text = if (unlocked) "✅" else ""
+        b.tvPrizeStatus.text = if (unlocked) getString(R.string.icon_check) else ""
 
         val cardView = b.root as MaterialCardView
         if (unlocked) {

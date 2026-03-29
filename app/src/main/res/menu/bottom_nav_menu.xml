@@ -9,6 +9,10 @@
         android:icon="@drawable/ic_nav_records"
         android:title="@string/history" />
     <item
+        android:id="@+id/quizTabFragment"
+        android:icon="@drawable/ic_nav_quiz"
+        android:title="@string/quiz_tab_label" />
+    <item
         android:id="@+id/prizeFragment"
         android:icon="@drawable/ic_nav_awards"
         android:title="@string/prize" />

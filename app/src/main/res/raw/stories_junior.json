@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "text": "Tom went to the store with his mother. They bought some apples and milk. Tom also got a chocolate bar as a treat.",
+    "question": "What did Tom get as a treat?",
+    "options": [
+      "An apple",
+      "Some milk",
+      "A chocolate bar",
+      "A cookie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 2,
+    "text": "Lisa wakes up at seven every morning. She eats toast and drinks orange juice for breakfast. Then she walks to school with her best friend Amy.",
+    "question": "How does Lisa get to school?",
+    "options": [
+      "By bus",
+      "She walks",
+      "By bike",
+      "Her mother drives her"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 3,
+    "text": "It rained all day yesterday. Kevin stayed home and read a book about dinosaurs. He finished the whole book before dinner.",
+    "question": "What did Kevin do at home?",
+    "options": [
+      "He watched TV",
+      "He played games",
+      "He slept all day",
+      "He read a book"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 4,
+    "text": "Maria has a pet cat named Snowball. Snowball is white and very fluffy. She likes to sleep on Maria's bed every night.",
+    "question": "What color is Snowball?",
+    "options": [
+      "White",
+      "Black",
+      "Brown",
+      "Gray"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 5,
+    "text": "Dad made pancakes for breakfast on Sunday. He put blueberries on top. Everyone in the family said they were delicious.",
+    "question": "When did Dad make pancakes?",
+    "options": [
+      "On Monday",
+      "On Sunday",
+      "On Saturday",
+      "On Friday"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 6,
+    "text": "Jenny and her brother went to the park after school. They played on the swings for an hour. Then their father picked them up in his car.",
+    "question": "Who picked Jenny up from the park?",
+    "options": [
+      "Her mother",
+      "Her teacher",
+      "Her grandfather",
+      "Her father"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 7,
+    "text": "The weather was very hot today. Sam and his friends went to the swimming pool. They swam and played in the water until four o'clock.",
+    "question": "Where did Sam and his friends go?",
+    "options": [
+      "To the swimming pool",
+      "To the beach",
+      "To the river",
+      "To the lake"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 8,
+    "text": "Emma loves music. She practices the piano for thirty minutes every day after school. Her teacher says she is getting much better.",
+    "question": "What instrument does Emma play?",
+    "options": [
+      "Guitar",
+      "Violin",
+      "Piano",
+      "Drums"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 9,
+    "text": "Ben forgot to bring his lunch to school today. His friend Mike shared his sandwich with him. Ben was very thankful.",
+    "question": "Why did Mike share his food?",
+    "options": [
+      "Because Ben forgot his lunch",
+      "Because Mike had too much food",
+      "Because the teacher told him to",
+      "Because Ben was sick"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 10,
+    "text": "Grandma came to visit us last weekend. She brought a big cake with strawberries on top. We had a wonderful time together.",
+    "question": "What did Grandma bring?",
+    "options": [
+      "Cookies",
+      "A cake",
+      "Some fruit",
+      "Ice cream"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 11,
+    "text": "There are thirty students in our class. Our teacher, Mr. Brown, teaches us English and math. He always tells funny jokes.",
+    "question": "What subjects does Mr. Brown teach?",
+    "options": [
+      "Science and art",
+      "History and music",
+      "English and math",
+      "Chinese and PE"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 12,
+    "text": "Lucy went to the library after lunch. She borrowed three books about animals. She wants to read them all this week.",
+    "question": "How many books did Lucy borrow?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 13,
+    "text": "My dog Max loves to play fetch. I throw the ball and he runs to get it. He always brings it back to me with his tail wagging.",
+    "question": "What game does Max like to play?",
+    "options": [
+      "Fetch",
+      "Hide and seek",
+      "Tug of war",
+      "Catch"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 14,
+    "text": "The school bus comes at seven thirty every morning. If you are late, you have to walk to school. It takes about twenty minutes to walk.",
+    "question": "What time does the school bus come?",
+    "options": [
+      "Seven o'clock",
+      "Seven fifteen",
+      "Seven thirty",
+      "Eight o'clock"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 15,
+    "text": "We had a science test today. I studied hard last night and got a good grade. My parents were very proud of me.",
+    "question": "How did the speaker do on the test?",
+    "options": [
+      "Got a bad grade",
+      "Failed the test",
+      "Did not take the test",
+      "Got a good grade"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 16,
+    "text": "Sarah wants to be a doctor when she grows up. She likes to help people feel better. She reads many books about the human body.",
+    "question": "What does Sarah want to be?",
+    "options": [
+      "A doctor",
+      "A teacher",
+      "A nurse",
+      "A scientist"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 17,
+    "text": "It snowed a lot last winter. The children made a big snowman in the yard. They used a carrot for the nose and buttons for the eyes.",
+    "question": "What did they use for the snowman's nose?",
+    "options": [
+      "A stick",
+      "A carrot",
+      "A stone",
+      "A button"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 18,
+    "text": "Mom asked me to go to the supermarket. She needed eggs, bread, and butter. I rode my bicycle there because it was not far away.",
+    "question": "How did the speaker go to the supermarket?",
+    "options": [
+      "On foot",
+      "By car",
+      "By bicycle",
+      "By bus"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 19,
+    "text": "Our family has dinner together every evening at six. Tonight we had chicken, rice, and vegetable soup. My little sister ate three bowls of rice.",
+    "question": "What time does the family have dinner?",
+    "options": [
+      "At five",
+      "At six",
+      "At seven",
+      "At eight"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 20,
+    "text": "Jack joined the basketball team this year. He practices every Tuesday and Thursday after school. His first game is next Saturday.",
+    "question": "When is Jack's first game?",
+    "options": [
+      "Next Tuesday",
+      "Next Thursday",
+      "Next Friday",
+      "Next Saturday"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 21,
+    "text": "The new student in our class is from Canada. His name is David and he speaks English and French. He is very friendly and everyone likes him.",
+    "question": "Where is David from?",
+    "options": [
+      "Canada",
+      "America",
+      "England",
+      "France"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 22,
+    "text": "Amy's birthday is on March 15th. She is going to have a party at her house. She invited all her classmates to come.",
+    "question": "Where will Amy have her party?",
+    "options": [
+      "At school",
+      "At a restaurant",
+      "At her house",
+      "At the park"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 23,
+    "text": "Peter's favorite subject is art. He can draw beautiful pictures of animals. Last week he won first prize in the school art contest.",
+    "question": "What prize did Peter win?",
+    "options": [
+      "Second prize",
+      "Third prize",
+      "No prize",
+      "First prize"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 24,
+    "text": "The bookstore on Main Street is having a sale this week. All children's books are half price. I bought two storybooks for only five dollars.",
+    "question": "How much did the speaker spend on books?",
+    "options": [
+      "Five dollars",
+      "Ten dollars",
+      "Two dollars",
+      "Three dollars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 25,
+    "text": "We have a big garden behind our house. Mom planted tomatoes, carrots, and sunflowers. I help her water the plants every morning.",
+    "question": "When does the speaker water the plants?",
+    "options": [
+      "Every afternoon",
+      "Every morning",
+      "Every evening",
+      "Every weekend"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 26,
+    "text": "The zoo is open from nine in the morning to five in the afternoon. My favorite animal there is the panda. It eats bamboo and sleeps a lot.",
+    "question": "What is the speaker's favorite animal?",
+    "options": [
+      "The lion",
+      "The monkey",
+      "The panda",
+      "The elephant"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 27,
+    "text": "Tim can run very fast. He won the 100-meter race at the school sports day. All his classmates cheered for him.",
+    "question": "What race did Tim win?",
+    "options": [
+      "The 50-meter race",
+      "The 200-meter race",
+      "The 400-meter race",
+      "The 100-meter race"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 28,
+    "text": "Helen takes the bus to school every day. The bus stop is near her house. It only takes ten minutes to get to school.",
+    "question": "How long does it take Helen to get to school?",
+    "options": [
+      "Ten minutes",
+      "Twenty minutes",
+      "Thirty minutes",
+      "Five minutes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 29,
+    "text": "We watched a movie about space last night. It was about astronauts going to Mars. My brother said it was the best movie he ever saw.",
+    "question": "What was the movie about?",
+    "options": [
+      "Animals",
+      "Astronauts going to Mars",
+      "A love story",
+      "A war"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 30,
+    "text": "Today is Monday and we have six classes. My first class is Chinese, and my last class is music. I like music the most.",
+    "question": "Which class does the speaker like the most?",
+    "options": [
+      "Chinese",
+      "English",
+      "Music",
+      "Math"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 31,
+    "text": "Aunt Linda sent me a letter from Japan. She is traveling there for two weeks. She said the food in Japan is amazing.",
+    "question": "Where is Aunt Linda?",
+    "options": [
+      "In China",
+      "In Korea",
+      "In America",
+      "In Japan"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 32,
+    "text": "The school cafeteria serves lunch at noon. Today they had pizza, salad, and apple juice. Most students chose pizza.",
+    "question": "What did most students choose?",
+    "options": [
+      "Pizza",
+      "Salad",
+      "Apple juice",
+      "Sandwiches"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 33,
+    "text": "Ryan has two sisters and one brother. His older sister is in high school. His younger sister is only five years old.",
+    "question": "How old is Ryan's younger sister?",
+    "options": [
+      "Three years old",
+      "Five years old",
+      "Seven years old",
+      "Ten years old"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 34,
+    "text": "We are going to the beach this Saturday. Mom said we should bring sunscreen and hats. I can't wait to play in the sand and swim.",
+    "question": "What should they bring to the beach?",
+    "options": [
+      "Umbrellas and coats",
+      "Books and toys",
+      "Sunscreen and hats",
+      "Food and drinks"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 35,
+    "text": "Mr. Wang is our PE teacher. He teaches us how to play soccer and run. He always says exercise is important for our health.",
+    "question": "What does Mr. Wang teach?",
+    "options": [
+      "Math",
+      "English",
+      "Science",
+      "PE"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 36,
+    "text": "I wake up at six thirty every day. First I brush my teeth and wash my face. Then I get dressed and eat breakfast.",
+    "question": "What does the speaker do first in the morning?",
+    "options": [
+      "Brush teeth and wash face",
+      "Eat breakfast",
+      "Get dressed",
+      "Go to school"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 37,
+    "text": "The autumn leaves are turning red and yellow. The weather is getting cooler every day. I need to wear a jacket when I go outside.",
+    "question": "What season is it?",
+    "options": [
+      "Spring",
+      "Autumn",
+      "Summer",
+      "Winter"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 38,
+    "text": "My mom works at a hospital. She is a nurse and she helps sick people every day. She comes home at six in the evening.",
+    "question": "What is the speaker's mom's job?",
+    "options": [
+      "A doctor",
+      "A teacher",
+      "A nurse",
+      "A cook"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 39,
+    "text": "The school library has many kinds of books. You can borrow up to five books at a time. You must return them in two weeks.",
+    "question": "How many books can you borrow at a time?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 40,
+    "text": "Yesterday was my mother's birthday. We surprised her with a special dinner at a restaurant. She was so happy that she cried.",
+    "question": "How did the family celebrate?",
+    "options": [
+      "With a dinner at a restaurant",
+      "With a party at home",
+      "With a trip to the park",
+      "With a movie"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 41,
+    "text": "Tommy has a goldfish named Bubbles. He feeds Bubbles twice a day. He cleans the fish bowl every Saturday.",
+    "question": "How often does Tommy feed his fish?",
+    "options": [
+      "Once a day",
+      "Twice a day",
+      "Three times a day",
+      "Once a week"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 42,
+    "text": "There is a new ice cream shop near our school. They have twenty different flavors. My favorite flavor is strawberry.",
+    "question": "What is the speaker's favorite ice cream flavor?",
+    "options": [
+      "Chocolate",
+      "Vanilla",
+      "Strawberry",
+      "Mango"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 43,
+    "text": "We had a fire drill at school today. Everyone had to leave the building quickly. We stood in the playground until the teachers said it was safe.",
+    "question": "Where did the students stand during the fire drill?",
+    "options": [
+      "In the hallway",
+      "In the cafeteria",
+      "In the classroom",
+      "In the playground"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 44,
+    "text": "Christmas is coming soon. We are decorating our house with lights and a tree. Mom is baking cookies for the family.",
+    "question": "What is Mom doing?",
+    "options": [
+      "Baking cookies",
+      "Wrapping presents",
+      "Cleaning the house",
+      "Buying a tree"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 45,
+    "text": "The playground is very busy during recess. Some children play tag, and others play jump rope. I usually play basketball with my friends.",
+    "question": "What does the speaker usually do during recess?",
+    "options": [
+      "Play tag",
+      "Play basketball",
+      "Play jump rope",
+      "Read books"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 46,
+    "text": "My family went camping last summer. We slept in a tent near a river. At night we sat around the campfire and told stories.",
+    "question": "Where did the family sleep?",
+    "options": [
+      "In a hotel",
+      "In a cabin",
+      "In a tent",
+      "In a car"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 47,
+    "text": "Nick collects stamps from different countries. He has over two hundred stamps now. His most special stamp is from Australia.",
+    "question": "Where is Nick's most special stamp from?",
+    "options": [
+      "Japan",
+      "Canada",
+      "England",
+      "Australia"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 48,
+    "text": "Our class went on a field trip to the museum yesterday. We saw many old things from long ago. The guide told us stories about ancient people.",
+    "question": "Where did the class go on their field trip?",
+    "options": [
+      "To the museum",
+      "To the zoo",
+      "To the farm",
+      "To the factory"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 49,
+    "text": "Sally loves to cook. She learned how to make fried rice from her grandmother. Now she makes it for her family every Friday.",
+    "question": "Who taught Sally how to make fried rice?",
+    "options": [
+      "Her mother",
+      "Her grandmother",
+      "Her teacher",
+      "Her sister"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 50,
+    "text": "I lost my pencil case at school today. It is blue with white stars on it. I looked everywhere but I could not find it.",
+    "question": "What does the pencil case look like?",
+    "options": [
+      "Red with stripes",
+      "Green with dots",
+      "Blue with white stars",
+      "Yellow with flowers"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 51,
+    "text": "We have a new baby in our family. His name is Leo and he was born last week. He sleeps most of the day and cries at night.",
+    "question": "When does the baby cry?",
+    "options": [
+      "In the morning",
+      "In the afternoon",
+      "During meals",
+      "At night"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 52,
+    "text": "The flower shop on the corner sells roses, tulips, and sunflowers. Mom bought a bunch of sunflowers for the living room. They make the room look bright and cheerful.",
+    "question": "What flowers did Mom buy?",
+    "options": [
+      "Sunflowers",
+      "Roses",
+      "Tulips",
+      "Lilies"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 53,
+    "text": "Daniel can speak three languages: English, Chinese, and Spanish. He learned Spanish from his father. His father grew up in Mexico.",
+    "question": "Where did Daniel's father grow up?",
+    "options": [
+      "In Spain",
+      "In Mexico",
+      "In America",
+      "In China"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 54,
+    "text": "We have a school concert next month. I am going to sing a song with my classmates. We practice every day after school.",
+    "question": "What will the speaker do at the concert?",
+    "options": [
+      "Play the piano",
+      "Dance",
+      "Sing a song",
+      "Tell a story"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 55,
+    "text": "It is very windy outside today. The trees are shaking and some leaves are falling. Mom told me to close all the windows.",
+    "question": "What is the weather like today?",
+    "options": [
+      "Rainy",
+      "Sunny",
+      "Snowy",
+      "Windy"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 56,
+    "text": "Our neighbor Mr. Chen has a big dog named Rocky. Rocky is very gentle and friendly. He likes to play with the children on the street.",
+    "question": "What kind of animal is Rocky?",
+    "options": [
+      "A dog",
+      "A cat",
+      "A rabbit",
+      "A bird"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 57,
+    "text": "Jane got a new bicycle for her birthday. It is red with a silver bell. She rides it to school every day now.",
+    "question": "What color is Jane's bicycle?",
+    "options": [
+      "Blue",
+      "Red",
+      "Green",
+      "Black"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 58,
+    "text": "The math test was very difficult today. Only five students got a perfect score. I got eighty points, which is not bad.",
+    "question": "How many points did the speaker get?",
+    "options": [
+      "One hundred",
+      "Ninety",
+      "Eighty",
+      "Seventy"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 59,
+    "text": "We are having a class party on the last day of school. Everyone will bring some food to share. I am going to bring some cookies that I bake myself.",
+    "question": "What will the speaker bring to the party?",
+    "options": [
+      "Cake",
+      "Sandwiches",
+      "Fruit",
+      "Cookies"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 60,
+    "text": "My uncle works at an airport. He is a pilot and he flies to many countries. He always brings us interesting gifts when he comes home.",
+    "question": "What is the uncle's job?",
+    "options": [
+      "A pilot",
+      "A driver",
+      "A mechanic",
+      "A guard"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 61,
+    "text": "Emily got a new puppy from the pet shop. She named it Cookie because it is brown and small. Cookie follows Emily everywhere in the house.",
+    "question": "Why did Emily name the puppy Cookie?",
+    "options": [
+      "Because it likes cookies",
+      "Because it is brown and small",
+      "Because her mom chose the name",
+      "Because it was born near a bakery"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 62,
+    "text": "The school garden has many vegetables. The students water them and pull out weeds every week. This month they will pick the tomatoes.",
+    "question": "What will the students pick this month?",
+    "options": [
+      "Carrots",
+      "Flowers",
+      "Tomatoes",
+      "Apples"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 63,
+    "text": "Dad took us fishing at the lake last Sunday. I caught two fish and my brother caught three. We cooked the fish for dinner that night.",
+    "question": "How many fish did the brother catch?",
+    "options": [
+      "One",
+      "Two",
+      "Four",
+      "Three"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 64,
+    "text": "There is a big clock on the wall of our classroom. It helps us know when class starts and ends. Our English class starts at nine o'clock.",
+    "question": "When does English class start?",
+    "options": [
+      "At nine o'clock",
+      "At ten o'clock",
+      "At eight o'clock",
+      "At eleven o'clock"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 65,
+    "text": "Kate and her family moved to a new house last month. The new house has a bigger yard. Kate is happy because now she can have a dog.",
+    "question": "Why is Kate happy about the new house?",
+    "options": [
+      "It is closer to school",
+      "She can have a dog now",
+      "It has a swimming pool",
+      "Her room is bigger"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 66,
+    "text": "We have English, math, and science on Wednesday. English is my best subject. I always get high marks on English tests.",
+    "question": "What is the speaker's best subject?",
+    "options": [
+      "Math",
+      "Science",
+      "English",
+      "History"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 67,
+    "text": "The bakery near our house opens at six in the morning. The bread there is always fresh and warm. I love the smell when I walk past it.",
+    "question": "When does the bakery open?",
+    "options": [
+      "At five in the morning",
+      "At seven in the morning",
+      "At eight in the morning",
+      "At six in the morning"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 68,
+    "text": "Mike's hobby is building model airplanes. He has made ten models so far. He keeps them on a shelf in his room.",
+    "question": "Where does Mike keep his model airplanes?",
+    "options": [
+      "On a shelf in his room",
+      "In the garage",
+      "On his desk",
+      "In a box"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 69,
+    "text": "Our class has a hamster as a class pet. We take turns feeding it every day. This week it is my turn to take care of it.",
+    "question": "What kind of pet does the class have?",
+    "options": [
+      "A fish",
+      "A hamster",
+      "A rabbit",
+      "A turtle"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 70,
+    "text": "Grandpa likes to go for a walk in the morning. He walks around the park for thirty minutes. He says it keeps him healthy and strong.",
+    "question": "How long does Grandpa walk?",
+    "options": [
+      "Fifteen minutes",
+      "Twenty minutes",
+      "Thirty minutes",
+      "One hour"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 71,
+    "text": "There are four seasons in a year. Summer is the hottest season. Many people go to the beach to cool down during summer.",
+    "question": "Which season is the hottest?",
+    "options": [
+      "Spring",
+      "Autumn",
+      "Winter",
+      "Summer"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 72,
+    "text": "My sister is learning to drive. She practices every weekend with our dad. She hopes to get her license next month.",
+    "question": "Who does the sister practice driving with?",
+    "options": [
+      "Their dad",
+      "Their mom",
+      "A teacher",
+      "A friend"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 73,
+    "text": "The train station is very busy in the morning. Many people take the train to work. The first train leaves at five thirty.",
+    "question": "When does the first train leave?",
+    "options": [
+      "At six o'clock",
+      "At five thirty",
+      "At six thirty",
+      "At five o'clock"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "text": "Sue made a card for her teacher on Teacher's Day. She drew flowers and wrote a thank-you message inside. Her teacher was very touched.",
+    "question": "What did Sue make for her teacher?",
+    "options": [
+      "A present",
+      "A cake",
+      "A card",
+      "A letter"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 75,
+    "text": "Our school uniform is a white shirt and blue pants. Girls can also wear a blue skirt. We must wear our uniform every day except Friday.",
+    "question": "When don't students have to wear the uniform?",
+    "options": [
+      "Monday",
+      "Wednesday",
+      "Saturday",
+      "Friday"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 76,
+    "text": "Jason wants to buy a new video game. It costs fifty dollars. He is saving his allowance every week to buy it.",
+    "question": "How much does the video game cost?",
+    "options": [
+      "Fifty dollars",
+      "Thirty dollars",
+      "Forty dollars",
+      "Sixty dollars"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 77,
+    "text": "The school nurse gave me some medicine because I had a headache. She told me to drink more water and rest. I felt better after lunch.",
+    "question": "Why did the speaker go to the school nurse?",
+    "options": [
+      "A stomachache",
+      "A headache",
+      "A cold",
+      "A toothache"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 78,
+    "text": "We planted a tree in front of our school today. The whole class helped dig the hole and put the tree in. Our teacher said the tree will grow very tall.",
+    "question": "Where did they plant the tree?",
+    "options": [
+      "Behind the school",
+      "In the playground",
+      "In front of the school",
+      "In the garden"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 79,
+    "text": "Anna is reading a story about a princess. The princess lives in a castle near the sea. At the end of the story, the princess saves a dragon.",
+    "question": "Who does the princess save?",
+    "options": [
+      "A prince",
+      "A king",
+      "A knight",
+      "A dragon"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 80,
+    "text": "The supermarket is open from eight in the morning to ten at night. It sells food, drinks, and household items. It is the biggest store in our town.",
+    "question": "What time does the supermarket close?",
+    "options": [
+      "Ten at night",
+      "Nine at night",
+      "Eight at night",
+      "Eleven at night"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "text": "My friend Alice moved to another city last month. I miss her very much. We talk on the phone every Sunday.",
+    "question": "When do the speaker and Alice talk on the phone?",
+    "options": [
+      "Every day",
+      "Every Sunday",
+      "Every Saturday",
+      "Once a month"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 82,
+    "text": "The school has a new computer room. There are forty computers for students to use. We can go there during lunch or after school.",
+    "question": "How many computers are in the new room?",
+    "options": [
+      "Twenty",
+      "Thirty",
+      "Forty",
+      "Fifty"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 83,
+    "text": "Kevin's mother is a great cook. She makes the best fried chicken in the world. Every Sunday she cooks a special meal for the family.",
+    "question": "When does Kevin's mother cook a special meal?",
+    "options": [
+      "Every Friday",
+      "Every Saturday",
+      "Every Monday",
+      "Every Sunday"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 84,
+    "text": "I walk past a pet shop on my way to school. There are cute puppies and kittens in the window. I always stop to look at them for a few minutes.",
+    "question": "What does the speaker see in the pet shop window?",
+    "options": [
+      "Puppies and kittens",
+      "Fish and birds",
+      "Hamsters and rabbits",
+      "Turtles and snakes"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "text": "Our class is doing a project about the ocean. We are making a poster with pictures of sea animals. My group is drawing a whale and some fish.",
+    "question": "What is the class project about?",
+    "options": [
+      "The forest",
+      "The ocean",
+      "The desert",
+      "The mountains"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 86,
+    "text": "There is a tall cherry tree in our schoolyard. In spring it is covered with beautiful pink flowers. Many students like to sit under it and read.",
+    "question": "What color are the cherry tree flowers?",
+    "options": [
+      "White",
+      "Red",
+      "Pink",
+      "Yellow"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 87,
+    "text": "Henry lost his watch at the playground. He looked under the slide and near the swings. Finally he found it next to the water fountain.",
+    "question": "Where did Henry find his watch?",
+    "options": [
+      "Under the slide",
+      "Near the swings",
+      "In the sand",
+      "Next to the water fountain"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 88,
+    "text": "The movie starts at three o'clock on Saturday afternoon. We need to buy tickets before we go. Dad said he will drive us to the theater.",
+    "question": "What time does the movie start?",
+    "options": [
+      "At three o'clock",
+      "At two o'clock",
+      "At four o'clock",
+      "At one o'clock"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 89,
+    "text": "Sophie is allergic to cats. She sneezes a lot when she is near them. She has a pet rabbit instead because rabbits don't make her sneeze.",
+    "question": "What pet does Sophie have?",
+    "options": [
+      "A cat",
+      "A rabbit",
+      "A dog",
+      "A hamster"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 90,
+    "text": "Mr. Lee is our school principal. He is very kind and always smiles at the students. Every Monday morning he gives a short speech.",
+    "question": "When does Mr. Lee give a speech?",
+    "options": [
+      "Every Friday morning",
+      "Every Tuesday morning",
+      "Every Monday morning",
+      "Every Wednesday morning"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 91,
+    "text": "Clara wants to learn how to swim. She signed up for swimming lessons at the community center. Her first lesson is next Wednesday.",
+    "question": "When is Clara's first swimming lesson?",
+    "options": [
+      "Next Monday",
+      "Next Friday",
+      "Next Saturday",
+      "Next Wednesday"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 92,
+    "text": "We visited my grandparents in the countryside last weekend. They have chickens and two goats on their farm. Grandma made us fresh eggs for breakfast.",
+    "question": "What did Grandma make for breakfast?",
+    "options": [
+      "Fresh eggs",
+      "Pancakes",
+      "Toast",
+      "Porridge"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 93,
+    "text": "The school play is in December. Our class is doing the story of Cinderella. I will play the role of the prince.",
+    "question": "What role will the speaker play?",
+    "options": [
+      "Cinderella",
+      "The prince",
+      "The stepmother",
+      "The fairy godmother"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 94,
+    "text": "Laura's family eats dinner at seven every night. Her favorite food is spaghetti with tomato sauce. She helps her mom set the table before they eat.",
+    "question": "What is Laura's favorite food?",
+    "options": [
+      "Pizza",
+      "Fried rice",
+      "Spaghetti with tomato sauce",
+      "Chicken soup"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 95,
+    "text": "The weather report says it will rain tomorrow. We should bring an umbrella to school. The rain will stop in the afternoon.",
+    "question": "When will the rain stop?",
+    "options": [
+      "In the morning",
+      "At noon",
+      "At night",
+      "In the afternoon"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 96,
+    "text": "Our family goes to the night market every Saturday. We eat stinky tofu, bubble tea, and grilled corn. It is always crowded and fun.",
+    "question": "When does the family go to the night market?",
+    "options": [
+      "Every Saturday",
+      "Every Sunday",
+      "Every Friday",
+      "Every day"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 97,
+    "text": "Brian has a collection of toy cars. He got his first toy car from his grandfather when he was six. Now he has over fifty toy cars.",
+    "question": "Who gave Brian his first toy car?",
+    "options": [
+      "His father",
+      "His grandfather",
+      "His mother",
+      "His friend"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 98,
+    "text": "We cleaned our classroom today before the holiday. We swept the floor, wiped the windows, and threw away old papers. Now the room looks very clean.",
+    "question": "Why did the students clean the classroom?",
+    "options": [
+      "Because a guest was coming",
+      "Because the teacher was angry",
+      "Because the holiday was coming",
+      "Because there was a test"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 99,
+    "text": "I have a pen pal in England. Her name is Rose and she is fourteen years old. We write letters to each other every month.",
+    "question": "How often do they write letters?",
+    "options": [
+      "Every week",
+      "Every day",
+      "Twice a month",
+      "Every month"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 100,
+    "text": "The sports day at our school is in October. There are running races, jumping events, and a tug-of-war. Last year our class won the tug-of-war.",
+    "question": "What event did the class win last year?",
+    "options": [
+      "The tug-of-war",
+      "The running race",
+      "The jumping event",
+      "The relay race"
+    ],
+    "correctIndex": 0
+  }
+]

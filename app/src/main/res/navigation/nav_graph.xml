@@ -4,10 +4,11 @@
     android:id="@+id/nav_graph"
     app:startDestination="@id/homeFragment">
 
+    <!-- Home -->
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.memoloop.app.ui.home.HomeFragment"
-        android:label="首頁">
+        android:label="@string/home">
         <action
             android:id="@+id/action_home_to_review"
             app:destination="@id/reviewFragment"
@@ -15,12 +16,20 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_listening"
+            app:destination="@id/listeningSessionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
 
+    <!-- Vocabulary Review -->
     <fragment
         android:id="@+id/reviewFragment"
         android:name="com.memoloop.app.ui.review.ReviewFragment"
-        android:label="複習">
+        android:label="@string/nav_review">
         <action
             android:id="@+id/action_review_to_result"
             app:destination="@id/resultFragment"
@@ -30,14 +39,9 @@
     <fragment
         android:id="@+id/resultFragment"
         android:name="com.memoloop.app.ui.review.ResultFragment"
-        android:label="完成">
-        <argument
-            android:name="elapsedSeconds"
-            app:argType="long" />
-        <argument
-            android:name="unlockedPrizeIndex"
-            android:defaultValue="-1"
-            app:argType="integer" />
+        android:label="@string/nav_complete">
+        <argument android:name="elapsedSeconds" app:argType="long" />
+        <argument android:name="unlockedPrizeIndex" android:defaultValue="-1" app:argType="integer" />
         <action
             android:id="@+id/action_result_to_home"
             app:destination="@id/homeFragment"
@@ -45,14 +49,98 @@
             app:popUpToInclusive="true" />
     </fragment>
 
+    <!-- Records tab -->
     <fragment
         android:id="@+id/historyFragment"
         android:name="com.memoloop.app.ui.history.HistoryFragment"
-        android:label="複習紀錄" />
+        android:label="@string/nav_history" />
 
+    <!-- Quiz tab -->
+    <fragment
+        android:id="@+id/quizTabFragment"
+        android:name="com.memoloop.app.ui.quiz.QuizTabFragment"
+        android:label="@string/quiz_tab_label">
+        <action
+            android:id="@+id/action_quiz_tab_to_quiz_session"
+            app:destination="@id/quizSessionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_quiz_tab_to_listening_session"
+            app:destination="@id/listeningSessionFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Quiz session (vocab, 10 questions) -->
+    <fragment
+        android:id="@+id/quizSessionFragment"
+        android:name="com.memoloop.app.ui.quiz.QuizSessionFragment"
+        android:label="@string/nav_quiz">
+        <action
+            android:id="@+id/action_quiz_session_to_quiz_result"
+            app:destination="@id/quizResultFragment"
+            app:popUpTo="@id/quizTabFragment" />
+    </fragment>
+
+    <!-- Quiz result (vocab) -->
+    <fragment
+        android:id="@+id/quizResultFragment"
+        android:name="com.memoloop.app.ui.quiz.QuizResultFragment"
+        android:label="@string/nav_quiz_result">
+        <argument android:name="quizCorrectCount" app:argType="integer" />
+        <argument android:name="quizTotalCount" app:argType="integer" />
+        <argument android:name="quizPassed" app:argType="boolean" />
+        <argument android:name="quizPointsEarned" app:argType="integer" />
+        <argument android:name="quizLevel" app:argType="integer" />
+        <action
+            android:id="@+id/action_quiz_result_to_quiz_tab"
+            app:destination="@id/quizTabFragment"
+            app:popUpTo="@id/quizTabFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Listening session (5 stories, shared by practice + quiz) -->
+    <fragment
+        android:id="@+id/listeningSessionFragment"
+        android:name="com.memoloop.app.ui.listening.ListeningSessionFragment"
+        android:label="@string/nav_listening">
+        <argument android:name="isQuizMode" android:defaultValue="false" app:argType="boolean" />
+        <action
+            android:id="@+id/action_listening_session_to_listening_result"
+            app:destination="@id/listeningResultFragment" />
+    </fragment>
+
+    <!-- Listening result -->
+    <fragment
+        android:id="@+id/listeningResultFragment"
+        android:name="com.memoloop.app.ui.listening.ListeningResultFragment"
+        android:label="@string/nav_listening_result">
+        <argument android:name="correctCount" app:argType="integer" />
+        <argument android:name="totalCount" app:argType="integer" />
+        <argument android:name="passed" app:argType="boolean" />
+        <argument android:name="pointsEarned" app:argType="integer" />
+        <argument android:name="isQuizMode" android:defaultValue="false" app:argType="boolean" />
+        <action
+            android:id="@+id/action_listening_result_to_home"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_listening_result_to_quiz_tab"
+            app:destination="@id/quizTabFragment"
+            app:popUpTo="@id/quizTabFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Awards tab -->
     <fragment
         android:id="@+id/prizeFragment"
         android:name="com.memoloop.app.ui.prize.PrizeFragment"
-        android:label="成就獎項" />
+        android:label="@string/nav_awards" />
 
 </navigation>

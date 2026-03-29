@@ -35,6 +35,10 @@
     <color name="bronze">#CD7F32</color>
     <color name="platinum">#E5E4E2</color>
 
+    <!-- Quiz -->
+    <color name="quiz_correct">#4CAF50</color>
+    <color name="quiz_wrong">#E53935</color>
+
     <!-- Misc -->
     <color name="divider">#BBDEFB</color>
     <color name="white">#FFFFFF</color>

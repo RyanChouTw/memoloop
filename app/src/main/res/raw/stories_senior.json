@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "text": "Despite the heavy rain, Maria decided to walk to the museum instead of taking the bus. She had always enjoyed the sound of rain and found it calming. By the time she arrived, her shoes were completely soaked, but she didn't mind at all.",
+    "question": "Why did Maria choose to walk in the rain?",
+    "options": [
+      "She missed the bus",
+      "She found the rain relaxing",
+      "She wanted to exercise",
+      "The museum was very close"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 2,
+    "text": "The company announced that all employees would be required to work from home at least two days per week. While some workers welcomed the flexibility, others worried about feeling isolated from their colleagues. The policy was designed to reduce the company's carbon footprint.",
+    "question": "What was the main reason behind the new policy?",
+    "options": [
+      "To save money on office space",
+      "To make employees happier",
+      "To increase productivity",
+      "To reduce environmental impact"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 3,
+    "text": "After living in Japan for three years, David found it difficult to readjust to life in his hometown. The pace of life felt too slow, and he missed the efficiency of public transportation. His friends noticed that he had adopted several Japanese customs without realizing it.",
+    "question": "What can be inferred about David's experience?",
+    "options": [
+      "He was deeply influenced by Japanese culture",
+      "He disliked living in Japan",
+      "He preferred his hometown over Japan",
+      "He had trouble learning Japanese"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 4,
+    "text": "Scientists have discovered that trees in a forest communicate with each other through an underground network of fungi. This network, sometimes called the 'wood wide web,' allows trees to share nutrients and even warn each other about insect attacks. Older trees often send more resources to younger ones that are struggling to grow.",
+    "question": "How do older trees help younger ones according to the passage?",
+    "options": [
+      "By blocking insects from reaching them",
+      "By providing shade from the sun",
+      "By growing taller to protect them from wind",
+      "By sending them nutrients through the fungal network"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 5,
+    "text": "The restaurant had received excellent reviews online, but when Sarah arrived, she found the place nearly empty. The waiter explained that a new highway bypass had redirected most traffic away from their street. Despite the low customer count, the food was as outstanding as the reviews had promised.",
+    "question": "Why was the restaurant nearly empty?",
+    "options": [
+      "The food quality had declined",
+      "It was closed for renovations",
+      "A new road diverted traffic away from the area",
+      "The reviews were fake"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 6,
+    "text": "When Dr. Chen presented her research on artificial intelligence at the conference, the audience was divided. Some praised the potential benefits of AI in healthcare, while others expressed concern about the ethical implications of machines making medical decisions. Dr. Chen acknowledged both perspectives and called for regulations to guide development.",
+    "question": "What was Dr. Chen's stance on AI in healthcare?",
+    "options": [
+      "She believed it should be developed with proper regulations",
+      "She was completely against it",
+      "She thought it should replace doctors entirely",
+      "She was only interested in the financial benefits"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 7,
+    "text": "The ancient city of Pompeii was buried under volcanic ash in 79 AD when Mount Vesuvius erupted. Ironically, the same disaster that destroyed the city also preserved it remarkably well. Today, archaeologists can study the daily lives of Roman citizens in extraordinary detail because everything was frozen in time.",
+    "question": "What is ironic about the destruction of Pompeii?",
+    "options": [
+      "The residents knew the eruption was coming",
+      "The disaster both destroyed and preserved the city",
+      "The city was rebuilt immediately after",
+      "Archaeologists caused more damage than the volcano"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 8,
+    "text": "Lisa had been preparing for her job interview for weeks, but on the morning of the interview, she received an email saying the position had been filled internally. Rather than feeling defeated, she decided to reach out to the hiring manager to express her continued interest. Two months later, the company contacted her about an even better position.",
+    "question": "What can we learn from Lisa's experience?",
+    "options": [
+      "Internal candidates always get the job",
+      "Persistence and professionalism can lead to unexpected opportunities",
+      "Job interviews are a waste of time",
+      "Companies always hire from the outside"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 9,
+    "text": "The small island nation of Tuvalu is one of the countries most threatened by rising sea levels. With its highest point only four meters above sea level, the entire country could become uninhabitable within decades. The government has been negotiating with neighboring countries to accept its citizens if evacuation becomes necessary.",
+    "question": "What is the main threat to Tuvalu?",
+    "options": [
+      "Earthquakes",
+      "Political instability",
+      "Rising sea levels due to climate change",
+      "Overpopulation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 10,
+    "text": "Michael noticed that his teenage daughter spent most of her free time watching videos on her phone. Instead of banning screen time, he suggested they watch documentaries together and discuss them afterwards. Over time, his daughter developed a genuine interest in science and began choosing educational content on her own.",
+    "question": "What approach did Michael take regarding his daughter's screen time?",
+    "options": [
+      "He took away her phone completely",
+      "He ignored the problem",
+      "He redirected her interest rather than restricting it",
+      "He set a strict daily time limit"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 11,
+    "text": "The new electric car model was praised for its impressive range of 500 kilometers on a single charge. However, critics pointed out that charging infrastructure in rural areas was still severely lacking. Until charging stations become as common as gas stations, many consumers will hesitate to make the switch.",
+    "question": "What is the main barrier to widespread electric car adoption according to the passage?",
+    "options": [
+      "The cars are too expensive",
+      "The driving range is too short",
+      "Electric cars are unreliable",
+      "There are not enough charging stations in rural areas"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 12,
+    "text": "A recent study found that students who took handwritten notes performed better on conceptual questions than those who typed their notes on laptops. Researchers believe this is because writing by hand forces students to process and summarize information rather than transcribing lectures word for word. The act of paraphrasing strengthens understanding and memory retention.",
+    "question": "Why do handwritten notes lead to better learning?",
+    "options": [
+      "Handwriting is faster than typing",
+      "Students write more detailed notes by hand",
+      "Laptops distract students with notifications",
+      "Writing by hand encourages deeper processing of information"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 13,
+    "text": "The town of Whittier, Alaska, is unique because nearly all of its 200 residents live in a single building. The building contains a school, a post office, a grocery store, and apartments. In winter, the only way to reach the town is through a one-lane tunnel that closes at night.",
+    "question": "What makes Whittier unusual?",
+    "options": [
+      "Almost the entire population lives under one roof",
+      "It has no roads leading to it",
+      "It is the largest city in Alaska",
+      "It only has electricity during the summer"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 14,
+    "text": "Emma's grandmother had always told her that a garden required patience above all else. As a child, Emma didn't understand, but after spending a summer growing vegetables, she realized that the daily act of watering and waiting taught her more about discipline than any classroom lesson ever had.",
+    "question": "What did Emma learn from gardening?",
+    "options": [
+      "That vegetables are difficult to grow",
+      "That her grandmother was wrong about patience",
+      "That gardening taught her discipline through daily practice",
+      "That classrooms are better for learning"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 15,
+    "text": "During the 1960s, the Green Revolution introduced high-yield crop varieties to developing countries, significantly increasing food production. While it helped prevent widespread famine, it also led to overuse of chemical fertilizers and pesticides, causing long-term damage to soil health. Today, scientists are working on more sustainable agricultural practices to address these issues.",
+    "question": "What was a negative consequence of the Green Revolution?",
+    "options": [
+      "It caused environmental damage through chemical overuse",
+      "It reduced food production worldwide",
+      "It made farming too expensive for small farmers",
+      "It only benefited wealthy countries"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 16,
+    "text": "The library had been scheduled for demolition to make room for a shopping mall. However, a group of local residents organized a campaign to save it, gathering over 10,000 signatures in just two weeks. The city council reconsidered and decided to renovate the library instead, turning it into a modern community center that still housed the book collection.",
+    "question": "What caused the city council to change its decision?",
+    "options": [
+      "Community activism and public support for the library",
+      "The shopping mall company went bankrupt",
+      "The library won a national architecture award",
+      "A new law prohibited the demolition of public buildings"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 17,
+    "text": "Psychologists have found that people who regularly practice gratitude tend to be happier and more resilient. Writing down three things you're thankful for each day can rewire your brain to focus on positive experiences. However, the practice must be genuine; simply going through the motions without real reflection has little effect.",
+    "question": "What is essential for the gratitude practice to work?",
+    "options": [
+      "Writing at least five things each day",
+      "Sharing your list with others",
+      "Doing it at the same time every day",
+      "Being sincere and genuinely reflective"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 18,
+    "text": "When the factory closed, the small town lost its primary source of employment. Rather than waiting for another company to move in, the mayor launched a program to retrain workers in renewable energy installation. Within three years, the town had become a regional hub for solar panel manufacturing.",
+    "question": "How did the town respond to the factory closure?",
+    "options": [
+      "By investing in worker retraining for a new industry",
+      "By attracting a different factory",
+      "By encouraging residents to move elsewhere",
+      "By reducing taxes to attract businesses"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 19,
+    "text": "The documentary revealed that fast fashion companies produce roughly 100 billion garments per year, far more than the world's population needs. Much of this clothing ends up in landfills within a year of purchase. Some consumers are now turning to secondhand shopping and clothing swaps as more sustainable alternatives.",
+    "question": "What problem does the passage highlight about fast fashion?",
+    "options": [
+      "Clothing is too expensive for most people",
+      "There are not enough clothing options available",
+      "Fast fashion clothing is of very poor quality",
+      "Massive overproduction leads to enormous waste"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 20,
+    "text": "The orchestra conductor was known for his unconventional methods. Instead of rehearsing the same pieces repeatedly, he would have musicians improvise together to build trust and communication. Critics initially dismissed his approach, but his orchestra went on to win several international competitions, proving that creativity and discipline could coexist.",
+    "question": "What was the result of the conductor's unusual methods?",
+    "options": [
+      "The musicians quit in frustration",
+      "The orchestra achieved international success",
+      "Critics praised his methods from the beginning",
+      "The orchestra could only play improvised music"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 21,
+    "text": "Recent research suggests that the human brain continues to develop well into a person's mid-twenties, particularly the prefrontal cortex, which is responsible for decision-making and impulse control. This finding has implications for the legal system, as it raises questions about whether young adults should be held to the same standards of accountability as older ones.",
+    "question": "What implication does the research have?",
+    "options": [
+      "Young adults are more intelligent than older adults",
+      "The legal system may need to reconsider how it treats young offenders",
+      "The brain stops developing after age 25",
+      "Teenagers should be given more responsibilities"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 22,
+    "text": "The Himalayan country of Bhutan measures its success not by GDP, but by Gross National Happiness. The government considers factors such as environmental conservation, cultural preservation, and citizens' psychological well-being when making policy decisions. While the approach has drawn international attention, critics argue it can mask economic inequality.",
+    "question": "What criticism is raised about Bhutan's approach?",
+    "options": [
+      "It ignores environmental issues",
+      "It may hide economic disparities",
+      "It costs too much to implement",
+      "It has no measurable outcomes"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 23,
+    "text": "After the earthquake, volunteers from around the world arrived to help with rescue efforts. Among them was a 70-year-old retired engineer who used his expertise to assess which damaged buildings were safe to enter. His knowledge proved invaluable and likely saved several lives, reminding everyone that experience and age can be powerful assets in a crisis.",
+    "question": "What role did the retired engineer play?",
+    "options": [
+      "He organized the volunteer teams",
+      "He provided medical care to survivors",
+      "He raised money for reconstruction",
+      "He evaluated building safety using his professional expertise"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 24,
+    "text": "A famous experiment in the 1970s gave children a choice: eat one marshmallow now, or wait fifteen minutes and receive two. Researchers followed up decades later and found that children who had waited tended to have better academic performance and healthier lifestyles. The study suggested that the ability to delay gratification is a strong predictor of long-term success.",
+    "question": "What did the marshmallow experiment reveal?",
+    "options": [
+      "Children who eat sweets perform better in school",
+      "Self-control in childhood is linked to future success",
+      "Most children prefer to have two marshmallows",
+      "Patience is only important in academic settings"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 25,
+    "text": "The coral reefs off the coast of Australia have experienced severe bleaching events in recent years due to rising ocean temperatures. When water becomes too warm, corals expel the algae living in their tissues, turning white. Without these algae, the corals eventually starve and die, threatening the entire marine ecosystem that depends on them.",
+    "question": "What happens to coral when ocean temperatures rise too much?",
+    "options": [
+      "They grow faster and become stronger",
+      "They move to deeper, cooler waters",
+      "They change color but remain healthy",
+      "They lose their algae and may die from starvation"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 26,
+    "text": "The CEO surprised everyone by announcing she would take a 50% pay cut and redistribute the money to the company's lowest-paid employees. She explained that reducing income inequality within the organization would improve morale and productivity. Within a year, employee turnover dropped by 30%, and overall performance metrics improved significantly.",
+    "question": "What was the effect of the CEO's decision?",
+    "options": [
+      "The company went bankrupt",
+      "Top executives left the company",
+      "The lowest-paid workers demanded even more money",
+      "Employee retention and performance improved"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 27,
+    "text": "In many Scandinavian countries, outdoor kindergartens operate year-round, even in freezing temperatures. Children spend most of their day playing in forests, climbing trees, and exploring nature. Research shows that these children develop stronger immune systems and better problem-solving skills compared to those in traditional indoor settings.",
+    "question": "What benefit do children gain from outdoor kindergartens?",
+    "options": [
+      "They learn to read and write faster",
+      "They become better at following instructions",
+      "They develop stronger immunity and problem-solving abilities",
+      "They are less likely to enjoy being outdoors as adults"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 28,
+    "text": "The photographer spent three years documenting the daily lives of migrant workers in Southeast Asia. Her images captured both the hardship of their working conditions and the resilience of their spirit. When the exhibition opened, it sparked a national conversation about labor rights and led to several policy changes.",
+    "question": "What impact did the photography exhibition have?",
+    "options": [
+      "It had no significant effect on public opinion",
+      "It caused diplomatic tensions between countries",
+      "It made the photographer famous but changed nothing",
+      "It prompted public discussion and policy reforms on labor rights"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 29,
+    "text": "Astronomers recently detected a signal from a star system 39 light-years away that initially appeared to be artificial in origin. After months of analysis, they determined it was caused by a natural phenomenon involving the interaction between two neutron stars. The discovery, while not evidence of alien life, has expanded our understanding of how such stellar objects behave.",
+    "question": "What was the final conclusion about the detected signal?",
+    "options": [
+      "It was a message from an alien civilization",
+      "It was caused by equipment malfunction",
+      "It remains unexplained to this day",
+      "It was a natural phenomenon from neutron star interaction"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 30,
+    "text": "The city's new bike-sharing program was initially mocked by residents who doubted anyone would use it. Within six months, however, the program had over 50,000 active users and had reduced traffic congestion by 15%. The success prompted neighboring cities to launch similar programs, creating a regional network of shared bicycles.",
+    "question": "What can be inferred from the passage?",
+    "options": [
+      "Residents immediately embraced the program",
+      "The program failed to meet expectations",
+      "Public skepticism does not always predict the outcome of new initiatives",
+      "Bike-sharing only works in large cities"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 31,
+    "text": "When the pandemic forced schools to shift to online learning, many students in rural areas were left behind because they lacked reliable internet access. A group of teachers in one district began recording lessons on USB drives and delivering them to students' homes by bicycle. Their dedication ensured that no student in their area missed a full semester of education.",
+    "question": "How did the teachers solve the connectivity problem?",
+    "options": [
+      "They physically delivered recorded lessons on USB drives",
+      "They installed satellite internet in every home",
+      "They arranged for students to come to school in small groups",
+      "They shortened the curriculum to fit phone calls"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 32,
+    "text": "The concept of 'hygge,' a Danish word roughly translated as 'cozy contentment,' has gained popularity worldwide. It emphasizes creating a warm atmosphere, enjoying simple pleasures, and being present with loved ones. Some psychologists believe that Denmark's consistently high happiness rankings are partly due to this cultural emphasis on everyday well-being.",
+    "question": "What does the passage suggest about hygge?",
+    "options": [
+      "It may contribute to Denmark's high levels of happiness",
+      "It is a luxury only wealthy people can afford",
+      "It requires expensive home decorations",
+      "It is only practiced during winter months"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 33,
+    "text": "The novelist struggled with writer's block for two years before a chance encounter at a coffee shop changed everything. An elderly stranger shared a remarkable story about surviving a shipwreck as a child. Inspired by the conversation, the novelist wrote her most acclaimed book, which went on to win a major literary prize.",
+    "question": "What broke the novelist's writer's block?",
+    "options": [
+      "A random conversation with a stranger",
+      "A vacation to a tropical island",
+      "Reading other successful novels",
+      "Working with a professional writing coach"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 34,
+    "text": "Sleep researchers have found that the blue light emitted by smartphones and tablets suppresses the production of melatonin, the hormone that regulates sleep. People who use electronic devices within an hour of bedtime take significantly longer to fall asleep and experience lower quality rest. Experts recommend switching to dimmer, warmer lighting in the evening.",
+    "question": "Why do electronic devices affect sleep?",
+    "options": [
+      "They make too much noise",
+      "Their content is too stimulating",
+      "Their blue light interferes with melatonin production",
+      "They cause eye strain that leads to headaches"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 35,
+    "text": "The indigenous community had been fighting for decades to reclaim their ancestral land, which had been converted into a commercial plantation. When the court finally ruled in their favor, they chose not to destroy the plantation but to transform it into a sustainable farming cooperative. Their approach balanced economic reality with cultural values and environmental stewardship.",
+    "question": "What did the community do after winning the land dispute?",
+    "options": [
+      "They immediately tore down the plantation",
+      "They sold the land to a different corporation",
+      "They turned the land into a nature reserve",
+      "They converted the plantation into a sustainable cooperative"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 36,
+    "text": "A study of identical twins separated at birth revealed striking similarities in their habits and preferences, even when they were raised in completely different environments. One pair, reunited at age 39, discovered they both drove the same car model, had married women with the same first name, and vacationed at the same beach. These findings suggest a stronger genetic influence on personality than previously believed.",
+    "question": "What do the twin studies suggest?",
+    "options": [
+      "Environment has no effect on personality",
+      "Identical twins always have identical lives",
+      "Genetics may play a larger role in personality than expected",
+      "Separated twins are always happier when reunited"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 37,
+    "text": "The museum's decision to offer free admission on weekends was initially opposed by board members who feared lost revenue. Instead, the increased foot traffic led to higher gift shop sales and cafe revenue, more than compensating for the lost ticket income. Additionally, membership applications tripled as visitors who came for free returned as paying supporters.",
+    "question": "What was the unexpected result of free weekend admission?",
+    "options": [
+      "The museum lost money and had to close",
+      "Fewer people visited on weekends",
+      "The board members resigned in protest",
+      "Overall revenue increased through other channels"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 38,
+    "text": "Unlike most countries where tipping is customary, Japan considers it rude to leave a tip at a restaurant. The philosophy is that excellent service is a standard expectation, not something that requires extra payment. Visitors who leave money on the table may find a server chasing after them to return the 'forgotten' cash.",
+    "question": "Why might a Japanese server return tip money to a customer?",
+    "options": [
+      "Because tipping is considered insulting in Japanese culture",
+      "Because the amount was too small",
+      "Because the restaurant has a no-cash policy",
+      "Because the server didn't notice it was a tip"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 39,
+    "text": "The young athlete was devastated when a knee injury ended her chances of competing in the Olympics. During her long recovery, she discovered a talent for coaching and sports psychology. Ten years later, three of her students competed in the Olympics, and she realized that her injury had redirected her toward a more fulfilling career.",
+    "question": "What can be inferred about the athlete's perspective on her injury?",
+    "options": [
+      "She never recovered from the disappointment",
+      "She eventually saw it as a turning point that led to a meaningful career",
+      "She believed coaching was inferior to competing",
+      "She regretted not trying harder to compete"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 40,
+    "text": "The Great Pacific Garbage Patch is a massive collection of plastic debris floating in the Pacific Ocean, estimated to be twice the size of Texas. Much of it consists of microplastics that are nearly impossible to clean up with current technology. Marine animals frequently mistake these tiny particles for food, which introduces toxins into the food chain.",
+    "question": "Why are microplastics particularly dangerous?",
+    "options": [
+      "They are too large for fish to swallow",
+      "They dissolve in water and disappear quickly",
+      "They are eaten by marine life and contaminate the food chain",
+      "They only affect deep-sea creatures"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 41,
+    "text": "The architect designed the new hospital with large windows facing a garden, wide hallways filled with natural light, and artwork on every floor. Research has shown that patients in environments with natural elements and aesthetic design tend to recover faster and require less pain medication. The hospital's recovery rates exceeded the national average within its first year of operation.",
+    "question": "What was the purpose of the hospital's design features?",
+    "options": [
+      "To win an architecture award",
+      "To reduce construction costs",
+      "To attract more visitors to the hospital",
+      "To promote faster patient recovery through a healing environment"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 42,
+    "text": "The bookstore owner noticed that sales had been declining for years as customers shifted to online shopping. Rather than competing on price, she transformed the store into a community space with author readings, writing workshops, and a small cafe. Revenue from events and the cafe now accounts for 60% of the business, and book sales have actually increased as a result of the higher foot traffic.",
+    "question": "How did the bookstore owner reverse the decline?",
+    "options": [
+      "By offering lower prices than online retailers",
+      "By selling only rare and expensive books",
+      "By closing the physical store and going online",
+      "By creating a community experience that attracted more customers"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 43,
+    "text": "Finland's education system consistently ranks among the best in the world, despite having shorter school days and less homework than most countries. Teachers are highly respected and must hold a master's degree. The system emphasizes equal opportunities, play-based learning in early years, and trust in teachers' professional judgment rather than standardized testing.",
+    "question": "What is a key feature of Finland's education system?",
+    "options": [
+      "Heavy reliance on standardized testing",
+      "Longer school days than most countries",
+      "Trust in teachers and emphasis on equality over testing",
+      "Private schools outperform public ones"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 44,
+    "text": "The anthropologist spent fifteen years living among a remote tribe in the Amazon rainforest. She learned that the tribe had no concept of personal land ownership; instead, the forest was considered a shared resource that belonged to everyone. Her findings challenged Western assumptions about property rights being a universal human concept.",
+    "question": "What did the anthropologist's research challenge?",
+    "options": [
+      "The assumption that private property is a universal concept",
+      "The idea that tribal societies are primitive",
+      "The belief that the Amazon is uninhabited",
+      "The theory that all cultures have written languages"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 45,
+    "text": "When the volcanic island of Surtsey emerged from the North Atlantic Ocean in 1963, scientists seized the rare opportunity to observe how life colonizes a completely barren landscape. Within a few years, seeds carried by wind and ocean currents had taken root. Today, the island hosts dozens of plant species and several bird colonies, all of which arrived naturally without human assistance.",
+    "question": "Why is Surtsey scientifically significant?",
+    "options": [
+      "It is the largest volcanic island ever formed",
+      "Scientists planted various species there as an experiment",
+      "It proved that volcanoes are becoming more frequent",
+      "It provides a natural laboratory for studying how ecosystems develop from scratch"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 46,
+    "text": "A multinational corporation's internal audit revealed that its supply chain relied heavily on child labor in several developing countries. Rather than simply switching suppliers, the company partnered with local organizations to fund schools and provide families with alternative income sources. Critics argued this was merely a public relations strategy, but the program has since lifted over 5,000 children out of labor.",
+    "question": "How did the company address the child labor issue?",
+    "options": [
+      "By immediately cutting ties with all suppliers",
+      "By investing in education and economic alternatives for affected families",
+      "By denying the allegations publicly",
+      "By moving all production to developed countries"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 47,
+    "text": "The musician had been classically trained since age four and had performed at prestigious concert halls around the world. At 35, she shocked the classical music community by switching to electronic music production. She explained that she felt confined by the rigid structure of classical performance and wanted to explore new creative possibilities.",
+    "question": "Why did the musician switch to electronic music?",
+    "options": [
+      "She could no longer play classical instruments",
+      "Electronic music was more profitable",
+      "Her audience demanded a change in style",
+      "She desired more creative freedom than classical music allowed"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 48,
+    "text": "The 2011 Fukushima nuclear disaster in Japan prompted Germany to announce the complete phase-out of nuclear energy by 2022. While the decision was popular with the public, energy experts warned that it would increase reliance on fossil fuels in the short term. Germany has since invested heavily in wind and solar energy to fill the gap, though the transition has been slower than anticipated.",
+    "question": "What concern did energy experts raise about Germany's nuclear phase-out?",
+    "options": [
+      "That renewable energy technology doesn't exist",
+      "That it would temporarily increase fossil fuel dependency",
+      "That Germany doesn't have enough land for wind farms",
+      "That the public would reverse their opinion"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 49,
+    "text": "The village elder explained that their traditional fishing methods, passed down through generations, had kept the river ecosystem in balance for centuries. When a commercial fishing company arrived and introduced modern nets, the fish population collapsed within two years. The government eventually banned commercial fishing in the area and invited the elders to help restore the river.",
+    "question": "What does the passage suggest about traditional practices?",
+    "options": [
+      "They can offer sustainable approaches that modern methods sometimes lack",
+      "They are always superior to modern methods",
+      "They are too slow to be practical",
+      "They have no scientific basis"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 50,
+    "text": "Researchers studying loneliness found that it can be as harmful to health as smoking fifteen cigarettes a day. The feeling triggers a chronic stress response in the body, raising blood pressure and weakening the immune system. Interestingly, loneliness is not about the number of social contacts a person has, but rather about the quality and depth of those relationships.",
+    "question": "What determines whether a person feels lonely according to the research?",
+    "options": [
+      "The number of friends they have on social media",
+      "How often they leave their house",
+      "Whether they live alone or with others",
+      "The quality and depth of their relationships"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 51,
+    "text": "The startup's founder famously said that their greatest competitive advantage was their willingness to fail fast and learn quickly. While competitors spent years perfecting products before launch, her company released prototypes, gathered user feedback, and iterated rapidly. This approach allowed them to capture market share before larger companies could react.",
+    "question": "What strategy gave the startup its advantage?",
+    "options": [
+      "Having more funding than competitors",
+      "Hiring more experienced employees",
+      "Copying successful products from larger companies",
+      "Rapid prototyping and learning from user feedback"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 52,
+    "text": "The translation of literature across languages is considered by many to be an art form in itself. A skilled translator must capture not only the meaning of words but also the rhythm, tone, and cultural nuances embedded in the original text. Some scholars argue that a truly perfect translation is impossible because every language carries unique ways of perceiving the world.",
+    "question": "Why do some scholars consider perfect translation impossible?",
+    "options": [
+      "Because translators are not well-trained enough",
+      "Because languages contain unique worldviews that cannot be fully transferred",
+      "Because there are too many languages in the world",
+      "Because authors refuse to approve translations"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 53,
+    "text": "A controversial experiment in a Finnish city gave 2,000 unemployed citizens a monthly basic income with no conditions attached. Participants were free to use the money however they wished, whether for job searching, starting a business, or simply paying bills. The results showed that while employment rates did not significantly increase, participants reported substantially lower stress levels and greater life satisfaction.",
+    "question": "What was the most notable outcome of the basic income experiment?",
+    "options": [
+      "Employment rates increased dramatically",
+      "Participants wasted the money irresponsibly",
+      "The government saved money on social services",
+      "Participants experienced improved well-being despite stable employment rates"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 54,
+    "text": "The painting had hung in the museum for over a century before a restoration specialist discovered another painting hidden beneath it. Using X-ray technology, experts revealed a portrait that had been painted over by the same artist. Art historians believe the artist reused the canvas because he could not afford new materials at the time.",
+    "question": "Why did the artist paint over the original portrait?",
+    "options": [
+      "He was dissatisfied with the first painting",
+      "He wanted to hide the portrait from authorities",
+      "He likely could not afford a new canvas",
+      "He was experimenting with a new technique"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 55,
+    "text": "The debate over whether zoos are ethical institutions has intensified in recent years. Supporters argue that modern zoos play a vital role in conservation and education, helping to preserve endangered species. Opponents counter that confining wild animals to artificial environments causes psychological suffering that cannot be justified, regardless of the educational benefits.",
+    "question": "What is the opponents' main argument against zoos?",
+    "options": [
+      "Animals in zoos suffer psychologically from captivity",
+      "Zoos are too expensive to maintain",
+      "Zoos don't actually educate the public",
+      "Endangered species can't survive in zoos"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 56,
+    "text": "The journalist spent months investigating a pharmaceutical company that had been hiding data about the side effects of a popular medication. When her article was published, the company initially denied the allegations. However, a subsequent government investigation confirmed her findings, leading to the medication being pulled from the market and the company facing substantial fines.",
+    "question": "What happened after the journalist published her findings?",
+    "options": [
+      "The company successfully discredited her report",
+      "Nothing changed because no one believed her",
+      "A government investigation validated her claims and the drug was withdrawn",
+      "The journalist was sued and lost the case"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 57,
+    "text": "In the 1850s, Hungarian doctor Ignaz Semmelweis discovered that hand washing before medical procedures dramatically reduced patient mortality rates. Despite clear evidence, his colleagues ridiculed him and refused to adopt the practice. It wasn't until decades after his death that germ theory confirmed his findings, and hand hygiene became standard medical practice.",
+    "question": "What does Semmelweis's story illustrate?",
+    "options": [
+      "That medical progress is always welcomed immediately",
+      "That evidence-based discoveries can be rejected before they are accepted",
+      "That hand washing was already common in the 1850s",
+      "That germ theory was discovered before Semmelweis"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 58,
+    "text": "The small country invested 98% of its electricity generation in renewable sources, primarily hydroelectric and geothermal power. This was possible because of its unique geography, which includes numerous rivers and volcanic activity. While the model is impressive, experts caution that it cannot be directly replicated in countries without similar natural resources.",
+    "question": "Why can't other countries easily copy this model?",
+    "options": [
+      "Because renewable energy is too expensive",
+      "Because the technology hasn't been shared",
+      "Because they may lack the same geographical advantages",
+      "Because the country keeps its methods secret"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 59,
+    "text": "The retirement home introduced a program where elderly residents cared for rescue dogs that needed rehabilitation. The arrangement benefited both parties: the dogs received consistent attention and training, while the residents reported feeling a renewed sense of purpose and decreased feelings of depression. Several residents said it was the first time in years they had a reason to wake up early each morning.",
+    "question": "What was the mutual benefit of the program?",
+    "options": [
+      "The dogs were adopted faster and residents earned money",
+      "The dogs were rehabilitated and residents found purpose and improved mental health",
+      "The retirement home saved money and dogs were better fed",
+      "Residents learned professional dog training skills"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 60,
+    "text": "The concept of 'planned obsolescence' refers to the deliberate design of products with a limited useful life so that consumers must replace them frequently. This practice is common in the electronics industry, where software updates can slow down older devices. Consumer advocacy groups have pushed for 'right to repair' laws that would require manufacturers to make spare parts and repair manuals available to the public.",
+    "question": "What do 'right to repair' laws aim to achieve?",
+    "options": [
+      "Banning the production of electronic devices",
+      "Requiring companies to give away free products",
+      "Giving consumers access to parts and information needed to fix their devices",
+      "Forcing companies to use more expensive materials"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 61,
+    "text": "The marathon runner had trained for months, but at kilometer 35, her legs began to cramp severely. Instead of pushing through the pain and risking injury, she made the difficult decision to stop. Many people praised her for prioritizing her long-term health over a single race result. She went on to compete successfully in three more marathons that year.",
+    "question": "Why was the runner praised for stopping?",
+    "options": [
+      "Because she was in last place anyway",
+      "Because she chose long-term health over short-term achievement",
+      "Because the race was later cancelled",
+      "Because her coach told her to stop"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 62,
+    "text": "Neuroscientists have discovered that bilingual individuals often outperform monolinguals on tasks requiring mental flexibility and problem-solving. The constant practice of switching between languages appears to strengthen the brain's executive functions. However, some researchers caution that the cognitive benefits may be smaller than initially reported and could depend on the age at which the second language was learned.",
+    "question": "What nuance do some researchers add to the bilingual advantage theory?",
+    "options": [
+      "Bilingualism has no benefits at all",
+      "The benefits may be less significant than first believed and depend on learning age",
+      "Only certain languages provide cognitive benefits",
+      "Monolinguals are actually smarter in most cases"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 63,
+    "text": "The artist created her sculptures entirely from ocean plastic collected on beaches around the world. Each piece depicted a marine animal that was threatened by plastic pollution. The exhibition traveled to fifteen countries and was credited with helping several coastal communities implement stricter waste management policies.",
+    "question": "What made the artist's work influential beyond the art world?",
+    "options": [
+      "The sculptures were extremely valuable",
+      "Famous politicians attended the exhibition",
+      "It inspired real-world policy changes in waste management",
+      "It was featured in a Hollywood movie"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 64,
+    "text": "The phenomenon known as 'confirmation bias' causes people to seek out information that supports their existing beliefs while ignoring evidence that contradicts them. This tendency is amplified by social media algorithms, which show users content similar to what they have previously engaged with. As a result, people can become trapped in 'echo chambers' where their views are constantly reinforced but never challenged.",
+    "question": "How do social media algorithms contribute to confirmation bias?",
+    "options": [
+      "They randomly show content from diverse perspectives",
+      "They filter out content that aligns with user preferences",
+      "They prioritize showing content that matches users' existing interests and views",
+      "They deliberately spread misinformation"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 65,
+    "text": "The teacher noticed that her quietest student, who rarely participated in class discussions, consistently wrote the most thoughtful and insightful essays. She realized that traditional classroom formats often favor extroverted students and began incorporating more written reflections and small-group activities. The quiet student's confidence grew visibly over the semester.",
+    "question": "What problem did the teacher identify?",
+    "options": [
+      "Traditional teaching methods can disadvantage introverted learners",
+      "The quiet student was not doing the assigned readings",
+      "Group activities are always better than individual work",
+      "Extroverted students write better essays"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 66,
+    "text": "The ancient Silk Road was not a single road but a network of trade routes connecting China to the Mediterranean. Beyond goods like silk, spices, and precious metals, it facilitated the exchange of ideas, religions, and technologies across civilizations. Many historians consider it one of the most important catalysts for cultural development in human history.",
+    "question": "What was the Silk Road's most significant contribution according to the passage?",
+    "options": [
+      "The exchange of ideas and culture between civilizations",
+      "The transport of silk to Europe",
+      "Military conquests along the trade route",
+      "The economic wealth it created for China"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 67,
+    "text": "When the tech company released its AI chatbot, users quickly discovered they could manipulate it into generating harmful content by using creative prompting techniques. The company responded by implementing content filters and hiring a large team of reviewers to identify and patch vulnerabilities. This ongoing game of cat and mouse highlights the challenge of making AI systems both useful and safe.",
+    "question": "What challenge does the passage describe?",
+    "options": [
+      "Making AI chatbots more entertaining",
+      "Reducing the cost of AI development",
+      "Replacing human workers with AI systems",
+      "Balancing AI usefulness with safety against misuse"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 68,
+    "text": "The farming community had relied on a single crop for generations, which made them vulnerable to market fluctuations. When the crop's price crashed, entire families faced financial ruin. An agricultural advisor helped them diversify into multiple crops and introduced sustainable farming techniques, which not only stabilized their income but also improved soil health over time.",
+    "question": "What was the root cause of the community's financial vulnerability?",
+    "options": [
+      "Poor soil quality in the region",
+      "Dependence on a single crop for income",
+      "Lack of access to modern farming equipment",
+      "Government taxation policies"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 69,
+    "text": "The philosophy of stoicism, which originated in ancient Greece, teaches that people cannot control external events but can control their reactions to them. Modern psychologists have noted striking similarities between stoic principles and cognitive behavioral therapy, which helps patients reframe negative thoughts. This ancient wisdom, it seems, anticipated therapeutic techniques developed over two thousand years later.",
+    "question": "What connection does the passage draw?",
+    "options": [
+      "That stoicism and modern cognitive behavioral therapy share similar principles",
+      "That ancient Greeks invented psychology",
+      "That cognitive behavioral therapy is outdated",
+      "That stoicism is the only useful philosophy"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 70,
+    "text": "The deep-sea expedition discovered hydrothermal vents on the ocean floor surrounded by thriving ecosystems that existed in complete darkness. Unlike surface life, which depends on sunlight for energy, these organisms derived energy from chemical reactions with minerals in the superheated water. The discovery suggested that life could potentially exist on other planets or moons with similar conditions.",
+    "question": "Why is the discovery significant for astrobiology?",
+    "options": [
+      "It proved that aliens exist in the deep ocean",
+      "It showed life can thrive without sunlight, expanding where we might find life elsewhere",
+      "It demonstrated that deep-sea creatures are related to surface animals",
+      "It proved that all ocean floors have hydrothermal vents"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 71,
+    "text": "After the flood destroyed most of the town's infrastructure, residents faced a choice: rebuild exactly as before or redesign the town with climate resilience in mind. They chose the latter, constructing buildings on elevated foundations, creating green spaces to absorb excess rainwater, and relocating critical facilities to higher ground. The rebuilt town has since become a model for climate-adaptive urban planning.",
+    "question": "What approach did the town take after the flood?",
+    "options": [
+      "They abandoned the town and moved elsewhere",
+      "They rebuilt identically to preserve tradition",
+      "They redesigned the town to be more resilient to future climate events",
+      "They waited for government aid before doing anything"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 72,
+    "text": "The university professor was known for giving her students 'impossible' problems that had no known solutions. She told them that the point was not to find the answer but to develop the ability to think deeply about complex problems and tolerate ambiguity. Many of her former students later credited this approach with preparing them for the uncertainties of real-world research.",
+    "question": "What was the professor's goal with unsolvable problems?",
+    "options": [
+      "To frustrate students into working harder",
+      "To identify the most gifted students in the class",
+      "To prove that some problems should not be attempted",
+      "To teach students to think deeply and handle uncertainty"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 73,
+    "text": "The phenomenon of 'ghost forests' along coastal areas has been increasing as saltwater intrusion kills trees that once thrived in freshwater environments. Rising sea levels push salt water further inland, poisoning the soil and leaving behind stands of dead, bleached trees. Scientists use these ghost forests as visual indicators of how quickly climate change is altering coastal landscapes.",
+    "question": "What causes ghost forests to form?",
+    "options": [
+      "Forest fires that destroy coastal vegetation",
+      "Saltwater moving inland and killing freshwater-dependent trees",
+      "Insects that attack trees near the coast",
+      "Drought conditions in coastal areas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 74,
+    "text": "The social experiment asked strangers to sit across from each other and maintain eye contact for four minutes without speaking. Participants reported feeling unexpectedly vulnerable but also deeply connected to the other person afterwards. Several pairs exchanged contact information and continued to meet, suggesting that sustained attention, even without words, can create meaningful human bonds.",
+    "question": "What did the experiment demonstrate?",
+    "options": [
+      "That strangers should avoid eye contact",
+      "That four minutes is too long to maintain eye contact",
+      "That focused, silent attention can create deep interpersonal connection",
+      "That verbal communication is unnecessary for all relationships"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 75,
+    "text": "Iceland has virtually eliminated teenage substance abuse over the past two decades through a comprehensive national strategy. Instead of lecturing teenagers about the dangers of drugs and alcohol, the government invested in organized after-school activities, parental education, and curfew enforcement. The approach was based on research showing that boredom and lack of adult supervision were the primary drivers of teen substance use.",
+    "question": "What was Iceland's approach to reducing teen substance abuse?",
+    "options": [
+      "Strict punishment for teenagers caught using substances",
+      "Addressing the root causes through activities, parental involvement, and structure",
+      "Banning all advertising of alcohol and drugs",
+      "Teaching anti-drug programs in every school"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 76,
+    "text": "The space agency's decision to send a probe to Europa, one of Jupiter's moons, was driven by evidence of a vast ocean beneath its icy surface. Scientists believe this ocean could harbor microbial life, as it may contain the chemical ingredients necessary for biological processes. If life were found there, it would fundamentally change our understanding of where life can exist in the universe.",
+    "question": "Why is Europa considered a promising place to search for life?",
+    "options": [
+      "Its surface has been observed to have vegetation",
+      "It has an atmosphere similar to Earth's",
+      "It likely has a subsurface ocean with conditions that could support life",
+      "It is the closest moon to Earth"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 77,
+    "text": "The concept of 'emotional labor' describes the effort workers must make to manage and suppress their own emotions in order to fulfill the requirements of their job. Flight attendants, for example, are expected to remain cheerful and calm even when dealing with rude or aggressive passengers. Research has shown that prolonged emotional labor can lead to burnout, anxiety, and a sense of losing one's authentic self.",
+    "question": "What is a consequence of prolonged emotional labor?",
+    "options": [
+      "It can lead to burnout and loss of authenticity",
+      "Workers become genuinely happier over time",
+      "It makes workers better at handling any situation",
+      "Workers develop stronger emotional resilience"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 78,
+    "text": "The filmmaker chose to shoot his entire movie using a smartphone rather than professional cameras. Many industry professionals dismissed the idea, but the film's raw, intimate visual style perfectly suited its story about life in a low-income neighborhood. The film received critical acclaim and won several festival awards, challenging assumptions about what constitutes 'real' filmmaking.",
+    "question": "What point did the filmmaker's success make?",
+    "options": [
+      "That expensive equipment is not necessary for powerful storytelling",
+      "That smartphones will replace all professional cameras",
+      "That film festivals prefer low-budget films",
+      "That all films about poverty should be shot on phones"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 79,
+    "text": "A language becomes endangered when it has fewer than 1,000 fluent speakers and is not being taught to children. Linguists estimate that one language dies every two weeks, taking with it unique cultural knowledge, oral histories, and ways of understanding the world. Some communities are using technology, including language-learning apps and digital archives, to preserve their languages for future generations.",
+    "question": "Why is language death considered a significant loss?",
+    "options": [
+      "Because it reduces the number of textbooks in circulation",
+      "Because each language carries unique cultural knowledge and perspectives",
+      "Because it makes international trade more difficult",
+      "Because it means fewer people can become translators"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 80,
+    "text": "The hospital implemented a policy requiring doctors to use a pre-surgery checklist, similar to what pilots use before takeoff. Initially, many experienced surgeons resisted, feeling it implied they were incompetent. However, the data showed a 35% reduction in surgical complications within the first year. The checklist didn't replace expertise; it ensured that critical steps were never overlooked due to fatigue or distraction.",
+    "question": "Why did some surgeons initially resist the checklist?",
+    "options": [
+      "They felt it suggested they lacked competence",
+      "They thought it would make surgeries take longer",
+      "They didn't understand how to use it",
+      "They preferred a different safety system"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 81,
+    "text": "The phenomenon of 'urban heat islands' occurs when cities become significantly warmer than surrounding rural areas due to the concentration of concrete, asphalt, and buildings that absorb and retain heat. During summer heat waves, temperatures in city centers can be five to ten degrees higher than in nearby countryside. Planting trees and installing green roofs are among the most effective strategies to combat this effect.",
+    "question": "What causes urban heat islands?",
+    "options": [
+      "Industrial pollution in city centers",
+      "The concentration of heat-absorbing materials like concrete and asphalt",
+      "Higher population density generating body heat",
+      "Fewer clouds over urban areas"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 82,
+    "text": "The chess grandmaster attributed her success not to natural talent but to the thousands of hours she spent studying patterns and analyzing her losses. She kept a detailed journal of every game she played, noting her mistakes and the thought process behind each move. She believed that most people give up before reaching the level where talent becomes relevant.",
+    "question": "What does the grandmaster believe about success?",
+    "options": [
+      "Dedicated practice and self-analysis matter more than innate ability",
+      "Natural talent is the most important factor",
+      "Keeping a journal is the secret to winning",
+      "Most chess players are naturally gifted"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 83,
+    "text": "The indigenous language of the Pirahã people in the Amazon has fascinated linguists because it lacks words for specific numbers, colors, and relative tenses. Speakers use approximations like 'few' and 'many' instead of counting. This has sparked debate about whether language shapes thought or whether thought exists independently of language, a question known as the Sapir-Whorf hypothesis.",
+    "question": "What linguistic debate does the Pirahã language relate to?",
+    "options": [
+      "Whether language influences or determines the way people think",
+      "Whether all languages evolved from the same source",
+      "Whether indigenous languages should be taught in schools",
+      "Whether numbers are necessary for a functioning society"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 84,
+    "text": "The refugee camp was designed as a temporary solution, but families had been living there for over a decade. Recognizing that the situation was unlikely to change soon, an architectural firm volunteered to redesign the camp with permanent structures, community gardens, and schools. The project demonstrated that even in crisis situations, thoughtful design can restore dignity and hope.",
+    "question": "What was the significance of the camp redesign?",
+    "options": [
+      "It showed that good design can improve quality of life even in difficult circumstances",
+      "It proved that refugee camps are no longer needed",
+      "It cost less than the original temporary structures",
+      "It encouraged more refugees to stay permanently"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 85,
+    "text": "The fashion industry is the second-largest polluter in the world after the oil industry. The production of a single cotton t-shirt requires approximately 2,700 liters of water. Growing consumer awareness has led to the rise of sustainable fashion brands that prioritize organic materials, ethical labor practices, and transparent supply chains.",
+    "question": "What has driven the growth of sustainable fashion brands?",
+    "options": [
+      "Government regulations banning fast fashion",
+      "Lower production costs for organic materials",
+      "Celebrity endorsements of sustainable brands",
+      "Increasing consumer awareness of fashion's environmental impact"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 86,
+    "text": "The prison in Norway looks nothing like a traditional jail. Inmates live in private rooms with televisions and refrigerators, have access to vocational training, and can move freely within the facility during the day. The philosophy behind this approach is that treating prisoners humanely reduces reoffending rates. Norway's recidivism rate of 20% is among the lowest in the world, compared to over 70% in many other countries.",
+    "question": "What does Norway's low recidivism rate suggest?",
+    "options": [
+      "That Norwegian criminals commit less serious crimes",
+      "That humane treatment in prison can be more effective at preventing reoffending",
+      "That all prisons should have televisions and refrigerators",
+      "That Norwegian prisons are too lenient and need reform"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 87,
+    "text": "The discovery of penicillin by Alexander Fleming in 1928 is often described as an accident, but this oversimplifies the story. While the mold growth on his petri dish was unintentional, Fleming's training and curiosity enabled him to recognize its significance. As Louis Pasteur once said, 'Chance favors the prepared mind,' and Fleming's decades of experience in bacteriology prepared him for that pivotal moment.",
+    "question": "What does the passage argue about Fleming's discovery?",
+    "options": [
+      "It was purely accidental with no skill involved",
+      "It was entirely planned from the beginning",
+      "It would have been discovered by anyone in the same lab",
+      "It required both luck and scientific expertise to recognize its importance"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 88,
+    "text": "The city's public transportation system introduced women-only train cars during peak hours to address the problem of sexual harassment on crowded trains. While the measure was welcomed by many female commuters, critics argued that it merely separated women from the problem rather than addressing the root cause. They called for stricter enforcement of anti-harassment laws and better education instead.",
+    "question": "What do critics say about the women-only train cars?",
+    "options": [
+      "They address the symptom rather than the underlying issue of harassment",
+      "They are too expensive to implement",
+      "They make public transport less efficient",
+      "They are unnecessary because harassment is rare"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 89,
+    "text": "The invention of the printing press by Gutenberg in the 1440s did more than make books affordable; it fundamentally changed the power dynamics of European society. Before printing, knowledge was controlled by religious institutions and the elite. Once books became widely available, ordinary people could access information directly, contributing to the Protestant Reformation and the Scientific Revolution.",
+    "question": "How did the printing press change society according to the passage?",
+    "options": [
+      "It made religious institutions more powerful",
+      "It democratized access to knowledge and shifted power structures",
+      "It only benefited wealthy people who could read",
+      "It primarily affected the art world"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 90,
+    "text": "The phenomenon of 'anchoring bias' in negotiations means that the first number mentioned tends to heavily influence the final outcome, even if it is arbitrary. Skilled negotiators use this to their advantage by making the first offer. For example, a seller who starts with a high price will likely end up with a higher final price than one who lets the buyer make the first offer.",
+    "question": "Why is making the first offer advantageous in negotiations?",
+    "options": [
+      "Because the initial number sets a reference point that influences the final result",
+      "Because the other party will always accept the first number",
+      "Because it shows confidence and intimidates the other party",
+      "Because it ends the negotiation faster"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 91,
+    "text": "The remote village had no access to doctors, so a health organization trained local women to serve as community health workers. These women learned to identify common illnesses, administer basic treatments, and recognize when patients needed to be transferred to the nearest hospital. Within five years, child mortality in the village dropped by 40%, demonstrating the effectiveness of community-based healthcare.",
+    "question": "What made the community health program successful?",
+    "options": [
+      "Training local people to provide basic healthcare services",
+      "Building a new hospital in the village",
+      "Sending doctors from the city every week",
+      "Providing free medication to all residents"
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 92,
+    "text": "The psychological concept of 'flow state' describes a condition in which a person becomes so deeply absorbed in an activity that they lose track of time and feel a sense of effortless concentration. Athletes call it 'being in the zone.' Research suggests that flow occurs when the challenge of a task perfectly matches a person's skill level — too easy, and they become bored; too difficult, and they become anxious.",
+    "question": "When does a flow state occur?",
+    "options": [
+      "When a task is extremely easy",
+      "When a person is under extreme pressure",
+      "When the difficulty of the task matches the person's skill level",
+      "When a person has no interest in the activity"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 93,
+    "text": "The company's whistleblower policy promised to protect employees who reported ethical violations from retaliation. However, when an accountant reported evidence of financial fraud to upper management, she was gradually marginalized and eventually forced to resign. Her case became a landmark lawsuit that exposed the gap between corporate promises and actual practice.",
+    "question": "What did the accountant's case reveal?",
+    "options": [
+      "That whistleblower policies always protect employees",
+      "That financial fraud is common in all companies",
+      "That corporate whistleblower protections may not work in practice",
+      "That accountants should not report ethical violations"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 94,
+    "text": "Archaeologists studying ancient Roman garbage dumps have gained valuable insights into the daily lives of ordinary citizens that written historical records often overlook. Broken pottery, food remains, and discarded tools reveal what people ate, how they lived, and what they valued. One researcher noted that a civilization's waste tells a more honest story than its official documents.",
+    "question": "Why are garbage dumps useful to archaeologists?",
+    "options": [
+      "They contain valuable artifacts that can be sold",
+      "They provide unfiltered evidence of everyday life",
+      "They are easier to excavate than buildings",
+      "They contain written records that survived better underground"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 95,
+    "text": "The therapist explained that trauma responses are the brain's way of protecting itself from perceived threats, even when the danger has long passed. A soldier who dives to the floor at a loud noise is not overreacting; his nervous system is still functioning as if he were in a combat zone. Understanding this helps remove the stigma around post-traumatic stress and encourages people to seek treatment.",
+    "question": "What point does the passage make about trauma responses?",
+    "options": [
+      "They are signs of weakness that should be overcome",
+      "They only affect soldiers and combat veterans",
+      "They always go away on their own with time",
+      "They are natural protective mechanisms, not overreactions"
+    ],
+    "correctIndex": 3
+  },
+  {
+    "id": 96,
+    "text": "The city banned single-use plastic bags five years ago, and the results have been remarkable. Plastic waste in local waterways has decreased by 60%, and most residents have fully adjusted to using reusable bags. Interestingly, the ban initially faced strong opposition from both retailers and consumers, but surveys now show that over 85% of residents support the policy.",
+    "question": "What can be inferred about public attitudes toward the plastic bag ban?",
+    "options": [
+      "The public has always supported it from the beginning",
+      "Most people still oppose the ban",
+      "Public opinion shifted from opposition to strong support over time",
+      "Only environmentalists support the ban"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 97,
+    "text": "The documentary followed a group of teenagers who created a mobile app that connected elderly people in their community with volunteer helpers for tasks like grocery shopping and transportation to medical appointments. What started as a school project grew into a nonprofit organization operating in twelve cities. The teenagers demonstrated that young people can create meaningful social change when given the right tools and encouragement.",
+    "question": "What was the main achievement of the teenagers?",
+    "options": [
+      "They won a national app development competition",
+      "They earned significant profits from their app",
+      "They built a scalable solution that addressed a real community need",
+      "They proved that elderly people can use technology"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 98,
+    "text": "The theory of 'mirror neurons' suggests that when we watch someone perform an action, neurons in our brain fire as if we were performing the action ourselves. This may explain why we wince when we see someone get hurt, or why watching an expert play the piano can feel almost like playing it ourselves. Some scientists believe mirror neurons are the neurological basis for empathy and social learning.",
+    "question": "What role might mirror neurons play in human behavior?",
+    "options": [
+      "They help us memorize complex movements",
+      "They may be the foundation of empathy and learning by observation",
+      "They cause us to unconsciously imitate everyone around us",
+      "They only activate when we are in danger"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 99,
+    "text": "The renowned chef closed her three-Michelin-star restaurant at the height of her career, stunning the culinary world. She explained that the pressure to maintain perfection had drained all the joy from cooking. She opened a small, casual eatery in her hometown instead, where she serves simple dishes and closes whenever she wants. She says she has never been happier.",
+    "question": "Why did the chef close her famous restaurant?",
+    "options": [
+      "She ran out of money to keep it open",
+      "She received bad reviews from food critics",
+      "The relentless pressure of perfection had destroyed her enjoyment",
+      "She wanted to retire from cooking entirely"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 100,
+    "text": "A long-term study tracked the careers of 500 university graduates over twenty years and found that the highest earners were not necessarily those with the best grades but those who had developed strong interpersonal skills and professional networks. The researchers concluded that while technical knowledge opens doors, it is the ability to collaborate, communicate, and build relationships that ultimately determines career success.",
+    "question": "What was the study's key finding about career success?",
+    "options": [
+      "Academic performance is the only predictor of high earnings",
+      "Networking is more important than having any skills",
+      "Interpersonal skills and relationships matter more than grades for long-term success",
+      "University education has no impact on career outcomes"
+    ],
+    "correctIndex": 2
+  }
+]

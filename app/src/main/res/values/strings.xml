@@ -74,6 +74,88 @@
     <string name="record_date_fmt">MMM dd, yyyy</string>
     <!-- Month year header -->
     <string name="month_year_fmt">%1$s %2$d</string>
+    <!-- Navigation labels -->
+    <string name="nav_review">Review</string>
+    <string name="nav_quiz">Quiz</string>
+    <string name="nav_quiz_result">Quiz Result</string>
+    <string name="nav_complete">Complete</string>
+    <string name="nav_history">Records</string>
+    <string name="nav_awards">Awards</string>
+    <!-- Quiz screen -->
+    <string name="quiz_title">VOCABULARY QUIZ</string>
+    <string name="quiz_progress_fmt">%1$d / %2$d</string>
+    <string name="quiz_correct_feedback">Correct!</string>
+    <string name="quiz_wrong_feedback">Wrong Answer</string>
+    <string name="quiz_result_label">QUIZ RESULT</string>
+    <string name="quiz_score_fmt">%1$d / %2$d</string>
+    <string name="quiz_passed">Passed!</string>
+    <string name="quiz_failed">Not Passed</string>
+    <string name="quiz_points_earned_fmt">+%d pts</string>
+    <string name="quiz_no_points">No points earned</string>
+    <string name="monthly_points_fmt">%d pts</string>
+    <!-- Quiz tab page -->
+    <string name="quiz_tab_label">Quiz</string>
+    <string name="quiz_tab_subheader">DAILY CHALLENGE</string>
+    <string name="quiz_tab_header">Vocabulary Quiz.</string>
+    <string name="quiz_go">GO</string>
+    <string name="quiz_back_to_quiz">Back to Quiz →</string>
+    <string name="quiz_stat_taken">Quizzes</string>
+    <string name="quiz_stat_pass_rate">Pass Rate</string>
+    <string name="quiz_history_title">Quiz History</string>
+    <string name="quiz_record_detail_fmt">Score: %1$d / %2$d</string>
+    <string name="quiz_tab_header_listening">Listening Quiz.</string>
+    <!-- Practice mode toggle -->
+    <string name="mode_vocabulary">Vocabulary</string>
+    <string name="mode_listening">Listening</string>
+    <!-- Listening session -->
+    <string name="listening_title">LISTENING COMPREHENSION</string>
+    <string name="listening_show_transcript">Show transcript</string>
+    <string name="listening_hide_transcript">Hide transcript</string>
+    <string name="listening_result_label">LISTENING RESULT</string>
+    <string name="listening_practice_complete">Practice complete!</string>
+    <string name="listening_keep_practicing">Keep practicing!</string>
+    <!-- Settings dialog -->
+    <string name="settings_title">Settings</string>
+    <string name="select_speech_speed">Listening Speed</string>
+    <string name="speech_speed_slow">Slow (0.5x)</string>
+    <string name="speech_speed_moderate">Moderate (0.75x)</string>
+    <string name="speech_speed_normal">Normal (1x)</string>
+    <string name="nav_listening">Listening</string>
+    <string name="nav_listening_result">Listening Result</string>
+    <!-- Transcript actions -->
+    <string name="action_translate">Translate</string>
+    <string name="action_copy">Copy</string>
+    <string name="text_copied">Copied to clipboard</string>
+    <!-- Shared icons / symbols -->
+    <string name="icon_fire">🔥</string>
+    <string name="icon_calendar">📅</string>
+    <string name="icon_sparkles">✨</string>
+    <string name="icon_lightning">⚡</string>
+    <string name="icon_star">⭐</string>
+    <string name="icon_books">📚</string>
+    <string name="icon_bullet">●</string>
+    <string name="icon_check">✅</string>
+    <string name="icon_cross">❌</string>
+    <string name="icon_lock">🔒</string>
+    <string name="icon_celebration">🎉</string>
+    <string name="icon_strong">💪</string>
+    <string name="icon_rookie">🥉</string>
+    <string name="icon_bronze">🔶</string>
+    <string name="icon_silver">🥈</string>
+    <string name="icon_gold">🥇</string>
+    <string name="icon_platinum">💎</string>
+    <!-- Format patterns -->
+    <string name="time_fmt">%1$02d:%2$02d</string>
+    <string name="calendar_dot_day_fmt">%1$s\n%2$d</string>
+    <string name="points_plus_fmt">+%d</string>
+    <string name="percent_fmt">%d%%</string>
+    <string name="minutes_fmt">%dm</string>
+    <string name="stat_placeholder">0</string>
+    <string name="stat_placeholder_dash">—</string>
+    <string name="stat_placeholder_time">0m</string>
+    <string name="stat_placeholder_percent">0%%</string>
+    <string name="stat_placeholder_pts">0 pts</string>
+    <string name="time_placeholder">00:00</string>
     <!-- Calendar day-of-week headers -->
     <string name="dow_sun">Sun</string>
     <string name="dow_mon">Mon</string>

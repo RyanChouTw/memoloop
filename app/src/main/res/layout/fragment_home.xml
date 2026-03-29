@@ -35,7 +35,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="MemoLoop"
+                android:text="@string/app_name"
                 android:textSize="26sp"
                 android:textStyle="bold"
                 android:textColor="@color/primary"
@@ -107,7 +107,7 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="🔥"
+                            android:text="@string/icon_fire"
                             android:textSize="18sp" />
 
                         <TextView
@@ -145,6 +145,39 @@
                     android:insetTop="0dp"
                     android:insetBottom="0dp" />
 
+                <!-- Practice mode toggle -->
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:id="@+id/toggle_practice_mode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    app:singleSelection="true"
+                    app:selectionRequired="true">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_mode_vocabulary"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="@string/mode_vocabulary"
+                        android:textSize="13sp"
+                        android:textAllCaps="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_mode_listening"
+                        style="@style/Widget.Material3.Button.OutlinedButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:text="@string/mode_listening"
+                        android:textSize="13sp"
+                        android:textAllCaps="false"
+                        android:insetTop="0dp"
+                        android:insetBottom="0dp" />
+
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
@@ -175,7 +208,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="📅"
+                        android:text="@string/icon_calendar"
                         android:textSize="20sp"
                         android:layout_marginBottom="8dp" />
 
@@ -219,7 +252,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="✨"
+                        android:text="@string/icon_sparkles"
                         android:textSize="20sp"
                         android:layout_marginBottom="8dp" />
 
@@ -227,7 +260,7 @@
                         android:id="@+id/tv_words_mastered"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="—"
+                        android:text="@string/stat_placeholder_dash"
                         android:textSize="24sp"
                         android:textStyle="bold"
                         android:textColor="@color/text_primary" />

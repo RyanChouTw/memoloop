@@ -184,7 +184,7 @@
                         android:id="@+id/tv_stat_time"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="0m"
+                        android:text="@string/stat_placeholder_time"
                         android:textSize="22sp"
                         android:textStyle="bold"
                         android:textColor="@color/primary" />
