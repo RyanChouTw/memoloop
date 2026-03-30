@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>隱私權條款 — MemoLoop</title>
+    <link rel="icon" href="../ic_launcher-playstore.png">
+    <style>
+        :root {
+            --primary: #1976D2;
+            --primary-dark: #0D47A1;
+            --bg: #F5F9FD;
+            --card: #FFFFFF;
+            --text: #1A2B3C;
+            --text-secondary: #546E7A;
+            --border: #BBDEFB;
+            --accent: #E3F2FD;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #fff;
+            text-align: center;
+            padding: 48px 24px 36px;
+        }
+        .header a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .header a:hover { color: #fff; }
+        .header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 12px;
+        }
+        .header p {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-top: 8px;
+        }
+
+        /* Content */
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 48px 24px;
+        }
+
+        /* Language tabs */
+        .lang-tabs {
+            display: flex;
+            gap: 0;
+            margin-bottom: 36px;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .lang-tab {
+            flex: 1;
+            padding: 12px;
+            text-align: center;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            background: var(--card);
+            color: var(--text-secondary);
+            border: none;
+            transition: all 0.2s;
+        }
+        .lang-tab.active {
+            background: var(--primary);
+            color: #fff;
+        }
+        .lang-section { display: none; }
+        .lang-section.active { display: block; }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 32px 0 12px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        h2:first-child { margin-top: 0; }
+        p { margin-bottom: 12px; font-size: 0.95rem; }
+        ul {
+            margin: 0 0 16px 20px;
+            font-size: 0.95rem;
+        }
+        li { margin-bottom: 6px; }
+        strong { color: var(--text); }
+        a { color: var(--primary); }
+
+        .highlight {
+            background: var(--accent);
+            border-left: 4px solid var(--primary);
+            padding: 14px 18px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 20px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .contact-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 20px 24px;
+            margin-top: 16px;
+            text-align: center;
+        }
+        .contact-card a {
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 32px 24px;
+            border-top: 1px solid var(--border);
+        }
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+
+        @media (max-width: 600px) {
+            .header h1 { font-size: 1.4rem; }
+            .header { padding: 36px 20px 28px; }
+            .content { padding: 32px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="../">← MemoLoop</a>
+        <h1>隱私權條款</h1>
+        <p>最後更新：2026-03-30</p>
+    </header>
+
+    <main class="content">
+
+        <!-- Language tabs -->
+        <div class="lang-tabs">
+            <button class="lang-tab active" onclick="switchLang('zh')">繁體中文</button>
+            <button class="lang-tab" onclick="switchLang('en')">English</button>
+        </div>
+
+        <!-- 繁體中文 -->
+        <div id="lang-zh" class="lang-section active">
+
+            <div class="highlight">
+                簡單來說：MemoLoop 不會收集、儲存或傳輸任何個人資料。
+            </div>
+
+            <h2>概述</h2>
+            <p>MemoLoop 是一款英文單字與聽力理解學習應用程式。我們非常重視您的隱私。本隱私權條款說明我們在您使用 MemoLoop 時如何處理資訊。</p>
+
+            <h2>我們不收集的資訊</h2>
+            <p>MemoLoop 不會收集以下任何資訊：</p>
+            <ul>
+                <li>個人身份資訊（姓名、電子郵件、電話號碼、地址）</li>
+                <li>位置資料</li>
+                <li>裝置識別碼或廣告 ID</li>
+                <li>使用分析或行為追蹤資料</li>
+                <li>照片、聯絡人或您裝置上其他應用程式的任何資料</li>
+            </ul>
+
+            <h2>儲存在您裝置上的資料</h2>
+            <p>MemoLoop 會將以下資料<strong>僅儲存在您的裝置本地端</strong>。這些資料絕不會傳輸到任何伺服器：</p>
+            <ul>
+                <li>複習紀錄（日期與時間）</li>
+                <li>測驗與聽力測驗結果及分數</li>
+                <li>成就進度與連續天數</li>
+                <li>使用者偏好設定（難度等級、語速）</li>
+            </ul>
+            <p>這些資料儲存在您裝置上的本地資料庫中。若您解除安裝應用程式，所有資料將被永久刪除。</p>
+
+            <h2>應用程式內購買</h2>
+            <p>MemoLoop 透過 Google Play 提供選擇性的贊助型應用程式內購買。這些交易完全由 Google Play 處理。開發者不會收集、處理或取得任何付款資訊、帳單明細或財務資料。</p>
+            <p>有關 Google 如何處理您的購買資料，請參閱 <a href="https://policies.google.com/privacy">Google 隱私權政策</a>。</p>
+
+            <h2>第三方服務</h2>
+            <p>MemoLoop 使用以下第三方服務：</p>
+            <ul>
+                <li><strong>Google Play Billing</strong>：用於處理選擇性的應用程式內贊助。透過此服務不會與開發者分享任何個人資料。</li>
+                <li><strong>Android 文字轉語音（TTS）</strong>：用於朗讀英文內容。TTS 處理在您的裝置本地端進行。</li>
+            </ul>
+            <p>MemoLoop 不使用任何廣告 SDK、分析工具、當機回報服務或社群媒體整合。</p>
+
+            <h2>兒童隱私</h2>
+            <p>MemoLoop 的設計適合所有年齡層的使用者，包括 13 歲以下的兒童。</p>
+            <ul>
+                <li>我們<strong>不會</strong>收集任何使用者（包括兒童）的個人資訊。</li>
+                <li>我們<strong>不要求</strong>建立帳號或登入。</li>
+                <li>我們<strong>不會</strong>顯示廣告。</li>
+                <li>我們<strong>不包含</strong>任何社交功能、聊天或使用者產生的內容。</li>
+                <li>我們<strong>不會</strong>為了行銷或廣告目的與第三方分享任何資料。</li>
+            </ul>
+            <p>MemoLoop 遵循兒童網路隱私保護法（COPPA）及相關兒童隱私法規。</p>
+
+            <h2>網路存取</h2>
+            <p>MemoLoop 主要以離線方式運作。僅在以下情況需要網路存取：</p>
+            <ul>
+                <li>透過 Google Play 處理應用程式內贊助購買</li>
+            </ul>
+            <p>任何時候都不會透過網路傳輸使用者資料。</p>
+
+            <h2>隱私權條款的變更</h2>
+            <p>我們可能會不定期更新本隱私權條款。任何變更將反映在本頁面上，並更新「最後更新」日期。我們建議您定期查閱本頁面。</p>
+
+            <h2>聯絡我們</h2>
+            <p>如果您對本隱私權條款有任何疑問，請透過以下方式聯絡我們：</p>
+            <div class="contact-card">
+                📧 <a href="mailto:ryanchou0210@gmail.com">ryanchou0210@gmail.com</a>
+            </div>
+        </div>
+
+        <!-- English -->
+        <div id="lang-en" class="lang-section">
+
+            <div class="highlight">
+                In short: MemoLoop does not collect, store, or transmit any personal information.
+            </div>
+
+            <h2>Overview</h2>
+            <p>MemoLoop is an English vocabulary and listening comprehension learning app. Your privacy is important to us. This Privacy Policy explains how we handle information when you use MemoLoop.</p>
+
+            <h2>Information We Do NOT Collect</h2>
+            <p>MemoLoop does not collect any of the following:</p>
+            <ul>
+                <li>Personal identification information (name, email, phone number, address)</li>
+                <li>Location data</li>
+                <li>Device identifiers or advertising IDs</li>
+                <li>Usage analytics or behavioral tracking data</li>
+                <li>Photos, contacts, or any data from other apps on your device</li>
+            </ul>
+
+            <h2>Data Stored on Your Device</h2>
+            <p>MemoLoop stores the following data <strong>locally on your device only</strong>. This data is never transmitted to any server:</p>
+            <ul>
+                <li>Review session records (dates and duration)</li>
+                <li>Quiz and listening test results and scores</li>
+                <li>Achievement progress and streak counts</li>
+                <li>User preferences (difficulty level, speech speed)</li>
+            </ul>
+            <p>This data is stored in a local database on your device. If you uninstall the app, all data is permanently deleted.</p>
+
+            <h2>In-App Purchases</h2>
+            <p>MemoLoop offers optional donation-based in-app purchases through Google Play. These transactions are processed entirely by Google Play. The developer does not collect, process, or have access to any payment information, billing details, or financial data.</p>
+            <p>For information on how Google handles your purchase data, please refer to <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>.</p>
+
+            <h2>Third-Party Services</h2>
+            <p>MemoLoop uses the following third-party services:</p>
+            <ul>
+                <li><strong>Google Play Billing</strong>: For processing optional in-app donations. No personal data is shared with the developer through this service.</li>
+                <li><strong>Android Text-to-Speech (TTS)</strong>: For reading English text aloud. TTS processing is performed locally on your device.</li>
+            </ul>
+            <p>MemoLoop does not use any advertising SDKs, analytics tools, crash reporting services, or social media integrations.</p>
+
+            <h2>Children's Privacy</h2>
+            <p>MemoLoop is designed to be safe for users of all ages, including children under 13 years of age.</p>
+            <ul>
+                <li>We do <strong>not</strong> collect any personal information from any user, including children.</li>
+                <li>We do <strong>not</strong> require account creation or login.</li>
+                <li>We do <strong>not</strong> display advertisements.</li>
+                <li>We do <strong>not</strong> include any social features, chat, or user-generated content.</li>
+                <li>We do <strong>not</strong> share any data with third parties for marketing or advertising purposes.</li>
+            </ul>
+            <p>MemoLoop complies with the Children's Online Privacy Protection Act (COPPA) and applicable child privacy regulations.</p>
+
+            <h2>Internet Access</h2>
+            <p>MemoLoop functions primarily offline. Internet access is only required for:</p>
+            <ul>
+                <li>Processing in-app donation purchases through Google Play</li>
+            </ul>
+            <p>No user data is transmitted over the internet at any time.</p>
+
+            <h2>Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be reflected on this page with an updated "Last updated" date. We encourage you to review this page periodically.</p>
+
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy, please contact us at:</p>
+            <div class="contact-card">
+                📧 <a href="mailto:ryanchou0210@gmail.com">ryanchou0210@gmail.com</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <a href="../">← MemoLoop 首頁</a>
+        <p>&copy; 2026 MemoLoop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function switchLang(lang) {
+            document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.lang-tab').forEach(el => el.classList.remove('active'));
+            document.getElementById('lang-' + lang).classList.add('active');
+            event.target.classList.add('active');
+        }
+    </script>
+
+</body>
+</html>
