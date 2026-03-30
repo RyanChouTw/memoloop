@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoLoop — English Learning App</title>
+    <link rel="icon" href="ic_launcher-playstore.png">
+    <style>
+        :root {
+            --primary: #1976D2;
+            --primary-dark: #0D47A1;
+            --bg: #F5F9FD;
+            --card: #FFFFFF;
+            --text: #1A2B3C;
+            --text-secondary: #546E7A;
+            --border: #BBDEFB;
+            --accent: #E3F2FD;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: #fff;
+            text-align: center;
+            padding: 80px 24px 60px;
+        }
+        .hero img {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 0.02em;
+            margin-bottom: 12px;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            opacity: 0.9;
+            max-width: 480px;
+            margin: 0 auto 32px;
+        }
+        .hero .badge {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            border: 1px solid rgba(255,255,255,0.3);
+            border-radius: 100px;
+            padding: 10px 28px;
+            font-size: 0.95rem;
+            font-weight: 600;
+        }
+
+        /* Section */
+        .section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 24px;
+        }
+        .section h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--primary);
+        }
+        .section .subtitle {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 32px;
+        }
+
+        /* Feature cards */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 24px;
+        }
+        .feature-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 28px 24px;
+        }
+        .feature-card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        .feature-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+        }
+        .feature-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.5;
+        }
+
+        /* Difficulty table */
+        .diff-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 16px;
+        }
+        .diff-table th, .diff-table td {
+            padding: 14px 16px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        .diff-table th {
+            background: var(--accent);
+            color: var(--primary);
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        .diff-table td { font-size: 0.95rem; }
+        .diff-table tr:last-child td { border-bottom: none; }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 24px;
+            border-top: 1px solid var(--border);
+        }
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .footer a:hover { text-decoration: underline; }
+        .footer p {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 8px;
+        }
+        .footer .links {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 16px;
+            flex-wrap: wrap;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .hero { padding: 60px 20px 40px; }
+            .section { padding: 40px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero -->
+    <section class="hero">
+        <img src="ic_launcher-playstore.png" alt="MemoLoop">
+        <h1>MemoLoop</h1>
+        <p>每天一點英文練習，單字複習與聽力理解，養成你的記憶迴圈。</p>
+        <span class="badge">📱 Android · 免費下載</span>
+    </section>
+
+    <!-- Features -->
+    <section class="section">
+        <div class="subtitle">FEATURES</div>
+        <h2>核心功能</h2>
+        <div class="features">
+            <div class="feature-card">
+                <div class="icon">📚</div>
+                <h3>單字複習</h3>
+                <p>每次 30 張隨機單字卡，包含中文釋義、詞性與例句。根據掌握程度自評，系統即時調整出現順序。</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎧</div>
+                <h3>聽力練習</h3>
+                <p>聽取英文短文故事，回答理解選擇題。語速可調整（0.5x ~ 1x），支援原文展開與翻譯功能。</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📝</div>
+                <h3>每日測驗</h3>
+                <p>單字測驗 10 題、聽力測驗 5 題，全對才通過。通過測驗累積積分，等級越高分數越多。</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🏆</div>
+                <h3>成就系統</h3>
+                <p>連續練習累積天數，解鎖五階成就：新手學員 → 青銅學徒 → 銀牌達人 → 黃金大師 → 白金傳奇。</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>學習紀錄</h3>
+                <p>月曆檢視學習軌跡，追蹤活躍天數、複習時間與測驗成績，掌握自己的學習進度。</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🔒</div>
+                <h3>隱私安全</h3>
+                <p>不收集任何個人資料，不需要登入帳號。所有學習記錄只存在你的手機上。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Difficulty -->
+    <section class="section">
+        <div class="subtitle">DIFFICULTY LEVELS</div>
+        <h2>三種難度等級</h2>
+        <table class="diff-table">
+            <thead>
+                <tr>
+                    <th>等級</th>
+                    <th>單字詞庫</th>
+                    <th>聽力故事</th>
+                    <th>適合對象</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>🟢 初級</td>
+                    <td>800 字</td>
+                    <td>100 篇</td>
+                    <td>國中程度</td>
+                </tr>
+                <tr>
+                    <td>🟡 進階</td>
+                    <td>2,500 字</td>
+                    <td>100 篇</td>
+                    <td>高中程度</td>
+                </tr>
+                <tr>
+                    <td>🔴 專業</td>
+                    <td>5,000+ 字</td>
+                    <td>100 篇</td>
+                    <td>多益考試</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="links">
+            <a href="docs/privacy-policy">隱私權條款</a>
+            <a href="mailto:ryanchou0210@gmail.com">聯絡我們</a>
+        </div>
+        <p>&copy; 2026 MemoLoop. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
