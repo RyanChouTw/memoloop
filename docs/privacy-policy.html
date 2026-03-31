@@ -55,6 +55,16 @@
             padding: 48px 24px;
         }
 
+        .back-link {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .back-link:hover { text-decoration: underline; }
+
         /* Language tabs */
         .lang-tabs {
             display: flex;
@@ -151,12 +161,13 @@
 <body>
 
     <header class="header">
-        <a href="../">← MemoLoop</a>
         <h1>隱私權條款</h1>
-        <p>最後更新：2026-03-30</p>
+        <p>最後更新：2026-03-31</p>
     </header>
 
     <main class="content">
+
+        <a href="../" class="back-link">← MemoLoop</a>
 
         <!-- Language tabs -->
         <div class="lang-tabs">
