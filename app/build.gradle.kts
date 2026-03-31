@@ -48,4 +48,5 @@ dependencies {
     implementation(libs.gson)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.viewpager2)
+    implementation(libs.billing.ktx)
 }

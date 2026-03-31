@@ -6,15 +6,19 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.android.billingclient.api.ProductDetails
+import com.google.android.material.button.MaterialButton
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.memoloop.app.R
+import com.memoloop.app.billing.BillingManager
 import com.memoloop.app.data.model.DifficultyLevel
 import com.memoloop.app.data.model.SpeechSpeed
 import com.memoloop.app.databinding.FragmentHomeBinding
@@ -24,6 +28,7 @@ class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
     private val viewModel: HomeViewModel by viewModels()
+    private var billingManager: BillingManager? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,7 +41,8 @@ class HomeFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // Default to vocabulary mode
+        billingManager = BillingManager(requireContext())
+
         binding.togglePracticeMode.check(R.id.btn_mode_vocabulary)
 
         viewModel.streak.observe(viewLifecycleOwner) { streak ->
@@ -68,7 +74,6 @@ class HomeFragment : Fragment() {
             showSettingsDialog()
         }
 
-        // Long-press streak badge → reset dialog
         binding.tvStreak.setOnLongClickListener {
             MaterialAlertDialogBuilder(requireContext())
                 .setTitle(getString(R.string.reset_title))
@@ -153,21 +158,73 @@ class HomeFragment : Fragment() {
         }
         container.addView(speedChipGroup)
 
+        // ── Donate section ──
+        val donateBtn = MaterialButton(requireContext()).apply {
+            text = getString(R.string.donate_button)
+            setOnClickListener { showDonateDialog() }
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                topMargin = sectionPad
+            }
+        }
+        container.addView(donateBtn)
+
         MaterialAlertDialogBuilder(requireContext())
             .setTitle(getString(R.string.settings_title))
             .setView(container)
             .setPositiveButton(getString(R.string.awesome)) { dialog, _ ->
-                // Apply difficulty
                 val selectedDiffChip = diffChipGroup.findViewById<Chip>(diffChipGroup.checkedChipId)
                 if (selectedDiffChip != null) {
                     viewModel.setDifficulty(selectedDiffChip.tag as DifficultyLevel)
                 }
-                // Apply speech speed
                 val selectedSpeedChip = speedChipGroup.findViewById<Chip>(speedChipGroup.checkedChipId)
                 if (selectedSpeedChip != null) {
                     viewModel.setSpeechSpeed(selectedSpeedChip.tag as SpeechSpeed)
                 }
                 dialog.dismiss()
+            }
+            .setNegativeButton(getString(R.string.cancel), null)
+            .show()
+    }
+
+    private fun showDonateDialog() {
+        val bm = billingManager ?: return
+
+        bm.connect { products ->
+            activity?.runOnUiThread {
+                if (products.isEmpty()) {
+                    Toast.makeText(
+                        requireContext(),
+                        getString(R.string.donate_unavailable),
+                        Toast.LENGTH_SHORT
+                    ).show()
+                    return@runOnUiThread
+                }
+                showDonateOptions(products)
+            }
+        }
+    }
+
+    private fun showDonateOptions(products: List<ProductDetails>) {
+        val icons = arrayOf("☕", "🍕", "🎉")
+        val names = products.mapIndexed { i, p ->
+            val price = p.oneTimePurchaseOfferDetails?.formattedPrice ?: ""
+            "${icons.getOrElse(i) { "" }}  ${p.name}  $price"
+        }.toTypedArray()
+
+        MaterialAlertDialogBuilder(requireContext())
+            .setTitle(getString(R.string.donate_title))
+            .setMessage(getString(R.string.donate_description))
+            .setItems(names) { _, which ->
+                val activity = activity ?: return@setItems
+                billingManager?.launchPurchase(activity, products[which]) { success ->
+                    activity.runOnUiThread {
+                        val msg = if (success) R.string.donate_thank_you else R.string.donate_error
+                        Toast.makeText(requireContext(), getString(msg), Toast.LENGTH_LONG).show()
+                    }
+                }
             }
             .setNegativeButton(getString(R.string.cancel), null)
             .show()
@@ -179,7 +236,9 @@ class HomeFragment : Fragment() {
     }
 
     override fun onDestroyView() {
-        super.onDestroyView()
+        billingManager?.disconnect()
+        billingManager = null
         _binding = null
+        super.onDestroyView()
     }
 }

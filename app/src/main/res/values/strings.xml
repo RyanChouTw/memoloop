@@ -120,6 +120,13 @@
     <string name="speech_speed_slow">Slow (0.5x)</string>
     <string name="speech_speed_moderate">Moderate (0.75x)</string>
     <string name="speech_speed_normal">Normal (1x)</string>
+    <!-- Donation -->
+    <string name="donate_title">Support MemoLoop</string>
+    <string name="donate_button">Support the Developer</string>
+    <string name="donate_description">If MemoLoop has helped you learn English, consider buying the developer a coffee!</string>
+    <string name="donate_thank_you">Thank you for your support!</string>
+    <string name="donate_error">Purchase could not be completed.</string>
+    <string name="donate_unavailable">In-app purchases are not available on this device.</string>
     <string name="nav_listening">Listening</string>
     <string name="nav_listening_result">Listening Result</string>
     <!-- Transcript actions -->

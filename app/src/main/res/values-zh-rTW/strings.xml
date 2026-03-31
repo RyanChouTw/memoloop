@@ -120,6 +120,13 @@
     <string name="speech_speed_slow">慢速 (0.5x)</string>
     <string name="speech_speed_moderate">中速 (0.75x)</string>
     <string name="speech_speed_normal">正常 (1x)</string>
+    <!-- Donation -->
+    <string name="donate_title">支持 MemoLoop</string>
+    <string name="donate_button">贊助開發者</string>
+    <string name="donate_description">如果 MemoLoop 對你的英文學習有幫助，歡迎請開發者喝杯咖啡！</string>
+    <string name="donate_thank_you">感謝你的支持！</string>
+    <string name="donate_error">購買未能完成。</string>
+    <string name="donate_unavailable">此裝置不支援應用程式內購買。</string>
     <string name="nav_listening">聽力</string>
     <string name="nav_listening_result">聽力結果</string>
     <!-- Transcript actions -->
