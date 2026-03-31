@@ -86,3 +86,6 @@ lint/tmp/
 # OS
 .DS_Store
 Thumbs.db
+
+# Nanobanana generated assets
+nanobanana-output/
