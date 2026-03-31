@@ -90,6 +90,7 @@
     <string name="quiz_score_fmt">%1$d / %2$d</string>
     <string name="quiz_passed">Passed!</string>
     <string name="quiz_failed">Not Passed</string>
+    <string name="quiz_pass_threshold">80%% correct to pass</string>
     <string name="quiz_points_earned_fmt">+%d pts</string>
     <string name="quiz_no_points">No points earned</string>
     <string name="monthly_points_fmt">%d pts</string>
@@ -129,6 +130,13 @@
     <string name="donate_unavailable">In-app purchases are not available on this device.</string>
     <string name="nav_listening">Listening</string>
     <string name="nav_listening_result">Listening Result</string>
+    <!-- Reminder -->
+    <string name="reminder_channel_name">Daily Reminder</string>
+    <string name="reminder_channel_desc">Daily practice reminder notification</string>
+    <string name="reminder_title">Time to practice!</string>
+    <string name="reminder_text">Spend a few minutes to keep your learning streak going.</string>
+    <string name="reminder_setting_label">Daily Reminder</string>
+    <string name="reminder_pick_time">Reminder Time</string>
     <!-- Transcript actions -->
     <string name="action_translate">Translate</string>
     <string name="action_copy">Copy</string>

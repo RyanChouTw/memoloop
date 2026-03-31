@@ -23,8 +23,14 @@ class ScoreRepository(
         private const val PREFS_NAME = "score_prefs"
         private const val KEY_LAST_ARCHIVED_MONTH = "last_archived_month"
 
+        const val PASS_RATE = 0.8
+
         // Points per level, indexed by prize tier (0=rookie..4=platinum)
         val POINTS_BY_LEVEL = intArrayOf(1, 3, 7, 15, 30)
+
+        fun isPassed(correctCount: Int, totalCount: Int): Boolean {
+            return correctCount >= (totalCount * PASS_RATE).toInt()
+        }
 
         fun getLevel(streak: Int, totalSessions: Int): Int {
             if (totalSessions < 1) return 0
@@ -94,7 +100,7 @@ class ScoreRepository(
     suspend fun saveQuizResult(correctCount: Int, totalCount: Int, streak: Int, totalSessions: Int): QuizResult {
         val now = System.currentTimeMillis()
         val dateKey = dateFormat.format(Date(now))
-        val passed = correctCount == totalCount
+        val passed = isPassed(correctCount, totalCount)
         val level = getLevel(streak, totalSessions)
         val points = if (passed) getPointsForLevel(level) else 0
 
@@ -118,7 +124,7 @@ class ScoreRepository(
     suspend fun saveListeningResult(correctCount: Int, totalCount: Int, streak: Int, totalSessions: Int): ListeningResult {
         val now = System.currentTimeMillis()
         val dateKey = dateFormat.format(Date(now))
-        val passed = correctCount == totalCount
+        val passed = isPassed(correctCount, totalCount)
         val level = getLevel(streak, totalSessions)
         val points = if (passed) getPointsForLevel(level) else 0
 

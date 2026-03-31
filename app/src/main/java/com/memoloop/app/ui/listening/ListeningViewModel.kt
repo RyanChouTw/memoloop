@@ -124,7 +124,7 @@ class ListeningViewModel(application: Application) : AndroidViewModel(applicatio
             _complete.value = ListeningFinalResult(
                 correctCount = correctCount,
                 totalCount = SESSION_SIZE,
-                passed = correctCount == SESSION_SIZE,
+                passed = ScoreRepository.isPassed(correctCount, SESSION_SIZE),
                 pointsEarned = 0,
                 level = 0
             )

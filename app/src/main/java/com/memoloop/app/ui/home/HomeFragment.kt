@@ -17,7 +17,11 @@ import com.google.android.material.button.MaterialButton
 import com.google.android.material.chip.Chip
 import com.google.android.material.chip.ChipGroup
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.materialswitch.MaterialSwitch
+import com.google.android.material.timepicker.MaterialTimePicker
+import com.google.android.material.timepicker.TimeFormat
 import com.memoloop.app.R
+import com.memoloop.app.notification.ReminderManager
 import com.memoloop.app.billing.BillingManager
 import com.memoloop.app.data.model.DifficultyLevel
 import com.memoloop.app.data.model.SpeechSpeed
@@ -158,6 +162,58 @@ class HomeFragment : Fragment() {
         }
         container.addView(speedChipGroup)
 
+        // ── Reminder section ──
+        val reminderManager = ReminderManager(requireContext())
+
+        val reminderLabel = TextView(requireContext()).apply {
+            text = getString(R.string.reminder_setting_label)
+            textSize = 14f
+            setTextColor(ContextCompat.getColor(requireContext(), R.color.text_secondary))
+            setPadding(0, sectionPad, 0, 0)
+        }
+        container.addView(reminderLabel)
+
+        val reminderRow = LinearLayout(requireContext()).apply {
+            orientation = LinearLayout.HORIZONTAL
+            gravity = android.view.Gravity.CENTER_VERTICAL
+            setPadding(0, (8 * density).toInt(), 0, 0)
+        }
+
+        val timeBtn = MaterialButton(requireContext(), null, com.google.android.material.R.attr.materialButtonOutlinedStyle).apply {
+            text = String.format("%02d:%02d", reminderManager.hour, reminderManager.minute)
+            textSize = 14f
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply { marginEnd = (12 * density).toInt() }
+        }
+
+        val reminderSwitch = MaterialSwitch(requireContext()).apply {
+            isChecked = reminderManager.isEnabled
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+        }
+
+        timeBtn.setOnClickListener {
+            val picker = MaterialTimePicker.Builder()
+                .setTimeFormat(TimeFormat.CLOCK_24H)
+                .setHour(reminderManager.hour)
+                .setMinute(reminderManager.minute)
+                .setTitleText(getString(R.string.reminder_pick_time))
+                .build()
+            picker.addOnPositiveButtonClickListener {
+                reminderManager.updateTime(picker.hour, picker.minute)
+                timeBtn.text = String.format("%02d:%02d", picker.hour, picker.minute)
+            }
+            picker.show(parentFragmentManager, "timePicker")
+        }
+
+        reminderRow.addView(timeBtn)
+        reminderRow.addView(reminderSwitch)
+        container.addView(reminderRow)
+
         // ── Donate section ──
         val donateBtn = MaterialButton(requireContext()).apply {
             text = getString(R.string.donate_button)
@@ -183,6 +239,8 @@ class HomeFragment : Fragment() {
                 if (selectedSpeedChip != null) {
                     viewModel.setSpeechSpeed(selectedSpeedChip.tag as SpeechSpeed)
                 }
+                // Apply reminder switch
+                reminderManager.isEnabled = reminderSwitch.isChecked
                 dialog.dismiss()
             }
             .setNegativeButton(getString(R.string.cancel), null)

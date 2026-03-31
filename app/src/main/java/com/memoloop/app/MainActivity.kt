@@ -10,6 +10,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.memoloop.app.databinding.ActivityMainBinding
+import com.memoloop.app.notification.ReminderManager
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,6 +40,11 @@ class MainActivity : AppCompatActivity() {
             view.updatePadding(bottom = insets.bottom)
             windowInsets
         }
+
+        // Initialize notification channel and schedule reminder
+        val reminderManager = ReminderManager(this)
+        reminderManager.createNotificationChannel()
+        reminderManager.scheduleReminder()
 
         // Hide bottom nav on review & result screens
         navController.addOnDestinationChangedListener { _, destination, _ ->

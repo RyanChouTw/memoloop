@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="memoloop.db" />
+    <include domain="sharedpref" path="memoloop_settings.xml" />
+    <include domain="sharedpref" path="score_prefs.xml" />
+    <include domain="sharedpref" path="reminder_prefs.xml" />
+</full-backup-content>

@@ -90,6 +90,7 @@
     <string name="quiz_score_fmt">%1$d / %2$d</string>
     <string name="quiz_passed">通過！</string>
     <string name="quiz_failed">未通過</string>
+    <string name="quiz_pass_threshold">答對 80%% 即可通過</string>
     <string name="quiz_points_earned_fmt">+%d 分</string>
     <string name="quiz_no_points">未獲得積分</string>
     <string name="monthly_points_fmt">%d 分</string>
@@ -129,6 +130,13 @@
     <string name="donate_unavailable">此裝置不支援應用程式內購買。</string>
     <string name="nav_listening">聽力</string>
     <string name="nav_listening_result">聽力結果</string>
+    <!-- Reminder -->
+    <string name="reminder_channel_name">每日提醒</string>
+    <string name="reminder_channel_desc">每日練習提醒通知</string>
+    <string name="reminder_title">該練習囉！</string>
+    <string name="reminder_text">花幾分鐘練習，維持你的學習連續天數吧。</string>
+    <string name="reminder_setting_label">每日提醒</string>
+    <string name="reminder_pick_time">提醒時間</string>
     <!-- Transcript actions -->
     <string name="action_translate">翻譯</string>
     <string name="action_copy">複製</string>
