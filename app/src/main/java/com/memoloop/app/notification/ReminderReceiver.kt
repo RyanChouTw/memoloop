@@ -34,5 +34,9 @@ class ReminderReceiver : BroadcastReceiver() {
         } catch (_: SecurityException) {
             // Notification permission not granted
         }
+
+        // Schedule next day's alarm (exact alarms don't repeat)
+        val reminderManager = ReminderManager(context)
+        reminderManager.scheduleReminder()
     }
 }
