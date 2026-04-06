@@ -273,8 +273,7 @@ class HomeFragment : Fragment() {
         }.toTypedArray()
 
         MaterialAlertDialogBuilder(requireContext())
-            .setTitle(getString(R.string.donate_title))
-            .setMessage(getString(R.string.donate_description))
+            .setTitle(getString(R.string.donate_description))
             .setItems(names) { _, which ->
                 val activity = activity ?: return@setItems
                 billingManager?.launchPurchase(activity, products[which]) { success ->
