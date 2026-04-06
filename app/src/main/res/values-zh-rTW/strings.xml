@@ -117,6 +117,7 @@
     <string name="listening_keep_practicing">繼續加油！</string>
     <!-- Settings dialog -->
     <string name="settings_title">設定</string>
+    <string name="settings_back">返回</string>
     <string name="select_speech_speed">聽力語速</string>
     <string name="speech_speed_slow">慢速 (0.5x)</string>
     <string name="speech_speed_moderate">中速 (0.75x)</string>

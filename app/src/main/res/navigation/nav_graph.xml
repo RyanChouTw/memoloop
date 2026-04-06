@@ -23,6 +23,13 @@
             app:exitAnim="@anim/slide_out_left"
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_home_to_settings"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
 
     <!-- Vocabulary Review -->
@@ -136,6 +143,12 @@
             app:popUpTo="@id/quizTabFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
+    <!-- Settings -->
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.memoloop.app.ui.settings.SettingsFragment"
+        android:label="@string/settings_title" />
 
     <!-- Awards tab -->
     <fragment

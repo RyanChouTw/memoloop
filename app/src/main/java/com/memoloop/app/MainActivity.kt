@@ -62,7 +62,8 @@ class MainActivity : AppCompatActivity() {
             when (destination.id) {
                 R.id.reviewFragment, R.id.resultFragment,
                 R.id.quizSessionFragment, R.id.quizResultFragment,
-                R.id.listeningSessionFragment, R.id.listeningResultFragment -> {
+                R.id.listeningSessionFragment, R.id.listeningResultFragment,
+                R.id.settingsFragment -> {
                     binding.bottomNav.visibility = android.view.View.GONE
                 }
                 else -> {
