@@ -4,5 +4,5 @@ data class Word(
     val id: Int,
     val word: String,
     val definition: String,
-    val example: String
+    val examples: List<String>
 )

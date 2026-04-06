@@ -45,7 +45,7 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
             if (word != null) {
                 binding.tvWord.text = word.word
                 binding.tvDefinition.text = word.definition
-                binding.tvExample.text = word.example
+                binding.tvExample.text = word.examples.joinToString("\n\n")
 
                 // Card entrance animation
                 binding.cardWord.alpha = 0f
