@@ -125,6 +125,16 @@
     <string name="quiz_fill_blank_hint">Fill in the blank</string>
     <!-- Chart -->
     <string name="weekly_activity">Weekly Activity</string>
+    <string name="review_bookmarks">Review Bookmarks</string>
+    <string name="no_bookmarks">No bookmarked words yet</string>
+    <!-- Wrong answers review -->
+    <string name="wrong_answers_title">Review Wrong Answers (%d)</string>
+    <string name="your_answer">Your answer</string>
+    <string name="correct_answer">Correct answer</string>
+    <!-- Dictionary -->
+    <string name="dictionary_title">Dictionary</string>
+    <string name="dictionary_search_hint">Search words or definitions…</string>
+    <string name="dictionary_result_count">%d words</string>
     <string name="bookmark_removed">Bookmark removed</string>
     <string name="select_speech_speed">Listening Speed</string>
     <string name="speech_speed_slow">Slow (0.5x)</string>

@@ -57,6 +57,17 @@ class HomeFragment : Fragment() {
             }
         }
 
+        binding.btnReviewBookmarks.setOnClickListener {
+            findNavController().navigate(
+                R.id.action_home_to_review,
+                bundleOf("bookmarkOnly" to true)
+            )
+        }
+
+        binding.btnDictionary.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_dictionary)
+        }
+
         binding.btnDifficulty.setOnClickListener {
             findNavController().navigate(R.id.action_home_to_settings)
         }

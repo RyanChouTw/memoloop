@@ -58,10 +58,20 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
     private val _quizComplete = MutableLiveData<QuizFinalResult?>()
     val quizComplete: LiveData<QuizFinalResult?> = _quizComplete
 
+    data class WrongAnswer(
+        val word: String,
+        val definition: String,
+        val userAnswer: String,
+        val correctAnswer: String,
+        val questionType: QuestionType,
+        val questionText: String
+    )
+
     private var questions = listOf<QuizQuestion>()
     private var currentIndex = 0
     private var correctCount = 0
     private var allCorrect = true
+    val wrongAnswers = mutableListOf<WrongAnswer>()
 
     data class AnswerFeedback(
         val selectedIndex: Int,
@@ -106,6 +116,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         currentIndex = 0
         correctCount = 0
         allCorrect = true
+        wrongAnswers.clear()
         _quizComplete.value = null
         _answerResult.value = null
         showCurrentQuestion()
@@ -132,6 +143,14 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             correctCount++
         } else {
             allCorrect = false
+            wrongAnswers.add(WrongAnswer(
+                word = question.word.word,
+                definition = question.word.definition,
+                userAnswer = question.options[selectedIndex],
+                correctAnswer = question.options[question.correctIndex],
+                questionType = question.questionType,
+                questionText = question.questionText
+            ))
         }
 
         _answerResult.value = AnswerFeedback(

@@ -125,6 +125,16 @@
     <string name="quiz_fill_blank_hint">填入正確的單字</string>
     <!-- Chart -->
     <string name="weekly_activity">本週學習紀錄</string>
+    <string name="review_bookmarks">複習收藏單字</string>
+    <string name="no_bookmarks">尚未收藏任何單字</string>
+    <!-- Wrong answers review -->
+    <string name="wrong_answers_title">錯題回顧 (%d)</string>
+    <string name="your_answer">你的答案</string>
+    <string name="correct_answer">正確答案</string>
+    <!-- Dictionary -->
+    <string name="dictionary_title">字典</string>
+    <string name="dictionary_search_hint">搜尋單字或定義…</string>
+    <string name="dictionary_result_count">%d 個單字</string>
     <string name="bookmark_removed">已取消收藏</string>
     <string name="select_speech_speed">聽力語速</string>
     <string name="speech_speed_slow">慢速 (0.5x)</string>

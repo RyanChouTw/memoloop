@@ -38,7 +38,8 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
         observeViewModel()
         setupButtons()
 
-        viewModel.startSession()
+        val bookmarkOnly = arguments?.getBoolean("bookmarkOnly", false) ?: false
+        viewModel.startSession(bookmarkOnly)
     }
 
     private fun observeViewModel() {

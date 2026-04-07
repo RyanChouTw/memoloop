@@ -24,6 +24,13 @@
             app:popEnterAnim="@anim/slide_in_left"
             app:popExitAnim="@anim/slide_out_right" />
         <action
+            android:id="@+id/action_home_to_dictionary"
+            app:destination="@id/dictionaryFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
             android:id="@+id/action_home_to_settings"
             app:destination="@id/settingsFragment"
             app:enterAnim="@anim/slide_in_right"
@@ -37,6 +44,7 @@
         android:id="@+id/reviewFragment"
         android:name="com.memoloop.app.ui.review.ReviewFragment"
         android:label="@string/nav_review">
+        <argument android:name="bookmarkOnly" android:defaultValue="false" app:argType="boolean" />
         <action
             android:id="@+id/action_review_to_result"
             app:destination="@id/resultFragment"
@@ -143,6 +151,12 @@
             app:popUpTo="@id/quizTabFragment"
             app:popUpToInclusive="true" />
     </fragment>
+
+    <!-- Dictionary -->
+    <fragment
+        android:id="@+id/dictionaryFragment"
+        android:name="com.memoloop.app.ui.dictionary.DictionaryFragment"
+        android:label="@string/dictionary_title" />
 
     <!-- Settings -->
     <fragment

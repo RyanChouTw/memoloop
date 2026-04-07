@@ -55,13 +55,23 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
 
     private val prizeThresholds = listOf(0, 3, 7, 14, 30)
 
-    fun startSession() {
+    fun startSession(bookmarkOnly: Boolean = false) {
         viewModelScope.launch {
             val difficulty = difficultyManager.current
             val allWords = wordRepo.getAllWords(difficulty)
-            val sessionWords = progressRepo.buildSession(
-                allWords, difficulty.key, SESSION_SIZE
-            )
+            val sessionWords = if (bookmarkOnly) {
+                progressRepo.getBookmarkedWords(allWords, difficulty.key)
+                    .shuffled()
+                    .take(SESSION_SIZE)
+            } else {
+                progressRepo.buildSession(allWords, difficulty.key, SESSION_SIZE)
+            }
+
+            if (sessionWords.isEmpty()) {
+                _sessionComplete.value = true
+                return@launch
+            }
+
             queue.clear()
             queue.addAll(sessionWords)
             _initialSize.value = sessionWords.size
