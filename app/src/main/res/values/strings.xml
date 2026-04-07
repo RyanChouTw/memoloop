@@ -118,6 +118,14 @@
     <!-- Settings dialog -->
     <string name="settings_title">Settings</string>
     <string name="settings_back">Back</string>
+    <!-- Bookmark -->
+    <string name="bookmark_add">Bookmark this word</string>
+    <string name="bookmark_added">Bookmarked</string>
+    <!-- Fill-in-blank -->
+    <string name="quiz_fill_blank_hint">Fill in the blank</string>
+    <!-- Chart -->
+    <string name="weekly_activity">Weekly Activity</string>
+    <string name="bookmark_removed">Bookmark removed</string>
     <string name="select_speech_speed">Listening Speed</string>
     <string name="speech_speed_slow">Slow (0.5x)</string>
     <string name="speech_speed_moderate">Moderate (0.75x)</string>

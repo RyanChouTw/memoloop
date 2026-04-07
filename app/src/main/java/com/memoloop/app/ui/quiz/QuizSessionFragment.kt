@@ -70,7 +70,11 @@ class QuizSessionFragment : Fragment() {
                 state.totalQuestions
             )
 
-            binding.tvDefinition.text = state.currentQuestion.word.definition
+            val q = state.currentQuestion
+            binding.tvDefinition.text = when (q.questionType) {
+                QuestionType.FILL_BLANK -> q.questionText
+                QuestionType.DEFINITION -> q.word.definition
+            }
 
             // Reset button styles
             optionButtons.forEachIndexed { i, btn ->

@@ -6,10 +6,10 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
 import com.memoloop.app.data.db.AppDatabase
-import com.memoloop.app.data.model.DifficultyLevel
 import com.memoloop.app.data.model.Word
 import com.memoloop.app.data.repository.DifficultyManager
 import com.memoloop.app.data.repository.SessionRepository
+import com.memoloop.app.data.repository.WordProgressRepository
 import com.memoloop.app.data.repository.WordRepository
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
@@ -23,11 +23,10 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
 
     private val wordRepo = WordRepository(application)
     private val difficultyManager = DifficultyManager(application)
-    private val sessionRepo = SessionRepository(
-        AppDatabase.getInstance(application).reviewSessionDao()
-    )
+    private val db = AppDatabase.getInstance(application)
+    private val sessionRepo = SessionRepository(db.reviewSessionDao())
+    private val progressRepo = WordProgressRepository(db.wordProgressDao())
 
-    // The queue of cards to review
     private val queue = ArrayDeque<Word>()
 
     private val _currentCard = MutableLiveData<Word?>()
@@ -45,34 +44,35 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
     private val _sessionComplete = MutableLiveData<Boolean>(false)
     val sessionComplete: LiveData<Boolean> = _sessionComplete
 
-    // -1 = no new prize; 0..4 = prize index (rookie, bronze, silver, gold, platinum)
     private val _unlockedPrizeIndex = MutableLiveData<Int>(-1)
     val unlockedPrizeIndex: LiveData<Int> = _unlockedPrizeIndex
+
+    private val _isBookmarked = MutableLiveData<Boolean>(false)
+    val isBookmarked: LiveData<Boolean> = _isBookmarked
 
     private var timerJob: Job? = null
     private var startTimeMillis: Long = 0L
 
-    // Streak thresholds matching PrizeFragment prize list order
-    private val prizeThresholds = listOf(
-        0,   // rookie  – needs 1 total session, not streak
-        3,   // bronze
-        7,   // silver
-        14,  // gold
-        30   // platinum
-    )
+    private val prizeThresholds = listOf(0, 3, 7, 14, 30)
 
     fun startSession() {
-        val words = wordRepo.getRandomWords(SESSION_SIZE, difficultyManager.current)
-        queue.clear()
-        queue.addAll(words)
-        _initialSize.value = words.size
-        _queueSize.value = queue.size
-        _elapsedSeconds.value = 0L
-        _sessionComplete.value = false
+        viewModelScope.launch {
+            val difficulty = difficultyManager.current
+            val allWords = wordRepo.getAllWords(difficulty)
+            val sessionWords = progressRepo.buildSession(
+                allWords, difficulty.key, SESSION_SIZE
+            )
+            queue.clear()
+            queue.addAll(sessionWords)
+            _initialSize.value = sessionWords.size
+            _queueSize.value = queue.size
+            _elapsedSeconds.value = 0L
+            _sessionComplete.value = false
 
-        startTimeMillis = System.currentTimeMillis()
-        startTimer()
-        showNext()
+            startTimeMillis = System.currentTimeMillis()
+            startTimer()
+            showNext()
+        }
     }
 
     private fun startTimer() {
@@ -96,9 +96,10 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
         }
     }
 
-    /** Again: insert after position 1 (if exists), else append at end */
+    /** Again: insert after position 1, record as quality 0 */
     fun onAgain() {
         val card = queue.removeFirst()
+        recordProgress(card, 0)
         if (queue.size >= 1) {
             queue.add(1, card)
         } else {
@@ -107,48 +108,66 @@ class ReviewViewModel(application: Application) : AndroidViewModel(application) 
         showNext()
     }
 
-    /** Hard: insert after position 2 (or at end) */
+    /** Hard: insert after position 2, record as quality 1 */
     fun onHard() {
         val card = queue.removeFirst()
+        recordProgress(card, 1)
         val insertAt = minOf(2, queue.size)
         queue.add(insertAt, card)
         showNext()
     }
 
-    /** Good: move to end of queue */
+    /** Good: move to end of queue, record as quality 2 */
     fun onGood() {
         val card = queue.removeFirst()
+        recordProgress(card, 2)
         queue.addLast(card)
         showNext()
     }
 
-    /** Easy: remove permanently */
+    /** Easy: remove permanently, record as quality 3 */
     fun onEasy() {
-        queue.removeFirst()
+        val card = queue.removeFirst()
+        recordProgress(card, 3)
         showNext()
+    }
+
+    private fun recordProgress(word: Word, quality: Int) {
+        viewModelScope.launch {
+            progressRepo.recordResponse(word.id, difficultyManager.current.key, quality)
+        }
+    }
+
+    fun checkBookmark(wordId: Int) {
+        viewModelScope.launch {
+            _isBookmarked.value = progressRepo.isBookmarked(wordId, difficultyManager.current.key)
+        }
+    }
+
+    fun toggleBookmark(wordId: Int, callback: (Boolean) -> Unit) {
+        viewModelScope.launch {
+            val newState = progressRepo.toggleBookmark(wordId, difficultyManager.current.key)
+            _isBookmarked.value = newState
+            callback(newState)
+        }
     }
 
     fun saveSession() {
         viewModelScope.launch {
             val duration = _elapsedSeconds.value ?: 0L
-
-            // Streak before saving
             val streakBefore = sessionRepo.getCurrentStreak()
             val totalBefore = sessionRepo.getTotalSessions()
 
             sessionRepo.saveSession(duration)
 
-            // Streak after saving
             val streakAfter = sessionRepo.getCurrentStreak()
             val totalAfter = sessionRepo.getTotalSessions()
 
-            // Check if rookie prize just unlocked (first ever session)
             if (totalBefore == 0 && totalAfter >= 1) {
                 _unlockedPrizeIndex.value = 0
                 return@launch
             }
 
-            // Check streak-based prizes (index 1..4), pick highest newly crossed
             var newPrize = -1
             for (i in 1..4) {
                 val threshold = prizeThresholds[i]

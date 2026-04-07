@@ -5,6 +5,7 @@ import android.speech.tts.TextToSpeech
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
@@ -47,6 +48,9 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
                 binding.tvDefinition.text = word.definition
                 binding.tvExample.text = word.examples.joinToString("\n\n")
 
+                // Update bookmark icon
+                viewModel.checkBookmark(word.id)
+
                 // Card entrance animation
                 binding.cardWord.alpha = 0f
                 binding.cardWord.translationY = 40f
@@ -79,6 +83,15 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
             }
         }
 
+        viewModel.isBookmarked.observe(viewLifecycleOwner) { bookmarked ->
+            binding.btnBookmark.setIconResource(
+                if (bookmarked) R.drawable.ic_bookmark_filled else R.drawable.ic_bookmark_border
+            )
+            binding.btnBookmark.setIconTintResource(
+                if (bookmarked) R.color.primary else R.color.text_secondary
+            )
+        }
+
         // Navigate only after saveSession() finishes and prize is determined
         viewModel.unlockedPrizeIndex.observe(viewLifecycleOwner) { prizeIndex ->
             // unlockedPrizeIndex starts at -1; only navigate once session is complete
@@ -99,6 +112,13 @@ class ReviewFragment : Fragment(), TextToSpeech.OnInitListener {
         binding.btnTts.setOnClickListener {
             val word = viewModel.currentCard.value?.word ?: return@setOnClickListener
             speakWord(word)
+        }
+        binding.btnBookmark.setOnClickListener {
+            val word = viewModel.currentCard.value ?: return@setOnClickListener
+            viewModel.toggleBookmark(word.id) { bookmarked ->
+                val msg = if (bookmarked) R.string.bookmark_added else R.string.bookmark_removed
+                Toast.makeText(requireContext(), getString(msg), Toast.LENGTH_SHORT).show()
+            }
         }
         binding.btnAgain.setOnClickListener {
             animateButton(binding.btnAgain)

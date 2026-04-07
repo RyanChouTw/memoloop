@@ -118,6 +118,14 @@
     <!-- Settings dialog -->
     <string name="settings_title">設定</string>
     <string name="settings_back">返回</string>
+    <!-- Bookmark -->
+    <string name="bookmark_add">收藏此單字</string>
+    <string name="bookmark_added">已收藏</string>
+    <!-- Fill-in-blank -->
+    <string name="quiz_fill_blank_hint">填入正確的單字</string>
+    <!-- Chart -->
+    <string name="weekly_activity">本週學習紀錄</string>
+    <string name="bookmark_removed">已取消收藏</string>
     <string name="select_speech_speed">聽力語速</string>
     <string name="speech_speed_slow">慢速 (0.5x)</string>
     <string name="speech_speed_moderate">中速 (0.75x)</string>

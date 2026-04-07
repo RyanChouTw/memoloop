@@ -5,6 +5,8 @@ import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import android.widget.Space
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
@@ -13,7 +15,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.memoloop.app.R
 import com.memoloop.app.data.model.ReviewSession
 import com.memoloop.app.databinding.FragmentHistoryBinding
+import java.text.SimpleDateFormat
 import java.util.Calendar
+import java.util.Locale
 
 class HistoryFragment : Fragment() {
 
@@ -82,6 +86,7 @@ class HistoryFragment : Fragment() {
             buildCalendarGrid(sessions)
             recordAdapter.submitList(sessions.sortedByDescending { it.dateMillis })
             updateStats(sessions)
+            buildWeeklyChart(sessions)
         }
     }
 
@@ -179,6 +184,82 @@ class HistoryFragment : Fragment() {
                 }
             }
             binding.gridCalendar.addView(tv)
+        }
+    }
+
+    private fun buildWeeklyChart(sessions: List<ReviewSession>) {
+        val barsLayout = binding.chartBars
+        val labelsLayout = binding.chartLabels
+        barsLayout.removeAllViews()
+        labelsLayout.removeAllViews()
+
+        val dateFormat = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault())
+        val dayLabelFormat = SimpleDateFormat("EEE", Locale.getDefault())
+        val density = resources.displayMetrics.density
+
+        // Last 7 days of the viewed month
+        val y = viewModel.year.value ?: return
+        val m = viewModel.month.value ?: return
+        val cal = Calendar.getInstance()
+        val today = Calendar.getInstance()
+        val isCurrentMonth = today.get(Calendar.YEAR) == y && today.get(Calendar.MONTH) + 1 == m
+
+        if (isCurrentMonth) {
+            cal.time = today.time
+        } else {
+            cal.set(y, m - 1, 1)
+            cal.set(Calendar.DAY_OF_MONTH, cal.getActualMaximum(Calendar.DAY_OF_MONTH))
+        }
+
+        // Collect 7 days of data
+        val dailyMinutes = mutableListOf<Pair<String, Long>>() // label, minutes
+        for (i in 6 downTo 0) {
+            val dayCal = cal.clone() as Calendar
+            dayCal.add(Calendar.DAY_OF_MONTH, -i)
+            val key = dateFormat.format(dayCal.time)
+            val label = dayLabelFormat.format(dayCal.time)
+            val totalSec = sessions
+                .filter { dateFormat.format(java.util.Date(it.dateMillis)) == key }
+                .sumOf { it.durationSeconds }
+            dailyMinutes.add(Pair(label, totalSec / 60))
+        }
+
+        val maxMinutes = dailyMinutes.maxOf { it.second }.coerceAtLeast(1)
+        val maxBarHeight = (80 * density).toInt()
+        val minBarHeight = (4 * density).toInt()
+        val barRadius = (4 * density)
+
+        for ((label, minutes) in dailyMinutes) {
+            // Bar
+            val barHeight = if (minutes > 0) {
+                ((minutes.toFloat() / maxMinutes) * maxBarHeight).toInt().coerceAtLeast(minBarHeight)
+            } else {
+                minBarHeight
+            }
+
+            val bar = View(requireContext()).apply {
+                val bgDrawable = android.graphics.drawable.GradientDrawable().apply {
+                    setColor(ContextCompat.getColor(requireContext(),
+                        if (minutes > 0) R.color.primary else R.color.border))
+                    cornerRadii = floatArrayOf(barRadius, barRadius, barRadius, barRadius, 0f, 0f, 0f, 0f)
+                }
+                background = bgDrawable
+                layoutParams = LinearLayout.LayoutParams(0, barHeight, 1f).apply {
+                    marginStart = (2 * density).toInt()
+                    marginEnd = (2 * density).toInt()
+                }
+            }
+            barsLayout.addView(bar)
+
+            // Label
+            val tv = TextView(requireContext()).apply {
+                text = label
+                textSize = 10f
+                gravity = Gravity.CENTER
+                setTextColor(ContextCompat.getColor(requireContext(), R.color.text_secondary))
+                layoutParams = LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1f)
+            }
+            labelsLayout.addView(tv)
         }
     }
 

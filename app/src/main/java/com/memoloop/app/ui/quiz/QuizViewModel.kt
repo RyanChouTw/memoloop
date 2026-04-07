@@ -13,10 +13,14 @@ import com.memoloop.app.data.repository.SessionRepository
 import com.memoloop.app.data.repository.WordRepository
 import kotlinx.coroutines.launch
 
+enum class QuestionType { DEFINITION, FILL_BLANK }
+
 data class QuizQuestion(
     val word: Word,
     val options: List<String>,   // 4 English words, shuffled
-    val correctIndex: Int        // index of correct answer in options
+    val correctIndex: Int,       // index of correct answer in options
+    val questionType: QuestionType = QuestionType.DEFINITION,
+    val questionText: String = "" // For FILL_BLANK: sentence with blank
 )
 
 data class QuizState(
@@ -70,7 +74,7 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         val allWords = wordRepo.getAllWords(difficulty)
         val quizWords = allWords.shuffled().take(QUIZ_SIZE)
 
-        questions = quizWords.map { word ->
+        questions = quizWords.mapIndexed { index, word ->
             val distractors = allWords
                 .filter { it.id != word.id }
                 .shuffled()
@@ -80,7 +84,23 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
             val options = (distractors + word.word).shuffled()
             val correctIdx = options.indexOf(word.word)
 
-            QuizQuestion(word = word, options = options, correctIndex = correctIdx)
+            // Alternate: even = definition, odd = fill-in-blank (if example available)
+            val useFillBlank = index % 2 == 1
+            val blankSentence = if (useFillBlank) createBlankSentence(word) else null
+
+            if (blankSentence != null) {
+                QuizQuestion(
+                    word = word, options = options, correctIndex = correctIdx,
+                    questionType = QuestionType.FILL_BLANK,
+                    questionText = blankSentence
+                )
+            } else {
+                QuizQuestion(
+                    word = word, options = options, correctIndex = correctIdx,
+                    questionType = QuestionType.DEFINITION,
+                    questionText = word.definition
+                )
+            }
         }
 
         currentIndex = 0
@@ -89,6 +109,17 @@ class QuizViewModel(application: Application) : AndroidViewModel(application) {
         _quizComplete.value = null
         _answerResult.value = null
         showCurrentQuestion()
+    }
+
+    private fun createBlankSentence(word: Word): String? {
+        if (word.examples.isEmpty()) return null
+        val example = word.examples.random()
+        val target = word.word
+        // Try case-insensitive replacement of the word
+        val regex = Regex("\\b${Regex.escape(target)}\\b", RegexOption.IGNORE_CASE)
+        val replaced = regex.replaceFirst(example, "______")
+        // Only use if replacement actually happened
+        return if (replaced != example) replaced else null
     }
 
     fun submitAnswer(selectedIndex: Int) {

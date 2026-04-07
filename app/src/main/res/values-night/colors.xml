@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary blue system (slightly lighter for dark backgrounds) -->
+    <color name="primary">#64B5F6</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#1A2D3D</color>
+    <color name="on_primary">#000000</color>
+    <color name="accent">#90CAF9</color>
+
+    <!-- Backgrounds & surfaces -->
+    <color name="background">#0F1419</color>
+    <color name="surface">#1A2332</color>
+    <color name="surface_tonal">#1A2D3D</color>
+    <color name="card_background">#1E2A3A</color>
+    <color name="border">#2C3E50</color>
+
+    <!-- Text -->
+    <color name="text_primary">#E8EDF2</color>
+    <color name="text_secondary">#90A4AE</color>
+
+    <!-- Review action buttons -->
+    <color name="btn_again">#1E2A3A</color>
+    <color name="btn_hard">#1E2A3A</color>
+    <color name="btn_good">#1E2A3A</color>
+    <color name="btn_easy">#1976D2</color>
+    <color name="btn_neutral_text">#90A4AE</color>
+    <color name="btn_easy_text">#FFFFFF</color>
+
+    <!-- Calendar / history dots -->
+    <color name="review_dot">#64B5F6</color>
+
+    <!-- Achievement badges (same in dark mode) -->
+    <color name="gold">#FFD700</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="bronze">#CD7F32</color>
+    <color name="platinum">#E5E4E2</color>
+
+    <!-- Quiz -->
+    <color name="quiz_correct">#66BB6A</color>
+    <color name="quiz_wrong">#EF5350</color>
+
+    <!-- Misc -->
+    <color name="divider">#2C3E50</color>
+    <color name="white">#FFFFFF</color>
+</resources>

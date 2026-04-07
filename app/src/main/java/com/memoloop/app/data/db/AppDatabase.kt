@@ -10,10 +10,11 @@ import com.memoloop.app.data.model.ListeningResult
 import com.memoloop.app.data.model.MonthlyScore
 import com.memoloop.app.data.model.QuizResult
 import com.memoloop.app.data.model.ReviewSession
+import com.memoloop.app.data.model.WordProgress
 
 @Database(
-    entities = [ReviewSession::class, QuizResult::class, MonthlyScore::class, ListeningResult::class],
-    version = 3,
+    entities = [ReviewSession::class, QuizResult::class, MonthlyScore::class, ListeningResult::class, WordProgress::class],
+    version = 4,
     exportSchema = false
 )
 abstract class AppDatabase : RoomDatabase() {
@@ -22,6 +23,7 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun quizResultDao(): QuizResultDao
     abstract fun monthlyScoreDao(): MonthlyScoreDao
     abstract fun listeningResultDao(): ListeningResultDao
+    abstract fun wordProgressDao(): WordProgressDao
 
     companion object {
         @Volatile
@@ -66,6 +68,24 @@ abstract class AppDatabase : RoomDatabase() {
             }
         }
 
+        private val MIGRATION_3_4 = object : Migration(3, 4) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL(
+                    """CREATE TABLE IF NOT EXISTS word_progress (
+                        wordId INTEGER NOT NULL,
+                        difficulty TEXT NOT NULL,
+                        easeFactor REAL NOT NULL DEFAULT 2.5,
+                        `interval` INTEGER NOT NULL DEFAULT 0,
+                        repetitions INTEGER NOT NULL DEFAULT 0,
+                        nextReviewDate TEXT NOT NULL DEFAULT '',
+                        lastReviewDate TEXT NOT NULL DEFAULT '',
+                        bookmarked INTEGER NOT NULL DEFAULT 0,
+                        PRIMARY KEY(wordId, difficulty)
+                    )"""
+                )
+            }
+        }
+
         fun getInstance(context: Context): AppDatabase {
             return INSTANCE ?: synchronized(this) {
                 Room.databaseBuilder(
@@ -73,7 +93,7 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "memoloop.db"
                 )
-                    .addMigrations(MIGRATION_1_2, MIGRATION_2_3)
+                    .addMigrations(MIGRATION_1_2, MIGRATION_2_3, MIGRATION_3_4)
                     .build().also { INSTANCE = it }
             }
         }

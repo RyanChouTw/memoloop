@@ -77,17 +77,30 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintEnd_toStartOf="@id/btn_tts" />
 
+                <!-- Bookmark button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_bookmark"
+                    style="@style/Widget.Material3.Button.IconButton"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    app:icon="@drawable/ic_bookmark_border"
+                    app:iconSize="22dp"
+                    app:iconTint="@color/text_secondary"
+                    android:contentDescription="@string/bookmark_add"
+                    app:layout_constraintTop_toTopOf="@id/tv_word"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
                 <!-- TTS button -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_tts"
                     style="@style/Widget.Material3.Button.IconButton"
-                    android:layout_width="48dp"
-                    android:layout_height="48dp"
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
                     app:icon="@android:drawable/ic_lock_silent_mode_off"
-                    app:iconSize="24dp"
+                    app:iconSize="22dp"
                     app:iconTint="@color/text_secondary"
                     app:layout_constraintTop_toTopOf="@id/tv_word"
-                    app:layout_constraintEnd_toEndOf="parent" />
+                    app:layout_constraintEnd_toStartOf="@id/btn_bookmark" />
 
                 <!-- Divider -->
                 <View
